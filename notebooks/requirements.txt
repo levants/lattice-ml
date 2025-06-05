@@ -1,0 +1,13 @@
+jupyter 
+matplotlib 
+numpy
+pandas 
+scipy
+seaborn
+scikit-learn
+torchtext
+kagglehub
+
+sae-lens
+clipscope 
+pillow
