@@ -1,3 +1,7 @@
+"""Data utilities for Lattice-theoretic Formal Concept Analysis (FCA)."""
+
+from typing import List, Union
+
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
@@ -5,7 +9,20 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 
 
-def layer_hist(X_y, V_X, y=None):
+def layer_hist(
+    X_y: Union[List, np.ndarray],
+    V_X: np.ndarray,
+    y: int = None
+) -> np.ndarray:
+    """Compute the histogram of the activations for the given layer.
+
+    Args:
+        X_y (Union[List, np.ndarray]): data with labels
+        V_X (np.ndarray): activations
+        y (int, optional): label. Defaults to None.
+    Returns:
+        V_X_y (np.ndarray): histogram of the activations
+    """
     if y is None:
         V_X_y = V_X
     else:
@@ -17,7 +34,17 @@ def layer_hist(X_y, V_X, y=None):
     return V_X_y
 
 
-def get_digits(data):
+def get_digits(
+    data: Union[List, np.ndarray]
+) -> Dict[int, List]:
+    """Get the digits from the data.
+
+    Args:
+        data (Union[List, np.ndarray]): data with labels
+
+    Returns:
+        digits (dict): dictionary of digits
+    """
     digits = dict()
     with tqdm(data) as pdata:
         for x, y in pdata:
@@ -27,7 +54,16 @@ def get_digits(data):
     return digits
 
 
-def visualize_slices(activations, filters=32):
+def visualize_slices(
+    activations: np.ndarray,
+    filters: int = 32
+) -> None:
+    """Visualize the activations.
+
+    Args:
+        activations (np.ndarray): activations
+        filters (int, optional): number of filters. Defaults to 32.
+    """
     for k in range(0, filters, 16):
         fig, axes = plt.subplots(4, 4, figsize=(12, 12))
         for i, ax in enumerate(axes.flat):
@@ -44,7 +80,20 @@ def visualize_slices(activations, filters=32):
 
 
 # Function to visualize the activations
-def visualize_activations(model, image, layers=[2, 4], hist=False):
+def visualize_activations(
+    model: torch.nn.Module,
+    image: Union[torch.Tensor, np.ndarray],
+    layers: List[int] = [2, 4],
+    hist: bool = False
+) -> None:
+    """Visualize the activations.
+
+    Args:
+        model (torch.nn.Module): model
+        image (Union[torch.Tensor, np.ndarray]): image
+        layers (List[int], optional): layers. Defaults to [2, 4].
+        hist (bool, optional): histogram. Defaults to False.
+    """
     # Pass the image through the network
     activations = list()
     with torch.no_grad():
@@ -92,7 +141,18 @@ def visualize_activations(model, image, layers=[2, 4], hist=False):
     return activations
 
 
-def show_activation(activation, layer_name='', filter_index=0):
+def show_activation(
+    activation: np.ndarray,
+    layer_name: str = '',
+    filter_index: int = 0,
+) -> None:
+    """Show the activation as a grid of numbers.
+
+    Args:
+        activation (np.ndarray): activation
+        layer_name (str, optional): layer name. Defaults to ''.
+        filter_index (int, optional): filter index. Defaults to 0.
+    """
     # Plot the activation as a grid of numbers
     fig, ax = plt.subplots(figsize=(16, 16))
     cax = ax.matshow(activation, cmap='viridis')
@@ -114,7 +174,16 @@ def show_activation(activation, layer_name='', filter_index=0):
     plt.show()
 
 
-def visualize_weights(layer, num_filters=32):
+def visualize_weights(
+    layer: torch.nn.Module,
+    num_filters: int = 32,
+) -> None:
+    """Visualize the weights of the layer.
+
+    Args:
+        layer (torch.nn.Module): layer
+        num_filters (int, optional): number of filters. Defaults to 32.
+    """
     weights = layer.weight.data.cpu().numpy()
     for k in range(0, num_filters, 16):
         fig, axes = plt.subplots(4, 4, figsize=(12, 12))
@@ -129,12 +198,25 @@ def visualize_weights(layer, num_filters=32):
         plt.show()
 
 
-def compute_mean_std(dataset, workers=1):
+def compute_mean_std(
+    dataset: torch.utils.data.Dataset,
+    workers: int = 1,
+) -> Tuple[np.ndarray, np.ndarray]:
+    """Compute the mean and standard deviation of the dataset.
+
+    Args:
+        dataset (torch.utils.data.Dataset): dataset
+        workers (int, optional): number of workers. Defaults to 1.
+
+    Returns:
+        mean (np.ndarray): mean
+        std (np.ndarray): standard deviation
+    """
     loader = DataLoader(
         dataset,
         batch_size=64,
         shuffle=False,
-        num_workers=workers
+        num_workers=workers,
     )
     mean = 0.
     std = 0.

@@ -11,6 +11,7 @@ presentations/information_bottleneck/images/*
 # C extensions
 *.so
 
+data/
 notebooks/data
 notebooks/sae/data
 notebooks/sae/maxacts/data
@@ -20,6 +21,9 @@ notebooks/lightning_logs
 notebooks/training/MNIST
 notebooks/training/data
 notebooks/training/lightning_logs
+notebooks/sae/subsets
+notebooks/bonds/data
+owt_tokens
 
 # Distribution / packaging
 .Python
@@ -45,7 +49,6 @@ MANIFEST
 *.joblib
 *.gz
 **pytorch_geometric.ipynb
-
 presentations/ai_olimpiad/**/images
 
 # PyInstaller
@@ -127,9 +130,13 @@ celerybeat.pid
 .venv
 env/
 venv/
+venv_plots/
 ENV/
 env.bak/
 venv.bak/
+
+# Papers
+par-6c7473696e61647a65
 
 # Spyder project settings
 .spyderproject
@@ -148,3 +155,103 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/
+
+# --- LaTeX project folders: track only source files, drop build artifacts ---
+# (*.aux, *.log, *.fls, *.fdb_latexmk, *.synctex.gz, *.bcf, *.run.xml, *.blg,
+#  *.out, *.nav, *.snm, *.toc, *.vrb, *.idx, *.ind, *.ilg, *.dvi, *.bak, etc.)
+# Keeps: tex, cls, bib, bbl, pdf, images, and the .py/.md/.zip/.latexmkrc
+# source/asset files used to build figures and slides.
+texs/**
+latticems/**
+presentations/**
+epirefs/**
+others/**
+
+!texs/**/
+!texs/**/*.tex
+!texs/**/*.cls
+!texs/**/*.bib
+!texs/**/*.bbl
+!texs/**/*.pdf
+!texs/**/*.png
+!texs/**/*.jpg
+!texs/**/*.jpeg
+!texs/**/*.gif
+!texs/**/*.svg
+!texs/**/*.eps
+!texs/**/*.py
+!texs/**/*.md
+!texs/**/*.zip
+!texs/**/.latexmkrc
+
+!latticems/**/
+!latticems/**/*.tex
+!latticems/**/*.cls
+!latticems/**/*.bib
+!latticems/**/*.bbl
+!latticems/**/*.pdf
+!latticems/**/*.png
+!latticems/**/*.jpg
+!latticems/**/*.jpeg
+!latticems/**/*.gif
+!latticems/**/*.svg
+!latticems/**/*.eps
+!latticems/**/*.py
+!latticems/**/*.md
+!latticems/**/*.zip
+!latticems/**/.latexmkrc
+
+!presentations/**/
+!presentations/**/*.tex
+!presentations/**/*.cls
+!presentations/**/*.bib
+!presentations/**/*.bbl
+!presentations/**/*.pdf
+!presentations/**/*.png
+!presentations/**/*.jpg
+!presentations/**/*.jpeg
+!presentations/**/*.gif
+!presentations/**/*.svg
+!presentations/**/*.eps
+!presentations/**/*.py
+!presentations/**/*.md
+!presentations/**/*.zip
+!presentations/**/.latexmkrc
+
+!epirefs/**/
+!epirefs/**/*.tex
+!epirefs/**/*.cls
+!epirefs/**/*.bib
+!epirefs/**/*.bbl
+!epirefs/**/*.pdf
+!epirefs/**/*.png
+!epirefs/**/*.jpg
+!epirefs/**/*.jpeg
+!epirefs/**/*.gif
+!epirefs/**/*.svg
+!epirefs/**/*.eps
+!epirefs/**/*.py
+!epirefs/**/*.md
+!epirefs/**/*.zip
+
+!others/**/
+!others/**/*.tex
+!others/**/*.cls
+!others/**/*.bib
+!others/**/*.bbl
+!others/**/*.pdf
+!others/**/*.png
+!others/**/*.jpg
+!others/**/*.jpeg
+!others/**/*.gif
+!others/**/*.svg
+!others/**/*.eps
+
+# Re-exclude build/dependency junk the whitelist above would otherwise pull
+# back in (virtualenvs and caches accidentally created inside LaTeX folders)
+**/venv/
+**/venv_plots/
+**/.venv/
+**/__pycache__/
+**/par-6c7473696e61647a65/

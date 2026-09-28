@@ -1,0 +1,33 @@
+[project]
+name = "my-papers"
+version = "0.1.0"
+description = "Lattice theoretic model interpretability and learning representations"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "debugpy>=1.8.19",
+    "gradio>=6.1.0",
+    "matplotlib>=3.10.8",
+    "seaborn>=0.13.2",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "scipy>=1.16.3",
+    "scikit-learn>=1.8.0",
+    "torch>=2.9.1",
+    "torchaudio>=2.9.1",
+    "torchvision>=0.24.1",
+    "transformers>=4.57.3",
+    "huggingface-hub>=0.36.0",
+    "sae-lens>=6.37.1",
+    "simpy>=4.1.1",
+    "fuzzywuzzy>=0.18.0",
+    "python-levenshtein>=0.27.3",
+    "pymupdf>=1.27.2.3",
+    "transformer-lens>=3.9.0,<4",
+]
+
+[tool.uv.workspace]
+members = [
+    "init",
+]

@@ -1,3 +1,5 @@
+"""Image generators for Lattice-theoretic Formal Concept Analysis (FCA)."""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
@@ -7,13 +9,27 @@ from torch.utils.data import DataLoader, Dataset
 
 # Functions to generate images using PIL with variations
 def generate_vertical_line_image(
-        height,
-        width,
-        line_length=14,
-        line_thickness=2,
-        shift=0,
-        intensity=255
+        height: int,
+        width: int,
+        line_length: int = 14,
+        line_thickness: int = 2,
+        shift: int = 0,
+        intensity: int = 255
 ):
+    """Generate a vertical line image.
+
+    Args:
+        height (int): The height of the image.
+        width (int): The width of the image.
+        line_length (int, optional): The length of the line. Defaults to 14.
+        line_thickness (int, optional): The thickness of the line. 
+            Defaults to 2.
+        shift (int, optional): The shift of the line. Defaults to 0.
+        intensity (int, optional): The intensity of the line. Defaults to 255.
+
+    Returns:
+        np.ndarray: The vertical line image.
+    """
     image = Image.new('L', (width, height), 0)
     draw = ImageDraw.Draw(image)
     x = width // 2 + shift
@@ -24,13 +40,27 @@ def generate_vertical_line_image(
 
 
 def generate_horizontal_line_image(
-        height,
-        width,
-        line_length=14,
-        line_thickness=2,
-        shift=0,
-        intensity=255
+        height: int,
+        width: int,
+        line_length: int = 14,
+        line_thickness: int = 2,
+        shift: int = 0,
+        intensity: int = 255
 ):
+    """Generate a horizontal line image.
+
+    Args:
+        height (int): The height of the image.
+        width (int): The width of the image.
+        line_length (int, optional): The length of the line. Defaults to 14.
+        line_thickness (int, optional): The thickness of the line. 
+            Defaults to 2.
+        shift (int, optional): The shift of the line. Defaults to 0.
+        intensity (int, optional): The intensity of the line. Defaults to 255.
+
+    Returns:
+        np.ndarray: The horizontal line image.
+    """
     image = Image.new('L', (width, height), 0)
     draw = ImageDraw.Draw(image)
     y = height // 2 + shift
@@ -41,13 +71,26 @@ def generate_horizontal_line_image(
 
 
 def generate_stretched_ring_image(
-        height,
-        width,
-        radius_x=None,
-        radius_y=None,
-        thickness=2,
-        intensity=255
+        height: int,
+        width: int,
+        radius_x: int = None,
+        radius_y: int = None,
+        thickness: int = 2,
+        intensity: int = 255
 ):
+    """Generate a stretched ring image.
+
+    Args:
+        height (int): The height of the image.
+        width (int): The width of the image.
+        radius_x (int, optional): The radius of the ring. Defaults to None.
+        radius_y (int, optional): The radius of the ring. Defaults to None.
+        thickness (int, optional): The thickness of the ring. Defaults to 2.
+        intensity (int, optional): The intensity of the ring. Defaults to 255.
+
+    Returns:
+        np.ndarray: The stretched ring image.
+    """
     image = Image.new('L', (width, height), 0)
     draw = ImageDraw.Draw(image)
     if radius_x is None:
@@ -64,13 +107,26 @@ def generate_stretched_ring_image(
 
 
 def generate_normal_ring_image(
-        height,
-        width,
-        radius_x=None,
-        radius_y=None,
-        thickness=2,
-        intensity=255
+        height: int,
+        width: int,
+        radius_x: int = None,
+        radius_y: int = None,
+        thickness: int = 2,
+        intensity: int = 255
 ):
+    """Generate a normal ring image.
+
+    Args:
+        height (int): The height of the image.
+        width (int): The width of the image.
+        radius_x (int, optional): The radius of the ring. Defaults to None.
+        radius_y (int, optional): The radius of the ring. Defaults to None.
+        thickness (int, optional): The thickness of the ring. Defaults to 2.
+        intensity (int, optional): The intensity of the ring. Defaults to 255.
+
+    Returns:
+        np.ndarray: The normal ring image.
+    """
     image = Image.new('L', (width, height), 0)
     draw = ImageDraw.Draw(image)
     rdn = np.random.choice(np.array([0, 1, 2, 3]))
@@ -92,16 +148,33 @@ def generate_normal_ring_image(
 
 
 class CustomShapeDataset(Dataset):
-    def __init__(self, num_samples, height=28, width=28):
+    def __init__(self, num_samples: int, height: int = 28, width: int = 28):
+        """Initialize the dataset.
+
+        Args:
+            num_samples (int): The number of samples.
+            height (int, optional): The height of the image. Defaults to 28.
+            width (int, optional): The width of the image. Defaults to 28.
+        """
         self.num_samples = num_samples
         self.height = height
         self.width = width
         self.shapes = ['vertical_line', 'horizontal_line', 'sring', 'nring']
 
     def __len__(self):
+        """Return the number of samples.
+
+        Returns:
+            int: The number of samples.
+        """
         return self.num_samples
 
     def _gen_data(self):
+        """Generate a single data sample.
+
+        Returns:
+            Tuple[torch.Tensor, str]: The data sample.
+        """
         shape_type = np.random.choice(self.shapes)
         shift = np.random.randint(-5, 6)  # Shift lines by up to ±5 pixels
         # Random intensity between 50 and 255
@@ -124,8 +197,15 @@ class CustomShapeDataset(Dataset):
 
         return image, shape_type
 
-    def __getitem__(self, idx):
+    def __getitem__(self, idx: int):
+        """Get the item at the given index.
 
+        Args:
+            idx (int): The index of the item.
+
+        Returns:
+            Tuple[torch.Tensor, str]: The item.
+        """
         if idx < self.__len__():
             image, shape_type = self._gen_data()
         else:
@@ -134,7 +214,18 @@ class CustomShapeDataset(Dataset):
         return image, shape_type
 
 
-def gen_line_idx(hv_shift=6, sid=4, eid=9, hv='h'):
+def gen_line_idx(hv_shift: int = 6, sid: int = 4, eid: int = 9, hv: str = 'h'):
+    """Generate the indices for the line.
+
+    Args:
+        hv_shift (int, optional): The shift of the line. Defaults to 6.
+        sid (int, optional): The start index. Defaults to 4.
+        eid (int, optional): The end index. Defaults to 9.
+        hv (str, optional): The orientation of the line. Defaults to 'h'.
+
+    Returns:
+        Tuple[np.ndarray, np.ndarray]: The indices.
+    """
     range_hv_a = np.array(list(range(sid, eid)))
     range_hv_b = np.array([hv_shift for _ in range(range_hv_a.shape[0])])
     nz_idx_hv = (
@@ -149,7 +240,18 @@ def gen_line_idx(hv_shift=6, sid=4, eid=9, hv='h'):
 
 
 # Display some examples
-def show_images(images, titles, ncols=4):
+def show_images(
+    images: List[np.ndarray],
+    titles: List[str],
+    ncols: int = 4
+) -> None:
+    """Show images in a grid.
+
+    Args:
+        images (List[np.ndarray]): The images to show.
+        titles (List[str]): The titles of the images.
+        ncols (int, optional): The number of columns. Defaults to 4.
+    """
     nrows = len(images) // ncols
     fig, axs = plt.subplots(nrows, ncols, figsize=(10, 10))
     for i, (img, title) in enumerate(zip(images, titles)):

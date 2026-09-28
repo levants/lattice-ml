@@ -1,3 +1,7 @@
+"""Image utilities for Lattice-theoretic Formal Concept Analysis (FCA)."""
+
+from typing import List, Tuple, Union
+
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
@@ -6,11 +10,28 @@ from torchvision import transforms
 from torchvision.utils import make_grid
 
 
-def show_img(ds, idx):
+def show_img(ds: List[Tuple], idx: int):
+    """Show image from dataset
+
+    Args:
+        ds (List[Tuple]): The dataset.
+        idx (int): The index of the image.
+    """
     plt.imshow(ds[idx][0])
 
 
-def show(imgs, h=12, w=12):
+def show(
+    imgs: List[Union[torch.Tensor, np.ndarray]],
+    h: int = 12,
+    w: int = 12
+):
+    """Show images in a row
+
+    Args:
+        imgs (List[Union[torch.Tensor, np.ndarray]]): The images to show.
+        h (int, optional): The height of the figure. Defaults to 12.
+        w (int, optional): The width of the figure. Defaults to 12.
+    """
     if not isinstance(imgs, list):
         imgs = [imgs]
     fig, axs = plt.subplots(
@@ -26,7 +47,24 @@ def show(imgs, h=12, w=12):
         axs[0, i].set(xticklabels=[], yticklabels=[], xticks=[], yticks=[])
 
 
-def show_grid(G_A, data, nrow=8, h=12, w=12, my=None):
+def show_grid(
+    G_A: np.ndarray,
+    data: List[Tuple],
+    nrow: int = 8,
+    h: int = 12,
+    w: int = 12,
+    my: int = None
+):
+    """Show grid of images from dataset
+
+    Args:
+        G_A (np.ndarray): The grid of images.
+        data (List[Tuple]): The dataset.
+        nrow (int, optional): The number of rows. Defaults to 8.
+        h (int, optional): The height of the figure. Defaults to 12.
+        w (int, optional): The width of the figure. Defaults to 12.
+        my (int, optional): The class to exclude. Defaults to None.
+    """
     G_A_F = G_A.ravel()
     to_tensor = transforms.ToTensor()
     A_gr = [

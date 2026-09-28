@@ -1,6 +1,5 @@
 # This function was stolen from one of Neel Nanda's exploratory notebooks
 # Thanks, Neel!
-import csv
 from pathlib import Path
 from typing import List, Union
 
@@ -10,8 +9,9 @@ import numpy as np
 import pandas as pd
 import torch
 from datasets import load_dataset
+from gradio import Dataset
 
-from src.lattmc.tc.transcoders_utils import Transcoder
+from src.lattmc.tc.transcoder_utils import Transcoder
 
 
 def tokenize_and_concatenate(
@@ -122,7 +122,8 @@ def init_dataset(
     buffer_size: int = 10_000,
     max_length: int = 128,
     streaming: bool = True,
-    num_tokens: int = 12800*2
+    num_tokens: int = 12800*2,
+    dataset: Dataset = None
 ):
     """Initialize the tokens for the model.
     Args:
@@ -140,15 +141,17 @@ def init_dataset(
     Returns:
         Dataset: The tokenized dataset.
     """
-    dataset = load_dataset(
-        'Skylion007/openwebtext',
-        split='train',
-        streaming=True
-    )
-    dataset = dataset.shuffle(
-        seed=seed, buffer_size=buffer_size)  # type:ignore
+    if dataset is None:
+        dataset = load_dataset(
+            'Skylion007/openwebtext',
+            split='train',
+            streaming=True
+        )
+        dataset = dataset.shuffle(
+            seed=seed, buffer_size=buffer_size)  # type:ignore
     tokenized_owt = tokenize_and_concatenate(
-        dataset, transcoder.model.tokenizer,
+        dataset,
+        transcoder.model.tokenizer,
         max_length=max_length,
         streaming=streaming
     )
@@ -165,7 +168,8 @@ def init_tokens(
     max_length: int = 128,
     streaming: bool = True,
     num_tokens: int = 12800*2,
-    device: torch.device = torch.device('cpu')
+    device: torch.device = torch.device('cpu'),
+    dataset: Dataset = None,
 ):
     """Initialize the tokens for the model.
     Args:
@@ -191,7 +195,8 @@ def init_tokens(
         buffer_size=buffer_size,
         max_length=max_length,
         streaming=streaming,
-        num_tokens=num_tokens
+        num_tokens=num_tokens,
+        dataset=dataset,
     )
     owt_tokens = np.stack([x['tokens'] for x in tokenized_owt])
     owt_tokens_torch = torch.from_numpy(owt_tokens).to(device)
@@ -207,7 +212,8 @@ def load_pt_tokens(
         max_length: int = 128,
         streaming: bool = True,
         num_tokens: int = 12800*2,
-        device: torch.device = torch.device('cpu')
+        device: torch.device = torch.device('cpu'),
+        dataset: Dataset = None,
 ) -> torch.Tensor:
     """Load the tokens from the given path."""
     if tokens_path.exists():
@@ -228,7 +234,8 @@ def load_pt_tokens(
             max_length=max_length,
             streaming=streaming,
             num_tokens=num_tokens,
-            device=device
+            device=device,
+            dataset=dataset
         )
         torch.save(owt_tokens_torch, tokens_path)
 
@@ -265,7 +272,8 @@ def load_tokens(
         num_tokens: int = 12800*2,
         device: torch.device = torch.device('cpu'),
         csv_path: Union[Path, str] = None,
-        columns: list = None
+        columns: list = None,
+        dataset: Dataset = None,
 ) -> Union[torch.Tensor, List[torch.Tensor]]:
     """Load the tokens from the given path."""
     if Path(tokens_path).suffix == '.joblib' or csv_path is not None:
@@ -290,7 +298,8 @@ def load_tokens(
             max_length=max_length,
             streaming=streaming,
             num_tokens=num_tokens,
-            device=device
+            device=device,
+            dataset=dataset,
         )
 
     return owt_tokens_torch
