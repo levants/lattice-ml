@@ -171,7 +171,7 @@ def main(folder):
           'coordinates with positive test responses; $n$ is that count. '
           'References use the same selected images. Foreground and part '
           'occupancy do not certify semantic correctness.', 'llrrrr',
-          r'Model & Dataset & $n$ & Peak & Random & Norm', rows, long=True)
+          r'Model & Dataset & $n$ & Peak & Random & Norm', rows)
 
 
 if __name__ == '__main__':
