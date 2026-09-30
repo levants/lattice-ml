@@ -1,0 +1,6973 @@
+{
+  "protocol": "Frozen positive training queries; test images only; no refitting. Independent uniform permutation of one threshold mask, conditional on both marginal counts.",
+  "reference_exhaustive_cases": 284,
+  "results": [
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 17,
+      "common": 17,
+      "independent_expected": 4.216982844846342,
+      "separate_query_intersection": 17
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 4,
+      "common": 4,
+      "independent_expected": 0.26856002775722765,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 16,
+      "common": 15,
+      "independent_expected": 3.4462467013268254,
+      "separate_query_intersection": 15
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 8,
+      "common": 7,
+      "independent_expected": 1.227788151280831,
+      "separate_query_intersection": 7
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 3,
+      "common": 2,
+      "independent_expected": 0.2238582614242033,
+      "separate_query_intersection": 3
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 15,
+      "common": 13,
+      "independent_expected": 5.7729402863770725,
+      "separate_query_intersection": 13
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 5,
+      "common": 5,
+      "independent_expected": 2.8105687835003437,
+      "separate_query_intersection": 5
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 4,
+      "common": 2,
+      "independent_expected": 0.9850361860279995,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 19,
+      "common": 16,
+      "independent_expected": 4.502043731780028,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 12,
+      "common": 11,
+      "independent_expected": 1.3563211198984533,
+      "separate_query_intersection": 12
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 7,
+      "common": 7,
+      "independent_expected": 0.47619054414796214,
+      "separate_query_intersection": 7
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 99,
+      "common": 99,
+      "independent_expected": 42.030351649841364,
+      "separate_query_intersection": 99
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 73,
+      "common": 72,
+      "independent_expected": 14.130545381167202,
+      "separate_query_intersection": 73
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 86,
+      "common": 84,
+      "independent_expected": 31.689235304701498,
+      "separate_query_intersection": 84
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 67,
+      "common": 62,
+      "independent_expected": 10.909728491085781,
+      "separate_query_intersection": 64
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 29,
+      "common": 22,
+      "independent_expected": 2.2286186792973965,
+      "separate_query_intersection": 29
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 23,
+      "common": 14,
+      "independent_expected": 5.924869328477746,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 98,
+      "common": 98,
+      "independent_expected": 43.83276194964883,
+      "separate_query_intersection": 98
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 72,
+      "common": 69,
+      "independent_expected": 15.425864688490186,
+      "separate_query_intersection": 72
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 16,
+      "common": 16,
+      "independent_expected": 1.1344842763993035,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 196,
+      "common": 196,
+      "independent_expected": 104.99415124543782,
+      "separate_query_intersection": 196
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 149,
+      "common": 143,
+      "independent_expected": 29.66384662730376,
+      "separate_query_intersection": 149
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 1,
+      "common": 0,
+      "independent_expected": 0.007812500000353183,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 187,
+      "common": 184,
+      "independent_expected": 79.07907545656434,
+      "separate_query_intersection": 186
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 138,
+      "common": 131,
+      "independent_expected": 25.428294697164475,
+      "separate_query_intersection": 136
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 58,
+      "common": 41,
+      "independent_expected": 3.4896290429137835,
+      "separate_query_intersection": 58
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 24,
+      "common": 11,
+      "independent_expected": 5.815223037943994,
+      "separate_query_intersection": 14
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 196,
+      "common": 195,
+      "independent_expected": 130.7953115032263,
+      "separate_query_intersection": 195
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 175,
+      "common": 173,
+      "independent_expected": 53.121858362300316,
+      "separate_query_intersection": 174
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 43,
+      "common": 43,
+      "independent_expected": 6.062116337562281,
+      "separate_query_intersection": 43
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 32,
+      "common": 31,
+      "independent_expected": 9.543533308939777,
+      "separate_query_intersection": 32
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 12,
+      "common": 12,
+      "independent_expected": 1.7589820107032619,
+      "separate_query_intersection": 12
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 24,
+      "common": 24,
+      "independent_expected": 7.392915194628108,
+      "separate_query_intersection": 24
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 8,
+      "common": 8,
+      "independent_expected": 1.276409809139886,
+      "separate_query_intersection": 8
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.003906250000195696,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 11,
+      "common": 7,
+      "independent_expected": 2.347539043937446,
+      "separate_query_intersection": 8
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.09102150983030803,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 36,
+      "common": 35,
+      "independent_expected": 16.456058857508435,
+      "separate_query_intersection": 35
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 23,
+      "common": 22,
+      "independent_expected": 4.459241159135422,
+      "separate_query_intersection": 23
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 6,
+      "common": 6,
+      "independent_expected": 0.4326157888812411,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        329,
+        507
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 2,
+      "common": 2,
+      "independent_expected": 1.4089585022001256,
+      "separate_query_intersection": 2
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        1430,
+        871
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        54,
+        585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 3,
+      "common": 3,
+      "independent_expected": 1.1736023444019987,
+      "separate_query_intersection": 3
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        468,
+        1271
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 26,
+      "common": 26,
+      "independent_expected": 7.739952535280434,
+      "separate_query_intersection": 26
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 16,
+      "common": 9,
+      "independent_expected": 1.799031835590496,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 6,
+      "common": 0,
+      "independent_expected": 0.18641080940431623,
+      "separate_query_intersection": 5
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 20,
+      "common": 19,
+      "independent_expected": 10.98835660186119,
+      "separate_query_intersection": 20
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 12,
+      "common": 9,
+      "independent_expected": 3.2919645860289886,
+      "separate_query_intersection": 12
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 13,
+      "common": 12,
+      "independent_expected": 5.612397246397949,
+      "separate_query_intersection": 12
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 11,
+      "common": 11,
+      "independent_expected": 2.231653893610845,
+      "separate_query_intersection": 11
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 8,
+      "common": 8,
+      "independent_expected": 0.9060499150262994,
+      "separate_query_intersection": 8
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 50,
+      "common": 39,
+      "independent_expected": 17.225093379920978,
+      "separate_query_intersection": 39
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 22,
+      "common": 16,
+      "independent_expected": 3.997844046307934,
+      "separate_query_intersection": 18
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 7,
+      "common": 4,
+      "independent_expected": 0.4370285019060638,
+      "separate_query_intersection": 5
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 98,
+      "common": 94,
+      "independent_expected": 42.469281955565826,
+      "separate_query_intersection": 97
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 67,
+      "common": 35,
+      "independent_expected": 11.290979600419519,
+      "separate_query_intersection": 63
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 3,
+      "common": 0,
+      "independent_expected": 0.04296875000077474,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 5,
+      "independent_expected": 4.707341318177417,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 4,
+      "common": 2,
+      "independent_expected": 0.7727885480418426,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 6,
+      "common": 2,
+      "independent_expected": 0.5537345923155675,
+      "separate_query_intersection": 2
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.06894106067636123,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 9,
+      "common": 4,
+      "independent_expected": 0.4524153081262005,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.003906250000195696,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 190,
+      "common": 183,
+      "independent_expected": 86.28382247395133,
+      "separate_query_intersection": 189
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 99,
+      "common": 29,
+      "independent_expected": 18.11242801449329,
+      "separate_query_intersection": 86
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 3,
+      "common": 0,
+      "independent_expected": 0.1183652598308318,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 24,
+      "common": 4,
+      "independent_expected": 1.7142958315151198,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 1,
+      "common": 0,
+      "independent_expected": 0.01562500000037046,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 21,
+      "common": 7,
+      "independent_expected": 1.547506274401766,
+      "separate_query_intersection": 8
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 2,
+      "common": 1,
+      "independent_expected": 0.05050587656378247,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 30,
+      "common": 28,
+      "independent_expected": 8.556054497900805,
+      "separate_query_intersection": 30
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 9,
+      "common": 2,
+      "independent_expected": 0.9563457968018344,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 8,
+      "common": 7,
+      "independent_expected": 3.0551835964876894,
+      "separate_query_intersection": 7
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 4,
+      "common": 4,
+      "independent_expected": 0.454328443347156,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 11,
+      "common": 10,
+      "independent_expected": 4.318732881914493,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 8,
+      "common": 6,
+      "independent_expected": 1.2164086521497588,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 4,
+      "common": 3,
+      "independent_expected": 0.5636256727086867,
+      "separate_query_intersection": 3
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 12,
+      "common": 10,
+      "independent_expected": 3.7537704498804634,
+      "separate_query_intersection": 12
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 6,
+      "common": 4,
+      "independent_expected": 0.4514985864438814,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 2,
+      "common": 0,
+      "independent_expected": 0.031158088235974494,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.9005581653892408,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        329,
+        399
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 2,
+      "common": 1,
+      "independent_expected": 0.06549075092693528,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        338,
+        1231
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 5,
+      "common": 4,
+      "independent_expected": 1.8299770189822033,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.2997829346031615,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        1458,
+        1333
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.07674632353001881,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 10,
+      "independent_expected": 5.157539341590136,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 6,
+      "independent_expected": 1.4781822207926765,
+      "separate_query_intersection": 9
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 62,
+      "common": 59,
+      "independent_expected": 2.1712091607145094,
+      "separate_query_intersection": 60
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 20,
+      "common": 19,
+      "independent_expected": 0.19878982843668994,
+      "separate_query_intersection": 20
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.003906250000195696,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 19,
+      "common": 16,
+      "independent_expected": 2.957379007656618,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 6,
+      "common": 4,
+      "independent_expected": 0.7826882825357443,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 20,
+      "common": 17,
+      "independent_expected": 9.753654401932328,
+      "separate_query_intersection": 17
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 8,
+      "common": 6,
+      "independent_expected": 2.5188253686981055,
+      "separate_query_intersection": 8
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 6,
+      "common": 0,
+      "independent_expected": 0.0897212009822765,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 81,
+      "common": 76,
+      "independent_expected": 4.630530386291512,
+      "separate_query_intersection": 77
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 41,
+      "common": 34,
+      "independent_expected": 0.5112998112236758,
+      "separate_query_intersection": 38
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 4,
+      "common": 3,
+      "independent_expected": 0.01953125000094027,
+      "separate_query_intersection": 3
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 94,
+      "common": 93,
+      "independent_expected": 30.69445485155549,
+      "separate_query_intersection": 93
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 53,
+      "common": 37,
+      "independent_expected": 8.160718959182118,
+      "separate_query_intersection": 47
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 3,
+      "common": 0,
+      "independent_expected": 0.04687500000080916,
+      "separate_query_intersection": 2
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 9,
+      "common": 5,
+      "independent_expected": 3.226608341676073,
+      "separate_query_intersection": 5
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 8,
+      "common": 0,
+      "independent_expected": 0.6352203174055863,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 171,
+      "common": 159,
+      "independent_expected": 10.888393392511606,
+      "separate_query_intersection": 161
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 60,
+      "common": 51,
+      "independent_expected": 0.8558765060289895,
+      "separate_query_intersection": 56
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 4,
+      "common": 3,
+      "independent_expected": 0.01953125000094027,
+      "separate_query_intersection": 3
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 179,
+      "common": 178,
+      "independent_expected": 58.667311301612564,
+      "separate_query_intersection": 179
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 65,
+      "common": 43,
+      "independent_expected": 13.329202097174527,
+      "separate_query_intersection": 58
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 12,
+      "common": 1,
+      "independent_expected": 1.1346711409043786,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 7,
+      "common": 1,
+      "independent_expected": 0.5159233983396843,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 9,
+      "common": 4,
+      "independent_expected": 4.586806463381225,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.41665304652496454,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 45,
+      "common": 40,
+      "independent_expected": 3.248662581528753,
+      "separate_query_intersection": 40
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 10,
+      "common": 9,
+      "independent_expected": 0.27862432451697894,
+      "separate_query_intersection": 9
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 3,
+      "common": 1,
+      "independent_expected": 0.015625000000744575,
+      "separate_query_intersection": 3
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 17,
+      "common": 15,
+      "independent_expected": 3.8266301662759314,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 0,
+      "independent_expected": 0.04296875000055193,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 7,
+      "common": 5,
+      "independent_expected": 2.069395572513861,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        1503,
+        1021
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 22,
+      "common": 21,
+      "independent_expected": 1.7603381963789504,
+      "separate_query_intersection": 21
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 7,
+      "common": 6,
+      "independent_expected": 0.07812500000219857,
+      "separate_query_intersection": 7
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        1385,
+        253
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 1,
+      "common": 0,
+      "independent_expected": 0.003906250000195696,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        399,
+        14
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        585,
+        650
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 11,
+      "common": 10,
+      "independent_expected": 8.139317572209677,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 9,
+      "common": 9,
+      "independent_expected": 3.175830679636597,
+      "separate_query_intersection": 9
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 6,
+      "common": 5,
+      "independent_expected": 1.2044207963390923,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 10,
+      "independent_expected": 6.935094669996572,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 8,
+      "independent_expected": 5.463359752355457,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 1,
+      "common": 0,
+      "independent_expected": 0.10937500000038401,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 8,
+      "common": 7,
+      "independent_expected": 5.10154469028716,
+      "separate_query_intersection": 7
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 5,
+      "common": 0,
+      "independent_expected": 2.461495510520577,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 10,
+      "independent_expected": 6.680819396160945,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 10,
+      "independent_expected": 4.678235244115941,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 9,
+      "common": 2,
+      "independent_expected": 2.8357015943894144,
+      "separate_query_intersection": 7
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 94,
+      "common": 82,
+      "independent_expected": 55.154922123631664,
+      "separate_query_intersection": 83
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 46,
+      "common": 16,
+      "independent_expected": 13.863285842796277,
+      "separate_query_intersection": 28
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 4,
+      "common": 0,
+      "independent_expected": 0.722643465124187,
+      "separate_query_intersection": 2
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 45,
+      "common": 13,
+      "independent_expected": 14.468947752360657,
+      "separate_query_intersection": 15
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 191,
+      "common": 164,
+      "independent_expected": 129.33375357171641,
+      "separate_query_intersection": 164
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 108,
+      "common": 57,
+      "independent_expected": 48.05846692000329,
+      "separate_query_intersection": 74
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 38,
+      "common": 13,
+      "independent_expected": 10.5915532237503,
+      "separate_query_intersection": 23
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 80,
+      "common": 22,
+      "independent_expected": 22.200806919400797,
+      "separate_query_intersection": 25
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 25,
+      "common": 17,
+      "independent_expected": 12.228541779717181,
+      "separate_query_intersection": 17
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 6,
+      "common": 4,
+      "independent_expected": 1.8228240439138736,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.9999342148002719,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.9961094202848049,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 0,
+      "independent_expected": 0.6168028694916504,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 19,
+      "common": 7,
+      "independent_expected": 6.979365875692288,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.5996958547368249,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 0,
+      "independent_expected": 0.3572112000551206,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.9999999998765345,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 1,
+      "common": 0,
+      "independent_expected": 0.12500000000017109,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        816,
+        661
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        810,
+        194
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        1203,
+        990
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        420,
+        54
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 87,
+      "common": 55,
+      "independent_expected": 54.318722620736395,
+      "separate_query_intersection": 58
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 39,
+      "common": 16,
+      "independent_expected": 14.669617585115155,
+      "separate_query_intersection": 21
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 11,
+      "common": 11,
+      "independent_expected": 10.033558601167293,
+      "separate_query_intersection": 11
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 82,
+      "common": 35,
+      "independent_expected": 39.59747097758738,
+      "separate_query_intersection": 45
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 30,
+      "common": 12,
+      "independent_expected": 12.434073615235368,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 12,
+      "common": 10,
+      "independent_expected": 9.57013383361939,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 11,
+      "common": 10,
+      "independent_expected": 10.054678862941532,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 10,
+      "independent_expected": 9.089393778669322,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 9,
+      "common": 9,
+      "independent_expected": 7.055202974441933,
+      "separate_query_intersection": 9
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 94,
+      "common": 59,
+      "independent_expected": 50.61364469204381,
+      "separate_query_intersection": 63
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 46,
+      "common": 23,
+      "independent_expected": 17.36867071307382,
+      "separate_query_intersection": 27
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 20,
+      "common": 11,
+      "independent_expected": 9.575336759319562,
+      "separate_query_intersection": 13
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 99,
+      "common": 94,
+      "independent_expected": 89.53321658792345,
+      "separate_query_intersection": 97
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 84,
+      "common": 57,
+      "independent_expected": 52.5082213170831,
+      "separate_query_intersection": 68
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 60,
+      "common": 20,
+      "independent_expected": 16.859570410350056,
+      "separate_query_intersection": 35
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 89,
+      "common": 53,
+      "independent_expected": 52.68447233705639,
+      "separate_query_intersection": 59
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 30,
+      "common": 2,
+      "independent_expected": 3.562243071021227,
+      "separate_query_intersection": 8
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 1,
+      "common": 0,
+      "independent_expected": 0.003906250000195696,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 97,
+      "common": 75,
+      "independent_expected": 71.16551601977888,
+      "separate_query_intersection": 81
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 64,
+      "common": 27,
+      "independent_expected": 24.889926086153686,
+      "separate_query_intersection": 37
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 21,
+      "common": 9,
+      "independent_expected": 4.718945146229854,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 198,
+      "common": 192,
+      "independent_expected": 185.8358159954344,
+      "separate_query_intersection": 195
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 179,
+      "common": 135,
+      "independent_expected": 134.41775740141998,
+      "separate_query_intersection": 159
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 132,
+      "common": 68,
+      "independent_expected": 62.35196197757553,
+      "separate_query_intersection": 96
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 188,
+      "common": 123,
+      "independent_expected": 133.44653856203962,
+      "separate_query_intersection": 151
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 91,
+      "common": 18,
+      "independent_expected": 24.34909780918663,
+      "separate_query_intersection": 46
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 9,
+      "common": 0,
+      "independent_expected": 1.1104859848564903,
+      "separate_query_intersection": 5
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 2,
+      "common": 0,
+      "independent_expected": 0.9031803641734608,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 185,
+      "common": 131,
+      "independent_expected": 132.58732528133115,
+      "separate_query_intersection": 141
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 112,
+      "common": 41,
+      "independent_expected": 46.01478213703561,
+      "separate_query_intersection": 59
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 36,
+      "common": 10,
+      "independent_expected": 6.449644085036137,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 48,
+      "common": 39,
+      "independent_expected": 41.84975710162139,
+      "separate_query_intersection": 42
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 40,
+      "common": 26,
+      "independent_expected": 28.584854470311928,
+      "separate_query_intersection": 32
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 25,
+      "common": 12,
+      "independent_expected": 14.507145190134832,
+      "separate_query_intersection": 18
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 46,
+      "common": 38,
+      "independent_expected": 34.91729156210041,
+      "separate_query_intersection": 40
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 28,
+      "common": 11,
+      "independent_expected": 10.095930472357166,
+      "separate_query_intersection": 21
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 6,
+      "common": 5,
+      "independent_expected": 2.6892426711538997,
+      "separate_query_intersection": 5
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 45,
+      "common": 30,
+      "independent_expected": 32.65691401364867,
+      "separate_query_intersection": 32
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 33,
+      "common": 16,
+      "independent_expected": 9.822025091682177,
+      "separate_query_intersection": 20
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 12,
+      "common": 5,
+      "independent_expected": 1.0364157456194043,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 81,
+      "common": 70,
+      "independent_expected": 72.91520201128252,
+      "separate_query_intersection": 74
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 52,
+      "common": 36,
+      "independent_expected": 40.52353988574808,
+      "separate_query_intersection": 46
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        1406,
+        460
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 21,
+      "common": 8,
+      "independent_expected": 7.522236089990281,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 69,
+      "common": 57,
+      "independent_expected": 57.11137396589642,
+      "separate_query_intersection": 63
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 36,
+      "common": 22,
+      "independent_expected": 20.216658292018412,
+      "separate_query_intersection": 32
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        915,
+        1080
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 7,
+      "common": 2,
+      "independent_expected": 2.4467458640874575,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        299,
+        1081
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 56,
+      "common": 48,
+      "independent_expected": 44.076456309173054,
+      "separate_query_intersection": 50
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 27,
+      "common": 21,
+      "independent_expected": 19.95331352681616,
+      "separate_query_intersection": 25
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        165,
+        346
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 15,
+      "common": 10,
+      "independent_expected": 8.166773138888518,
+      "separate_query_intersection": 13
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 10,
+      "independent_expected": 8.69390026238013,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 3,
+      "common": 3,
+      "independent_expected": 1.208731413173249,
+      "separate_query_intersection": 3
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 10,
+      "independent_expected": 8.310715518623574,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 5,
+      "common": 4,
+      "independent_expected": 2.9126538131267123,
+      "separate_query_intersection": 5
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 7,
+      "common": 7,
+      "independent_expected": 6.621575157656348,
+      "separate_query_intersection": 7
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 4,
+      "common": 4,
+      "independent_expected": 2.8825583897581635,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 10,
+      "common": 10,
+      "independent_expected": 9.660149105884903,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 5,
+      "common": 4,
+      "independent_expected": 4.468972159707718,
+      "separate_query_intersection": 4
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.45729214914319793,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 1.0,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 256,
+      "pooled": 1,
+      "common": 1,
+      "independent_expected": 0.4085171568628359,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        17231,
+        31554
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        4271,
+        4929
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        11318,
+        13604
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        29969,
+        8288
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 256,
+      "pooled": 0,
+      "common": 0,
+      "independent_expected": 0.0,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 49,
+      "common": 40,
+      "independent_expected": 8.538762738296043,
+      "separate_query_intersection": 40
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 49,
+      "pooled": 22,
+      "common": 19,
+      "independent_expected": 1.2509046171657305,
+      "separate_query_intersection": 20
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 12,
+      "common": 10,
+      "independent_expected": 0.366496598639547,
+      "separate_query_intersection": 10
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 55,
+      "common": 33,
+      "independent_expected": 8.522463038700481,
+      "separate_query_intersection": 34
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 49,
+      "pooled": 25,
+      "common": 12,
+      "independent_expected": 1.8591149225643862,
+      "separate_query_intersection": 14
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 8,
+      "common": 6,
+      "independent_expected": 0.5459183673467476,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 74,
+      "common": 43,
+      "independent_expected": 14.996224392871655,
+      "separate_query_intersection": 48
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 49,
+      "pooled": 28,
+      "common": 8,
+      "independent_expected": 2.066140100813524,
+      "separate_query_intersection": 8
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 8,
+      "common": 2,
+      "independent_expected": 0.42602040816313175,
+      "separate_query_intersection": 3
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 75,
+      "common": 51,
+      "independent_expected": 19.981638095342344,
+      "separate_query_intersection": 54
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 49,
+      "pooled": 40,
+      "common": 21,
+      "independent_expected": 3.132019829207677,
+      "separate_query_intersection": 24
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 7,
+      "common": 2,
+      "independent_expected": 0.16326530612248383,
+      "separate_query_intersection": 2
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 48,
+      "common": 44,
+      "independent_expected": 8.947987806242413,
+      "separate_query_intersection": 45
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 49,
+      "pooled": 27,
+      "common": 25,
+      "independent_expected": 2.3399363135540274,
+      "separate_query_intersection": 26
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 6,
+      "common": 5,
+      "independent_expected": 0.5217053056190347,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 53,
+      "common": 34,
+      "independent_expected": 6.829326797014334,
+      "separate_query_intersection": 36
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 49,
+      "pooled": 23,
+      "common": 9,
+      "independent_expected": 1.1913399032135503,
+      "separate_query_intersection": 13
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 6,
+      "common": 2,
+      "independent_expected": 0.16326530612241713,
+      "separate_query_intersection": 2
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 85,
+      "common": 47,
+      "independent_expected": 15.731760589658945,
+      "separate_query_intersection": 51
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 49,
+      "pooled": 31,
+      "common": 14,
+      "independent_expected": 1.9580257634966,
+      "separate_query_intersection": 17
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 2,
+      "common": 1,
+      "independent_expected": 0.08163265306127242,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 91,
+      "common": 57,
+      "independent_expected": 26.22664803601429,
+      "separate_query_intersection": 61
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 100,
+      "sites": 49,
+      "pooled": 43,
+      "common": 23,
+      "independent_expected": 3.9059756650111783,
+      "separate_query_intersection": 24
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 100,
+      "sites": 49,
+      "pooled": 15,
+      "common": 8,
+      "independent_expected": 0.5688775510201305,
+      "separate_query_intersection": 8
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 49,
+      "pooled": 137,
+      "common": 126,
+      "independent_expected": 33.558318089858844,
+      "separate_query_intersection": 127
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 49,
+      "pooled": 93,
+      "common": 86,
+      "independent_expected": 10.836633481636676,
+      "separate_query_intersection": 87
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 49,
+      "pooled": 54,
+      "common": 43,
+      "independent_expected": 2.720726588507466,
+      "separate_query_intersection": 51
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 49,
+      "pooled": 154,
+      "common": 96,
+      "independent_expected": 28.951868383658777,
+      "separate_query_intersection": 99
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 49,
+      "pooled": 69,
+      "common": 28,
+      "independent_expected": 3.864795918366895,
+      "separate_query_intersection": 35
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 49,
+      "pooled": 13,
+      "common": 4,
+      "independent_expected": 0.38775510204065733,
+      "separate_query_intersection": 5
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 49,
+      "pooled": 142,
+      "common": 61,
+      "independent_expected": 28.573018914725164,
+      "separate_query_intersection": 63
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 49,
+      "pooled": 54,
+      "common": 17,
+      "independent_expected": 3.561134028078791,
+      "separate_query_intersection": 18
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 49,
+      "pooled": 8,
+      "common": 2,
+      "independent_expected": 0.2244897959183069,
+      "separate_query_intersection": 2
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 200,
+      "sites": 49,
+      "pooled": 162,
+      "common": 101,
+      "independent_expected": 47.72583324131697,
+      "separate_query_intersection": 104
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 200,
+      "sites": 49,
+      "pooled": 87,
+      "common": 28,
+      "independent_expected": 7.644566213780067,
+      "separate_query_intersection": 35
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 200,
+      "sites": 49,
+      "pooled": 14,
+      "common": 5,
+      "independent_expected": 0.7570198292082138,
+      "separate_query_intersection": 6
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 49,
+      "pooled": 38,
+      "common": 37,
+      "independent_expected": 12.552523597568872,
+      "separate_query_intersection": 37
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 49,
+      "pooled": 27,
+      "common": 23,
+      "independent_expected": 3.958533371886461,
+      "separate_query_intersection": 25
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 49,
+      "pooled": 16,
+      "common": 14,
+      "independent_expected": 1.5202398258099052,
+      "separate_query_intersection": 15
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 49,
+      "pooled": 44,
+      "common": 31,
+      "independent_expected": 13.80467171228863,
+      "separate_query_intersection": 33
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 49,
+      "pooled": 25,
+      "common": 10,
+      "independent_expected": 2.4893797944707066,
+      "separate_query_intersection": 13
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 49,
+      "pooled": 5,
+      "common": 1,
+      "independent_expected": 0.14285714285709833,
+      "separate_query_intersection": 1
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 49,
+      "pooled": 42,
+      "common": 27,
+      "independent_expected": 17.224932681580057,
+      "separate_query_intersection": 30
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 49,
+      "pooled": 28,
+      "common": 7,
+      "independent_expected": 3.293861346573651,
+      "separate_query_intersection": 9
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 49,
+      "pooled": 6,
+      "common": 0,
+      "independent_expected": 0.30527210884358574,
+      "separate_query_intersection": 0
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 53,
+      "sites": 49,
+      "pooled": 42,
+      "common": 25,
+      "independent_expected": 12.205312410359593,
+      "separate_query_intersection": 25
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 53,
+      "sites": 49,
+      "pooled": 20,
+      "common": 6,
+      "independent_expected": 1.8350340136051226,
+      "separate_query_intersection": 7
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 53,
+      "sites": 49,
+      "pooled": 6,
+      "common": 3,
+      "independent_expected": 0.16326530612241713,
+      "separate_query_intersection": 3
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 49,
+      "pooled": 41,
+      "common": 41,
+      "independent_expected": 15.308715488487396,
+      "separate_query_intersection": 41
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 49,
+      "pooled": 26,
+      "common": 22,
+      "independent_expected": 5.618615562003465,
+      "separate_query_intersection": 22
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 0,
+      "features": [
+        6168,
+        40486
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 49,
+      "pooled": 16,
+      "common": 15,
+      "independent_expected": 1.8897720050089257,
+      "separate_query_intersection": 16
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 49,
+      "pooled": 59,
+      "common": 47,
+      "independent_expected": 24.55246079778907,
+      "separate_query_intersection": 50
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 49,
+      "pooled": 35,
+      "common": 20,
+      "independent_expected": 5.349828044075995,
+      "separate_query_intersection": 21
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 1,
+      "features": [
+        34176,
+        39140
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 49,
+      "pooled": 12,
+      "common": 8,
+      "independent_expected": 0.8818027210882684,
+      "separate_query_intersection": 8
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 49,
+      "pooled": 59,
+      "common": 42,
+      "independent_expected": 22.293356811665674,
+      "separate_query_intersection": 45
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 49,
+      "pooled": 31,
+      "common": 10,
+      "independent_expected": 3.726352520656324,
+      "separate_query_intersection": 11
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 2,
+      "features": [
+        47243,
+        25256
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 49,
+      "pooled": 4,
+      "common": 1,
+      "independent_expected": 0.35225792444635573,
+      "separate_query_intersection": 2
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 0.5,
+      "images": 94,
+      "sites": 49,
+      "pooled": 55,
+      "common": 34,
+      "independent_expected": 18.078231782562323,
+      "separate_query_intersection": 35
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.0,
+      "images": 94,
+      "sites": 49,
+      "pooled": 30,
+      "common": 14,
+      "independent_expected": 2.959871182515282,
+      "separate_query_intersection": 15
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "pair": 3,
+      "features": [
+        6237,
+        23585
+      ],
+      "threshold_multiplier": 1.5,
+      "images": 94,
+      "sites": 49,
+      "pooled": 4,
+      "common": 0,
+      "independent_expected": 0.18367346938763826,
+      "separate_query_intersection": 1
+    }
+  ],
+  "provenance": [
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "queries_sha256": "ce8eccc52b3ac3572959b710e8e233929165a2c93414ca50378317eb750d7d94",
+      "records_sha256": "7f38789dc69b41c41ae76d56aa561fb6f7b1fed1676e2984076c386f62d7bf4b",
+      "selected_codes_sha256": "e76cd0b1c8f3f7b647106dd3a53b43e5014c2fd0cd34c08a826d6b01a6224030"
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "queries_sha256": "ce8eccc52b3ac3572959b710e8e233929165a2c93414ca50378317eb750d7d94",
+      "records_sha256": "f8942637565077657f3f1426517a9d6880a39ffb77f6a859b22215de95e04578",
+      "selected_codes_sha256": "23baf53976f1c503a50100a44ab329c3770f3cc9577a81b52f6c3c31bcf5dad8"
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "queries_sha256": "ce8eccc52b3ac3572959b710e8e233929165a2c93414ca50378317eb750d7d94",
+      "records_sha256": "39bb2e60fb15b29b3b031f845a21451e8094f3955959b4b13314be4f743a8504",
+      "selected_codes_sha256": "a39a6120d971c205ce44ed7939b27c94e9866552feb743eb1cd83f13c6013e1d"
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "queries_sha256": "ce8eccc52b3ac3572959b710e8e233929165a2c93414ca50378317eb750d7d94",
+      "records_sha256": "4cf5af38031a1a0dfbe5eb2b43d8971562834147ab8f9e560d9118a9ea61c775",
+      "selected_codes_sha256": "81d2592afe31cd6dc8b23c5d679b0451b9a70ffb90d5c9c7a7453af6cf57005a"
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "queries_sha256": "ce8eccc52b3ac3572959b710e8e233929165a2c93414ca50378317eb750d7d94",
+      "records_sha256": "64b5d709ddceb1639a94d78ef40b76128c5062cb22604b5419c1bc8cda13482f",
+      "selected_codes_sha256": "c1ed25061eb100372258c85446d3bda4920a42a0c54c78551221828fb520a217"
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "queries_sha256": "7fac2a6a3a6fee191932e09fc066377e76bec6d1aecf08c32d928096ce1ace3b",
+      "records_sha256": "7f38789dc69b41c41ae76d56aa561fb6f7b1fed1676e2984076c386f62d7bf4b",
+      "selected_codes_sha256": "d1b90ee37f99d32a58daf1d757f22c817c18a4d9e3c88ede27703ad1c5cc2c2a"
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "queries_sha256": "7fac2a6a3a6fee191932e09fc066377e76bec6d1aecf08c32d928096ce1ace3b",
+      "records_sha256": "f8942637565077657f3f1426517a9d6880a39ffb77f6a859b22215de95e04578",
+      "selected_codes_sha256": "e16352f2b8ee3a8ec84b310302f12ded53e6bbf24d606bcb0b8da8e63192cbf6"
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "queries_sha256": "7fac2a6a3a6fee191932e09fc066377e76bec6d1aecf08c32d928096ce1ace3b",
+      "records_sha256": "39bb2e60fb15b29b3b031f845a21451e8094f3955959b4b13314be4f743a8504",
+      "selected_codes_sha256": "c2c5c93bdbb8b6e43dab397b13e7171bb1a71d43b426569ea15ddb0f91de5899"
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "queries_sha256": "7fac2a6a3a6fee191932e09fc066377e76bec6d1aecf08c32d928096ce1ace3b",
+      "records_sha256": "4cf5af38031a1a0dfbe5eb2b43d8971562834147ab8f9e560d9118a9ea61c775",
+      "selected_codes_sha256": "a1cb33cbe31856ea7b637c36d42ca826139debe1552a215c7474810a71589a8a"
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "queries_sha256": "7fac2a6a3a6fee191932e09fc066377e76bec6d1aecf08c32d928096ce1ace3b",
+      "records_sha256": "64b5d709ddceb1639a94d78ef40b76128c5062cb22604b5419c1bc8cda13482f",
+      "selected_codes_sha256": "7fbde5bb3c24a6881f69d3651d44a58645dd520e4e56d480555b1d732ed66752"
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "queries_sha256": "02a2d05ef343394df26c606fd2c0c2822b9855880e1a5a7886850f0188c2da93",
+      "records_sha256": "7f38789dc69b41c41ae76d56aa561fb6f7b1fed1676e2984076c386f62d7bf4b",
+      "selected_codes_sha256": "824d5602770739a7a69b20f4aa2d36780a40d5bd7fef90d72779a962836db0c8"
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "queries_sha256": "02a2d05ef343394df26c606fd2c0c2822b9855880e1a5a7886850f0188c2da93",
+      "records_sha256": "f8942637565077657f3f1426517a9d6880a39ffb77f6a859b22215de95e04578",
+      "selected_codes_sha256": "25f40052b2eaf7805f4f65e28827e39e13f6180d2c764e49c76eaca460cfdabe"
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "queries_sha256": "02a2d05ef343394df26c606fd2c0c2822b9855880e1a5a7886850f0188c2da93",
+      "records_sha256": "39bb2e60fb15b29b3b031f845a21451e8094f3955959b4b13314be4f743a8504",
+      "selected_codes_sha256": "99c48aa46d180c2be0609885263439b275f32cb340d79ec00b080c1235edaf31"
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "queries_sha256": "02a2d05ef343394df26c606fd2c0c2822b9855880e1a5a7886850f0188c2da93",
+      "records_sha256": "4cf5af38031a1a0dfbe5eb2b43d8971562834147ab8f9e560d9118a9ea61c775",
+      "selected_codes_sha256": "236d258e4f2e44472015c256cae6fa83f6966faf1f3c4007857ba20b9569e50c"
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "queries_sha256": "02a2d05ef343394df26c606fd2c0c2822b9855880e1a5a7886850f0188c2da93",
+      "records_sha256": "64b5d709ddceb1639a94d78ef40b76128c5062cb22604b5419c1bc8cda13482f",
+      "selected_codes_sha256": "dcc22c18d0667b12d68a94afaf8fabb5ad928583eb8964395708e046ab91ea9a"
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "queries_sha256": "5f886483e885df3a0da46185527574fa6386eb7d6798acfebc4eaf86bbc352a3",
+      "records_sha256": "7f38789dc69b41c41ae76d56aa561fb6f7b1fed1676e2984076c386f62d7bf4b",
+      "selected_codes_sha256": "ed710feb59c6448191b783512a2789cd0571800986e932f10d52dabf9dec767b"
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "queries_sha256": "5f886483e885df3a0da46185527574fa6386eb7d6798acfebc4eaf86bbc352a3",
+      "records_sha256": "f8942637565077657f3f1426517a9d6880a39ffb77f6a859b22215de95e04578",
+      "selected_codes_sha256": "5de5be0428901fc28be55c9401d2600638d6850d057766b10418bc60e308de2c"
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "queries_sha256": "5f886483e885df3a0da46185527574fa6386eb7d6798acfebc4eaf86bbc352a3",
+      "records_sha256": "39bb2e60fb15b29b3b031f845a21451e8094f3955959b4b13314be4f743a8504",
+      "selected_codes_sha256": "f8cde0fb8d56710efb0ad935db69b59a338d562ef8ec17c1166ca4d1732aa708"
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "queries_sha256": "5f886483e885df3a0da46185527574fa6386eb7d6798acfebc4eaf86bbc352a3",
+      "records_sha256": "4cf5af38031a1a0dfbe5eb2b43d8971562834147ab8f9e560d9118a9ea61c775",
+      "selected_codes_sha256": "f1bf4d581ed4045f4d2c01a5760bfbee0e69fbcd930c20f172b90be27cdc8589"
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "queries_sha256": "5f886483e885df3a0da46185527574fa6386eb7d6798acfebc4eaf86bbc352a3",
+      "records_sha256": "64b5d709ddceb1639a94d78ef40b76128c5062cb22604b5419c1bc8cda13482f",
+      "selected_codes_sha256": "5c8a81695e2767fc6fae6d2633d3d5cb452cf50bf36ba0a5054bed79a967b44c"
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "queries_sha256": "36086fc47bdb141b58be28fbe287477d330f604bbc885e4e926415f7acaf3b86",
+      "records_sha256": "7f38789dc69b41c41ae76d56aa561fb6f7b1fed1676e2984076c386f62d7bf4b",
+      "selected_codes_sha256": "e0eaf159cad50ce902ea60bf176c87dcd976b95459c7c32fbc9cc0a06e7df4eb"
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "queries_sha256": "36086fc47bdb141b58be28fbe287477d330f604bbc885e4e926415f7acaf3b86",
+      "records_sha256": "f8942637565077657f3f1426517a9d6880a39ffb77f6a859b22215de95e04578",
+      "selected_codes_sha256": "fc61903b4fceb8ee11fc772f37ebdd45cefd9d0886062c17950f3f294cbc7e42"
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "queries_sha256": "36086fc47bdb141b58be28fbe287477d330f604bbc885e4e926415f7acaf3b86",
+      "records_sha256": "39bb2e60fb15b29b3b031f845a21451e8094f3955959b4b13314be4f743a8504",
+      "selected_codes_sha256": "d228ed523bd1261e425168d76d8db120188d6a2c9e87ae4f5791684d65b52cea"
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "queries_sha256": "36086fc47bdb141b58be28fbe287477d330f604bbc885e4e926415f7acaf3b86",
+      "records_sha256": "4cf5af38031a1a0dfbe5eb2b43d8971562834147ab8f9e560d9118a9ea61c775",
+      "selected_codes_sha256": "86cff1e49e0a5eb588dc03615beda131f745deb12710fef3a1f5d3de346143ad"
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "queries_sha256": "36086fc47bdb141b58be28fbe287477d330f604bbc885e4e926415f7acaf3b86",
+      "records_sha256": "64b5d709ddceb1639a94d78ef40b76128c5062cb22604b5419c1bc8cda13482f",
+      "selected_codes_sha256": "8345a7e053262fd346a3e07dea3a9fbdac2d29acf419493ee1a19ce2c893318b"
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "queries_sha256": "a2425aa05efb62caccd41d457dfcf4ace6fafc8ea83f8c819e140a80afe92a5c",
+      "records_sha256": "7f38789dc69b41c41ae76d56aa561fb6f7b1fed1676e2984076c386f62d7bf4b",
+      "selected_codes_sha256": "ac52218c3e0495eab62284ea8fb294a8d3ad7681abbabe166726bdb8c5eacfb0"
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "queries_sha256": "a2425aa05efb62caccd41d457dfcf4ace6fafc8ea83f8c819e140a80afe92a5c",
+      "records_sha256": "f8942637565077657f3f1426517a9d6880a39ffb77f6a859b22215de95e04578",
+      "selected_codes_sha256": "3800fc2d0b3451c3d59e5faa59dfaffd23a1d5baa55d51d8445fa39a4cb9eb78"
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "queries_sha256": "a2425aa05efb62caccd41d457dfcf4ace6fafc8ea83f8c819e140a80afe92a5c",
+      "records_sha256": "39bb2e60fb15b29b3b031f845a21451e8094f3955959b4b13314be4f743a8504",
+      "selected_codes_sha256": "02102bd443346efea0b42e005cf2ec0148668bf3433289b84f16fa209e556b2b"
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "queries_sha256": "a2425aa05efb62caccd41d457dfcf4ace6fafc8ea83f8c819e140a80afe92a5c",
+      "records_sha256": "4cf5af38031a1a0dfbe5eb2b43d8971562834147ab8f9e560d9118a9ea61c775",
+      "selected_codes_sha256": "79cf8025cfe01d25c0ea3e12bf73429b55f223a616978e0e69d03080ecab9ae0"
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "queries_sha256": "a2425aa05efb62caccd41d457dfcf4ace6fafc8ea83f8c819e140a80afe92a5c",
+      "records_sha256": "64b5d709ddceb1639a94d78ef40b76128c5062cb22604b5419c1bc8cda13482f",
+      "selected_codes_sha256": "defc25cd5dbcda87b71266853e52fa4a4d3aae70e793717556657e9e8b465348"
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "queries_sha256": "c907660327532e5b8c4697c1ad5694cc7f1345ee02feccb2faba32a6eeaf282d",
+      "records_sha256": "7f38789dc69b41c41ae76d56aa561fb6f7b1fed1676e2984076c386f62d7bf4b",
+      "selected_codes_sha256": "25e81d2bc07890c3d8da7ac98a5388f282bba59fb0889fc0620f1afd2fcb49d6"
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "queries_sha256": "c907660327532e5b8c4697c1ad5694cc7f1345ee02feccb2faba32a6eeaf282d",
+      "records_sha256": "f8942637565077657f3f1426517a9d6880a39ffb77f6a859b22215de95e04578",
+      "selected_codes_sha256": "52e87efe0aee0d27e2db3cfd1a736b6d0b2cb3b15d0b4c1f7a6ab7b2eaeb61a2"
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "queries_sha256": "c907660327532e5b8c4697c1ad5694cc7f1345ee02feccb2faba32a6eeaf282d",
+      "records_sha256": "39bb2e60fb15b29b3b031f845a21451e8094f3955959b4b13314be4f743a8504",
+      "selected_codes_sha256": "115eefa9243cf31b402d8ba244f1f432eeaecd83838322fb896f81085148d365"
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "queries_sha256": "c907660327532e5b8c4697c1ad5694cc7f1345ee02feccb2faba32a6eeaf282d",
+      "records_sha256": "4cf5af38031a1a0dfbe5eb2b43d8971562834147ab8f9e560d9118a9ea61c775",
+      "selected_codes_sha256": "64a4d2c549d26708783175d3fad9e627fc19074c347321448595e5bbbf392156"
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "queries_sha256": "c907660327532e5b8c4697c1ad5694cc7f1345ee02feccb2faba32a6eeaf282d",
+      "records_sha256": "64b5d709ddceb1639a94d78ef40b76128c5062cb22604b5419c1bc8cda13482f",
+      "selected_codes_sha256": "2ac2bc0349649006c9a2c114d9d11ead3682ec83ae5d1e40aa6fa9e50332f972"
+    }
+  ]
+}

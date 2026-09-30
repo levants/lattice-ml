@@ -1,0 +1,191 @@
+[
+  {
+    "model": "topk_k32_s0",
+    "multiplier": 0.5,
+    "pooled": 1084,
+    "common": 1044,
+    "independent_expected": 500.42180029178803,
+    "separate_query_intersection": 1053,
+    "discrepancy": 0.03690036900369009
+  },
+  {
+    "model": "topk_k32_s0",
+    "multiplier": 1.0,
+    "pooled": 747,
+    "common": 720,
+    "independent_expected": 161.92903081875744,
+    "separate_query_intersection": 740,
+    "discrepancy": 0.03614457831325302
+  },
+  {
+    "model": "topk_k32_s0",
+    "multiplier": 1.5,
+    "pooled": 168,
+    "common": 140,
+    "independent_expected": 15.04426786665472,
+    "separate_query_intersection": 168,
+    "discrepancy": 0.16666666666666663
+  },
+  {
+    "model": "batchtopk_k32_s0",
+    "multiplier": 0.5,
+    "pooled": 537,
+    "common": 456,
+    "independent_expected": 201.78958987899597,
+    "separate_query_intersection": 474,
+    "discrepancy": 0.15083798882681565
+  },
+  {
+    "model": "batchtopk_k32_s0",
+    "multiplier": 1.0,
+    "pooled": 263,
+    "common": 131,
+    "independent_expected": 44.998408125079045,
+    "separate_query_intersection": 234,
+    "discrepancy": 0.5019011406844107
+  },
+  {
+    "model": "batchtopk_k32_s0",
+    "multiplier": 1.5,
+    "pooled": 34,
+    "common": 16,
+    "independent_expected": 2.362353320642966,
+    "separate_query_intersection": 23,
+    "discrepancy": 0.5294117647058824
+  },
+  {
+    "model": "jump_k32_s0",
+    "multiplier": 0.5,
+    "pooled": 766,
+    "common": 699,
+    "independent_expected": 144.87977808234712,
+    "separate_query_intersection": 708,
+    "discrepancy": 0.08746736292428203
+  },
+  {
+    "model": "jump_k32_s0",
+    "multiplier": 1.0,
+    "pooled": 282,
+    "common": 216,
+    "independent_expected": 28.65195419511722,
+    "separate_query_intersection": 260,
+    "discrepancy": 0.23404255319148937
+  },
+  {
+    "model": "jump_k32_s0",
+    "multiplier": 1.5,
+    "pooled": 28,
+    "common": 9,
+    "independent_expected": 1.2440461409082042,
+    "separate_query_intersection": 18,
+    "discrepancy": 0.6785714285714286
+  },
+  {
+    "model": "archetypal_k32_s0",
+    "multiplier": 0.5,
+    "pooled": 495,
+    "common": 344,
+    "independent_expected": 269.22304856585015,
+    "separate_query_intersection": 353,
+    "discrepancy": 0.305050505050505
+  },
+  {
+    "model": "archetypal_k32_s0",
+    "multiplier": 1.0,
+    "pooled": 197,
+    "common": 106,
+    "independent_expected": 81.24430326836381,
+    "separate_query_intersection": 138,
+    "discrepancy": 0.46192893401015234
+  },
+  {
+    "model": "archetypal_k32_s0",
+    "multiplier": 1.5,
+    "pooled": 60,
+    "common": 20,
+    "independent_expected": 16.437708149150147,
+    "separate_query_intersection": 38,
+    "discrepancy": 0.6666666666666667
+  },
+  {
+    "model": "relu_fixed_k32_s0",
+    "multiplier": 0.5,
+    "pooled": 1477,
+    "common": 1109,
+    "independent_expected": 1104.267577264769,
+    "separate_query_intersection": 1201,
+    "discrepancy": 0.24915368991198372
+  },
+  {
+    "model": "relu_fixed_k32_s0",
+    "multiplier": 1.0,
+    "pooled": 901,
+    "common": 473,
+    "independent_expected": 468.5001052529278,
+    "separate_query_intersection": 627,
+    "discrepancy": 0.4750277469478358
+  },
+  {
+    "model": "relu_fixed_k32_s0",
+    "multiplier": 1.5,
+    "pooled": 397,
+    "common": 190,
+    "independent_expected": 164.09730472247082,
+    "separate_query_intersection": 267,
+    "discrepancy": 0.5214105793450882
+  },
+  {
+    "model": "pretrained_ra",
+    "multiplier": 0.5,
+    "pooled": 39,
+    "common": 39,
+    "independent_expected": 34.74363219368815,
+    "separate_query_intersection": 39,
+    "discrepancy": 0.0
+  },
+  {
+    "model": "pretrained_ra",
+    "multiplier": 1.0,
+    "pooled": 18,
+    "common": 16,
+    "independent_expected": 11.881432932628679,
+    "separate_query_intersection": 17,
+    "discrepancy": 0.11111111111111116
+  },
+  {
+    "model": "pretrained_ra",
+    "multiplier": 1.5,
+    "pooled": 0,
+    "common": 0,
+    "independent_expected": 0.0,
+    "separate_query_intersection": 0,
+    "discrepancy": null
+  },
+  {
+    "model": "prisma_transcoder",
+    "multiplier": 0.5,
+    "pooled": 1505,
+    "common": 1017,
+    "independent_expected": 384.60405540600186,
+    "separate_query_intersection": 1058,
+    "discrepancy": 0.3242524916943521
+  },
+  {
+    "model": "prisma_transcoder",
+    "multiplier": 1.0,
+    "pooled": 764,
+    "common": 402,
+    "independent_expected": 72.84206259267611,
+    "separate_query_intersection": 444,
+    "discrepancy": 0.47382198952879584
+  },
+  {
+    "model": "prisma_transcoder",
+    "multiplier": 1.5,
+    "pooled": 222,
+    "common": 132,
+    "independent_expected": 12.366313315333603,
+    "separate_query_intersection": 148,
+    "discrepancy": 0.4054054054054054
+  }
+]

@@ -147,3 +147,32 @@ that license. Upstream software and dataset terms remain applicable;
 repository code licensing does not relicense source photographs. Source
 identifiers accompany the research crops and figures. No claim is made
 that all image rights belong to the experiment author.
+
+## Spatial-query review audit
+
+The follow-up review uses all four frozen query pairs in each of seven
+models, five test collections, and threshold multipliers 0.5, 1, and 1.5.
+It adds no fitting or feature selection. The 420 cases retain inactive
+queries and distinguish pooled, common-patch, and separate-query witnesses.
+A conditional overlap reference preserves the two marginal site counts
+within each image and independently randomizes their relative positions.
+Its exact combinatorial expectation is checked against 284 exhaustive
+small cases. It is not a semantic null or a population significance test.
+
+Run from repository root in the existing uv environment:
+
+```sh
+PYTHONPATH=src uv run --offline --no-sync python -m \
+  lattmc.vision.spatial_review_codexgen
+PYTHONPATH=src uv run --offline --no-sync python -m \
+  lattmc.vision.spatial_review_notebook_codexgen
+```
+
+`results/spatial_review/` contains the case records, per-image arrays,
+selected-code hashes, and aggregate results. The executed notebook is
+`notebooks/vision/spatial_review_codexgen.ipynb`. Table export is optional:
+`spatial_review_tables_codexgen --paper-tables OUTPUT_DIRECTORY`.
+The compact review evidence is stored directly in Git; it is newer than
+the original large-archive manifest and does not alter those bundles.
+The earlier shape/rotation probes and CIFAR galleries remain archived
+experimental records; they are not primary evidence of semantic features.
