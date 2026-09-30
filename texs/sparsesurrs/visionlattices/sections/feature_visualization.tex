@@ -77,25 +77,26 @@ backbones; matching class-selection criteria do not align dictionary
 indices or prove equivalent feature meanings.
 
 \begin{figure}[p]
- \centering
- \includegraphics[width=\linewidth]{figures/imagenette_resnet34_codexgen.pdf}
- \caption{ResNet34 sparse coordinates on Imagenette and Imagewoof.
- The first two rows show the strongest Imagenette test responses for
- training-selected springer and church coordinates. The last row applies
- the springer coordinate to Imagewoof without retraining. Each photograph
- is followed by its site-code map, with a common color scale within the
- row. Actual labels, stored dataset rows, and maxima are displayed.}
- \label{fig:imagenette-resnet}
+    \centering
+\includegraphics[width=\linewidth]{figures/imagenette_resnet34_codexgen.pdf}
+    \caption{ResNet34 sparse coordinates on Imagenette and Imagewoof.
+        The first two rows show the strongest Imagenette test responses for
+        training-selected springer and church coordinates. The last row applies
+        the springer coordinate to Imagewoof without retraining. Each
+        photograph
+        is followed by its site-code map, with a common color scale within the
+        row. Actual labels, stored dataset rows, and maxima are displayed.}
+    \label{fig:imagenette-resnet}
 \end{figure}
 
 \begin{figure}[p]
- \centering
- \includegraphics[width=\linewidth]{figures/imagenette_dinov2_codexgen.pdf}
- \caption{The same selection and evaluation protocol for DINOv2.
- Maps locate patch-token responses after global self-attention; they
- are not object masks. Imagenette and Imagewoof labels identify the
- photographs rather than certify the coordinate's semantic meaning.}
- \label{fig:imagenette-dino}
+    \centering
+    \includegraphics[width=\linewidth]{figures/imagenette_dinov2_codexgen.pdf}
+    \caption{The same selection and evaluation protocol for DINOv2.
+        Maps locate patch-token responses after global self-attention; they
+        are not object masks. Imagenette and Imagewoof labels identify the
+        photographs rather than certify the coordinate's semantic meaning.}
+    \label{fig:imagenette-dino}
 \end{figure}
 
 To investigate what increases a selected response, optimize the input
@@ -103,9 +104,9 @@ pixels through the frozen backbone and SAE encoder. Let $a_{p,j}(x)$
 be the encoder's affine response for coordinate $j$ at site $p$, before
 ReLU and Top-$k$ gating. Define a smooth spatial objective by
 \begin{equation}\label{eq:visualization-objective}
- L_{j}(x)=\frac{1}{r_{j}}
- \log\left(\frac{1}{|P|}\sum_{p\in P}\exp(a_{p,j}(x))\right)
- -0.1\operatorname{TV}_{2}(x),
+    L_{j}(x)=\frac{1}{r_{j}}
+    \log\left(\frac{1}{|P|}\sum_{p\in P}\exp(a_{p,j}(x))\right)
+    -0.1\operatorname{TV}_{2}(x),
 \end{equation}
 where $r_{j}$ is the training-image RMS of the max-pooled sparse
 coordinate, floored at $10^{-6}$. Here $\operatorname{TV}_{2}$ is the
@@ -127,15 +128,16 @@ pixel-for-pixel implementation of Distill's parameterization. Both
 initializations are retained without choosing a visually favorable one.
 
 \begin{figure}[p]
- \centering
- \includegraphics[width=0.9\linewidth]{figures/optimized_features_codexgen.pdf}
- \caption{Training reference photographs and two optimized stimuli per
- coordinate. Titles report actual max-pooled sparse codes before and
- after optimization, evaluated without jitter. The photographs initialize
- neither run: optimization starts from random Fourier parameters.
- Textures or shapes in these images suggest hypotheses, but cannot alone
- identify semantic feature meanings or a downstream computation.}
- \label{fig:optimized-features}
+    \centering
+\includegraphics[width=0.9\linewidth]{figures/optimized_features_codexgen.pdf}
+    \caption{Training reference photographs and two optimized stimuli per
+        coordinate. Titles report actual max-pooled sparse codes before and
+        after optimization, evaluated without jitter. The photographs
+        initialize
+        neither run: optimization starts from random Fourier parameters.
+        Textures or shapes in these images suggest hypotheses, but cannot alone
+        identify semantic feature meanings or a downstream computation.}
+    \label{fig:optimized-features}
 \end{figure}
 
 \input{tables/imagenette_features}
@@ -165,24 +167,25 @@ length, occupied area, and topology remain different; these probes do
 not isolate curvature as the only varying factor.
 
 \begin{figure}[tbp]
- \centering
- \includegraphics[width=0.7\linewidth]{figures/synthetic_stimuli_codexgen.pdf}
- \caption{Examples from the exact controlled stimulus family, shown
- at four orientations. Curves, lines, and corners have matched mean
- brightness and RMS contrast. All twelve orientations and their pixel
- arrays are retained in the evidence bundle.}
- \label{fig:synthetic-stimuli}
+    \centering
+\includegraphics[width=0.7\linewidth]{figures/synthetic_stimuli_codexgen.pdf}
+    \caption{Examples from the exact controlled stimulus family, shown
+        at four orientations. Curves, lines, and corners have matched mean
+        brightness and RMS contrast. All twelve orientations and their pixel
+        arrays are retained in the evidence bundle.}
+    \label{fig:synthetic-stimuli}
 \end{figure}
 
 \begin{figure}[p]
- \centering
- \includegraphics[width=\linewidth]{figures/synthetic_tuning_codexgen.pdf}
- \caption{Actual sparse-coordinate responses to the controlled stimuli.
- Each panel reports one training-selected coordinate. A peak or a weak
- response here is an observation on this probe family, not a demonstration
- that the coordinate is a curve detector. Flat zero curves mean that
- Top-$k$ gating suppresses that coordinate on these inputs.}
- \label{fig:synthetic-tuning}
+    \centering
+    \includegraphics[width=\linewidth]{figures/synthetic_tuning_codexgen.pdf}
+    \caption{Actual sparse-coordinate responses to the controlled stimuli.
+        Each panel reports one training-selected coordinate. A peak or a weak
+        response here is an observation on this probe family, not a
+        demonstration
+        that the coordinate is a curve detector. Flat zero curves mean that
+        Top-$k$ gating suppresses that coordinate on these inputs.}
+    \label{fig:synthetic-tuning}
 \end{figure}
 
 None of the four selected coordinates has a nonzero sparse code on the
@@ -201,14 +204,14 @@ introduces cropping and interpolation effects; the curves in
 not a pose-invariance test across independent three-dimensional views.
 
 \begin{figure}[tbp]
- \centering
- \includegraphics[width=\linewidth]{figures/rotation_tuning_codexgen.pdf}
- \caption{Responses under rotation of the fixed training references.
- Absolute code magnitudes are shown without rescaling each curve to its
- own maximum. Coordinates and backbones have different native units;
- compare transformations within a curve rather than absolute values
- across models.}
- \label{fig:rotation-tuning}
+    \centering
+    \includegraphics[width=\linewidth]{figures/rotation_tuning_codexgen.pdf}
+    \caption{Responses under rotation of the fixed training references.
+        Absolute code magnitudes are shown without rescaling each curve to its
+        own maximum. Coordinates and backbones have different native units;
+        compare transformations within a curve rather than absolute values
+        across models.}
+    \label{fig:rotation-tuning}
 \end{figure}
 
 Finally, construct two source queries from the selected training
@@ -226,10 +229,119 @@ are operations on numerical evidence, not claims that an image belongs
 to both selection classes. The transformer example retains exactly the
 same order-theoretic semantics despite its globally contextualized tokens.
 
+
+\subsection{Meet and join galleries on Imagenette}
+\label{sub:imagenette-query-galleries}
+To see the operations on recognizable photographs, we now compare
+queries within the English springer and garbage truck classes. These
+are additional queries, distinct from the springer/church pair in
+\cref{tab:imagenette-queries}. For each class and backbone, rank
+coordinates by training contrast as in~\cref{eq:feature-contrast} and
+keep the first two. Select a class-matching training photograph with
+maximal activation of the first coordinate, then a distinct photograph
+with maximal activation of the second coordinate. Break coordinate ties
+by index and photograph ties by stored row. The distinctness restriction
+ensures two source photographs even if both coordinates peak on the
+same training image. No held-out photograph chooses a coordinate,
+source, or threshold.
+
+As before, retain half of both source-image coordinate values, setting
+all other coordinates to zero. Compute the meet by coordinatewise
+minimum and the join by coordinatewise maximum. Evaluate on all 100
+Imagenette test photographs; Imagewoof is excluded from these galleries.
+Each row displays up to three satisfying photographs ranked by
+\cref{eq:graded-score}, with ties broken by stored row. Counts cover
+all 100 photographs, not just the displayed examples. Titles give
+actual labels and dataset rows; the released arrays map these rows to
+original archive paths. Thresholds and scores in the figures are rounded
+only for display. A \emph{site: yes} annotation means that some single
+site meets every positive threshold; it is not a segmentation or causal
+localization claim.
+
+\Cref{fig:imagenette-springer-resnet,fig:imagenette-springer-dino}
+compare the springer-selected coordinates. ResNet's source extents have
+sizes 5 and 3, the meet has size 6, and the join has size 2. Every
+same-site extent is empty: the positive requirements are met at
+separate spatial witnesses. DINOv2 retrieves the same ten photographs
+for all four pooled queries, although thresholds and rankings differ.
+Its same-site counts are 6, 6, 7, and 5. Thus identical pooled extents
+can conceal differences in both graded satisfaction and common-site
+evidence. This observation concerns two independently learned queries;
+it does not establish superior spatial localization by a transformer.
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\linewidth]{%
+        figures/query_springer_resnet34_codexgen.pdf}
+    \caption{Imagenette springer queries for ResNet34 on coordinates
+        $(5,357)$. The top row shows the training sources. Subsequent rows
+        show source queries, their meet, and their join, followed by ranked
+        test matches. Here $s$ is the graded satisfaction ratio. The join
+        has two matches; the third position is explicitly empty. None of
+        the pooled matches has a common-site witness.}
+    \label{fig:imagenette-springer-resnet}
+\end{figure}
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\linewidth]{%
+        figures/query_springer_dinov2_codexgen.pdf}
+    \caption{The same within-class selection protocol for DINOv2,
+        on coordinates $(760,556)$. All four pooled extents contain the
+        same ten test photographs, while rankings and same-site counts
+        change. Only the three highest-ranked matches per row are shown.
+        Transformer sites denote globally contextualized patch tokens.}
+    \label{fig:imagenette-springer-dino}
+\end{figure}
+
+The truck examples in
+\cref{fig:imagenette-truck-resnet,fig:imagenette-truck-dino} also show
+why a meet extent need not equal the union of the source extents.
+ResNet's source extents have sizes 9 and 8, their join has size 8,
+and their meet has size 10. One photograph therefore satisfies the
+meet but neither source query: relaxing different coordinates can admit
+an additional combination of evidence. The corresponding same-site
+counts are 1, 0, 1, and 0. DINOv2 again has ten pooled matches for every
+operation, with same-site counts 10, 10, 10, and 9. Across these four
+examples, the join extent is exactly the intersection of the two source
+extents, as the order-theoretic construction requires.
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\linewidth]{%
+        figures/query_truck_resnet34_codexgen.pdf}
+    \caption{Imagenette garbage-truck queries for ResNet34 on
+        coordinates $(100,302)$. The meet retrieves ten photographs,
+        including one outside the union of the source extents. The top
+        right inset shows this extra photograph with its satisfaction
+        ratios for the two sources and their meet. The join
+        retains eight pooled matches but no common-site witness. Labels
+        describe photographs rather than meanings assigned to coordinates.}
+    \label{fig:imagenette-truck-resnet}
+\end{figure}
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\linewidth]{%
+        figures/query_truck_dinov2_codexgen.pdf}
+    \caption{Imagenette garbage-truck queries for DINOv2 on
+        coordinates $(714,205)$. All ten pooled matches survive the join,
+        but one loses a common-site witness. This difference uses all
+        test matches, including those outside the three displayed ranks.}
+    \label{fig:imagenette-truck-dino}
+\end{figure}
+
+These examples make threshold combination and spatial witnessing
+inspectable at photographic resolution. The two features in each pair
+were selected by the same class contrast; we have not identified them
+as distinct parts, colors, or shapes. Neither a coherent gallery nor
+an unchanged extent proves that two coordinates have the same meaning.
+The saved source values, query vectors, full rankings, and site masks
+allow these numerical observations to be checked independently.
+
 Taken together, the photographs, optimized stimuli, and controlled
 responses provide a more demanding feature investigation than a gallery
 alone. Recovering a circuit would require additional evidence about how
 upstream features construct the response and how downstream computations
 use it, as distinguished in~\cite{olah2020zoom}. No such circuit recovery
 is claimed by these experiments.
-\clearpage

@@ -1,15 +1,19 @@
 \begin{table}[tbp]
-\centering
-\begin{tabular}{lrrr}
-\toprule
-Model & Test $R^{2}_{\mathrm{tr}}$ & Transfer $R^{2}_{\mathrm{tr}}$ & Active \\
-\midrule
-ResNet34 & 0.878 & 0.881 & 512/512 \\
-DINOv2 & 0.707 & 0.596 & 768/768 \\
-\bottomrule
-\end{tabular}
-\caption{Reconstruction in original channel units and active training
-coordinates. Test denotes Imagenette; transfer denotes Imagewoof. All models
-use the training mean as the reconstruction baseline.}
-\label{tab:imagenette-metrics}
+    \centering
+    \begin{tabular}{lrrr}
+        \toprule
+        Model    & Test $R^{2}_{\mathrm{tr}}$ & Transfer $R^{2}_{\mathrm{tr}}$
+        & Active  \\
+        \midrule
+        ResNet34 & 0.878                      & 0.881
+        & 512/512 \\
+        DINOv2   & 0.707                      & 0.596
+        & 768/768 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Reconstruction in original channel units and active training
+        coordinates. Test denotes Imagenette; transfer denotes Imagewoof. All
+        models
+        use the training mean as the reconstruction baseline.}
+    \label{tab:imagenette-metrics}
 \end{table}

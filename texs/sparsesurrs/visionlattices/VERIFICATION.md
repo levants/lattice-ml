@@ -4,13 +4,13 @@ Completed 2026-09-30 using the existing project uv environment.
 
 ## Manuscript
 
-- Isolated pdfLaTeX/Biber build completed: 29 pages.
+- Isolated pdfLaTeX/Biber build completed: 31 pages.
 - Final LaTeX and Biber logs contain no warnings, unresolved references,
   unresolved citations, or overfull/underfull boxes.
 - All pages rendered and visually reviewed. The final review enlarged the
   natural-image figure labels and checked their placement and contrast.
 - Final PDF and BBL copied here and byte-compared with the isolated build.
-- 17 TeX files, 85 unique labels, and 22 bibliography entries audited.
+- 17 TeX files, 88 unique labels, and 22 bibliography entries audited.
 - Every section, subsection, formal result, displayed equation, table, and
   figure has a label. All theorem/proposition statements have names.
 - Referenced labels and citation keys resolve; mathematical scripts are
@@ -68,15 +68,33 @@ Completed 2026-09-30 using the existing project uv environment.
   rotation responses were independently recomputed.
 - Eight lattice queries recomputed, including source thresholds, meet and
   join vectors, extents, and same-site witnesses.
-- The new notebook executes four cells and embeds six new evidence figures.
+- The notebook now executes five cells and embeds ten evidence figures.
   All three notebooks validate, have executed code cells, and contain no
   error outputs; notebook source cells remain within 79 columns.
-- Final 29-page PDF visually reviewed; a short isolated paragraph page was
+- The earlier 29-page PDF was visually reviewed; a short isolated
+  paragraph page was
   removed, and table floats were kept after their introduction.
 
 These checks do not establish semantic interpretations, causal effects of
 individual coordinates, mathematical novelty, or foundation-model
 superiority. See `REVIEW.md` for scientific limitations and venue advice.
+
+## Imagenette meet and join galleries
+
+- Four new 224-pixel photograph galleries cover English springer and
+  garbage truck queries for ResNet34 and DINOv2 ViT-S/14.
+- Independent verification reproduces training-only coordinate/source
+  selection, all 16 query vectors, all 1,600 image-level decisions, scores,
+  same-site masks, class counts, and deterministic displayed rankings.
+- The ResNet truck inset identifies row 312 as a meet match outside both
+  source extents. Its measured source ratios are below one; the meet ratio
+  exceeds one. Join extents equal source-extent intersections in all cases.
+- The executed notebook rechecks cached image provenance, surrogate codes,
+  earlier queries, and all new gallery queries; it contains no errors.
+- Four new figures replace the two CIFAR query galleries in the paper.
+  The original figures remain in the repository and CIFAR notebook.
+- All 31 pages reviewed as rendered images, including the new galleries;
+  the final isolated build has no LaTeX/Biber warnings or bad boxes.
 
 ## Reproduction and release
 

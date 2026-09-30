@@ -80,3 +80,13 @@ ResNet34/DINOv2 protocol, Imagewoof transfer examples, optimized stimuli,
 and controlled response probes. Six additional figures and three tables
 are generated from that evidence. The frozen transformer checkpoint is
 included, so extraction and feature visualization can run offline.
+
+## Photographic meet and join galleries
+
+Four Imagenette query figures now show two training sources, source
+requirements, meet/join thresholds, ranked test photographs, and common-site
+witnesses for ResNet34 and DINOv2. English springer and garbage truck cases
+use two training-selected coordinates each. They replace the two smaller
+CIFAR query figures in the paper; those original figures remain available
+in `figures/` and the CIFAR notebook. See `vision_tokens/IMAGENETTE.md` for
+reproduction, the exact protocol, and evidence filenames.

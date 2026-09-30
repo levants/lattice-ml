@@ -1,0 +1,258 @@
+[
+  {
+    "class": "English springer",
+    "class_id": 1,
+    "features": [
+      5,
+      357
+    ],
+    "sources": [
+      35,
+      27
+    ],
+    "train_contrasts": [
+      2.590348958969116,
+      2.562441110610962
+    ],
+    "source_ids": [
+      "imagenette2-320/train/n02102040/ILSVRC2012_val_00014125.JPEG",
+      "imagenette2-320/train/n02102040/ILSVRC2012_val_00002294.JPEG"
+    ],
+    "evaluation": "all 100 Imagenette test images; no Imagewoof",
+    "meet_extra_beyond_union": 0,
+    "operations": [
+      {
+        "operation": "u",
+        "thresholds": [
+          4.0602126121521,
+          1.1117215156555176
+        ],
+        "pooled": 5,
+        "same_site": 0,
+        "display_rows": [
+          269,
+          266,
+          264
+        ],
+        "class_counts": [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "operation": "v",
+        "thresholds": [
+          3.661931276321411,
+          2.8684914112091064
+        ],
+        "pooled": 3,
+        "same_site": 0,
+        "display_rows": [
+          261,
+          264,
+          263
+        ],
+        "class_counts": [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "operation": "meet",
+        "thresholds": [
+          3.661931276321411,
+          1.1117215156555176
+        ],
+        "pooled": 6,
+        "same_site": 0,
+        "display_rows": [
+          269,
+          266,
+          264
+        ],
+        "class_counts": [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "operation": "join",
+        "thresholds": [
+          4.0602126121521,
+          2.8684914112091064
+        ],
+        "pooled": 2,
+        "same_site": 0,
+        "display_rows": [
+          264,
+          261,
+          -1
+        ],
+        "class_counts": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "class": "garbage truck",
+    "class_id": 6,
+    "features": [
+      100,
+      302
+    ],
+    "sources": [
+      160,
+      165
+    ],
+    "train_contrasts": [
+      2.69622540473938,
+      1.734210729598999
+    ],
+    "source_ids": [
+      "imagenette2-320/train/n03417042/ILSVRC2012_val_00013827.JPEG",
+      "imagenette2-320/train/n03417042/ILSVRC2012_val_00019147.JPEG"
+    ],
+    "evaluation": "all 100 Imagenette test images; no Imagewoof",
+    "meet_extra_beyond_union": 1,
+    "operations": [
+      {
+        "operation": "u",
+        "thresholds": [
+          4.3475494384765625,
+          3.3626201152801514
+        ],
+        "pooled": 9,
+        "same_site": 1,
+        "display_rows": [
+          319,
+          314,
+          313
+        ],
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "operation": "v",
+        "thresholds": [
+          3.2036097049713135,
+          6.276770114898682
+        ],
+        "pooled": 8,
+        "same_site": 0,
+        "display_rows": [
+          317,
+          311,
+          319
+        ],
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "operation": "meet",
+        "thresholds": [
+          3.2036097049713135,
+          3.3626201152801514
+        ],
+        "pooled": 10,
+        "same_site": 1,
+        "display_rows": [
+          319,
+          314,
+          313
+        ],
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "operation": "join",
+        "thresholds": [
+          4.3475494384765625,
+          6.276770114898682
+        ],
+        "pooled": 8,
+        "same_site": 0,
+        "display_rows": [
+          311,
+          319,
+          314
+        ],
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+]

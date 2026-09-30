@@ -83,3 +83,39 @@ optimization tests response control; it does not demonstrate how a
 feature is used downstream. Imagenette overlaps ImageNet, so these are
 held-out SAE examples, not an unseen-data backbone benchmark. The
 Imagewoof subset is small and deterministically selected as well.
+
+## Meet and join galleries
+
+Four additional figures show English springer and garbage truck queries
+for both backbones. For each class separately, select its two highest
+training-contrast coordinates. Choose a class-matching training image
+maximizing the first coordinate, then a distinct training image maximizing
+the second. Ties use coordinate index or dataset row. Queries retain half
+of both source-image values; all other coordinates are zero.
+
+Evaluation uses all 100 Imagenette test images, without Imagewoof. No test
+image selects a coordinate, source, or threshold. This is an exploratory
+extension on existing caches, not a preregistered benchmark. The four rows
+show the two sources, their coordinatewise minimum (meet), and maximum
+(join). Each displays up to three matches ranked by the minimum positive
+coordinate satisfaction ratio, with ties resolved by dataset row.
+Counts and common-site tests use all test images and full precision.
+
+The top-right inset in the ResNet truck figure shows an additional meet
+match outside both source extents. Its ratios for each source are below
+one, while its meet ratio exceeds one. Other figures keep the top-right
+position for a reading guide. Labels are dataset labels, not feature names.
+
+```sh
+uv run --offline --no-sync python -m lattmc.vision.query_galleries_codexgen
+uv run --offline --no-sync python -m \
+  lattmc.vision.verify_query_galleries_codexgen
+uv run --offline --no-sync python -m lattmc.vision.featureviz_notebook_codexgen
+```
+
+Each model stores `retrieval/query_springer_codexgen.npz` and
+`retrieval/query_truck_codexgen.npz`, with source rows, features, thresholds,
+full scores, pooled/same-site masks, displayed rows, and meet-extra masks.
+`results/query_galleries_codexgen.json` contains counts, original source
+paths, and class histograms. The verifier independently recomputes feature
+selection and every query from the cached site activations.

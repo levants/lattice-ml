@@ -45,9 +45,9 @@ comparison of optimized surrogate architectures.
 \label{sub:feature-galleries}
 For a class $c$, select a coordinate by its training contrast
 \begin{equation}\label{eq:feature-contrast}
- a_{c,j}=
- \frac{\operatorname{mean}_{x\in X_{\mathrm{tr}},\ y_{x}=c}u_{x,j}
-       -\operatorname{mean}_{x\in X_{\mathrm{tr}},\ y_{x}\ne c}u_{x,j}}
+      a_{c,j}=
+      \frac{\operatorname{mean}_{x\in X_{\mathrm{tr}},\ y_{x}=c}u_{x,j}
+            -\operatorname{mean}_{x\in X_{\mathrm{tr}},\ y_{x}\ne c}u_{x,j}}
       {\max(\operatorname{std}_{x\in X_{\mathrm{tr}}}u_{x,j},10^{-12})}.
 \end{equation}
 Here $y_{x}$ is the dataset class and the standard deviation uses divisor
@@ -68,26 +68,33 @@ in the feature grid, not segmentation masks or causal attribution maps:
 the residual network's receptive fields can cover most or all of an image.
 
 \begin{figure}[tbp]
- \centering
- \includegraphics[width=\linewidth]{figures/feature_animals_codexgen.pdf}
- \caption{Dataset exemplars and site activation maps for coordinates
- selected by bird, cat, and dog training contrasts. Each image is followed
- by its measured $6\times6$ feature map; intensity uses a shared scale
- within a row. Titles identify the actual test label, original index,
- and maximum activation. A selected class does not determine the labels
- of the highest-activating examples.}
- \label{fig:animal-features}
+      \centering
+      \includegraphics[width=\linewidth]{figures/feature_animals_codexgen.pdf}
+      \caption{Dataset exemplars and site activation maps for coordinates
+            selected by bird, cat, and dog training contrasts. Each image is
+            followed
+            by its measured $6\times6$ feature map; intensity uses a shared
+            scale
+            within a row. Titles identify the actual test label, original
+            index,
+            and maximum activation. A selected class does not determine the
+            labels
+            of the highest-activating examples.}
+      \label{fig:animal-features}
 \end{figure}
 
 \begin{figure}[p]
- \centering
- \includegraphics[width=\linewidth]{figures/feature_transport_codexgen.pdf}
- \caption{The same analysis for horse-, ship-, and truck-associated
- coordinates. Deer occur among the strongest horse-associated responses,
- and automobiles among the strongest truck-associated responses. Such
- overlap motivates inspecting feature combinations rather than assigning
- a class meaning from a few favorable examples.}
- \label{fig:vehicle-features}
+      \centering
+\includegraphics[width=\linewidth]{figures/feature_transport_codexgen.pdf}
+      \caption{The same analysis for horse-, ship-, and truck-associated
+            coordinates. Deer occur among the strongest horse-associated
+            responses,
+            and automobiles among the strongest truck-associated responses.
+            Such
+            overlap motivates inspecting feature combinations rather than
+            assigning
+            a class meaning from a few favorable examples.}
+      \label{fig:vehicle-features}
 \end{figure}
 
 \Cref{fig:feature-tuning} summarizes the entire 250-image test sample.
@@ -100,13 +107,15 @@ These descriptive associations neither imply class exclusivity nor show
 that a coordinate causes the backbone's prediction.
 
 \begin{figure}[tbp]
- \centering
- \includegraphics[width=\linewidth]{figures/feature_tuning_codexgen.pdf}
- \caption{Measured class response profiles for all test images, in
- training RMS units. Selection uses training labels; all plotted means
- use the separate test images. Broad and overlapping responses remain
- visible rather than being removed from the gallery.}
- \label{fig:feature-tuning}
+      \centering
+      \includegraphics[width=\linewidth]{figures/feature_tuning_codexgen.pdf}
+      \caption{Measured class response profiles for all test images, in
+            training RMS units. Selection uses training labels; all plotted
+            means
+            use the separate test images. Broad and overlapping responses
+            remain
+            visible rather than being removed from the gallery.}
+      \label{fig:feature-tuning}
 \end{figure}
 
 \subsection{Animal and vehicle queries under meet and join}
@@ -122,23 +131,12 @@ selected for only one of its coordinates. The multiplier $0.5$ is fixed,
 not selected using test performance. Displayed thresholds are rounded;
 counts use the full-precision values saved in the retrieval arrays.
 
-\Cref{fig:animal-queries} shows the cat/dog queries on coordinates
+The cat/dog queries use coordinates
 425 and 150. Their test extents contain 40 and 25 images; the meet
 retrieves 74 and the join 17. The join extent is exactly the intersection
 of the two source extents. All four same-site extents are empty. Hence
 these apparent combinations of animal-associated evidence rely on
 separate spatial witnesses at the chosen thresholds.
-
-\begin{figure}[p]
- \centering
- \includegraphics[width=0.9\linewidth]{figures/query_cat_dog_codexgen.pdf}
- \caption{Cat/dog-associated queries, their meet, and their join.
- Thresholds are displayed in coordinate order $(425,150)$. Counts include
- all 250 test images. Each row shows up to three matching images ranked
- by \cref{eq:graded-score}; numbers beside the images are original test
- indices. All four same-site counts are zero.}
- \label{fig:animal-queries}
-\end{figure}
 
 For ship/truck-associated coordinates 78 and 461, the source extents
 contain 10 and 23 images, the meet contains 158, and the join contains
@@ -147,17 +145,11 @@ and 0. The sole join match is therefore not an image labeled both ship
 and truck, and it has no common spatial witness. The algebra combines
 activation requirements; its result is not a conjunction of class names.
 
-\begin{figure}[p]
- \centering
- \includegraphics[width=0.9\linewidth]{figures/query_ship_truck_codexgen.pdf}
- \caption{Ship/truck-associated queries on coordinates $(78,461)$.
- The meet is broad, while the join has one pooled match, labeled
- automobile. Its same-site extent is empty. Blank retrieval positions
- explicitly indicate that no further image satisfies the query.}
- \label{fig:vehicle-queries}
-\end{figure}
-
-The animal and vehicle examples make the spatial distinction visible.
+The animal and vehicle queries illustrate the spatial distinction.
+Their low-resolution galleries remain in the executed CIFAR notebook.
+For the main paper, \cref{sub:imagenette-query-galleries} presents
+larger photographs with visible sources, numerical requirements, and
+retrieved examples for both backbones.
 Named-city or sports-team studies need labels and controls for landmarks,
 text, logos, and backgrounds. The next section adds higher-resolution
 images and tests feature hypotheses with optimized and controlled stimuli.

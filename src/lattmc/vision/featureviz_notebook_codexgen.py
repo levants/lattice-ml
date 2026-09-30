@@ -63,6 +63,19 @@ def create():
              "show('synthetic_stimuli_codexgen.pdf')\n"
              "show('synthetic_tuning_codexgen.pdf')\n"
              "show('rotation_tuning_codexgen.pdf')"),
+        markdown('## Meet and join on larger photographs\n\n'
+                 'Two coordinates per class are selected by training\n'
+                 'contrast. Distinct training sources provide half-strength\n'
+                 'requirements. All 100 Imagenette test images are searched;\n'
+                 'Imagewoof is excluded here. Figures retain actual labels,\n'
+                 'scores, and common-site witnesses. The ResNet truck inset\n'
+                 'shows a meet match outside both source extents.'),
+        code('from lattmc.vision.verify_query_galleries_codexgen import (\n'
+             '    verify as verify_queries)\n'
+             'print(json.dumps(verify_queries(), indent=2))\n'
+             "for case in ['springer', 'truck']:\n"
+             "    for model in ['resnet34', 'dinov2']:\n"
+             "        show(f'query_{case}_{model}_codexgen.pdf')"),
         markdown('## Reproduce\n\n'
                  'See vision_tokens/IMAGENETTE.md for complete commands,\n'
                  'upstream provenance, immutable model revision, and\n'
@@ -83,7 +96,7 @@ def create():
     nbformat.validate(notebook)
     target = root / 'notebooks/vision/imagenette_features_codexgen.ipynb'
     nbformat.write(notebook, target)
-    print('Executed four Imagenette/CNN/ViT notebook cells')
+    print('Executed five Imagenette/CNN/ViT notebook cells')
 
 
 if __name__ == '__main__':

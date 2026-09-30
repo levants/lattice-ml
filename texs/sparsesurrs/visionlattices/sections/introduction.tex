@@ -1,27 +1,28 @@
 \begin{abstract}
-Sparse surrogate models describe neural activations using a small number
-of active latent coordinates. We study how these coordinates can be
-combined into reproducible queries about images and spatial sites.
-Following a relation-induced construction for language-model features,
-we derive a lattice-theoretic formal context from nonnegative visual
-codes. Common descriptions are coordinatewise minima, and retrieval is
-coordinatewise threshold satisfaction. We retain the Galois-ideal and
-adjunction proofs and identify the construction with a pattern structure
-and, on finite data, an ordinally scaled classical context. The
-vision-specific issue is spatial quantification: max pooling allows
-different coordinates to be witnessed at different sites. We characterize
-when one vector can represent same-site evidence and give a downset-valued
-construction when it cannot. Three digit CNN/autoencoder runs evaluate
-held-out retrieval and reconstruction. A frozen ResNet34 with a sparse
-autoencoder supplies measured animal and vehicle feature galleries on a
-fixed 1,500-image CIFAR-10 subset. Additional Imagenette and Imagewoof
-experiments compare ResNet34 and DINOv2, combining dataset exemplars,
-optimized stimuli, and controlled response probes. Explicit query examples
-distinguish pooled matches from same-site witnesses. Exhaustive finite checks
-verify
-the algebra independently. Released code, weights, images, and activations
-make the examples auditable; the results do not establish causal or
-class-exclusive interpretations of the learned coordinates.
+    Sparse surrogate models describe neural activations using a small number
+    of active latent coordinates. We study how these coordinates can be
+    combined into reproducible queries about images and spatial sites.
+    Following a relation-induced construction for language-model features,
+    we derive a lattice-theoretic formal context from nonnegative visual
+    codes. Common descriptions are coordinatewise minima, and retrieval is
+    coordinatewise threshold satisfaction. We retain the Galois-ideal and
+    adjunction proofs and identify the construction with a pattern structure
+    and, on finite data, an ordinally scaled classical context. The
+    vision-specific issue is spatial quantification: max pooling allows
+    different coordinates to be witnessed at different sites. We characterize
+    when one vector can represent same-site evidence and give a downset-valued
+    construction when it cannot. Three digit CNN/autoencoder runs evaluate
+    held-out retrieval and reconstruction. A frozen ResNet34 with a sparse
+    autoencoder supplies measured animal and vehicle feature galleries on a
+    fixed 1,500-image CIFAR-10 subset. Additional Imagenette and Imagewoof
+    experiments compare ResNet34 and DINOv2, combining dataset exemplars,
+    optimized stimuli, and controlled response probes. Explicit query examples
+    distinguish pooled matches from same-site witnesses. Exhaustive finite
+    checks
+    verify
+    the algebra independently. Released code, weights, images, and activations
+    make the examples auditable; the results do not establish causal or
+    class-exclusive interpretations of the learned coordinates.
 \end{abstract}
 
 \noindent\textbf{Keywords:} formal concept analysis; pattern structures;
