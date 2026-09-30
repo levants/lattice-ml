@@ -57,3 +57,14 @@ notebook `notebooks/vision/imagenette_features_codexgen.ipynb`.
 
 The study follows Distill's multi-evidence approach to feature hypotheses.
 It does not claim to recover the same curve detectors or causal circuits.
+
+## Sparse vision features across datasets
+
+The native Overcomplete and pretrained SAE/transcoder study is documented in
+[the experiment README](vision_tokens/overcomplete/README.md). It includes
+36 local fits, two additional pretrained surrogates, patch-level lattice
+queries, cross-dataset galleries, and annotated controls. The executed
+[notebook](notebooks/vision/overcomplete_features_codexgen.ipynb) reloads
+measured evidence. Large weights and caches are supplied through
+[Releases](https://github.com/levants/lattice-ml/releases), with pinned
+upstream weights on Hugging Face.

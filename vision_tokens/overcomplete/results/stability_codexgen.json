@@ -1,0 +1,266 @@
+[
+  {
+    "family": "topk",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.37883853912353516,
+    "extent_jaccard": 0.3461106162110674,
+    "nonempty_comparisons": 1156
+  },
+  {
+    "family": "topk",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.38166987895965576,
+    "extent_jaccard": 0.3440455327921279,
+    "nonempty_comparisons": 1162
+  },
+  {
+    "family": "topk",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.3324646055698395,
+    "extent_jaccard": 0.32390487502085863,
+    "nonempty_comparisons": 1484
+  },
+  {
+    "family": "topk",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.33333733677864075,
+    "extent_jaccard": 0.3289389940679873,
+    "nonempty_comparisons": 1485
+  },
+  {
+    "family": "batchtopk",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.35888728499412537,
+    "extent_jaccard": 0.3493570152636626,
+    "nonempty_comparisons": 1067
+  },
+  {
+    "family": "batchtopk",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.35777685046195984,
+    "extent_jaccard": 0.35206384190028595,
+    "nonempty_comparisons": 1058
+  },
+  {
+    "family": "batchtopk",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.3309420049190521,
+    "extent_jaccard": 0.3341433375361752,
+    "nonempty_comparisons": 1494
+  },
+  {
+    "family": "batchtopk",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.33014050126075745,
+    "extent_jaccard": 0.33520164501490596,
+    "nonempty_comparisons": 1493
+  },
+  {
+    "family": "jump",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.28682956099510193,
+    "extent_jaccard": 0.3205682910951751,
+    "nonempty_comparisons": 1267
+  },
+  {
+    "family": "jump",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.2839617431163788,
+    "extent_jaccard": 0.3100246079697367,
+    "nonempty_comparisons": 1269
+  },
+  {
+    "family": "jump",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.26865097880363464,
+    "extent_jaccard": 0.3028463436502631,
+    "nonempty_comparisons": 1386
+  },
+  {
+    "family": "jump",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.2676093280315399,
+    "extent_jaccard": 0.301093215084602,
+    "nonempty_comparisons": 1386
+  },
+  {
+    "family": "relu",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.23239131271839142,
+    "extent_jaccard": 0.07603442456708666,
+    "nonempty_comparisons": 1536
+  },
+  {
+    "family": "relu",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.2332959920167923,
+    "extent_jaccard": 0.07964758204106438,
+    "nonempty_comparisons": 1536
+  },
+  {
+    "family": "relu",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.3266913592815399,
+    "extent_jaccard": 0.108871744103587,
+    "nonempty_comparisons": 1458
+  },
+  {
+    "family": "relu",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.3237024247646332,
+    "extent_jaccard": 0.11101128874622006,
+    "nonempty_comparisons": 1458
+  },
+  {
+    "family": "archetypal",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.6082656979560852,
+    "extent_jaccard": 0.17230437095118264,
+    "nonempty_comparisons": 1536
+  },
+  {
+    "family": "archetypal",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.604582667350769,
+    "extent_jaccard": 0.17197873196837868,
+    "nonempty_comparisons": 1536
+  },
+  {
+    "family": "archetypal",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.571409285068512,
+    "extent_jaccard": 0.2469699957549466,
+    "nonempty_comparisons": 1536
+  },
+  {
+    "family": "archetypal",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.5609034895896912,
+    "extent_jaccard": 0.2459882658083784,
+    "nonempty_comparisons": 1536
+  },
+  {
+    "family": "relu_fixed",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.29679980874061584,
+    "extent_jaccard": 0.46734444785747753,
+    "nonempty_comparisons": 1536
+  },
+  {
+    "family": "relu_fixed",
+    "budget": 16,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.29470375180244446,
+    "extent_jaccard": 0.47095975133471285,
+    "nonempty_comparisons": 1536
+  },
+  {
+    "family": "relu_fixed",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      1
+    ],
+    "decoder_cosine": 0.2106587141752243,
+    "extent_jaccard": 0.42781295324140206,
+    "nonempty_comparisons": 1536
+  },
+  {
+    "family": "relu_fixed",
+    "budget": 32,
+    "seed_pair": [
+      0,
+      2
+    ],
+    "decoder_cosine": 0.2094907909631729,
+    "extent_jaccard": 0.4274595883665853,
+    "nonempty_comparisons": 1536
+  }
+]

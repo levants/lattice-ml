@@ -1,0 +1,414 @@
+[
+  {
+    "operation": "meet",
+    "query": [
+      3.044595241546631,
+      1.8401111960411072
+    ],
+    "position": 39,
+    "codes": [
+      10.135900497436523,
+      7.900836944580078
+    ],
+    "dataset": "pets",
+    "row": 72,
+    "record": {
+      "dataset": "pets",
+      "source": "english_setter_99",
+      "label": "english_setter",
+      "split": "test",
+      "mirror_row": 72
+    }
+  },
+  {
+    "operation": "meet",
+    "query": [
+      3.044595241546631,
+      1.8401111960411072
+    ],
+    "position": 137,
+    "codes": [
+      10.038341522216797,
+      9.113532066345215
+    ],
+    "dataset": "imagenette",
+    "row": 261,
+    "record": {
+      "dataset": "imagenette",
+      "source": "imagenette2-320/val/n02102040/ILSVRC2012_val_00007032.JPEG",
+      "label": "English springer",
+      "split": "test"
+    }
+  },
+  {
+    "operation": "meet",
+    "query": [
+      3.044595241546631,
+      1.8401111960411072
+    ],
+    "position": 122,
+    "codes": [
+      10.019063949584961,
+      7.992586612701416
+    ],
+    "dataset": "pets",
+    "row": 19,
+    "record": {
+      "dataset": "pets",
+      "source": "american_pit_bull_terrier_58",
+      "label": "american_pit_bull_terrier",
+      "split": "test",
+      "mirror_row": 19
+    }
+  },
+  {
+    "operation": "meet",
+    "query": [
+      3.044595241546631,
+      1.8401111960411072
+    ],
+    "position": 73,
+    "codes": [
+      9.919849395751953,
+      11.219335556030273
+    ],
+    "dataset": "parts",
+    "row": 23,
+    "record": {
+      "dataset": "parts",
+      "source": "PartImageNet/images/test/n02102973_1226.JPEG",
+      "split": "test",
+      "label": "n02102973"
+    }
+  },
+  {
+    "operation": "meet",
+    "query": [
+      3.044595241546631,
+      1.8401111960411072
+    ],
+    "position": 105,
+    "codes": [
+      9.867833137512207,
+      9.411205291748047
+    ],
+    "dataset": "pets",
+    "row": 158,
+    "record": {
+      "dataset": "pets",
+      "source": "keeshond_3",
+      "label": "keeshond",
+      "split": "test",
+      "mirror_row": 158
+    }
+  },
+  {
+    "operation": "u",
+    "query": [
+      3.044595241546631,
+      3.764822435379028
+    ],
+    "position": 91,
+    "codes": [
+      9.52913761138916,
+      11.782383918762207
+    ],
+    "dataset": "pets",
+    "row": 72,
+    "record": {
+      "dataset": "pets",
+      "source": "english_setter_99",
+      "label": "english_setter",
+      "split": "test",
+      "mirror_row": 72
+    }
+  },
+  {
+    "operation": "u",
+    "query": [
+      3.044595241546631,
+      3.764822435379028
+    ],
+    "position": 104,
+    "codes": [
+      9.441513061523438,
+      11.73493766784668
+    ],
+    "dataset": "pets",
+    "row": 19,
+    "record": {
+      "dataset": "pets",
+      "source": "american_pit_bull_terrier_58",
+      "label": "american_pit_bull_terrier",
+      "split": "test",
+      "mirror_row": 19
+    }
+  },
+  {
+    "operation": "u",
+    "query": [
+      3.044595241546631,
+      3.764822435379028
+    ],
+    "position": 122,
+    "codes": [
+      9.450203895568848,
+      11.57180118560791
+    ],
+    "dataset": "pets",
+    "row": 110,
+    "record": {
+      "dataset": "pets",
+      "source": "boxer_84",
+      "label": "boxer",
+      "split": "test",
+      "mirror_row": 110
+    }
+  },
+  {
+    "operation": "u",
+    "query": [
+      3.044595241546631,
+      3.764822435379028
+    ],
+    "position": 90,
+    "codes": [
+      9.193564414978027,
+      11.366104125976562
+    ],
+    "dataset": "parts",
+    "row": 23,
+    "record": {
+      "dataset": "parts",
+      "source": "PartImageNet/images/test/n02102973_1226.JPEG",
+      "split": "test",
+      "label": "n02102973"
+    }
+  },
+  {
+    "operation": "u",
+    "query": [
+      3.044595241546631,
+      3.764822435379028
+    ],
+    "position": 104,
+    "codes": [
+      9.217802047729492,
+      11.35837459564209
+    ],
+    "dataset": "pets",
+    "row": 66,
+    "record": {
+      "dataset": "pets",
+      "source": "saint_bernard_50",
+      "label": "saint_bernard",
+      "split": "test",
+      "mirror_row": 66
+    }
+  },
+  {
+    "operation": "v",
+    "query": [
+      5.358127307891846,
+      1.8401111960411072
+    ],
+    "position": 138,
+    "codes": [
+      11.118705749511719,
+      5.794491291046143
+    ],
+    "dataset": "imagenette",
+    "row": 261,
+    "record": {
+      "dataset": "imagenette",
+      "source": "imagenette2-320/val/n02102040/ILSVRC2012_val_00007032.JPEG",
+      "label": "English springer",
+      "split": "test"
+    }
+  },
+  {
+    "operation": "v",
+    "query": [
+      5.358127307891846,
+      1.8401111960411072
+    ],
+    "position": 69,
+    "codes": [
+      10.1480712890625,
+      4.683950901031494
+    ],
+    "dataset": "imagewoof",
+    "row": 15,
+    "record": {
+      "dataset": "imagewoof",
+      "source": "imagewoof2-320/val/n02087394/ILSVRC2012_val_00009470.JPEG",
+      "label": "Rhodesian ridgeback",
+      "split": "test"
+    }
+  },
+  {
+    "operation": "v",
+    "query": [
+      5.358127307891846,
+      1.8401111960411072
+    ],
+    "position": 39,
+    "codes": [
+      10.135900497436523,
+      7.900836944580078
+    ],
+    "dataset": "pets",
+    "row": 72,
+    "record": {
+      "dataset": "pets",
+      "source": "english_setter_99",
+      "label": "english_setter",
+      "split": "test",
+      "mirror_row": 72
+    }
+  },
+  {
+    "operation": "v",
+    "query": [
+      5.358127307891846,
+      1.8401111960411072
+    ],
+    "position": 122,
+    "codes": [
+      10.019063949584961,
+      7.992586612701416
+    ],
+    "dataset": "pets",
+    "row": 19,
+    "record": {
+      "dataset": "pets",
+      "source": "american_pit_bull_terrier_58",
+      "label": "american_pit_bull_terrier",
+      "split": "test",
+      "mirror_row": 19
+    }
+  },
+  {
+    "operation": "v",
+    "query": [
+      5.358127307891846,
+      1.8401111960411072
+    ],
+    "position": 73,
+    "codes": [
+      9.919849395751953,
+      11.219335556030273
+    ],
+    "dataset": "parts",
+    "row": 23,
+    "record": {
+      "dataset": "parts",
+      "source": "PartImageNet/images/test/n02102973_1226.JPEG",
+      "split": "test",
+      "label": "n02102973"
+    }
+  },
+  {
+    "operation": "join",
+    "query": [
+      5.358127307891846,
+      3.764822435379028
+    ],
+    "position": 39,
+    "codes": [
+      10.135900497436523,
+      7.900836944580078
+    ],
+    "dataset": "pets",
+    "row": 72,
+    "record": {
+      "dataset": "pets",
+      "source": "english_setter_99",
+      "label": "english_setter",
+      "split": "test",
+      "mirror_row": 72
+    }
+  },
+  {
+    "operation": "join",
+    "query": [
+      5.358127307891846,
+      3.764822435379028
+    ],
+    "position": 137,
+    "codes": [
+      10.038341522216797,
+      9.113532066345215
+    ],
+    "dataset": "imagenette",
+    "row": 261,
+    "record": {
+      "dataset": "imagenette",
+      "source": "imagenette2-320/val/n02102040/ILSVRC2012_val_00007032.JPEG",
+      "label": "English springer",
+      "split": "test"
+    }
+  },
+  {
+    "operation": "join",
+    "query": [
+      5.358127307891846,
+      3.764822435379028
+    ],
+    "position": 122,
+    "codes": [
+      10.019063949584961,
+      7.992586612701416
+    ],
+    "dataset": "pets",
+    "row": 19,
+    "record": {
+      "dataset": "pets",
+      "source": "american_pit_bull_terrier_58",
+      "label": "american_pit_bull_terrier",
+      "split": "test",
+      "mirror_row": 19
+    }
+  },
+  {
+    "operation": "join",
+    "query": [
+      5.358127307891846,
+      3.764822435379028
+    ],
+    "position": 73,
+    "codes": [
+      9.919849395751953,
+      11.219335556030273
+    ],
+    "dataset": "parts",
+    "row": 23,
+    "record": {
+      "dataset": "parts",
+      "source": "PartImageNet/images/test/n02102973_1226.JPEG",
+      "split": "test",
+      "label": "n02102973"
+    }
+  },
+  {
+    "operation": "join",
+    "query": [
+      5.358127307891846,
+      3.764822435379028
+    ],
+    "position": 105,
+    "codes": [
+      9.867833137512207,
+      9.411205291748047
+    ],
+    "dataset": "pets",
+    "row": 158,
+    "record": {
+      "dataset": "pets",
+      "source": "keeshond_3",
+      "label": "keeshond",
+      "split": "test",
+      "mirror_row": 158
+    }
+  }
+]

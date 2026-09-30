@@ -255,3 +255,11 @@ others/**
 **/.venv/
 **/__pycache__/
 **/par-6c7473696e61647a65/
+
+# Overcomplete artifact bundles are distributed through Releases.
+vision_tokens/overcomplete/activations/
+vision_tokens/overcomplete/checkpoints/
+vision_tokens/overcomplete/codes/
+vision_tokens/overcomplete/dataset/
+vision_tokens/overcomplete/downloads/
+vision_tokens/overcomplete/releases/

@@ -1,0 +1,340 @@
+{
+  "model": "jump_k32_s0",
+  "dataset": "dtd",
+  "metrics": {
+    "test": {
+      "images": 94,
+      "r2": 0.3436548428340216,
+      "l0": 69.48466589095744
+    },
+    "train": {
+      "images": 94,
+      "r2": 0.35528857729772234,
+      "l0": 69.03640292553192
+    },
+    "val": {
+      "images": 94,
+      "r2": 0.36539521294008026,
+      "l0": 69.61573304521276
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        1503,
+        1021
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.7039520740509033,
+            6.293859767913818
+          ],
+          "closed": [
+            5.116885185241699,
+            6.293859767913818
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            7.535677814483643,
+            3.4666619300842285
+          ],
+          "closed": [
+            7.535677814483643,
+            4.875283241271973
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            3.7039520740509033,
+            3.4666619300842285
+          ],
+          "closed": [
+            5.116885185241699,
+            4.875283241271973
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            7.535677814483643,
+            6.293859767913818
+          ],
+          "closed": [
+            7.535677814483643,
+            6.293859767913818
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        1385,
+        253
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.7405292987823486,
+            4.666643810272217
+          ],
+          "closed": [
+            2.811086893081665,
+            4.712818622589111
+          ],
+          "pooled_test": 11,
+          "common_test": 11,
+          "test_labels": [
+            "blotchy",
+            "flecked",
+            "gauzy",
+            "matted",
+            "meshed",
+            "perforated",
+            "pitted",
+            "stained",
+            "veined",
+            "woven"
+          ],
+          "test_label_count": 10,
+          "test_sites": 13
+        },
+        "v": {
+          "query": [
+            4.703223037719726,
+            2.709041118621826
+          ],
+          "closed": [
+            4.783993721008301,
+            2.7145638465881348
+          ],
+          "pooled_test": 12,
+          "common_test": 11,
+          "test_labels": [
+            "braided",
+            "flecked",
+            "gauzy",
+            "matted",
+            "meshed",
+            "pitted",
+            "spiralled",
+            "stratified",
+            "veined",
+            "woven"
+          ],
+          "test_label_count": 10,
+          "test_sites": 17
+        },
+        "meet": {
+          "query": [
+            2.7405292987823486,
+            2.709041118621826
+          ],
+          "closed": [
+            2.760338068008423,
+            2.7145638465881348
+          ],
+          "pooled_test": 19,
+          "common_test": 18,
+          "test_labels": [
+            "blotchy",
+            "braided",
+            "cracked",
+            "fibrous",
+            "flecked",
+            "gauzy",
+            "matted",
+            "meshed",
+            "perforated",
+            "pitted",
+            "spiralled",
+            "stained",
+            "stratified",
+            "veined",
+            "woven"
+          ],
+          "test_label_count": 15,
+          "test_sites": 32
+        },
+        "join": {
+          "query": [
+            4.703223037719726,
+            4.666643810272217
+          ],
+          "closed": [
+            4.90702486038208,
+            4.871395111083984
+          ],
+          "pooled_test": 7,
+          "common_test": 6,
+          "test_labels": [
+            "flecked",
+            "gauzy",
+            "meshed",
+            "pitted",
+            "veined"
+          ],
+          "test_label_count": 5,
+          "test_sites": 6
+        }
+      }
+    },
+    {
+      "features": [
+        399,
+        14
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            4.245789051055908,
+            4.149318599700929
+          ],
+          "closed": [
+            4.419187545776367,
+            4.177837371826172
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            7.113207721710205,
+            1.9761778116226196
+          ],
+          "closed": [
+            7.13942289352417,
+            2.087127923965454
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            4.245789051055908,
+            1.9761778116226196
+          ],
+          "closed": [
+            4.416065216064453,
+            2.087127923965454
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            7.113207721710205,
+            4.149318599700929
+          ],
+          "closed": [
+            7.854350566864014,
+            6.908748626708984
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        585,
+        650
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.1633503437042236,
+            5.040864372253418
+          ],
+          "closed": [
+            5.503828048706055,
+            5.6759514808654785
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            5.513796710968018,
+            3.101790189743042
+          ],
+          "closed": [
+            5.513796710968018,
+            5.6759514808654785
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            3.1633503437042236,
+            3.101790189743042
+          ],
+          "closed": [
+            3.216315269470215,
+            3.1202287673950195
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            5.513796710968018,
+            5.040864372253418
+          ],
+          "closed": [
+            5.513796710968018,
+            5.6759514808654785
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

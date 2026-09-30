@@ -1,0 +1,328 @@
+{
+  "model": "archetypal_k32_s0",
+  "dataset": "imagenette",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 0.46161352772031883,
+      "l0": 32.0
+    },
+    "train": {
+      "images": 200,
+      "r2": 0.6184595635446315,
+      "l0": 32.0
+    },
+    "val": {
+      "images": 50,
+      "r2": 0.4658156841771911,
+      "l0": 32.0
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        816,
+        661
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.6438028812408447,
+            2.4419875621795657
+          ],
+          "closed": [
+            0.6593852043151855,
+            2.453620672225952
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 82
+        },
+        "v": {
+          "query": [
+            1.2313790321350098,
+            0.9315451979637146
+          ],
+          "closed": [
+            1.2313790321350098,
+            0.96748948097229
+          ],
+          "pooled_test": 10,
+          "common_test": 9,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 90
+        },
+        "meet": {
+          "query": [
+            0.6438028812408447,
+            0.9315451979637146
+          ],
+          "closed": [
+            0.6454195976257324,
+            0.96748948097229
+          ],
+          "pooled_test": 11,
+          "common_test": 10,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 131
+        },
+        "join": {
+          "query": [
+            1.2313790321350098,
+            2.4419875621795657
+          ],
+          "closed": [
+            1.2313790321350098,
+            2.453620672225952
+          ],
+          "pooled_test": 9,
+          "common_test": 9,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 63
+        }
+      }
+    },
+    {
+      "features": [
+        810,
+        194
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.7018867135047913,
+            3.463176441192627
+          ],
+          "closed": [
+            0.7019461989402771,
+            3.4654147624969482
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 69
+        },
+        "v": {
+          "query": [
+            1.7482557773590097,
+            1.2101449966430664
+          ],
+          "closed": [
+            1.7603973150253296,
+            1.2522755861282349
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 74
+        },
+        "meet": {
+          "query": [
+            0.7018867135047913,
+            1.2101449966430664
+          ],
+          "closed": [
+            0.7018867135047913,
+            1.2465806007385254
+          ],
+          "pooled_test": 11,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 130
+        },
+        "join": {
+          "query": [
+            1.7482557773590097,
+            3.463176441192627
+          ],
+          "closed": [
+            1.7612297534942627,
+            3.4688713550567627
+          ],
+          "pooled_test": 10,
+          "common_test": 8,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 26
+        }
+      }
+    },
+    {
+      "features": [
+        1203,
+        990
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            1.1492362022399902,
+            3.452741146087647
+          ],
+          "closed": [
+            1.1805202960968018,
+            3.4576220512390137
+          ],
+          "pooled_test": 6,
+          "common_test": 1,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 1
+        },
+        "v": {
+          "query": [
+            2.911696290969849,
+            1.350205898284912
+          ],
+          "closed": [
+            2.9123802185058594,
+            1.3836778402328491
+          ],
+          "pooled_test": 6,
+          "common_test": 4,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 9
+        },
+        "meet": {
+          "query": [
+            1.1492362022399902,
+            1.350205898284912
+          ],
+          "closed": [
+            1.1492362022399902,
+            1.350205898284912
+          ],
+          "pooled_test": 9,
+          "common_test": 8,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 83
+        },
+        "join": {
+          "query": [
+            2.911696290969849,
+            3.452741146087647
+          ],
+          "closed": [
+            5.785056114196777,
+            4.769473552703857
+          ],
+          "pooled_test": 5,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        420,
+        54
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.6783045530319214,
+            1.817221832275392
+          ],
+          "closed": [
+            0.6787916421890259,
+            1.8256306648254395
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 81
+        },
+        "v": {
+          "query": [
+            2.2245850563049316,
+            0.7118085622787476
+          ],
+          "closed": [
+            2.2245850563049316,
+            0.7229160070419312
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 56
+        },
+        "meet": {
+          "query": [
+            0.6783045530319214,
+            0.7118085622787476
+          ],
+          "closed": [
+            0.6787916421890259,
+            0.7126708626747131
+          ],
+          "pooled_test": 26,
+          "common_test": 12,
+          "test_labels": [
+            "English springer",
+            "golf ball",
+            "tench"
+          ],
+          "test_label_count": 3,
+          "test_sites": 127
+        },
+        "join": {
+          "query": [
+            2.2245850563049316,
+            1.817221832275392
+          ],
+          "closed": [
+            2.2439491748809814,
+            1.833423137664795
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 41
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

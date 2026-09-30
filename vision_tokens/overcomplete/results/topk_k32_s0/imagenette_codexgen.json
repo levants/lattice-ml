@@ -1,0 +1,349 @@
+{
+  "model": "topk_k32_s0",
+  "dataset": "imagenette",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 0.616471446463623,
+      "l0": 32.0
+    },
+    "train": {
+      "images": 200,
+      "r2": 0.804322709786004,
+      "l0": 32.0
+    },
+    "val": {
+      "images": 50,
+      "r2": 0.6187671729597377,
+      "l0": 32.0
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        329,
+        507
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.25716495513916,
+            6.6174119949340815
+          ],
+          "closed": [
+            3.322530746459961,
+            6.642177581787109
+          ],
+          "pooled_test": 6,
+          "common_test": 6,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 40
+        },
+        "v": {
+          "query": [
+            5.626354026794434,
+            2.67892849445343
+          ],
+          "closed": [
+            5.626498222351074,
+            2.6865828037261963
+          ],
+          "pooled_test": 14,
+          "common_test": 13,
+          "test_labels": [
+            "English springer",
+            "French horn",
+            "tench"
+          ],
+          "test_label_count": 3,
+          "test_sites": 44
+        },
+        "meet": {
+          "query": [
+            3.25716495513916,
+            2.67892849445343
+          ],
+          "closed": [
+            3.25761342048645,
+            2.683337926864624
+          ],
+          "pooled_test": 20,
+          "common_test": 19,
+          "test_labels": [
+            "English springer",
+            "French horn",
+            "tench"
+          ],
+          "test_label_count": 3,
+          "test_sites": 96
+        },
+        "join": {
+          "query": [
+            5.626354026794434,
+            6.6174119949340815
+          ],
+          "closed": [
+            5.626498222351074,
+            6.642177581787109
+          ],
+          "pooled_test": 4,
+          "common_test": 4,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 10
+        }
+      }
+    },
+    {
+      "features": [
+        1430,
+        871
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.5386639833450317,
+            4.652106952667237
+          ],
+          "closed": [
+            2.7859420776367188,
+            4.654541492462158
+          ],
+          "pooled_test": 9,
+          "common_test": 8,
+          "test_labels": [
+            "English springer",
+            "French horn"
+          ],
+          "test_label_count": 2,
+          "test_sites": 39
+        },
+        "v": {
+          "query": [
+            4.954473304748535,
+            2.143723249435425
+          ],
+          "closed": [
+            4.9574480056762695,
+            2.17806077003479
+          ],
+          "pooled_test": 11,
+          "common_test": 9,
+          "test_labels": [
+            "English springer",
+            "French horn"
+          ],
+          "test_label_count": 2,
+          "test_sites": 42
+        },
+        "meet": {
+          "query": [
+            2.5386639833450317,
+            2.143723249435425
+          ],
+          "closed": [
+            2.5614545345306396,
+            2.1757137775421143
+          ],
+          "pooled_test": 16,
+          "common_test": 15,
+          "test_labels": [
+            "English springer",
+            "French horn",
+            "tench"
+          ],
+          "test_label_count": 3,
+          "test_sites": 71
+        },
+        "join": {
+          "query": [
+            4.954473304748535,
+            4.652106952667237
+          ],
+          "closed": [
+            4.960638999938965,
+            4.654541492462158
+          ],
+          "pooled_test": 8,
+          "common_test": 7,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 28
+        }
+      }
+    },
+    {
+      "features": [
+        54,
+        585
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.2474822998046875,
+            4.4676864624023445
+          ],
+          "closed": [
+            2.257826566696167,
+            4.470491409301758
+          ],
+          "pooled_test": 9,
+          "common_test": 8,
+          "test_labels": [
+            "French horn",
+            "gas pump",
+            "parachute"
+          ],
+          "test_label_count": 3,
+          "test_sites": 96
+        },
+        "v": {
+          "query": [
+            5.329720878601075,
+            2.5424755811691284
+          ],
+          "closed": [
+            5.363880157470703,
+            2.554342746734619
+          ],
+          "pooled_test": 6,
+          "common_test": 6,
+          "test_labels": [
+            "French horn",
+            "tench"
+          ],
+          "test_label_count": 2,
+          "test_sites": 50
+        },
+        "meet": {
+          "query": [
+            2.2474822998046875,
+            2.5424755811691284
+          ],
+          "closed": [
+            2.2474822998046875,
+            2.554342746734619
+          ],
+          "pooled_test": 17,
+          "common_test": 13,
+          "test_labels": [
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "parachute",
+            "tench"
+          ],
+          "test_label_count": 5,
+          "test_sites": 129
+        },
+        "join": {
+          "query": [
+            5.329720878601075,
+            4.4676864624023445
+          ],
+          "closed": [
+            5.363880157470703,
+            4.470491409301758
+          ],
+          "pooled_test": 5,
+          "common_test": 5,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 39
+        }
+      }
+    },
+    {
+      "features": [
+        468,
+        1271
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.044595241546631,
+            3.764822435379028
+          ],
+          "closed": [
+            3.049787998199463,
+            3.770148515701294
+          ],
+          "pooled_test": 13,
+          "common_test": 13,
+          "test_labels": [
+            "English springer",
+            "golf ball",
+            "tench"
+          ],
+          "test_label_count": 3,
+          "test_sites": 50
+        },
+        "v": {
+          "query": [
+            5.358127307891846,
+            1.8401111960411072
+          ],
+          "closed": [
+            5.400088787078857,
+            1.8917423486709595
+          ],
+          "pooled_test": 15,
+          "common_test": 14,
+          "test_labels": [
+            "English springer",
+            "tench"
+          ],
+          "test_label_count": 2,
+          "test_sites": 46
+        },
+        "meet": {
+          "query": [
+            3.044595241546631,
+            1.8401111960411072
+          ],
+          "closed": [
+            3.045915365219116,
+            1.8446141481399536
+          ],
+          "pooled_test": 19,
+          "common_test": 16,
+          "test_labels": [
+            "English springer",
+            "golf ball",
+            "tench"
+          ],
+          "test_label_count": 3,
+          "test_sites": 79
+        },
+        "join": {
+          "query": [
+            5.358127307891846,
+            3.764822435379028
+          ],
+          "closed": [
+            5.43427848815918,
+            3.770148515701294
+          ],
+          "pooled_test": 12,
+          "common_test": 11,
+          "test_labels": [
+            "English springer",
+            "tench"
+          ],
+          "test_label_count": 2,
+          "test_sites": 33
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

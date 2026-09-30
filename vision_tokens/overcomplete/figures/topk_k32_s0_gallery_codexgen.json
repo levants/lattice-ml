@@ -1,0 +1,170 @@
+[
+  {
+    "model": "topk_k32_s0",
+    "feature": 253,
+    "dataset": "imagenette",
+    "row": 333,
+    "position": 3,
+    "response": 12.45995044708252,
+    "source": "imagenette2-320/val/n03445777/ILSVRC2012_val_00011581.JPEG",
+    "label": "golf ball",
+    "split": "test"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 329,
+    "dataset": "imagenette",
+    "row": 256,
+    "position": 39,
+    "response": 11.307916641235352,
+    "source": "imagenette2-320/val/n01440764/ILSVRC2012_val_00030740.JPEG",
+    "label": "tench",
+    "split": "test"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 177,
+    "dataset": "imagenette",
+    "row": 305,
+    "position": 239,
+    "response": 11.530562400817871,
+    "source": "imagenette2-320/val/n03394916/ILSVRC2012_val_00011691.JPEG",
+    "label": "French horn",
+    "split": "test"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 253,
+    "dataset": "imagewoof",
+    "row": 16,
+    "position": 3,
+    "response": 13.502580642700195,
+    "source": "imagewoof2-320/val/n02087394/ILSVRC2012_val_00016510.JPEG",
+    "label": "Rhodesian ridgeback",
+    "split": "test"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 329,
+    "dataset": "imagewoof",
+    "row": 37,
+    "position": 134,
+    "response": 10.261758804321289,
+    "source": "imagewoof2-320/val/n02089973/ILSVRC2012_val_00036191.JPEG",
+    "label": "English foxhound",
+    "split": "test"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 177,
+    "dataset": "imagewoof",
+    "row": 95,
+    "position": 45,
+    "response": 9.65147590637207,
+    "source": "imagewoof2-320/val/n02115641/ILSVRC2012_val_00011750.JPEG",
+    "label": "Dingo",
+    "split": "test"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 253,
+    "dataset": "pets",
+    "row": 149,
+    "position": 3,
+    "response": 13.31265640258789,
+    "source": "newfoundland_75",
+    "label": "newfoundland",
+    "split": "test",
+    "mirror_row": 149
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 329,
+    "dataset": "pets",
+    "row": 137,
+    "position": 66,
+    "response": 10.042101860046387,
+    "source": "miniature_pinscher_35",
+    "label": "miniature_pinscher",
+    "split": "test",
+    "mirror_row": 137
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 177,
+    "dataset": "pets",
+    "row": 177,
+    "position": 28,
+    "response": 13.00214958190918,
+    "source": "great_pyrenees_52",
+    "label": "great_pyrenees",
+    "split": "test",
+    "mirror_row": 177
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 253,
+    "dataset": "parts",
+    "row": 23,
+    "position": 3,
+    "response": 12.583362579345703,
+    "source": "PartImageNet/images/test/n02102973_1226.JPEG",
+    "split": "test",
+    "label": "n02102973"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 329,
+    "dataset": "parts",
+    "row": 19,
+    "position": 87,
+    "response": 9.340005874633789,
+    "source": "PartImageNet/images/test/n02090379_1318.JPEG",
+    "split": "test",
+    "label": "n02090379"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 177,
+    "dataset": "parts",
+    "row": 40,
+    "position": 235,
+    "response": 11.469077110290527,
+    "source": "PartImageNet/images/test/n02607072_1485.JPEG",
+    "split": "test",
+    "label": "n02607072"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 253,
+    "dataset": "dtd",
+    "row": 218,
+    "position": 45,
+    "response": 12.446306228637695,
+    "source": "gauzy/gauzy_0008.jpg",
+    "split": "test",
+    "label": "gauzy"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 329,
+    "dataset": "dtd",
+    "row": 278,
+    "position": 246,
+    "response": 3.6764793395996094,
+    "source": "wrinkled/wrinkled_0010.jpg",
+    "split": "test",
+    "label": "wrinkled"
+  },
+  {
+    "model": "topk_k32_s0",
+    "feature": 177,
+    "dataset": "dtd",
+    "row": 218,
+    "position": 45,
+    "response": 6.348291873931885,
+    "source": "gauzy/gauzy_0008.jpg",
+    "split": "test",
+    "label": "gauzy"
+  }
+]

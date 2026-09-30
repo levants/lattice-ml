@@ -1,0 +1,792 @@
+{
+  "local": [
+    {
+      "family": "topk",
+      "label": "TopK",
+      "budget": 16,
+      "r2": {
+        "mean": 0.5823187165477639,
+        "sd": 0.00026561912995702434
+      },
+      "l0": {
+        "mean": 16.0,
+        "sd": 0.0
+      }
+    },
+    {
+      "family": "topk",
+      "label": "TopK",
+      "budget": 32,
+      "r2": {
+        "mean": 0.6159347569466632,
+        "sd": 0.0006797516206504643
+      },
+      "l0": {
+        "mean": 32.0,
+        "sd": 0.0
+      }
+    },
+    {
+      "family": "batchtopk",
+      "label": "BatchTopK",
+      "budget": 16,
+      "r2": {
+        "mean": 0.5998271616276166,
+        "sd": 0.000674446924360351
+      },
+      "l0": {
+        "mean": 23.087604166666665,
+        "sd": 0.1386995149244118
+      }
+    },
+    {
+      "family": "batchtopk",
+      "label": "BatchTopK",
+      "budget": 32,
+      "r2": {
+        "mean": 0.6386515598961067,
+        "sd": 0.0010171652907299952
+      },
+      "l0": {
+        "mean": 47.45157552083333,
+        "sd": 0.02603926095658758
+      }
+    },
+    {
+      "family": "jump",
+      "label": "JumpReLU",
+      "budget": 16,
+      "r2": {
+        "mean": 0.6326944840152166,
+        "sd": 0.0011827536135800515
+      },
+      "l0": {
+        "mean": 46.86380208333333,
+        "sd": 0.8314692849247481
+      }
+    },
+    {
+      "family": "jump",
+      "label": "JumpReLU",
+      "budget": 32,
+      "r2": {
+        "mean": 0.6471156060935379,
+        "sd": 0.001115472403543808
+      },
+      "l0": {
+        "mean": 60.17869791666667,
+        "sd": 1.4544920350336723
+      }
+    },
+    {
+      "family": "archetypal",
+      "label": "RA-TopK",
+      "budget": 16,
+      "r2": {
+        "mean": 0.4413440555057366,
+        "sd": 0.00667022690835306
+      },
+      "l0": {
+        "mean": 16.0,
+        "sd": 0.0
+      }
+    },
+    {
+      "family": "archetypal",
+      "label": "RA-TopK",
+      "budget": 32,
+      "r2": {
+        "mean": 0.45602602142934384,
+        "sd": 0.0051653918840495186
+      },
+      "l0": {
+        "mean": 32.0,
+        "sd": 0.0
+      }
+    },
+    {
+      "family": "relu_fixed",
+      "label": "ReLU (fixed)",
+      "budget": 16,
+      "r2": {
+        "mean": 0.7008708075666501,
+        "sd": 0.0002695288704362346
+      },
+      "l0": {
+        "mean": 435.3641666666667,
+        "sd": 0.9801260920261151
+      }
+    },
+    {
+      "family": "relu_fixed",
+      "label": "ReLU (fixed)",
+      "budget": 32,
+      "r2": {
+        "mean": 0.7938680812813397,
+        "sd": 0.0002843576705579114
+      },
+      "l0": {
+        "mean": 554.4696875000001,
+        "sd": 0.33604991987056304
+      }
+    }
+  ],
+  "transfer": [
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagenette",
+      "images": 100,
+      "r2": 0.616471446463623,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.5963389088488359,
+        0.6379178168155698
+      ]
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "imagewoof",
+      "images": 100,
+      "r2": 0.44751264628366916,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.4370567989595904,
+        0.4578895624280521
+      ]
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "pets",
+      "images": 200,
+      "r2": 0.4181014905059589,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.40627310806662725,
+        0.4301134130535607
+      ]
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "parts",
+      "images": 53,
+      "r2": 0.3512209529875904,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.32318434932855494,
+        0.38288058027835564
+      ]
+    },
+    {
+      "model": "topk_k32_s0",
+      "dataset": "dtd",
+      "images": 94,
+      "r2": 0.27232943161607437,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.2599751144875864,
+        0.28463795912530643
+      ]
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagenette",
+      "images": 100,
+      "r2": 0.6398242497503708,
+      "l0": 47.4362109375,
+      "image_bootstrap_95": [
+        0.622188521254372,
+        0.6582562487980028
+      ]
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "imagewoof",
+      "images": 100,
+      "r2": 0.48507748423889674,
+      "l0": 58.0978515625,
+      "image_bootstrap_95": [
+        0.4753407911745253,
+        0.494830716984623
+      ]
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "pets",
+      "images": 200,
+      "r2": 0.4584554433790132,
+      "l0": 60.02841796875,
+      "image_bootstrap_95": [
+        0.4475865599876949,
+        0.46928921547754343
+      ]
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "parts",
+      "images": 53,
+      "r2": 0.3948689501196374,
+      "l0": 61.48525943396226,
+      "image_bootstrap_95": [
+        0.36817590180261595,
+        0.4243574061507955
+      ]
+    },
+    {
+      "model": "batchtopk_k32_s0",
+      "dataset": "dtd",
+      "images": 94,
+      "r2": 0.3315417838401805,
+      "l0": 66.39353390957447,
+      "image_bootstrap_95": [
+        0.31938830262994006,
+        0.34358402559495216
+      ]
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagenette",
+      "images": 100,
+      "r2": 0.6479143594324341,
+      "l0": 61.8335546875,
+      "image_bootstrap_95": [
+        0.6305960880202742,
+        0.6659154876952068
+      ]
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "imagewoof",
+      "images": 100,
+      "r2": 0.4982506907566112,
+      "l0": 70.0198046875,
+      "image_bootstrap_95": [
+        0.4886046116924531,
+        0.5078681520130274
+      ]
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "pets",
+      "images": 200,
+      "r2": 0.46968858092550714,
+      "l0": 69.42951171875,
+      "image_bootstrap_95": [
+        0.4589559705051609,
+        0.4804755983489852
+      ]
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "parts",
+      "images": 53,
+      "r2": 0.40716786359090884,
+      "l0": 68.75405365566037,
+      "image_bootstrap_95": [
+        0.3802592794293114,
+        0.43719668559305797
+      ]
+    },
+    {
+      "model": "jump_k32_s0",
+      "dataset": "dtd",
+      "images": 94,
+      "r2": 0.3436548428340216,
+      "l0": 69.48466589095744,
+      "image_bootstrap_95": [
+        0.33130489131320195,
+        0.35564796658125863
+      ]
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagenette",
+      "images": 100,
+      "r2": 0.46161352772031883,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.4353392604540857,
+        0.48897171287063673
+      ]
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "imagewoof",
+      "images": 100,
+      "r2": 0.25463834220777304,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.24334939828940416,
+        0.26594546019646165
+      ]
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "pets",
+      "images": 200,
+      "r2": 0.22800559789954244,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.21656935387136547,
+        0.23953540658578623
+      ]
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "parts",
+      "images": 53,
+      "r2": 0.15738450601193255,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.12965331594094798,
+        0.1885878824733182
+      ]
+    },
+    {
+      "model": "archetypal_k32_s0",
+      "dataset": "dtd",
+      "images": 94,
+      "r2": 0.09208642605897266,
+      "l0": 32.0,
+      "image_bootstrap_95": [
+        0.0807507709286282,
+        0.1035584665226003
+      ]
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagenette",
+      "images": 100,
+      "r2": 0.7937593218119116,
+      "l0": 554.0952734375,
+      "image_bootstrap_95": [
+        0.7843389384128927,
+        0.8037167455630172
+      ]
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "imagewoof",
+      "images": 100,
+      "r2": 0.7040656491131561,
+      "l0": 604.6957421875,
+      "image_bootstrap_95": [
+        0.6984122787711552,
+        0.7097071259087546
+      ]
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "pets",
+      "images": 200,
+      "r2": 0.6860210930870674,
+      "l0": 608.8792578125,
+      "image_bootstrap_95": [
+        0.6795365623642141,
+        0.6924598466152642
+      ]
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "parts",
+      "images": 53,
+      "r2": 0.6435397178350527,
+      "l0": 614.8362323113207,
+      "image_bootstrap_95": [
+        0.6264281587005386,
+        0.6627832557138589
+      ]
+    },
+    {
+      "model": "relu_fixed_k32_s0",
+      "dataset": "dtd",
+      "images": 94,
+      "r2": 0.6200918162308686,
+      "l0": 620.9872839095744,
+      "image_bootstrap_95": [
+        0.6123567644463745,
+        0.6274759898447946
+      ]
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagenette",
+      "images": 100,
+      "r2": 0.7218220081292509,
+      "l0": 9.9555859375,
+      "image_bootstrap_95": [
+        0.7104453388379007,
+        0.73274544240599
+      ]
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "imagewoof",
+      "images": 100,
+      "r2": 0.7370740476382898,
+      "l0": 11.216015625,
+      "image_bootstrap_95": [
+        0.7303363340795156,
+        0.7437535550792873
+      ]
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "pets",
+      "images": 200,
+      "r2": 0.7549463112669729,
+      "l0": 11.20494140625,
+      "image_bootstrap_95": [
+        0.7500737691916616,
+        0.7599303911964533
+      ]
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "parts",
+      "images": 53,
+      "r2": 0.7579561132839125,
+      "l0": 10.34316037735849,
+      "image_bootstrap_95": [
+        0.7450216187046146,
+        0.7711842846194139
+      ]
+    },
+    {
+      "model": "pretrained_ra",
+      "dataset": "dtd",
+      "images": 94,
+      "r2": 0.6396874209861987,
+      "l0": 9.72406914893617,
+      "image_bootstrap_95": [
+        0.6213767033792893,
+        0.6586593401173455
+      ]
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagenette",
+      "images": 100,
+      "r2": 0.27567193638134535,
+      "l0": 255.99714285714288,
+      "image_bootstrap_95": [
+        0.26696543159232183,
+        0.2841884120827465
+      ],
+      "skip_only_r2": -0.45131150135915643
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "imagewoof",
+      "images": 100,
+      "r2": 0.2252658111598439,
+      "l0": 256.0,
+      "image_bootstrap_95": [
+        0.21551591750215668,
+        0.23404691006298814
+      ],
+      "skip_only_r2": -0.5081520359407188
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "pets",
+      "images": 200,
+      "r2": 0.23178207891432967,
+      "l0": 255.99489795918365,
+      "image_bootstrap_95": [
+        0.22317037130893388,
+        0.2404270977702723
+      ],
+      "skip_only_r2": -0.5305684936866342
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "parts",
+      "images": 53,
+      "r2": 0.26546457717104566,
+      "l0": 255.99691952252599,
+      "image_bootstrap_95": [
+        0.24877514623063554,
+        0.2811378552610174
+      ],
+      "skip_only_r2": -0.5406195092201171
+    },
+    {
+      "model": "prisma_transcoder",
+      "dataset": "dtd",
+      "images": 94,
+      "r2": 0.28291924481007225,
+      "l0": 256.0,
+      "image_bootstrap_95": [
+        0.25632693921826893,
+        0.30913129185917243
+      ],
+      "skip_only_r2": -0.4777492028191024
+    }
+  ],
+  "stability": [
+    {
+      "family": "topk",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.37883853912353516,
+      "extent_jaccard": 0.3461106162110674,
+      "nonempty_comparisons": 1156
+    },
+    {
+      "family": "topk",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.38166987895965576,
+      "extent_jaccard": 0.3440455327921279,
+      "nonempty_comparisons": 1162
+    },
+    {
+      "family": "topk",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.3324646055698395,
+      "extent_jaccard": 0.32390487502085863,
+      "nonempty_comparisons": 1484
+    },
+    {
+      "family": "topk",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.33333733677864075,
+      "extent_jaccard": 0.3289389940679873,
+      "nonempty_comparisons": 1485
+    },
+    {
+      "family": "batchtopk",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.35888728499412537,
+      "extent_jaccard": 0.3493570152636626,
+      "nonempty_comparisons": 1067
+    },
+    {
+      "family": "batchtopk",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.35777685046195984,
+      "extent_jaccard": 0.35206384190028595,
+      "nonempty_comparisons": 1058
+    },
+    {
+      "family": "batchtopk",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.3309420049190521,
+      "extent_jaccard": 0.3341433375361752,
+      "nonempty_comparisons": 1494
+    },
+    {
+      "family": "batchtopk",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.33014050126075745,
+      "extent_jaccard": 0.33520164501490596,
+      "nonempty_comparisons": 1493
+    },
+    {
+      "family": "jump",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.28682956099510193,
+      "extent_jaccard": 0.3205682910951751,
+      "nonempty_comparisons": 1267
+    },
+    {
+      "family": "jump",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.2839617431163788,
+      "extent_jaccard": 0.3100246079697367,
+      "nonempty_comparisons": 1269
+    },
+    {
+      "family": "jump",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.26865097880363464,
+      "extent_jaccard": 0.3028463436502631,
+      "nonempty_comparisons": 1386
+    },
+    {
+      "family": "jump",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.2676093280315399,
+      "extent_jaccard": 0.301093215084602,
+      "nonempty_comparisons": 1386
+    },
+    {
+      "family": "relu",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.23239131271839142,
+      "extent_jaccard": 0.07603442456708666,
+      "nonempty_comparisons": 1536
+    },
+    {
+      "family": "relu",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.2332959920167923,
+      "extent_jaccard": 0.07964758204106438,
+      "nonempty_comparisons": 1536
+    },
+    {
+      "family": "relu",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.3266913592815399,
+      "extent_jaccard": 0.108871744103587,
+      "nonempty_comparisons": 1458
+    },
+    {
+      "family": "relu",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.3237024247646332,
+      "extent_jaccard": 0.11101128874622006,
+      "nonempty_comparisons": 1458
+    },
+    {
+      "family": "archetypal",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.6082656979560852,
+      "extent_jaccard": 0.17230437095118264,
+      "nonempty_comparisons": 1536
+    },
+    {
+      "family": "archetypal",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.604582667350769,
+      "extent_jaccard": 0.17197873196837868,
+      "nonempty_comparisons": 1536
+    },
+    {
+      "family": "archetypal",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.571409285068512,
+      "extent_jaccard": 0.2469699957549466,
+      "nonempty_comparisons": 1536
+    },
+    {
+      "family": "archetypal",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.5609034895896912,
+      "extent_jaccard": 0.2459882658083784,
+      "nonempty_comparisons": 1536
+    },
+    {
+      "family": "relu_fixed",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.29679980874061584,
+      "extent_jaccard": 0.46734444785747753,
+      "nonempty_comparisons": 1536
+    },
+    {
+      "family": "relu_fixed",
+      "budget": 16,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.29470375180244446,
+      "extent_jaccard": 0.47095975133471285,
+      "nonempty_comparisons": 1536
+    },
+    {
+      "family": "relu_fixed",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        1
+      ],
+      "decoder_cosine": 0.2106587141752243,
+      "extent_jaccard": 0.42781295324140206,
+      "nonempty_comparisons": 1536
+    },
+    {
+      "family": "relu_fixed",
+      "budget": 32,
+      "seed_pair": [
+        0,
+        2
+      ],
+      "decoder_cosine": 0.2094907909631729,
+      "extent_jaccard": 0.4274595883665853,
+      "nonempty_comparisons": 1536
+    }
+  ]
+}

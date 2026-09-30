@@ -1,0 +1,334 @@
+{
+  "model": "relu_k16_s1",
+  "dataset": "imagenette",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 8.833135593433461e-05,
+      "l0": 12.345859375
+    },
+    "train": {
+      "images": 200,
+      "r2": 7.23410301763927e-05,
+      "l0": 10.256171875
+    },
+    "val": {
+      "images": 50,
+      "r2": 7.160212654244713e-05,
+      "l0": 12.556640625
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        1482,
+        1133
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.026530323550105095,
+            0.048052388429641726
+          ],
+          "closed": [
+            0.029069894924759865,
+            0.049204982817173004
+          ],
+          "pooled_test": 8,
+          "common_test": 1,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 1
+        },
+        "v": {
+          "query": [
+            0.058988505601882936,
+            0.02152337320148945
+          ],
+          "closed": [
+            0.05986548215150833,
+            0.022327832877635956
+          ],
+          "pooled_test": 11,
+          "common_test": 1,
+          "test_labels": [
+            "cassette player"
+          ],
+          "test_label_count": 1,
+          "test_sites": 1
+        },
+        "meet": {
+          "query": [
+            0.026530323550105095,
+            0.02152337320148945
+          ],
+          "closed": [
+            0.026557257398962975,
+            0.021552080288529396
+          ],
+          "pooled_test": 19,
+          "common_test": 4,
+          "test_labels": [
+            "cassette player",
+            "golf ball"
+          ],
+          "test_label_count": 2,
+          "test_sites": 5
+        },
+        "join": {
+          "query": [
+            0.058988505601882936,
+            0.048052388429641726
+          ],
+          "closed": [
+            0.06084904819726944,
+            0.05233805626630783
+          ],
+          "pooled_test": 5,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        584,
+        527
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.021917957812547684,
+            0.05603698641061783
+          ],
+          "closed": [
+            0.022045807912945747,
+            0.05603698641061783
+          ],
+          "pooled_test": 7,
+          "common_test": 4,
+          "test_labels": [
+            "French horn",
+            "golf ball"
+          ],
+          "test_label_count": 2,
+          "test_sites": 19
+        },
+        "v": {
+          "query": [
+            0.04543655812740326,
+            0.026619084179401398
+          ],
+          "closed": [
+            0.04545939713716507,
+            0.026681967079639435
+          ],
+          "pooled_test": 9,
+          "common_test": 2,
+          "test_labels": [
+            "French horn",
+            "golf ball"
+          ],
+          "test_label_count": 2,
+          "test_sites": 6
+        },
+        "meet": {
+          "query": [
+            0.021917957812547684,
+            0.026619084179401398
+          ],
+          "closed": [
+            0.022045807912945747,
+            0.026681967079639435
+          ],
+          "pooled_test": 14,
+          "common_test": 6,
+          "test_labels": [
+            "French horn",
+            "golf ball"
+          ],
+          "test_label_count": 2,
+          "test_sites": 29
+        },
+        "join": {
+          "query": [
+            0.04543655812740326,
+            0.05603698641061783
+          ],
+          "closed": [
+            0.045971550047397614,
+            0.061848241835832596
+          ],
+          "pooled_test": 5,
+          "common_test": 2,
+          "test_labels": [
+            "French horn",
+            "golf ball"
+          ],
+          "test_label_count": 2,
+          "test_sites": 6
+        }
+      }
+    },
+    {
+      "features": [
+        657,
+        396
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.025168387219309807,
+            0.05366127118468285
+          ],
+          "closed": [
+            0.03912872448563576,
+            0.05605341121554375
+          ],
+          "pooled_test": 10,
+          "common_test": 2,
+          "test_labels": [
+            "cassette player"
+          ],
+          "test_label_count": 1,
+          "test_sites": 4
+        },
+        "v": {
+          "query": [
+            0.053184640407562274,
+            0.02413100376725197
+          ],
+          "closed": [
+            0.0546235628426075,
+            0.02428038977086544
+          ],
+          "pooled_test": 16,
+          "common_test": 1,
+          "test_labels": [
+            "cassette player"
+          ],
+          "test_label_count": 1,
+          "test_sites": 4
+        },
+        "meet": {
+          "query": [
+            0.025168387219309807,
+            0.02413100376725197
+          ],
+          "closed": [
+            0.03672739118337631,
+            0.02428038977086544
+          ],
+          "pooled_test": 18,
+          "common_test": 3,
+          "test_labels": [
+            "cassette player"
+          ],
+          "test_label_count": 1,
+          "test_sites": 7
+        },
+        "join": {
+          "query": [
+            0.053184640407562274,
+            0.05366127118468285
+          ],
+          "closed": [
+            0.0546235628426075,
+            0.05605341121554375
+          ],
+          "pooled_test": 9,
+          "common_test": 1,
+          "test_labels": [
+            "cassette player"
+          ],
+          "test_label_count": 1,
+          "test_sites": 2
+        }
+      }
+    },
+    {
+      "features": [
+        862,
+        128
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.024369748309254646,
+            0.045183524489402785
+          ],
+          "closed": [
+            0.024369748309254646,
+            0.04538771137595177
+          ],
+          "pooled_test": 16,
+          "common_test": 6,
+          "test_labels": [
+            "chain saw",
+            "tench"
+          ],
+          "test_label_count": 2,
+          "test_sites": 34
+        },
+        "v": {
+          "query": [
+            0.0545542947947979,
+            0.02145209163427353
+          ],
+          "closed": [
+            0.055136941373348236,
+            0.021796179935336113
+          ],
+          "pooled_test": 14,
+          "common_test": 6,
+          "test_labels": [
+            "chain saw",
+            "tench"
+          ],
+          "test_label_count": 2,
+          "test_sites": 25
+        },
+        "meet": {
+          "query": [
+            0.024369748309254646,
+            0.02145209163427353
+          ],
+          "closed": [
+            0.024369748309254646,
+            0.021796179935336113
+          ],
+          "pooled_test": 18,
+          "common_test": 6,
+          "test_labels": [
+            "chain saw",
+            "tench"
+          ],
+          "test_label_count": 2,
+          "test_sites": 50
+        },
+        "join": {
+          "query": [
+            0.0545542947947979,
+            0.045183524489402785
+          ],
+          "closed": [
+            0.055136941373348236,
+            0.04538771137595177
+          ],
+          "pooled_test": 13,
+          "common_test": 4,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 16
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

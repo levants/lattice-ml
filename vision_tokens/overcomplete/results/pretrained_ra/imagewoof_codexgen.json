@@ -1,0 +1,286 @@
+{
+  "model": "pretrained_ra",
+  "dataset": "imagewoof",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 0.7370740476382898,
+      "l0": 11.216015625
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        17231,
+        31554
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.5021812915802,
+            3.5067337036132815
+          ],
+          "closed": [
+            2.5021812915802,
+            3.5067337036132815
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            3.650945568084717,
+            2.3333635330200195
+          ],
+          "closed": [
+            3.650945568084717,
+            2.3333635330200195
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            2.5021812915802,
+            2.3333635330200195
+          ],
+          "closed": [
+            2.5021812915802,
+            2.3333635330200195
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            3.650945568084717,
+            3.5067337036132815
+          ],
+          "closed": [
+            3.650945568084717,
+            3.5067337036132815
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        4271,
+        4929
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            5.360751628875732,
+            3.4551501750946048
+          ],
+          "closed": [
+            5.360751628875732,
+            3.4551501750946048
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            6.712332153320312,
+            2.538621425628662
+          ],
+          "closed": [
+            6.712332153320312,
+            2.538621425628662
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            5.360751628875732,
+            2.538621425628662
+          ],
+          "closed": [
+            5.360751628875732,
+            2.538621425628662
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            6.712332153320312,
+            3.4551501750946048
+          ],
+          "closed": [
+            6.712332153320312,
+            3.4551501750946048
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        11318,
+        13604
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.055697441101074,
+            4.634036922454834
+          ],
+          "closed": [
+            3.055697441101074,
+            4.634036922454834
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            5.463708114624024,
+            3.4736266136169434
+          ],
+          "closed": [
+            5.463708114624024,
+            3.4736266136169434
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            3.055697441101074,
+            3.4736266136169434
+          ],
+          "closed": [
+            3.055697441101074,
+            3.4736266136169434
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            5.463708114624024,
+            4.634036922454834
+          ],
+          "closed": [
+            5.463708114624024,
+            4.634036922454834
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        29969,
+        8288
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.8558331727981567,
+            3.137219715118408
+          ],
+          "closed": [
+            2.8558331727981567,
+            3.137219715118408
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            3.9234276294708263,
+            2.2694311141967773
+          ],
+          "closed": [
+            3.9234276294708263,
+            2.2694311141967773
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            2.8558331727981567,
+            2.2694311141967773
+          ],
+          "closed": [
+            2.8558331727981567,
+            2.2694311141967773
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            3.9234276294708263,
+            3.137219715118408
+          ],
+          "closed": [
+            3.9234276294708263,
+            3.137219715118408
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

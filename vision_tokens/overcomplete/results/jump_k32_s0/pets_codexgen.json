@@ -1,0 +1,521 @@
+{
+  "model": "jump_k32_s0",
+  "dataset": "pets",
+  "metrics": {
+    "test": {
+      "images": 200,
+      "r2": 0.46968858092550714,
+      "l0": 69.42951171875
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        1503,
+        1021
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.7039520740509033,
+            6.293859767913818
+          ],
+          "closed": [
+            5.430315017700195,
+            6.293859767913818
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            7.535677814483643,
+            3.4666619300842285
+          ],
+          "closed": [
+            7.535677814483643,
+            4.502286434173584
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            3.7039520740509033,
+            3.4666619300842285
+          ],
+          "closed": [
+            5.430315017700195,
+            4.502286434173584
+          ],
+          "pooled_test": 4,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            7.535677814483643,
+            6.293859767913818
+          ],
+          "closed": [
+            7.535677814483643,
+            6.293859767913818
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        1385,
+        253
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.7405292987823486,
+            4.666643810272217
+          ],
+          "closed": [
+            2.7512171268463135,
+            4.674386978149414
+          ],
+          "pooled_test": 83,
+          "common_test": 77,
+          "test_labels": [
+            "abyssinian",
+            "american_bulldog",
+            "basset_hound",
+            "birman",
+            "bombay",
+            "boxer",
+            "british_shorthair",
+            "chihuahua",
+            "english_cocker_spaniel",
+            "great_pyrenees",
+            "japanese_chin",
+            "keeshond",
+            "leonberger",
+            "maine_coon",
+            "miniature_pinscher",
+            "newfoundland",
+            "persian",
+            "pug",
+            "ragdoll",
+            "russian_blue",
+            "saint_bernard",
+            "samoyed",
+            "scottish_terrier",
+            "shiba_inu",
+            "siamese",
+            "sphynx",
+            "staffordshire_bull_terrier",
+            "wheaten_terrier"
+          ],
+          "test_label_count": 28,
+          "test_sites": 111
+        },
+        "v": {
+          "query": [
+            4.703223037719726,
+            2.709041118621826
+          ],
+          "closed": [
+            4.707298755645752,
+            2.75691294670105
+          ],
+          "pooled_test": 99,
+          "common_test": 88,
+          "test_labels": [
+            "abyssinian",
+            "american_bulldog",
+            "basset_hound",
+            "beagle",
+            "birman",
+            "bombay",
+            "boxer",
+            "british_shorthair",
+            "chihuahua",
+            "egyptian_mau",
+            "english_cocker_spaniel",
+            "english_setter",
+            "great_pyrenees",
+            "havanese",
+            "japanese_chin",
+            "keeshond",
+            "leonberger",
+            "miniature_pinscher",
+            "newfoundland",
+            "persian",
+            "pomeranian",
+            "ragdoll",
+            "russian_blue",
+            "saint_bernard",
+            "samoyed",
+            "scottish_terrier",
+            "shiba_inu",
+            "siamese",
+            "sphynx",
+            "staffordshire_bull_terrier",
+            "wheaten_terrier"
+          ],
+          "test_label_count": 31,
+          "test_sites": 134
+        },
+        "meet": {
+          "query": [
+            2.7405292987823486,
+            2.709041118621826
+          ],
+          "closed": [
+            2.749485731124878,
+            2.712425708770752
+          ],
+          "pooled_test": 155,
+          "common_test": 143,
+          "test_labels": [
+            "abyssinian",
+            "american_bulldog",
+            "american_pit_bull_terrier",
+            "basset_hound",
+            "beagle",
+            "birman",
+            "bombay",
+            "boxer",
+            "british_shorthair",
+            "chihuahua",
+            "egyptian_mau",
+            "english_cocker_spaniel",
+            "english_setter",
+            "great_pyrenees",
+            "havanese",
+            "japanese_chin",
+            "keeshond",
+            "leonberger",
+            "maine_coon",
+            "miniature_pinscher",
+            "newfoundland",
+            "persian",
+            "pomeranian",
+            "pug",
+            "ragdoll",
+            "russian_blue",
+            "saint_bernard",
+            "samoyed",
+            "scottish_terrier",
+            "shiba_inu",
+            "siamese",
+            "sphynx",
+            "staffordshire_bull_terrier",
+            "wheaten_terrier",
+            "yorkshire_terrier"
+          ],
+          "test_label_count": 35,
+          "test_sites": 287
+        },
+        "join": {
+          "query": [
+            4.703223037719726,
+            4.666643810272217
+          ],
+          "closed": [
+            4.743199348449707,
+            4.674386978149414
+          ],
+          "pooled_test": 60,
+          "common_test": 51,
+          "test_labels": [
+            "abyssinian",
+            "american_bulldog",
+            "basset_hound",
+            "bombay",
+            "boxer",
+            "british_shorthair",
+            "chihuahua",
+            "english_cocker_spaniel",
+            "great_pyrenees",
+            "japanese_chin",
+            "keeshond",
+            "leonberger",
+            "miniature_pinscher",
+            "newfoundland",
+            "persian",
+            "ragdoll",
+            "russian_blue",
+            "saint_bernard",
+            "samoyed",
+            "shiba_inu",
+            "siamese",
+            "staffordshire_bull_terrier",
+            "wheaten_terrier"
+          ],
+          "test_label_count": 23,
+          "test_sites": 63
+        }
+      }
+    },
+    {
+      "features": [
+        399,
+        14
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            4.245789051055908,
+            4.149318599700929
+          ],
+          "closed": [
+            4.248805522918701,
+            4.150306224822998
+          ],
+          "pooled_test": 165,
+          "common_test": 141,
+          "test_labels": [
+            "abyssinian",
+            "american_bulldog",
+            "american_pit_bull_terrier",
+            "basset_hound",
+            "beagle",
+            "birman",
+            "bombay",
+            "boxer",
+            "british_shorthair",
+            "chihuahua",
+            "egyptian_mau",
+            "english_cocker_spaniel",
+            "english_setter",
+            "german_shorthaired",
+            "great_pyrenees",
+            "havanese",
+            "japanese_chin",
+            "keeshond",
+            "leonberger",
+            "maine_coon",
+            "miniature_pinscher",
+            "newfoundland",
+            "persian",
+            "pomeranian",
+            "ragdoll",
+            "russian_blue",
+            "saint_bernard",
+            "samoyed",
+            "scottish_terrier",
+            "shiba_inu",
+            "siamese",
+            "sphynx",
+            "staffordshire_bull_terrier",
+            "wheaten_terrier",
+            "yorkshire_terrier"
+          ],
+          "test_label_count": 35,
+          "test_sites": 456
+        },
+        "v": {
+          "query": [
+            7.113207721710205,
+            1.9761778116226196
+          ],
+          "closed": [
+            7.118938446044922,
+            1.9771138429641724
+          ],
+          "pooled_test": 65,
+          "common_test": 60,
+          "test_labels": [
+            "american_bulldog",
+            "american_pit_bull_terrier",
+            "basset_hound",
+            "beagle",
+            "boxer",
+            "chihuahua",
+            "english_cocker_spaniel",
+            "great_pyrenees",
+            "havanese",
+            "keeshond",
+            "leonberger",
+            "miniature_pinscher",
+            "newfoundland",
+            "pomeranian",
+            "ragdoll",
+            "saint_bernard",
+            "samoyed",
+            "scottish_terrier",
+            "shiba_inu",
+            "sphynx",
+            "staffordshire_bull_terrier"
+          ],
+          "test_label_count": 21,
+          "test_sites": 170
+        },
+        "meet": {
+          "query": [
+            4.245789051055908,
+            1.9761778116226196
+          ],
+          "closed": [
+            4.2470269203186035,
+            1.9771138429641724
+          ],
+          "pooled_test": 165,
+          "common_test": 160,
+          "test_labels": [
+            "abyssinian",
+            "american_bulldog",
+            "american_pit_bull_terrier",
+            "basset_hound",
+            "beagle",
+            "birman",
+            "bombay",
+            "boxer",
+            "british_shorthair",
+            "chihuahua",
+            "egyptian_mau",
+            "english_cocker_spaniel",
+            "english_setter",
+            "german_shorthaired",
+            "great_pyrenees",
+            "havanese",
+            "japanese_chin",
+            "keeshond",
+            "leonberger",
+            "maine_coon",
+            "miniature_pinscher",
+            "newfoundland",
+            "persian",
+            "pomeranian",
+            "ragdoll",
+            "russian_blue",
+            "saint_bernard",
+            "samoyed",
+            "scottish_terrier",
+            "shiba_inu",
+            "siamese",
+            "sphynx",
+            "staffordshire_bull_terrier",
+            "wheaten_terrier",
+            "yorkshire_terrier"
+          ],
+          "test_label_count": 35,
+          "test_sites": 676
+        },
+        "join": {
+          "query": [
+            7.113207721710205,
+            4.149318599700929
+          ],
+          "closed": [
+            7.118938446044922,
+            4.150306224822998
+          ],
+          "pooled_test": 65,
+          "common_test": 43,
+          "test_labels": [
+            "american_bulldog",
+            "american_pit_bull_terrier",
+            "basset_hound",
+            "beagle",
+            "boxer",
+            "chihuahua",
+            "english_cocker_spaniel",
+            "great_pyrenees",
+            "havanese",
+            "keeshond",
+            "miniature_pinscher",
+            "newfoundland",
+            "pomeranian",
+            "ragdoll",
+            "saint_bernard",
+            "samoyed",
+            "scottish_terrier",
+            "shiba_inu",
+            "staffordshire_bull_terrier"
+          ],
+          "test_label_count": 19,
+          "test_sites": 87
+        }
+      }
+    },
+    {
+      "features": [
+        585,
+        650
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.1633503437042236,
+            5.040864372253418
+          ],
+          "closed": [
+            4.568970203399658,
+            5.040864372253418
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            5.513796710968018,
+            3.101790189743042
+          ],
+          "closed": [
+            5.513796710968018,
+            3.5984506607055664
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            3.1633503437042236,
+            3.101790189743042
+          ],
+          "closed": [
+            4.568970203399658,
+            3.5984506607055664
+          ],
+          "pooled_test": 1,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            5.513796710968018,
+            5.040864372253418
+          ],
+          "closed": [
+            5.513796710968018,
+            5.040864372253418
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

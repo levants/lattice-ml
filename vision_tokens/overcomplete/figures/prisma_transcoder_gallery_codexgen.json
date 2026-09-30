@@ -1,0 +1,170 @@
+[
+  {
+    "model": "prisma_transcoder",
+    "feature": 32929,
+    "dataset": "imagenette",
+    "row": 266,
+    "position": 44,
+    "response": 4.458007335662842,
+    "source": "imagenette2-320/val/n02102040/ILSVRC2012_val_00022412.JPEG",
+    "label": "English springer",
+    "split": "test"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 41201,
+    "dataset": "imagenette",
+    "row": 258,
+    "position": 35,
+    "response": 3.4551494121551514,
+    "source": "imagenette2-320/val/n01440764/ILSVRC2012_val_00045880.JPEG",
+    "label": "tench",
+    "split": "test"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 18417,
+    "dataset": "imagenette",
+    "row": 259,
+    "position": 10,
+    "response": 3.5268657207489014,
+    "source": "imagenette2-320/val/n01440764/ILSVRC2012_val_00046252.JPEG",
+    "label": "tench",
+    "split": "test"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 32929,
+    "dataset": "imagewoof",
+    "row": 64,
+    "position": 41,
+    "response": 4.501114368438721,
+    "source": "imagewoof2-320/val/n02099601/ILSVRC2012_val_00012100.JPEG",
+    "label": "Golden retriever",
+    "split": "test"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 41201,
+    "dataset": "imagewoof",
+    "row": 64,
+    "position": 29,
+    "response": 5.171596527099609,
+    "source": "imagewoof2-320/val/n02099601/ILSVRC2012_val_00012100.JPEG",
+    "label": "Golden retriever",
+    "split": "test"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 18417,
+    "dataset": "imagewoof",
+    "row": 20,
+    "position": 42,
+    "response": 6.3274078369140625,
+    "source": "imagewoof2-320/val/n02088364/ILSVRC2012_val_00005291.JPEG",
+    "label": "Beagle",
+    "split": "test"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 32929,
+    "dataset": "pets",
+    "row": 96,
+    "position": 45,
+    "response": 5.029104232788086,
+    "source": "Ragdoll_96",
+    "label": "ragdoll",
+    "split": "test",
+    "mirror_row": 96
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 41201,
+    "dataset": "pets",
+    "row": 113,
+    "position": 18,
+    "response": 5.231464385986328,
+    "source": "newfoundland_47",
+    "label": "newfoundland",
+    "split": "test",
+    "mirror_row": 113
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 18417,
+    "dataset": "pets",
+    "row": 40,
+    "position": 22,
+    "response": 5.672293186187744,
+    "source": "leonberger_2",
+    "label": "leonberger",
+    "split": "test",
+    "mirror_row": 40
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 32929,
+    "dataset": "parts",
+    "row": 44,
+    "position": 48,
+    "response": 5.896288871765137,
+    "source": "PartImageNet/images/test/n03594945_10642.JPEG",
+    "split": "test",
+    "label": "n03594945"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 41201,
+    "dataset": "parts",
+    "row": 44,
+    "position": 47,
+    "response": 5.669142246246338,
+    "source": "PartImageNet/images/test/n03594945_10642.JPEG",
+    "split": "test",
+    "label": "n03594945"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 18417,
+    "dataset": "parts",
+    "row": 44,
+    "position": 44,
+    "response": 4.698849678039551,
+    "source": "PartImageNet/images/test/n03594945_10642.JPEG",
+    "split": "test",
+    "label": "n03594945"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 32929,
+    "dataset": "dtd",
+    "row": 231,
+    "position": 5,
+    "response": 6.844446659088135,
+    "source": "lacelike/lacelike_0002.jpg",
+    "split": "test",
+    "label": "lacelike"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 41201,
+    "dataset": "dtd",
+    "row": 231,
+    "position": 13,
+    "response": 5.904888153076172,
+    "source": "lacelike/lacelike_0002.jpg",
+    "split": "test",
+    "label": "lacelike"
+  },
+  {
+    "model": "prisma_transcoder",
+    "feature": 18417,
+    "dataset": "dtd",
+    "row": 280,
+    "position": 32,
+    "response": 6.168438911437988,
+    "source": "zigzagged/zigzagged_0008.jpg",
+    "split": "test",
+    "label": "zigzagged"
+  }
+]

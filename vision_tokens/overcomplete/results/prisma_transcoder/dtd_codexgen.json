@@ -1,0 +1,662 @@
+{
+  "model": "prisma_transcoder",
+  "dataset": "dtd",
+  "metrics": {
+    "test": {
+      "images": 94,
+      "r2": 0.28291924481007225,
+      "l0": 256.0
+    },
+    "train": {
+      "images": 94,
+      "r2": 0.2952091975192045,
+      "l0": 256.0
+    },
+    "val": {
+      "images": 94,
+      "r2": 0.3033366062613203,
+      "l0": 256.0
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        6168,
+        40486
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.5776803493499756,
+            0.7383459329605102
+          ],
+          "closed": [
+            0.5887495875358582,
+            0.7444762587547302
+          ],
+          "pooled_test": 28,
+          "common_test": 25,
+          "test_labels": [
+            "blotchy",
+            "bubbly",
+            "cobwebbed",
+            "cracked",
+            "crosshatched",
+            "fibrous",
+            "flecked",
+            "freckled",
+            "lacelike",
+            "lined",
+            "matted",
+            "perforated",
+            "pitted",
+            "potholed",
+            "smeared",
+            "stained",
+            "stratified",
+            "veined",
+            "zigzagged"
+          ],
+          "test_label_count": 19,
+          "test_sites": 62
+        },
+        "v": {
+          "query": [
+            1.0743926763534546,
+            0.4005768299102783
+          ],
+          "closed": [
+            1.0780107975006104,
+            0.40342432260513306
+          ],
+          "pooled_test": 37,
+          "common_test": 34,
+          "test_labels": [
+            "blotchy",
+            "braided",
+            "bubbly",
+            "cobwebbed",
+            "cracked",
+            "crosshatched",
+            "crystalline",
+            "fibrous",
+            "flecked",
+            "freckled",
+            "frilly",
+            "gauzy",
+            "grooved",
+            "honeycombed",
+            "lacelike",
+            "matted",
+            "paisley",
+            "pitted",
+            "potholed",
+            "smeared",
+            "stained",
+            "stratified",
+            "striped",
+            "studded",
+            "veined",
+            "waffled",
+            "zigzagged"
+          ],
+          "test_label_count": 27,
+          "test_sites": 79
+        },
+        "meet": {
+          "query": [
+            0.5776803493499756,
+            0.4005768299102783
+          ],
+          "closed": [
+            0.5837590098381042,
+            0.40152573585510254
+          ],
+          "pooled_test": 41,
+          "common_test": 40,
+          "test_labels": [
+            "blotchy",
+            "braided",
+            "bubbly",
+            "cobwebbed",
+            "cracked",
+            "crosshatched",
+            "crystalline",
+            "fibrous",
+            "flecked",
+            "freckled",
+            "frilly",
+            "gauzy",
+            "grooved",
+            "honeycombed",
+            "lacelike",
+            "lined",
+            "matted",
+            "paisley",
+            "perforated",
+            "pitted",
+            "pleated",
+            "porous",
+            "potholed",
+            "smeared",
+            "stained",
+            "stratified",
+            "striped",
+            "studded",
+            "veined",
+            "waffled",
+            "zigzagged"
+          ],
+          "test_label_count": 31,
+          "test_sites": 112
+        },
+        "join": {
+          "query": [
+            1.0743926763534546,
+            0.7383459329605102
+          ],
+          "closed": [
+            1.081188440322876,
+            0.7465344071388245
+          ],
+          "pooled_test": 26,
+          "common_test": 22,
+          "test_labels": [
+            "blotchy",
+            "bubbly",
+            "cobwebbed",
+            "cracked",
+            "crosshatched",
+            "fibrous",
+            "flecked",
+            "freckled",
+            "lacelike",
+            "matted",
+            "pitted",
+            "potholed",
+            "smeared",
+            "stained",
+            "stratified",
+            "veined",
+            "zigzagged"
+          ],
+          "test_label_count": 17,
+          "test_sites": 52
+        }
+      }
+    },
+    {
+      "features": [
+        34176,
+        39140
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.5141487717628479,
+            0.9265308022499085
+          ],
+          "closed": [
+            0.5395970344543457,
+            0.9291746020317078
+          ],
+          "pooled_test": 41,
+          "common_test": 28,
+          "test_labels": [
+            "blotchy",
+            "braided",
+            "bubbly",
+            "cracked",
+            "dotted",
+            "fibrous",
+            "flecked",
+            "frilly",
+            "gauzy",
+            "lacelike",
+            "marbled",
+            "meshed",
+            "paisley",
+            "pitted",
+            "potholed",
+            "spiralled",
+            "sprinkled",
+            "stained",
+            "stratified",
+            "striped",
+            "studded",
+            "swirly",
+            "woven",
+            "wrinkled"
+          ],
+          "test_label_count": 24,
+          "test_sites": 48
+        },
+        "v": {
+          "query": [
+            1.0229661226272584,
+            0.4926527738571167
+          ],
+          "closed": [
+            1.029463529586792,
+            0.4992356300354004
+          ],
+          "pooled_test": 49,
+          "common_test": 33,
+          "test_labels": [
+            "blotchy",
+            "bubbly",
+            "cracked",
+            "dotted",
+            "fibrous",
+            "flecked",
+            "freckled",
+            "frilly",
+            "gauzy",
+            "grooved",
+            "knitted",
+            "lacelike",
+            "marbled",
+            "matted",
+            "paisley",
+            "pitted",
+            "polka-dotted",
+            "porous",
+            "potholed",
+            "smeared",
+            "spiralled",
+            "sprinkled",
+            "stained",
+            "stratified",
+            "studded",
+            "swirly",
+            "waffled",
+            "wrinkled"
+          ],
+          "test_label_count": 28,
+          "test_sites": 62
+        },
+        "meet": {
+          "query": [
+            0.5141487717628479,
+            0.4926527738571167
+          ],
+          "closed": [
+            0.5227481722831726,
+            0.4945758581161499
+          ],
+          "pooled_test": 58,
+          "common_test": 47,
+          "test_labels": [
+            "banded",
+            "blotchy",
+            "braided",
+            "bubbly",
+            "cracked",
+            "dotted",
+            "fibrous",
+            "flecked",
+            "freckled",
+            "frilly",
+            "gauzy",
+            "grooved",
+            "interlaced",
+            "knitted",
+            "lacelike",
+            "marbled",
+            "matted",
+            "meshed",
+            "paisley",
+            "pitted",
+            "pleated",
+            "polka-dotted",
+            "porous",
+            "potholed",
+            "smeared",
+            "spiralled",
+            "sprinkled",
+            "stained",
+            "stratified",
+            "striped",
+            "studded",
+            "swirly",
+            "waffled",
+            "woven",
+            "wrinkled"
+          ],
+          "test_label_count": 35,
+          "test_sites": 117
+        },
+        "join": {
+          "query": [
+            1.0229661226272584,
+            0.9265308022499085
+          ],
+          "closed": [
+            1.0417174100875854,
+            0.9291746020317078
+          ],
+          "pooled_test": 35,
+          "common_test": 20,
+          "test_labels": [
+            "blotchy",
+            "bubbly",
+            "cracked",
+            "dotted",
+            "flecked",
+            "gauzy",
+            "lacelike",
+            "marbled",
+            "paisley",
+            "pitted",
+            "spiralled",
+            "sprinkled",
+            "stained",
+            "stratified",
+            "studded",
+            "swirly",
+            "wrinkled"
+          ],
+          "test_label_count": 17,
+          "test_sites": 32
+        }
+      }
+    },
+    {
+      "features": [
+        47243,
+        25256
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.6589071750640869,
+            0.8953405976295473
+          ],
+          "closed": [
+            0.6625620126724243,
+            0.8963893055915833
+          ],
+          "pooled_test": 44,
+          "common_test": 19,
+          "test_labels": [
+            "banded",
+            "blotchy",
+            "braided",
+            "bubbly",
+            "bumpy",
+            "cracked",
+            "dotted",
+            "flecked",
+            "lacelike",
+            "matted",
+            "meshed",
+            "pitted",
+            "pleated",
+            "potholed",
+            "smeared",
+            "sprinkled",
+            "stained",
+            "woven"
+          ],
+          "test_label_count": 18,
+          "test_sites": 29
+        },
+        "v": {
+          "query": [
+            1.2964311122894292,
+            0.4724605679512024
+          ],
+          "closed": [
+            1.299672245979309,
+            0.47528284788131714
+          ],
+          "pooled_test": 40,
+          "common_test": 25,
+          "test_labels": [
+            "banded",
+            "blotchy",
+            "bubbly",
+            "cracked",
+            "crystalline",
+            "flecked",
+            "grooved",
+            "knitted",
+            "lacelike",
+            "lined",
+            "matted",
+            "meshed",
+            "paisley",
+            "pitted",
+            "pleated",
+            "potholed",
+            "smeared",
+            "spiralled",
+            "sprinkled",
+            "stained",
+            "stratified",
+            "swirly",
+            "wrinkled"
+          ],
+          "test_label_count": 23,
+          "test_sites": 31
+        },
+        "meet": {
+          "query": [
+            0.6589071750640869,
+            0.4724605679512024
+          ],
+          "closed": [
+            0.6625620126724243,
+            0.47392940521240234
+          ],
+          "pooled_test": 57,
+          "common_test": 41,
+          "test_labels": [
+            "banded",
+            "blotchy",
+            "braided",
+            "bubbly",
+            "bumpy",
+            "cracked",
+            "crystalline",
+            "dotted",
+            "flecked",
+            "freckled",
+            "grooved",
+            "knitted",
+            "lacelike",
+            "lined",
+            "marbled",
+            "matted",
+            "meshed",
+            "paisley",
+            "pitted",
+            "pleated",
+            "potholed",
+            "smeared",
+            "spiralled",
+            "sprinkled",
+            "stained",
+            "stratified",
+            "studded",
+            "swirly",
+            "waffled",
+            "woven",
+            "wrinkled"
+          ],
+          "test_label_count": 31,
+          "test_sites": 70
+        },
+        "join": {
+          "query": [
+            1.2964311122894292,
+            0.8953405976295473
+          ],
+          "closed": [
+            1.299672245979309,
+            0.8963893055915833
+          ],
+          "pooled_test": 31,
+          "common_test": 10,
+          "test_labels": [
+            "banded",
+            "cracked",
+            "flecked",
+            "lacelike",
+            "meshed",
+            "pitted",
+            "potholed",
+            "smeared",
+            "sprinkled",
+            "stained"
+          ],
+          "test_label_count": 10,
+          "test_sites": 14
+        }
+      }
+    },
+    {
+      "features": [
+        6237,
+        23585
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.5481418371200562,
+            0.7315312623977661
+          ],
+          "closed": [
+            0.5496053695678711,
+            0.7333016395568848
+          ],
+          "pooled_test": 38,
+          "common_test": 19,
+          "test_labels": [
+            "blotchy",
+            "bumpy",
+            "fibrous",
+            "freckled",
+            "gauzy",
+            "honeycombed",
+            "lacelike",
+            "marbled",
+            "meshed",
+            "pleated",
+            "polka-dotted",
+            "porous",
+            "sprinkled",
+            "stratified",
+            "striped",
+            "swirly"
+          ],
+          "test_label_count": 16,
+          "test_sites": 26
+        },
+        "v": {
+          "query": [
+            1.0272630214691163,
+            0.4046720564365387
+          ],
+          "closed": [
+            1.0329508781433105,
+            0.4079255163669586
+          ],
+          "pooled_test": 39,
+          "common_test": 18,
+          "test_labels": [
+            "braided",
+            "fibrous",
+            "freckled",
+            "gauzy",
+            "grooved",
+            "lacelike",
+            "marbled",
+            "meshed",
+            "pleated",
+            "polka-dotted",
+            "porous",
+            "sprinkled",
+            "stratified",
+            "striped",
+            "swirly",
+            "wrinkled"
+          ],
+          "test_label_count": 16,
+          "test_sites": 24
+        },
+        "meet": {
+          "query": [
+            0.5481418371200562,
+            0.4046720564365387
+          ],
+          "closed": [
+            0.5496053695678711,
+            0.4049510657787323
+          ],
+          "pooled_test": 54,
+          "common_test": 31,
+          "test_labels": [
+            "blotchy",
+            "braided",
+            "bubbly",
+            "bumpy",
+            "fibrous",
+            "flecked",
+            "freckled",
+            "frilly",
+            "gauzy",
+            "grooved",
+            "honeycombed",
+            "knitted",
+            "lacelike",
+            "marbled",
+            "matted",
+            "meshed",
+            "perforated",
+            "pleated",
+            "polka-dotted",
+            "porous",
+            "sprinkled",
+            "stratified",
+            "striped",
+            "swirly",
+            "wrinkled"
+          ],
+          "test_label_count": 25,
+          "test_sites": 57
+        },
+        "join": {
+          "query": [
+            1.0272630214691163,
+            0.7315312623977661
+          ],
+          "closed": [
+            1.0360673666000366,
+            0.7333016395568848
+          ],
+          "pooled_test": 30,
+          "common_test": 14,
+          "test_labels": [
+            "fibrous",
+            "freckled",
+            "gauzy",
+            "lacelike",
+            "marbled",
+            "meshed",
+            "pleated",
+            "polka-dotted",
+            "porous",
+            "sprinkled",
+            "stratified",
+            "striped",
+            "swirly"
+          ],
+          "test_label_count": 13,
+          "test_sites": 16
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

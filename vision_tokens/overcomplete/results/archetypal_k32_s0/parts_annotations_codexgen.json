@@ -1,0 +1,322 @@
+{
+  "model": "archetypal_k32_s0",
+  "dataset": "parts",
+  "features": [
+    {
+      "feature": 420,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.20790816326530615,
+      "random_mean": 0.1105688775510204,
+      "random_q025_q975": [
+        0.05,
+        0.19950255102040818
+      ],
+      "norm_matched_coverage": 0.23979591836734696
+    },
+    {
+      "feature": 1394,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.24693877551020407,
+      "random_mean": 0.08611607142857142,
+      "random_q025_q975": [
+        0.05,
+        0.15
+      ],
+      "norm_matched_coverage": 0.13801020408163267
+    },
+    {
+      "feature": 701,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 24,
+      "annotation_coverage": 0.288265306122449,
+      "random_mean": 0.1684017857142857,
+      "random_q025_q975": [
+        0.09486607142857142,
+        0.2803762755102041
+      ],
+      "norm_matched_coverage": 0.15841836734693876
+    },
+    {
+      "feature": 999,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 1,
+      "annotation_coverage": 0.07142857142857142,
+      "random_mean": 0.0755982142857143,
+      "random_q025_q975": [
+        0.05,
+        0.14286989795918367
+      ],
+      "norm_matched_coverage": 0.05
+    },
+    {
+      "feature": 54,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 3,
+      "annotation_coverage": 0.12448979591836735,
+      "random_mean": 0.09350892857142856,
+      "random_q025_q975": [
+        0.05,
+        0.15490433673469395
+      ],
+      "norm_matched_coverage": 0.16964285714285715
+    },
+    {
+      "feature": 816,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.4,
+      "random_mean": 0.14535969387755102,
+      "random_q025_q975": [
+        0.08684948979591837,
+        0.24047193877551026
+      ],
+      "norm_matched_coverage": 0.1625
+    },
+    {
+      "feature": 661,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.49234693877551017,
+      "random_mean": 0.1561058673469388,
+      "random_q025_q975": [
+        0.09791454081632653,
+        0.25304209183673476
+      ],
+      "norm_matched_coverage": 0.16173469387755102
+    },
+    {
+      "feature": 810,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 1,
+      "annotation_coverage": 0.4163265306122449,
+      "random_mean": 0.12370663265306123,
+      "random_q025_q975": [
+        0.05987882653061225,
+        0.22733418367346941
+      ],
+      "norm_matched_coverage": 0.1
+    },
+    {
+      "feature": 717,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 4,
+      "annotation_coverage": 0.15,
+      "random_mean": 0.09766326530612245,
+      "random_q025_q975": [
+        0.05,
+        0.15
+      ],
+      "norm_matched_coverage": 0.1
+    },
+    {
+      "feature": 575,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.2900510204081633,
+      "random_mean": 0.18258290816326528,
+      "random_q025_q975": [
+        0.09514668367346939,
+        0.2943941326530612
+      ],
+      "norm_matched_coverage": 0.1673469387755102
+    },
+    {
+      "feature": 508,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.061479591836734696,
+      "random_mean": 0.08538010204081634,
+      "random_q025_q975": [
+        0.05,
+        0.15
+      ],
+      "norm_matched_coverage": 0.12117346938775511
+    },
+    {
+      "feature": 1203,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 5,
+      "annotation_coverage": 0.05,
+      "random_mean": 0.07182908163265306,
+      "random_q025_q975": [
+        0.05,
+        0.13726403061224488
+      ],
+      "norm_matched_coverage": 0.05
+    },
+    {
+      "feature": 194,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.1,
+      "random_mean": 0.07872704081632653,
+      "random_q025_q975": [
+        0.05,
+        0.11278698979591843
+      ],
+      "norm_matched_coverage": 0.1
+    },
+    {
+      "feature": 385,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 9,
+      "annotation_coverage": 0.05,
+      "random_mean": 0.11487244897959185,
+      "random_q025_q975": [
+        0.05,
+        0.19751275510204083
+      ],
+      "norm_matched_coverage": 0.09030612244897959
+    },
+    {
+      "feature": 154,
+      "images": 18,
+      "distinct_labels": 18,
+      "dominant_annotation": 24,
+      "annotation_coverage": 0.16383219954648526,
+      "random_mean": 0.1192063492063492,
+      "random_q025_q975": [
+        0.05555555555555555,
+        0.20069444444444445
+      ],
+      "norm_matched_coverage": 0.1111111111111111
+    },
+    {
+      "feature": 75,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 2,
+      "annotation_coverage": 0.18392857142857144,
+      "random_mean": 0.09910969387755103,
+      "random_q025_q975": [
+        0.05,
+        0.1628188775510204
+      ],
+      "norm_matched_coverage": 0.08647959183673469
+    },
+    {
+      "feature": 942,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 24,
+      "annotation_coverage": 0.056377551020408166,
+      "random_mean": 0.15640816326530613,
+      "random_q025_q975": [
+        0.053297193877551025,
+        0.2500573979591837
+      ],
+      "norm_matched_coverage": 0.047448979591836735
+    },
+    {
+      "feature": 1392,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 5,
+      "annotation_coverage": 0.08724489795918368,
+      "random_mean": 0.09821173469387755,
+      "random_q025_q975": [
+        0.05,
+        0.16665178571428574
+      ],
+      "norm_matched_coverage": 0.08698979591836735
+    },
+    {
+      "feature": 990,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.30943877551020404,
+      "random_mean": 0.13464668367346938,
+      "random_q025_q975": [
+        0.08161989795918369,
+        0.22308035714285715
+      ],
+      "norm_matched_coverage": 0.16224489795918368
+    },
+    {
+      "feature": 874,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 25,
+      "annotation_coverage": 0.3104591836734694,
+      "random_mean": 0.1624719387755102,
+      "random_q025_q975": [
+        0.06741071428571428,
+        0.2990051020408164
+      ],
+      "norm_matched_coverage": 0.18596938775510202
+    },
+    {
+      "feature": 309,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 24,
+      "annotation_coverage": 0.1,
+      "random_mean": 0.10325892857142857,
+      "random_q025_q975": [
+        0.05,
+        0.1537308673469389
+      ],
+      "norm_matched_coverage": 0.13239795918367347
+    },
+    {
+      "feature": 505,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 4,
+      "annotation_coverage": 0.14387755102040817,
+      "random_mean": 0.08088010204081635,
+      "random_q025_q975": [
+        0.05,
+        0.13310586734693883
+      ],
+      "norm_matched_coverage": 0.05
+    },
+    {
+      "feature": 1035,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.23265306122448978,
+      "random_mean": 0.11201275510204081,
+      "random_q025_q975": [
+        0.05,
+        0.2
+      ],
+      "norm_matched_coverage": 0.10331632653061225
+    },
+    {
+      "feature": 686,
+      "images": 20,
+      "distinct_labels": 20,
+      "dominant_annotation": 0,
+      "annotation_coverage": 0.15,
+      "random_mean": 0.11755994897959184,
+      "random_q025_q975": [
+        0.05,
+        0.2000063775510204
+      ],
+      "norm_matched_coverage": 0.2
+    }
+  ],
+  "note": "Annotation association is not a universal feature meaning. Different classes and positions are allowed.",
+  "mean_coverage": 0.1952936035525321,
+  "mean_random": 0.11559113402305365,
+  "mean_norm_matched": 0.12395360922146637
+}

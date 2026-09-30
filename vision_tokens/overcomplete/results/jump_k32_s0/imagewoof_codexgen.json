@@ -1,0 +1,377 @@
+{
+  "model": "jump_k32_s0",
+  "dataset": "imagewoof",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 0.4982506907566112,
+      "l0": 70.0198046875
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        1503,
+        1021
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.7039520740509033,
+            6.293859767913818
+          ],
+          "closed": [
+            5.603896141052246,
+            6.293859767913818
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            7.535677814483643,
+            3.4666619300842285
+          ],
+          "closed": [
+            7.535677814483643,
+            4.011785984039307
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            3.7039520740509033,
+            3.4666619300842285
+          ],
+          "closed": [
+            5.603896141052246,
+            4.011785984039307
+          ],
+          "pooled_test": 3,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "join": {
+          "query": [
+            7.535677814483643,
+            6.293859767913818
+          ],
+          "closed": [
+            7.535677814483643,
+            6.293859767913818
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        1385,
+        253
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.7405292987823486,
+            4.666643810272217
+          ],
+          "closed": [
+            2.848752021789551,
+            4.676745891571045
+          ],
+          "pooled_test": 52,
+          "common_test": 46,
+          "test_labels": [
+            "Australian terrier",
+            "Beagle",
+            "Border terrier",
+            "Dingo",
+            "English foxhound",
+            "Golden retriever",
+            "Old English sheepdog",
+            "Rhodesian ridgeback",
+            "Samoyed",
+            "Shih-Tzu"
+          ],
+          "test_label_count": 10,
+          "test_sites": 66
+        },
+        "v": {
+          "query": [
+            4.703223037719726,
+            2.709041118621826
+          ],
+          "closed": [
+            4.716951847076416,
+            2.784579277038574
+          ],
+          "pooled_test": 55,
+          "common_test": 52,
+          "test_labels": [
+            "Australian terrier",
+            "Beagle",
+            "Border terrier",
+            "Dingo",
+            "English foxhound",
+            "Golden retriever",
+            "Old English sheepdog",
+            "Rhodesian ridgeback",
+            "Samoyed",
+            "Shih-Tzu"
+          ],
+          "test_label_count": 10,
+          "test_sites": 70
+        },
+        "meet": {
+          "query": [
+            2.7405292987823486,
+            2.709041118621826
+          ],
+          "closed": [
+            2.744995594024658,
+            2.729466676712036
+          ],
+          "pooled_test": 76,
+          "common_test": 69,
+          "test_labels": [
+            "Australian terrier",
+            "Beagle",
+            "Border terrier",
+            "Dingo",
+            "English foxhound",
+            "Golden retriever",
+            "Old English sheepdog",
+            "Rhodesian ridgeback",
+            "Samoyed",
+            "Shih-Tzu"
+          ],
+          "test_label_count": 10,
+          "test_sites": 144
+        },
+        "join": {
+          "query": [
+            4.703223037719726,
+            4.666643810272217
+          ],
+          "closed": [
+            4.716951847076416,
+            4.676745891571045
+          ],
+          "pooled_test": 41,
+          "common_test": 34,
+          "test_labels": [
+            "Australian terrier",
+            "Beagle",
+            "Border terrier",
+            "Dingo",
+            "English foxhound",
+            "Golden retriever",
+            "Old English sheepdog",
+            "Rhodesian ridgeback",
+            "Samoyed",
+            "Shih-Tzu"
+          ],
+          "test_label_count": 10,
+          "test_sites": 43
+        }
+      }
+    },
+    {
+      "features": [
+        399,
+        14
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            4.245789051055908,
+            4.149318599700929
+          ],
+          "closed": [
+            4.254092693328857,
+            4.158836364746094
+          ],
+          "pooled_test": 90,
+          "common_test": 85,
+          "test_labels": [
+            "Australian terrier",
+            "Beagle",
+            "Border terrier",
+            "Dingo",
+            "English foxhound",
+            "Golden retriever",
+            "Old English sheepdog",
+            "Rhodesian ridgeback",
+            "Samoyed",
+            "Shih-Tzu"
+          ],
+          "test_label_count": 10,
+          "test_sites": 291
+        },
+        "v": {
+          "query": [
+            7.113207721710205,
+            1.9761778116226196
+          ],
+          "closed": [
+            7.113954067230225,
+            2.024531841278076
+          ],
+          "pooled_test": 53,
+          "common_test": 47,
+          "test_labels": [
+            "Australian terrier",
+            "Beagle",
+            "Dingo",
+            "English foxhound",
+            "Golden retriever",
+            "Old English sheepdog",
+            "Rhodesian ridgeback",
+            "Samoyed",
+            "Shih-Tzu"
+          ],
+          "test_label_count": 9,
+          "test_sites": 135
+        },
+        "meet": {
+          "query": [
+            4.245789051055908,
+            1.9761778116226196
+          ],
+          "closed": [
+            4.254092693328857,
+            1.98078453540802
+          ],
+          "pooled_test": 90,
+          "common_test": 90,
+          "test_labels": [
+            "Australian terrier",
+            "Beagle",
+            "Border terrier",
+            "Dingo",
+            "English foxhound",
+            "Golden retriever",
+            "Old English sheepdog",
+            "Rhodesian ridgeback",
+            "Samoyed",
+            "Shih-Tzu"
+          ],
+          "test_label_count": 10,
+          "test_sites": 426
+        },
+        "join": {
+          "query": [
+            7.113207721710205,
+            4.149318599700929
+          ],
+          "closed": [
+            7.190793037414551,
+            4.23729133605957
+          ],
+          "pooled_test": 53,
+          "common_test": 37,
+          "test_labels": [
+            "Australian terrier",
+            "Beagle",
+            "Dingo",
+            "English foxhound",
+            "Golden retriever",
+            "Old English sheepdog",
+            "Rhodesian ridgeback",
+            "Samoyed",
+            "Shih-Tzu"
+          ],
+          "test_label_count": 9,
+          "test_sites": 79
+        }
+      }
+    },
+    {
+      "features": [
+        585,
+        650
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.1633503437042236,
+            5.040864372253418
+          ],
+          "closed": [
+            7.016060829162598,
+            6.41420316696167
+          ],
+          "pooled_test": 1,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            5.513796710968018,
+            3.101790189743042
+          ],
+          "closed": [
+            5.517587661743164,
+            3.8822546005249023
+          ],
+          "pooled_test": 2,
+          "common_test": 1,
+          "test_labels": [
+            "Border terrier"
+          ],
+          "test_label_count": 1,
+          "test_sites": 2
+        },
+        "meet": {
+          "query": [
+            3.1633503437042236,
+            3.101790189743042
+          ],
+          "closed": [
+            3.1882097721099854,
+            3.151367425918579
+          ],
+          "pooled_test": 4,
+          "common_test": 3,
+          "test_labels": [
+            "Border terrier",
+            "Golden retriever"
+          ],
+          "test_label_count": 2,
+          "test_sites": 17
+        },
+        "join": {
+          "query": [
+            5.513796710968018,
+            5.040864372253418
+          ],
+          "closed": [
+            7.016060829162598,
+            6.41420316696167
+          ],
+          "pooled_test": 0,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

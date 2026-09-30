@@ -1,0 +1,328 @@
+{
+  "model": "pretrained_ra",
+  "dataset": "imagenette",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 0.7218220081292509,
+      "l0": 9.9555859375
+    },
+    "train": {
+      "images": 200,
+      "r2": 0.7239202741470679,
+      "l0": 9.95224609375
+    },
+    "val": {
+      "images": 50,
+      "r2": 0.7344421652510407,
+      "l0": 9.92625
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        17231,
+        31554
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.5021812915802,
+            3.5067337036132815
+          ],
+          "closed": [
+            2.505979537963867,
+            3.509082317352295
+          ],
+          "pooled_test": 6,
+          "common_test": 6,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 75
+        },
+        "v": {
+          "query": [
+            3.650945568084717,
+            2.3333635330200195
+          ],
+          "closed": [
+            3.652552604675293,
+            2.3375606536865234
+          ],
+          "pooled_test": 5,
+          "common_test": 5,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 57
+        },
+        "meet": {
+          "query": [
+            2.5021812915802,
+            2.3333635330200195
+          ],
+          "closed": [
+            2.502582550048828,
+            2.3342390060424805
+          ],
+          "pooled_test": 9,
+          "common_test": 9,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 146
+        },
+        "join": {
+          "query": [
+            3.650945568084717,
+            3.5067337036132815
+          ],
+          "closed": [
+            3.6529150009155273,
+            3.5099034309387207
+          ],
+          "pooled_test": 3,
+          "common_test": 3,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 23
+        }
+      }
+    },
+    {
+      "features": [
+        4271,
+        4929
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            5.360751628875732,
+            3.4551501750946048
+          ],
+          "closed": [
+            5.380993843078613,
+            3.456587553024292
+          ],
+          "pooled_test": 5,
+          "common_test": 5,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 69
+        },
+        "v": {
+          "query": [
+            6.712332153320312,
+            2.538621425628662
+          ],
+          "closed": [
+            6.712838172912598,
+            2.5395984649658203
+          ],
+          "pooled_test": 6,
+          "common_test": 6,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 44
+        },
+        "meet": {
+          "query": [
+            5.360751628875732,
+            2.538621425628662
+          ],
+          "closed": [
+            5.380993843078613,
+            2.5395984649658203
+          ],
+          "pooled_test": 6,
+          "common_test": 6,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 156
+        },
+        "join": {
+          "query": [
+            6.712332153320312,
+            3.4551501750946048
+          ],
+          "closed": [
+            6.712838172912598,
+            3.456587553024292
+          ],
+          "pooled_test": 5,
+          "common_test": 4,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 4
+        }
+      }
+    },
+    {
+      "features": [
+        11318,
+        13604
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.055697441101074,
+            4.634036922454834
+          ],
+          "closed": [
+            4.857967853546143,
+            4.6351847648620605
+          ],
+          "pooled_test": 4,
+          "common_test": 4,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 50
+        },
+        "v": {
+          "query": [
+            5.463708114624024,
+            3.4736266136169434
+          ],
+          "closed": [
+            5.4662909507751465,
+            3.4764695167541504
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 83
+        },
+        "meet": {
+          "query": [
+            3.055697441101074,
+            3.4736266136169434
+          ],
+          "closed": [
+            4.307675838470459,
+            3.4764695167541504
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 102
+        },
+        "join": {
+          "query": [
+            5.463708114624024,
+            4.634036922454834
+          ],
+          "closed": [
+            5.487736701965332,
+            4.6351847648620605
+          ],
+          "pooled_test": 4,
+          "common_test": 4,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 40
+        }
+      }
+    },
+    {
+      "features": [
+        29969,
+        8288
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.8558331727981567,
+            3.137219715118408
+          ],
+          "closed": [
+            2.8828673362731934,
+            3.1374707221984863
+          ],
+          "pooled_test": 5,
+          "common_test": 4,
+          "test_labels": [
+            "garbage truck"
+          ],
+          "test_label_count": 1,
+          "test_sites": 76
+        },
+        "v": {
+          "query": [
+            3.9234276294708263,
+            2.2694311141967773
+          ],
+          "closed": [
+            3.9259893894195557,
+            2.272454261779785
+          ],
+          "pooled_test": 9,
+          "common_test": 8,
+          "test_labels": [
+            "garbage truck"
+          ],
+          "test_label_count": 1,
+          "test_sites": 189
+        },
+        "meet": {
+          "query": [
+            2.8558331727981567,
+            2.2694311141967773
+          ],
+          "closed": [
+            2.8583154678344727,
+            2.269660472869873
+          ],
+          "pooled_test": 9,
+          "common_test": 9,
+          "test_labels": [
+            "garbage truck"
+          ],
+          "test_label_count": 1,
+          "test_sites": 242
+        },
+        "join": {
+          "query": [
+            3.9234276294708263,
+            3.137219715118408
+          ],
+          "closed": [
+            3.931657075881958,
+            3.1502432823181152
+          ],
+          "pooled_test": 5,
+          "common_test": 4,
+          "test_labels": [
+            "garbage truck"
+          ],
+          "test_label_count": 1,
+          "test_sites": 63
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

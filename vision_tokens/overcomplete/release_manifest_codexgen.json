@@ -1,0 +1,2700 @@
+{
+  "files": [
+    {
+      "path": "vision_tokens/overcomplete/dataset/dtd_codexgen.json",
+      "bytes": 33321,
+      "sha256": "64b5d709ddceb1639a94d78ef40b76128c5062cb22604b5419c1bc8cda13482f",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/dtd_codexgen.npz",
+      "bytes": 31936797,
+      "sha256": "603eb0339dda98ecc860329676ff468bdd7addc236261c5e7fa3efbe97bb9dde",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/gratings_codexgen.json",
+      "bytes": 8235,
+      "sha256": "60306914e5de7a7579fc54ddfba99f37427a437e3607853360b1f008a02d5e4d",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/gratings_codexgen.npz",
+      "bytes": 70786,
+      "sha256": "c19e0703389c622674b44d29a32e90a5cacb093eb8cd128c8720270fb9d52244",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/imagenette_codexgen.json",
+      "bytes": 57038,
+      "sha256": "7f38789dc69b41c41ae76d56aa561fb6f7b1fed1676e2984076c386f62d7bf4b",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/imagenette_codexgen.npz",
+      "bytes": 38072417,
+      "sha256": "644cdb2a093def95a04786d3acd284bb548b74e34d6d7b9484295ab34f4938a9",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/imagewoof_codexgen.json",
+      "bytes": 16193,
+      "sha256": "f8942637565077657f3f1426517a9d6880a39ffb77f6a859b22215de95e04578",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/imagewoof_codexgen.npz",
+      "bytes": 11962031,
+      "sha256": "b233c15393260e0f10b9e8ff3bef8c8552228ed31e5bfa6ff5f964149c9885f7",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/parts_codexgen.json",
+      "bytes": 30126,
+      "sha256": "4cf5af38031a1a0dfbe5eb2b43d8971562834147ab8f9e560d9118a9ea61c775",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/parts_codexgen.npz",
+      "bytes": 26364133,
+      "sha256": "8fc3fb8841f5a817a95d0ba113d9c00b5986b280a24a87e772cab3e5e1542c2f",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/pets_codexgen.json",
+      "bytes": 27066,
+      "sha256": "39bb2e60fb15b29b3b031f845a21451e8094f3955959b4b13314be4f743a8504",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/pets_codexgen.npz",
+      "bytes": 23323867,
+      "sha256": "fd14bb72a8947d9ebb780915b6b6721a5952f862fe3f06f87c7703e4e97d9fa7",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/shapes_codexgen.json",
+      "bytes": 4819,
+      "sha256": "499632ea26924900583f9f65c6bd125cc3120b7690af6ead60612daf61f21b76",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/dataset/shapes_codexgen.npz",
+      "bytes": 34737,
+      "sha256": "504b77c1f63abee1eaf0334b26efa1d413303c93da05de0733dca2f4f5bc6da2",
+      "asset": "vision-overcomplete-inputs-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0000_codexgen.npz",
+      "bytes": 7283962,
+      "sha256": "fc08885711fac9f9b0fce25ce85d34f204fa2cf1939aa135b2005b8ace565cfd",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0010_codexgen.npz",
+      "bytes": 7283460,
+      "sha256": "fb8a1e10d463e0bc8f3226502f44a8502f7e2cb2cd58412d65e2d9d19def7a5d",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0020_codexgen.npz",
+      "bytes": 7284739,
+      "sha256": "72c351be0f6396e6414afbd009421fa33fca065d8918cb5997a0c7ebd8c9d5c7",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0030_codexgen.npz",
+      "bytes": 7283653,
+      "sha256": "82e734d6f785c6840d90da8f0a7cd3e39feba512ff52c23e1218c86cff588805",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0040_codexgen.npz",
+      "bytes": 7283324,
+      "sha256": "0e1876e4b3b56aba93231e0b90894f739097698bc97de99f34da86ec1a5502ce",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0050_codexgen.npz",
+      "bytes": 7285352,
+      "sha256": "c95ad2f19fe309ba5485672151920ff1763f3889457991e61d53a81b3fe5a967",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0060_codexgen.npz",
+      "bytes": 7283649,
+      "sha256": "564f4a7f94327f929f2a85257ccdb62d3bef24f34ed4d9586a35ce187da13025",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0070_codexgen.npz",
+      "bytes": 7282437,
+      "sha256": "a13e9a3ff211a21778e9d66708b3f9ffe34848f086e27cfb7eb2b82cd2f15343",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0080_codexgen.npz",
+      "bytes": 7284131,
+      "sha256": "62ad93bcca8f057a83c8e05f2ed9b4e86bf5075df8a0a73e750464c7195b4590",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0090_codexgen.npz",
+      "bytes": 7283026,
+      "sha256": "3927e0cd38f258c7850993f537661cc563aae05e0140f1dacfd2e48630ea9272",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0100_codexgen.npz",
+      "bytes": 7279872,
+      "sha256": "557696b0fd51df0320fcde8230a74e8eaa0c18e53d6400a4751130733bd79461",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0110_codexgen.npz",
+      "bytes": 7285213,
+      "sha256": "fb5e2cd1daa7c56afb280e4098c9549d36c6d2b34627e8c8a3c2ace644d75521",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0120_codexgen.npz",
+      "bytes": 7284923,
+      "sha256": "c47a0ee1a3d7dfa8f561c987bf7112b81bb7f59810c403c36e98cab1e304ac81",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0130_codexgen.npz",
+      "bytes": 7283915,
+      "sha256": "199675595965a87edc81845ca6637a655c6c211b5f4b1cb4a9c31ec4e55dc8fd",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0140_codexgen.npz",
+      "bytes": 7284436,
+      "sha256": "9d7e51dc0d99401325204e8fab59b800dd9f90a1fca7487c607d45db39746550",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0150_codexgen.npz",
+      "bytes": 7288356,
+      "sha256": "483e871191d134e4e9660e123c7fd75eca0ee26088b9ae1a964e9bf78f5e9507",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0160_codexgen.npz",
+      "bytes": 7284996,
+      "sha256": "42495f3510fa5a04d109947f49f9f0c117611470430e68e6e275a228b257a00d",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0170_codexgen.npz",
+      "bytes": 7283234,
+      "sha256": "fd46ce1ce952b612cc494aa4be3d5c0e2f32994868627c631bb9f392fca3d6cb",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0180_codexgen.npz",
+      "bytes": 7283804,
+      "sha256": "d78c33d7b3f33cdc8e9a2af794c22b9e9765e247b5bc52cb9d96ef90b7777dd0",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0190_codexgen.npz",
+      "bytes": 7283803,
+      "sha256": "0028fa55fdba5fcf0aae70f93c066a659b0139ad16dc117524375f5eeacc5760",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0200_codexgen.npz",
+      "bytes": 7285338,
+      "sha256": "823b19914e29f8ff3bae9f30dc407a45cdf4a6f51a86e5a9ce55ec48e05262c3",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0210_codexgen.npz",
+      "bytes": 7284848,
+      "sha256": "4ff30c5d85276ff31d60d028e779f1d3ba262c0096c1500cc693a1d5add545b9",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0220_codexgen.npz",
+      "bytes": 7281759,
+      "sha256": "71a1b1fe912438933303597f572d9a9dd082b1c61ea9b063f326bf1614406afb",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0230_codexgen.npz",
+      "bytes": 7283135,
+      "sha256": "53fe50af98c71391838f064f88559b6f766aa65b53bf2ff5c8c1a530b0f457ed",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0240_codexgen.npz",
+      "bytes": 7285977,
+      "sha256": "32ab47d2502f40ad48c52a7214431b55e4abf2f49939f3b62eee71712d81e639",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0250_codexgen.npz",
+      "bytes": 7283446,
+      "sha256": "9540de24273e5b964f29f5f0bf208a391127e6ce4e364ea223b4700011ac6236",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0260_codexgen.npz",
+      "bytes": 7284934,
+      "sha256": "62a1b31c7bd1138e6b9cd56d3ac0abae9d090b5244a4ee96a61d794013e15029",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0270_codexgen.npz",
+      "bytes": 7281404,
+      "sha256": "845453b242f5b217c9b819d49bc8a4616d80377d38d223e209a857c04404c717",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/dense_0280_codexgen.npz",
+      "bytes": 1455071,
+      "sha256": "34e7a6e5cffbafa72eea0502fe517c7ada75293d88803105dda1b286ef083552",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/dtd/metadata_codexgen.json",
+      "bytes": 2525,
+      "sha256": "96a8dbb8458fd6a9a231d9f8071eb1ae09c1a3baf039a3e04bace74cdcf414f1",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/gratings/dense_0000_codexgen.npz",
+      "bytes": 7280086,
+      "sha256": "1c1f58cda0443993acfc662b46fa3b43ef2681b9d6bce2a0e9b3a950e6d1d9a9",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/gratings/dense_0010_codexgen.npz",
+      "bytes": 7275747,
+      "sha256": "858e2d98bb45d579a92083b5068c16bc5ffad4ee5133ec3cec8327c6a2f555e0",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/gratings/dense_0020_codexgen.npz",
+      "bytes": 7278250,
+      "sha256": "81b710d6a0435823139312495179cf92057811d2860cad5b7faae60bc2e70eac",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/gratings/dense_0030_codexgen.npz",
+      "bytes": 7278518,
+      "sha256": "2884ad9aefd9e27bd68b04ff88f92936acfda3ff1153ce319806dbc725cbefab",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/gratings/dense_0040_codexgen.npz",
+      "bytes": 5825822,
+      "sha256": "94011d8b9e33ae2f891f211a95f30d34b1a2ac27fe344c78924820f7ff16e790",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/gratings/metadata_codexgen.json",
+      "bytes": 2525,
+      "sha256": "de4075b44d01530a068a2fbd31d19678b1d85bb3524166c6b9d9c88019fbd815",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0000_codexgen.npz",
+      "bytes": 7279923,
+      "sha256": "b911dbc42af205c2be8e78b70d9c232d8a9b3c3340e7357a0e96ab56756f93e3",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0010_codexgen.npz",
+      "bytes": 7280918,
+      "sha256": "76782e7e42dae474d78a98001c31fbcbe027d24ddb8f7c68d069ed075592ba6f",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0020_codexgen.npz",
+      "bytes": 7281688,
+      "sha256": "5533426ac7399effd76df9b02ad7217be3b1c4191c467b250f79f06c7754fdf2",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0030_codexgen.npz",
+      "bytes": 7282397,
+      "sha256": "fe89c8e1041ae56a552c3fcf17f7a07a85166024792fbbad033ce28b2ac40e59",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0040_codexgen.npz",
+      "bytes": 7281639,
+      "sha256": "da7352c59a008e2391cc431bce8cdeecfe7e65f232daef3fbf2adaf16d7f36f2",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0050_codexgen.npz",
+      "bytes": 7281120,
+      "sha256": "fe1e472eb42921a0b0fe773d1855df8b4ea8732d7227847aaed442b841e8afc7",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0060_codexgen.npz",
+      "bytes": 7280109,
+      "sha256": "02ce728c2345517a00840cf043d4eaea435ae4932a2831fed259bf744366408b",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0070_codexgen.npz",
+      "bytes": 7282132,
+      "sha256": "8b734df61ea2d421051f1bb36dc1897ac2745699142e95f78f19e2bb0fbbe8e4",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0080_codexgen.npz",
+      "bytes": 7279675,
+      "sha256": "ecffee6e3cbb5d2bb5ab221cb7d96dea7e3aaa0a3891f0df41d1c8250bb1ec3f",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0090_codexgen.npz",
+      "bytes": 7281196,
+      "sha256": "f4a116fcf28fdd68cde36db09c91275b718a8ff8b8796d5a7c090529a44970da",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0100_codexgen.npz",
+      "bytes": 7281842,
+      "sha256": "835ed271e627255ecc846fd07f3e4c1f6249e1a54c7b5e9dcb2d4277197c5f44",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0110_codexgen.npz",
+      "bytes": 7281764,
+      "sha256": "64e4e2553692aa16ceff8b1c36c7228a26e5de77082b6e68512f9006b99f162a",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0120_codexgen.npz",
+      "bytes": 7281788,
+      "sha256": "03cb1d119b21b3ccfe66554e262374dd24a24bef94326bf4e4a47982e827b53f",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0130_codexgen.npz",
+      "bytes": 7281633,
+      "sha256": "0d936a6608f011fd450a63a882e9857efaa59adefd628a23697f3f856ed0e84d",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0140_codexgen.npz",
+      "bytes": 7282429,
+      "sha256": "63d320ebbf12fb826c023aa0b27d93dc31bc418f3a4de669b6f7484211bc7356",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0150_codexgen.npz",
+      "bytes": 7279612,
+      "sha256": "f46c00e82e08f5d9f88b874b313dba0ec3dcdd8049ad9c72fc2758b41968940d",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0160_codexgen.npz",
+      "bytes": 7280134,
+      "sha256": "2834469be249b894cd97af5115f0e8fb8fd5add26032d580e6904c2f0d34abb3",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0170_codexgen.npz",
+      "bytes": 7281829,
+      "sha256": "3cd3c4a624f0d49fd72d8b8446947026f3c7ec039e48fb8528fc683f4dcb62da",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0180_codexgen.npz",
+      "bytes": 7284318,
+      "sha256": "ab9a62f384ee4c2959d880f84da229ec65558c7cad08a3204cfb3c5d8c2b521f",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0190_codexgen.npz",
+      "bytes": 7282575,
+      "sha256": "3a9125f2f777d08b50c7f9f9fc509027e5d5245c5bfffdd3614644fbba9a1429",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0200_codexgen.npz",
+      "bytes": 7281058,
+      "sha256": "d13a3c2c7f8dfaa4ac6564e8a67e1ecc43b018c2d28a3e7c6782912a9b0f2e53",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0210_codexgen.npz",
+      "bytes": 7281605,
+      "sha256": "30f8b5452ec6f20fa0d03dd3b26c843b224b307e2d5085fa3550d97c6c6b31d9",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0220_codexgen.npz",
+      "bytes": 7278559,
+      "sha256": "e2f220272dc2c613653a0c5448c521b163df042c52341cb8e0ca726c28f1bb80",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0230_codexgen.npz",
+      "bytes": 7276723,
+      "sha256": "fa6d0032529e0ee54e4fae61cc93f61684c45472ef0a9e3a541f205d50d1463e",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0240_codexgen.npz",
+      "bytes": 7275425,
+      "sha256": "e18691a687fbd887541c31067171f8b9fa198bce87700dedaa55c0c767659610",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0250_codexgen.npz",
+      "bytes": 7280152,
+      "sha256": "717fcbc13e3e25912e5cf9b5ff68c004ce6b622d8820cf76958cb08abdf2fcff",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0260_codexgen.npz",
+      "bytes": 7282419,
+      "sha256": "a999cb799fb602a9467e94a8654062f0652b1a20b675bcfe93e3de676055e48f",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0270_codexgen.npz",
+      "bytes": 7281229,
+      "sha256": "d478e087a26c61204766c9c04d79f5c961594f339b2f75153cdec8d9dd8e9234",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0280_codexgen.npz",
+      "bytes": 7280010,
+      "sha256": "9daa62a7d906091b60ee7ae2cb82ab3bab6468bd9a9ef529f082a5c65f2126eb",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0290_codexgen.npz",
+      "bytes": 7280847,
+      "sha256": "59f880c3e5062529c99c56404e08ea84e2ee211fa73e82442b347572090f4cdb",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0300_codexgen.npz",
+      "bytes": 7281724,
+      "sha256": "5dae2dca4357d5b6610b446ca515acd6316150e679f93d91a21dbc4c2d698d5f",
+      "asset": "vision-overcomplete-activations-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0310_codexgen.npz",
+      "bytes": 7280883,
+      "sha256": "6db39781d7af9fe7fa37769f21a4ddb0e0a0ddc041fd292b5aa28c047d8472ce",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0320_codexgen.npz",
+      "bytes": 7284708,
+      "sha256": "d1f5f717c601428e4b320d30e38ec30168b25227d8dabf1764d52609aaa36012",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0330_codexgen.npz",
+      "bytes": 7280626,
+      "sha256": "4fdd3f321c578b7dcb4c9cbf6aa33d338644fb00ac020ed4b74f22704e7a0966",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/dense_0340_codexgen.npz",
+      "bytes": 7276819,
+      "sha256": "66699888973fe86e66a3071e29bbd0a52495dfa83e34ef6778d52c40e7f44225",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagenette/metadata_codexgen.json",
+      "bytes": 2525,
+      "sha256": "727c8120150d6f86c88b5c4e3ad1d8e07c96e0c2bc6c2eaa96068233500c1c08",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0000_codexgen.npz",
+      "bytes": 7282035,
+      "sha256": "08a6296af5b997c064efb0b277b677774d96b41668ee4c2acd34870ce30065e5",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0010_codexgen.npz",
+      "bytes": 7282031,
+      "sha256": "8e39fb5cacde1d04a713accac0f0278b65aa1af1abba119c1f79dba6d4939699",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0020_codexgen.npz",
+      "bytes": 7282626,
+      "sha256": "3acde524fd7d557b251ec49a5857c255f4c050ad67a02cab2e9986528bfd7809",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0030_codexgen.npz",
+      "bytes": 7283232,
+      "sha256": "8c73a9ff60552d2c963221ecb84d80b6e69b55a332e4c304fa5b5d467d940d1c",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0040_codexgen.npz",
+      "bytes": 7281576,
+      "sha256": "ac21e586dea1c3a20b89fbab9769479594ae622bd1ec67445691aacb96745488",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0050_codexgen.npz",
+      "bytes": 7281697,
+      "sha256": "fc01d4397cfc2d27d08f4659f3effd49b642d57bbd17c570f63458dddfc9bf43",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0060_codexgen.npz",
+      "bytes": 7281340,
+      "sha256": "e97ea961f2c5854580cfd590b6bd28823f0f68fb3fbb4de99da87ae6fba2772f",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0070_codexgen.npz",
+      "bytes": 7281272,
+      "sha256": "214628b9acca860c1fdbd2fadb68804e05230f0eadb899f23454bfbda61b7fb6",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0080_codexgen.npz",
+      "bytes": 7281789,
+      "sha256": "4898ca4e98e14fd9d31d3f63509a03cf7ce71b058ce3beb2c0fcf3d73582774a",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/dense_0090_codexgen.npz",
+      "bytes": 7283504,
+      "sha256": "76a390ccb7d9510a3858e8bd759ec7aaa3388a6d2212b30a5412d07d36378d49",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/imagewoof/metadata_codexgen.json",
+      "bytes": 2525,
+      "sha256": "9ca63e5fffcced52bc41201c619c711929ae73923c21133eff153c30af95a68f",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0000_codexgen.npz",
+      "bytes": 7280112,
+      "sha256": "2d94a332adb957b838929faaaecd0969d3583c886485cfe340614e56c460a366",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0010_codexgen.npz",
+      "bytes": 7281918,
+      "sha256": "3e70be3371979dcaa9cea9da2f597b83ca82dbe2683c32c679ad0754ab75718a",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0020_codexgen.npz",
+      "bytes": 7282294,
+      "sha256": "f1991c34cb118f09ace6756134aed562ecd7159abf20fa947aa81434aa6903e5",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0030_codexgen.npz",
+      "bytes": 7280198,
+      "sha256": "3d8bc525d3f7c27e6db7a25a2cd9ffdab96d64646ab91a3affb8744771453572",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0040_codexgen.npz",
+      "bytes": 7280174,
+      "sha256": "23461e2c9658c4abc4f64073d2af43de9c828bdafc5954374d654c9b90908d2d",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0050_codexgen.npz",
+      "bytes": 7280231,
+      "sha256": "9b86ffb5594389b6fddbef4ba8b83e9b965b5be66978c8a672ed3e157a9954b2",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0060_codexgen.npz",
+      "bytes": 7280482,
+      "sha256": "d95cc51f0cc94bb523234e107831efd6f71dabdb1c9231e4f4d909e367a199bf",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0070_codexgen.npz",
+      "bytes": 7281469,
+      "sha256": "961a8b8a58e6407e8ba366f58b5d0302ab672c57c233f0db56351576345bf2b2",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0080_codexgen.npz",
+      "bytes": 7280210,
+      "sha256": "7efb7b59235a53c69d396b7a7149b0af48313bc226e0f3f5e8fd16f3006279e5",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0090_codexgen.npz",
+      "bytes": 7281715,
+      "sha256": "f4aa0be591b5e6bbe4c725ba70678d37f759d7366e7321ebafe1deb60e73f422",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0100_codexgen.npz",
+      "bytes": 7280767,
+      "sha256": "5ca39176b4d626670a1696e761c6e214c3b0c4e1b8a474d62b311c5d01427f23",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0110_codexgen.npz",
+      "bytes": 7281868,
+      "sha256": "5776428aa5d2839f936af1825d753061696a8effb8c4eea8dcb2a1c01ecd241b",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0120_codexgen.npz",
+      "bytes": 7282811,
+      "sha256": "4511103279fbf7b67bd45b39fb7f9583253d0943ae61fc448c38e91e2d69cee9",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0130_codexgen.npz",
+      "bytes": 7280154,
+      "sha256": "e7d30ef73051b471064ec4e4d25612cd7ecd3c78227241bda6ccece3433b5753",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0140_codexgen.npz",
+      "bytes": 7280929,
+      "sha256": "1a377f8c6377d4f77606d5c9f122ee40251f63466af7e5805e92eeda4af0aedb",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0150_codexgen.npz",
+      "bytes": 7281883,
+      "sha256": "c37b12405db85e3d58d22d583b602d14a8ebaaf427d5ccbf542bdcfd5d407d2e",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0160_codexgen.npz",
+      "bytes": 7279667,
+      "sha256": "480e853b96c0bd30803dcf75867e2dd7193bc4d530db0c7d85ac4b6e17dfc233",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0170_codexgen.npz",
+      "bytes": 7280689,
+      "sha256": "c72c10c8078329d2c14dce842140b1dec5dc6afecf22fc83a13f3f3f70ee782e",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0180_codexgen.npz",
+      "bytes": 7280598,
+      "sha256": "62b5cc195194edad13f56c96459b48d7f809f2dc22176d2372ecd896aab9f619",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0190_codexgen.npz",
+      "bytes": 7280373,
+      "sha256": "1b2eaad206e4226539f8813d504d28a6e550792434eb9f023da56d731cde5c2b",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0200_codexgen.npz",
+      "bytes": 7282151,
+      "sha256": "aba3b6fbe93c288dbd07d24206fe185d41539acbab9c6ec588c694d8ef076c61",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/dense_0210_codexgen.npz",
+      "bytes": 1456667,
+      "sha256": "33c9449af6b8659dd3cde4febf3ae99d8b58cbde11da093b9873140ab28fd39e",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/parts/metadata_codexgen.json",
+      "bytes": 2525,
+      "sha256": "1498e12b4599969a28d840f3d2c47139c86dc578918694007a1ac8132a2f141d",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0000_codexgen.npz",
+      "bytes": 7281397,
+      "sha256": "a47935f95878e7655d7ebcff953eb743cfa7df75748eae58dd623e26c8bb09bc",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0010_codexgen.npz",
+      "bytes": 7282530,
+      "sha256": "10bb93d20512b221a7bad7038ba4f06b82090e25bb1fec3579a732222bda744c",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0020_codexgen.npz",
+      "bytes": 7281352,
+      "sha256": "3c627e73c8e5c770a9511671498ac9ea43674a71e78156284613acb51a32ca35",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0030_codexgen.npz",
+      "bytes": 7281430,
+      "sha256": "7c68e04160706bbd5225f51827ac9fd9c50717b55b258e8596ddd17ea3b918c0",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0040_codexgen.npz",
+      "bytes": 7282297,
+      "sha256": "523eb86df8045e4876998fd24dffa2e8590cbd0728d644202ba89a97fca9a54e",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0050_codexgen.npz",
+      "bytes": 7282147,
+      "sha256": "b1c40da930431aa7e951c3c1fb5ef5a3e14589237f537c5a674aa61ab87c4e52",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0060_codexgen.npz",
+      "bytes": 7280731,
+      "sha256": "b806a6cee2dba3867101b6dec402c0f59d36a51686c8756d54d8d446d54edd85",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0070_codexgen.npz",
+      "bytes": 7282467,
+      "sha256": "3912a5138dc0134b605539b0fb88371776d6986e00d24c940c365ed60cbd4b83",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0080_codexgen.npz",
+      "bytes": 7281786,
+      "sha256": "3ea7d1c1c1c584dbd29b2334e26b2a30f298ff21f26ba60f427b168a80528b5b",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0090_codexgen.npz",
+      "bytes": 7281382,
+      "sha256": "b8577e5fcd91cb450511cebc2226ff61197aaaa7071e86759a99001e55fe1553",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0100_codexgen.npz",
+      "bytes": 7282206,
+      "sha256": "ac71dc88af152e03a5c78eb2528f9f6c03e4f8320263a20ec16fd99b32d434e1",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0110_codexgen.npz",
+      "bytes": 7282087,
+      "sha256": "88859581bda35c0698105b859a3489149d93001bd19140f7ad9737f959f9072c",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0120_codexgen.npz",
+      "bytes": 7281525,
+      "sha256": "5ba42f27a34cac1f0d8b26bcfb5d686e853d5c387eab9b58816461cdccd6be05",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0130_codexgen.npz",
+      "bytes": 7282151,
+      "sha256": "7c8f919d52de9064828c325052f2cb6ae84b180778973b8c1e31dffe0d291ce9",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0140_codexgen.npz",
+      "bytes": 7281887,
+      "sha256": "28ade342a4e9486ec7499768e341367bd1f1906ec9d16564e6f00efc047c235a",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0150_codexgen.npz",
+      "bytes": 7281697,
+      "sha256": "2922b50316ae5a5ab7d1426dc39d8975f2cb957cccfa1cd5f5fc336e8d29b065",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0160_codexgen.npz",
+      "bytes": 7282582,
+      "sha256": "dd928b3b3fed1c68a7b5ba3bad1ee6babd4a52084271a9c53d3a59c20024d5ad",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0170_codexgen.npz",
+      "bytes": 7281132,
+      "sha256": "1f13649e3c226e12fbadbc2d9ed330a803c4aba00931799e6efb951be173d4d7",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0180_codexgen.npz",
+      "bytes": 7281629,
+      "sha256": "99ac1de76f7ea62f9b82310d817914d93a1cfdf395276c71fa4e3187bf212adb",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/dense_0190_codexgen.npz",
+      "bytes": 7280710,
+      "sha256": "f1cee52eacfd4093bc3f08e1f5c415f0f33f7d7ac451bf144a783a388dfd551c",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/pets/metadata_codexgen.json",
+      "bytes": 2525,
+      "sha256": "2f5f74d7ae31b76257f2c4443ec3e70c92d9799f3e404bc3ec92a088f4fc3f9e",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_000.npz",
+      "bytes": 2803794,
+      "sha256": "2b492a84abdc1cdd40ca25d9fa204e8f20b991efc16658340b5795ad49f44117",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_001.npz",
+      "bytes": 2804806,
+      "sha256": "0853b93414d452499a242411172eab1d3e171bc9c6da1a24c04e312bede5d7d7",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_002.npz",
+      "bytes": 2805982,
+      "sha256": "740ab5b3473785d161b9fad257fb34223a9df67b8c8c48609d034808538e1684",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_003.npz",
+      "bytes": 2803138,
+      "sha256": "379d4d07cde74303684ba07486a7673f0dbc8246d8c2506cd5092fe27cf5e2fd",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_004.npz",
+      "bytes": 2804316,
+      "sha256": "adecc4dbb95a377ebfbe4ed7794b8ab8df34c94472a77f1e29fb29cefd30f18a",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_005.npz",
+      "bytes": 2804499,
+      "sha256": "c0137a655a40f47a43f6ab6a32c0635b656d51e762b4224bc929b86558ddba1a",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_006.npz",
+      "bytes": 2804935,
+      "sha256": "64db2398042d84bc75e2881edd23aee13519a4f7839edcfaebe4f2ec70566a34",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_007.npz",
+      "bytes": 2802983,
+      "sha256": "c32640b145bac157ca63d07ca91de99b1fe833ceb833a71130f81cf525ce8a10",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_008.npz",
+      "bytes": 2805058,
+      "sha256": "e0bfe535e323cee9f9fa9d59161848f11543956d57548a31dba8bad60ef9cd36",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_009.npz",
+      "bytes": 2803426,
+      "sha256": "e633133052778793cb5e58ce48ee6011a308d1607d1a28ff3e0d26cde26cb002",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_010.npz",
+      "bytes": 2804236,
+      "sha256": "c4e75e16e8e1324129ece1d97c238be57d9e303a82172af48cb2a0fa296a4fee",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_011.npz",
+      "bytes": 2805267,
+      "sha256": "f9037fcfc3a9b81a5f8db38ebadda07b243d07271df7041add44f529337f51ab",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_012.npz",
+      "bytes": 2801635,
+      "sha256": "316cba69b9b2881a933014b640c11600cf0894d0a1f4d86ae857908ed3059647",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_013.npz",
+      "bytes": 2804228,
+      "sha256": "8292d36f38eb5fdc655ff53b640d6135a10d87cc9698059b282ff231facd7a0a",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_014.npz",
+      "bytes": 2803289,
+      "sha256": "27224609c2c993dd83a8bc4f5f5bfe51367bc7a2b8149aa72b2ce649747f39a2",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_015.npz",
+      "bytes": 2806012,
+      "sha256": "8ce33a86a2aa8f31998a919c8300158310c19cddc7e5ee9b629f1394e36eddf7",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_016.npz",
+      "bytes": 2804802,
+      "sha256": "20e35d76a64801a2334f1f28ad83f39be544704c71d4535b341bdd5e06cd3941",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_017.npz",
+      "bytes": 2804796,
+      "sha256": "11f03f622602425fea93cf4b51b6dd0d77e01fe2e1a8d18b3a9d540ded1b752f",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_018.npz",
+      "bytes": 2802693,
+      "sha256": "9a13146851fe97ad728bdd8576f317817f9593eba94e4730bf6d62fd90562c3b",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_019.npz",
+      "bytes": 2804132,
+      "sha256": "460e0adf14a3a7dacd226e653ffa038f8f3d7d5820c5a0939cfe827cb8f2e6ae",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_020.npz",
+      "bytes": 2805284,
+      "sha256": "eb9fd9e64a121ff9e924a8dacdde22a11e03ce27ec1d7c933488ab41c3b61cfd",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_021.npz",
+      "bytes": 2805256,
+      "sha256": "1bc56186b92babab9cc19e844e11b4752210d627791f7a6850394600b7cdd1fd",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_022.npz",
+      "bytes": 2803728,
+      "sha256": "02a73270245779b982f32cbc1e88c00ac2518d3656bd3f07e729ebdf3a5e95f4",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_023.npz",
+      "bytes": 2803407,
+      "sha256": "269b2048767a4fec87f05b7c6fc7caa49baf3a2a73db5e560de9c61223cdd563",
+      "asset": "vision-overcomplete-activations-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_024.npz",
+      "bytes": 2804509,
+      "sha256": "b56373505f192569850ed2540887fdd6670ce94ee7ca9a4d45d5379df7948129",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_025.npz",
+      "bytes": 2803383,
+      "sha256": "2589a408fbd6ccdb341e77acf30aa7dbed91a10414f08de1d1bcd8f91c72eeda",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_026.npz",
+      "bytes": 2802629,
+      "sha256": "0703620b1f467838f0da30627d866c074bfbda9ade7563a7fbc3885e8f293f07",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_027.npz",
+      "bytes": 2803586,
+      "sha256": "ba5334d64b93d0653243056df75b72b1bb97bba2b1eafa3bd7c263929c7c44f2",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/chunk_028.npz",
+      "bytes": 560138,
+      "sha256": "de3a7c375fa3eff43ef1939681a0c05f375a34060e3bcea8881992bcc8de42b2",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/dtd/verification_codexgen.json",
+      "bytes": 250,
+      "sha256": "97e429e8b7ab6fd9d9e3fe91672165b14be957d0f926924b5e868745fb618c88",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/gratings/chunk_000.npz",
+      "bytes": 2798810,
+      "sha256": "d6d05b51c1a35fb79621b4318d11a31d90bd4743c1998dea62a71de5a3334716",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/gratings/chunk_001.npz",
+      "bytes": 2799034,
+      "sha256": "be21ac200591c38d6adb64a9a79c477fdefe58321ee139a4317c3c7260ea4b94",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/gratings/chunk_002.npz",
+      "bytes": 2796830,
+      "sha256": "e443f39e1059642ea25baf1111cc464700d182cb9cdd3b0a73277eba24e74987",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/gratings/chunk_003.npz",
+      "bytes": 2799714,
+      "sha256": "3ae6c72504b462176c8d766c5a2afbfc13ef7dbc93b50084920862a29bff887a",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/gratings/chunk_004.npz",
+      "bytes": 2242654,
+      "sha256": "a2651e27c0adcc087ee7a6169b0da5dedf5beaf43144501fcd373b3b4017147c",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/gratings/verification_codexgen.json",
+      "bytes": 250,
+      "sha256": "a6df89b1d223e1a1cfedf04261321781fe8c32d3811033bbe27e70801423306c",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_000.npz",
+      "bytes": 2804185,
+      "sha256": "a766c42e4d96afd06ae680d933e10aaa6076eda07f2ff8e4c1381c0cfdbb1b86",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_001.npz",
+      "bytes": 2804562,
+      "sha256": "d04c8a5ffcf5010e787e01a9b173aa3dc24299f758a2ad6c8b10a7dccffe2e23",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_002.npz",
+      "bytes": 2802945,
+      "sha256": "0cb7f210c1ab2fc036d241e49e472c942b0b9595ecc0c6391214495efb4af93c",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_003.npz",
+      "bytes": 2802106,
+      "sha256": "7c05be13a091506f5936c8f069e58bb4495deb7f9c027f97860f48aee06d5e18",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_004.npz",
+      "bytes": 2802975,
+      "sha256": "278597030b3e9dee5bf6abcb8b625bbf8c358d91615cca99f8abcca62f5e7ebb",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_005.npz",
+      "bytes": 2802778,
+      "sha256": "646ea9ab5bda24a2bfebea082e2a06f8949fafd1264dffd17d5f35280a8935d6",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_006.npz",
+      "bytes": 2801941,
+      "sha256": "3875a3f68883979b87157aa02d85e3b1d10ae762619fff6f1243afe089653264",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_007.npz",
+      "bytes": 2803907,
+      "sha256": "444f507f9d70388a521308fcd8a4f3e0ffb0e13d2c4a2ceff9375617bdfcfd43",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_008.npz",
+      "bytes": 2802976,
+      "sha256": "cdb466cdd08c00b6ec711846330879924a15abc0e6045eb70f53c7236bb1a521",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_009.npz",
+      "bytes": 2802958,
+      "sha256": "af4f8df8e4b46398147609dc5384631c77dcc26f637e1896f1ada0199b646723",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_010.npz",
+      "bytes": 2803287,
+      "sha256": "e2d1587376b94e4504277fb15d55724db7d75a677d5bbf0d3d5f5e8c9d3cfbfd",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_011.npz",
+      "bytes": 2803694,
+      "sha256": "67045fcedab08480380cfff35ccb0780ee978b3749e48d904474c90da99ff62f",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_012.npz",
+      "bytes": 2802710,
+      "sha256": "991556eb030f1354911d6275af7d648310ec641ac352202b174c451fc627a577",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_013.npz",
+      "bytes": 2803244,
+      "sha256": "812890552f86c34ae6cb75e6ba97f60ed4309584a059d3fb4941db71e5d5b2a4",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_014.npz",
+      "bytes": 2803299,
+      "sha256": "3463c103be56759487ba2b766b7b350d152a6dae6c3246346967aa7eef4e0398",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_015.npz",
+      "bytes": 2801784,
+      "sha256": "768c9bb0c17fcda0d3a5091460dae4ced0f60b83dab26989e5dd1039ec18bc19",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_016.npz",
+      "bytes": 2802002,
+      "sha256": "252fde515dfc5f881047befbba2b58c49d6382ea6aa365bbbff5498c2c64f215",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_017.npz",
+      "bytes": 2801749,
+      "sha256": "084065edfbc2abc0c807f035b6b4ed24ee7101b7326887f32ce6ef254aa0c962",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_018.npz",
+      "bytes": 2801823,
+      "sha256": "18ffff3b8effeea0cb08a67222870cfdc3d187defa4c08b2fd4f95fce6498071",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_019.npz",
+      "bytes": 2802289,
+      "sha256": "840256d7d6b3f9a6698ce3a9eac5607c4e9ce90a2c85eb2b1a70adbf8a5cb7c2",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_020.npz",
+      "bytes": 2801861,
+      "sha256": "5c3810d4b48a1387de2907ef26ecf67ba4b05da3883cd71be4a6edcefbb77624",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_021.npz",
+      "bytes": 2802475,
+      "sha256": "38060953c79c8817567d454d18ae5d887a14acce44ab91296848b1e0f6b1c063",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_022.npz",
+      "bytes": 2803087,
+      "sha256": "b6f63845c9b38f265ac8b3c43be88e566fc54731a3b27e3f3b0dc0135120706f",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_023.npz",
+      "bytes": 2803175,
+      "sha256": "2f037e4ed2e6bf359492157a5db6fa61f52740b0bb80bf4134f8c125406a3b77",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_024.npz",
+      "bytes": 2802620,
+      "sha256": "e3fc30f33212b7dcb037a2d8b7b767a493d26429e439fa61e0fc6ba626ea48a2",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_025.npz",
+      "bytes": 2804428,
+      "sha256": "2b3c7db34c63e258d3f055b663c426e076e58ace1f1f0096bf7f353e716b87bf",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_026.npz",
+      "bytes": 2802337,
+      "sha256": "ff7a917c44aa4b777a3cb3a87c33639e98a1c8109391ceb49b110fd4436effd9",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_027.npz",
+      "bytes": 2801290,
+      "sha256": "97031abf7f07451a9f9afb6ad2b56fc06e5e081f71d95fff5bfd11701c8d6903",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_028.npz",
+      "bytes": 2803998,
+      "sha256": "9e0694d433da7ab986f492622d89e381574d0c3266707de12b82f7cea6c165f3",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_029.npz",
+      "bytes": 2803182,
+      "sha256": "be304d596f2becb90fefc544b2ebaa30272e93214a87161a7a6d976ae2572296",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_030.npz",
+      "bytes": 2803303,
+      "sha256": "52562c928e77c6b58ebe193f8a5a470fc4911b9231f922d47ed10483453420b9",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_031.npz",
+      "bytes": 2802328,
+      "sha256": "2b37cf1fa3bb6c7cd9fb022fa694ffbe779ae9f3b09c5eb403e257e45473283e",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_032.npz",
+      "bytes": 2802463,
+      "sha256": "7f43cb132685d48218d76dacef18bc958a8ba2674abcea1621242fcce44db90b",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_033.npz",
+      "bytes": 2803374,
+      "sha256": "80f89d3462c42b1cf3f907d2b0990d512a51d96c3e52b862106f0c2d03889271",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/chunk_034.npz",
+      "bytes": 2803125,
+      "sha256": "72d2845a17271d528550214232b30ec5bd2bf779bc631dbe9b6a75d0808d8973",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagenette/verification_codexgen.json",
+      "bytes": 250,
+      "sha256": "97e429e8b7ab6fd9d9e3fe91672165b14be957d0f926924b5e868745fb618c88",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_000.npz",
+      "bytes": 2802071,
+      "sha256": "2812c13eb6bf08776516a1ce065f40ce2dcabf9c80e15485ed98aa9f5e651054",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_001.npz",
+      "bytes": 2802689,
+      "sha256": "19f1c96e7ba1f94f165c5db595d2bfa0999f9b541c832bd3e17ef83ab513c705",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_002.npz",
+      "bytes": 2802311,
+      "sha256": "ca754cc31864e8896b605498428660e30b5647bd68dcf00eb9cd9bb97486aa57",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_003.npz",
+      "bytes": 2802317,
+      "sha256": "e1d3cc2ccadf3f66fc31164b9b69a2bbc29086cdbbcaeb5cb50dfbc6ff6a1206",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_004.npz",
+      "bytes": 2802749,
+      "sha256": "4a239e26bfa12f82357362804f5e6e64979b2024eebcaa263ece86501a2bd875",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_005.npz",
+      "bytes": 2803083,
+      "sha256": "e5ff9e647a0d4427c41eb9da71042be7a730bdaa2a366c65f5d11509a1f6262b",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_006.npz",
+      "bytes": 2802765,
+      "sha256": "1163e49326b6dbf69597c10e190810ad090a9031f84f8a7eca520f1f0e86c9a2",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_007.npz",
+      "bytes": 2802039,
+      "sha256": "4774179fcde183abb71a51b9ec0745ca814d58925f52d2deeae1334ff7b976e0",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_008.npz",
+      "bytes": 2801896,
+      "sha256": "5b27a86c668a3855036be8f4adb42918fcd2e3e48d0dab1bf2151c6ab89e2422",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/chunk_009.npz",
+      "bytes": 2803294,
+      "sha256": "d576ec62cabd363fa3bab0a3905f57a4628c041b9399ff06beecafeadc8a42dd",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/imagewoof/verification_codexgen.json",
+      "bytes": 251,
+      "sha256": "81a30899575c0f5cc723bebf35f9e58cbe91f11aa180f07a82cc1914df6ae48e",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_000.npz",
+      "bytes": 2803247,
+      "sha256": "e0c086541e46c8145339459e17a7a3c41de0225c7295aaaa237ef0d232238825",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_001.npz",
+      "bytes": 2804490,
+      "sha256": "3e7cc26ece629d8c4dc346adad54f48ca0885f8eb8c0a6d81a4d0cf0a36fbc3b",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_002.npz",
+      "bytes": 2803797,
+      "sha256": "f248fd3cc2d77997504066315a73271d343a52a83eb74365b00cd108ecb14bbc",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_003.npz",
+      "bytes": 2803331,
+      "sha256": "833cd33eb903a48be1d0a610b64e01da45de0bcfa2dc21f2896d9b8280ba4423",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_004.npz",
+      "bytes": 2802872,
+      "sha256": "8539104b2ccdcb6c4b7c8eee922f81eeb0695b7a2f54895d8f9bf93deef17f25",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_005.npz",
+      "bytes": 2802001,
+      "sha256": "20ebe33a7ce64a2a0e197aa44c276acbd1d6c16629230ef97b81a4b143cdde78",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_006.npz",
+      "bytes": 2804625,
+      "sha256": "fe35c43516a55425b1699dc8ea084898fede1a57219bb0232cb5dd6fc7faf9ec",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_007.npz",
+      "bytes": 2802958,
+      "sha256": "ff9f58e4304b1d16bc3cebcedfc175291794118c8ad5b0ed662f597507d8cb28",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_008.npz",
+      "bytes": 2803610,
+      "sha256": "a5c7b66ab4805f1c3ba49f6774cd95ef874c3ed9b080039b4d3419122ebd55b5",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_009.npz",
+      "bytes": 2803251,
+      "sha256": "f6d88d38fb482b4cc94f3f2264079d6cff486ee7968f7da9016cc7d69cf06bc1",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_010.npz",
+      "bytes": 2803728,
+      "sha256": "615830dd12b249c0beb33b9029575354bbcc4cdfb0f5a87c695b8f1f8e79e310",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_011.npz",
+      "bytes": 2803319,
+      "sha256": "bc5bebfdee0b7527c6a240ef20349f8f37572b72d82738e3b414328606777499",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_012.npz",
+      "bytes": 2803315,
+      "sha256": "71a9772094e8146e1df445218e0651e4b9b4a3e6869d12041eb23df1f1e5a195",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_013.npz",
+      "bytes": 2803820,
+      "sha256": "f935781997205d6820ab80c502592793b9fb04c68b9953a031c391ff691b8347",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_014.npz",
+      "bytes": 2802742,
+      "sha256": "8c23c31450b6b96909f278ed6ef2a946e30264c1a71fa917e55772727e97d853",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_015.npz",
+      "bytes": 2804098,
+      "sha256": "5df4b571bc16a381aee92f59d1dbd9853f4003c72a40f8e2d79ddc9f2f9680c4",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_016.npz",
+      "bytes": 2803805,
+      "sha256": "523f98693561d797069a2ff9b75e355db2e1fdcb3eb38c1cc21b1397972df703",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_017.npz",
+      "bytes": 2803199,
+      "sha256": "39620eb4c2729649a4b0878b932519dbce6ec87d29b8935b4e0f1b54e2325547",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_018.npz",
+      "bytes": 2802497,
+      "sha256": "60881d5ac641a3ee4152dfeb2079998b828eeb257eec8b6f2b6dddf5a08c1e54",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_019.npz",
+      "bytes": 2802724,
+      "sha256": "9e0910490ecfeb9ddadeb67ad26d3a6e4b761f14c3401857a742f81e145a0396",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_020.npz",
+      "bytes": 2802556,
+      "sha256": "0f553ab54940354beb3fd0168a0f86549644529778b29ce2b97c2292222aadbf",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/chunk_021.npz",
+      "bytes": 560557,
+      "sha256": "90e1c8a0c3083fdd63004f38bf632af6857da17438897ecf442f2813cb2447fc",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/parts/verification_codexgen.json",
+      "bytes": 250,
+      "sha256": "a6df89b1d223e1a1cfedf04261321781fe8c32d3811033bbe27e70801423306c",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_000.npz",
+      "bytes": 2803350,
+      "sha256": "dd5f6b9e836e260838a0969592a3bb6b2a3748761d4a5b8f598a2d0949c150ed",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_001.npz",
+      "bytes": 2802342,
+      "sha256": "9edb98e537074b65a0ee09b66ea4e5651ab6005df3cf82b710b0d5858b8499e0",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_002.npz",
+      "bytes": 2802345,
+      "sha256": "d1341a92daa427371a6dc49290f7e1662197bb3bf27b591916003b4abe84e953",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_003.npz",
+      "bytes": 2802152,
+      "sha256": "dc5d377e66e2a9c3c4091d077b27dea4105919ef28ac3359120abb2795c4dcf1",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_004.npz",
+      "bytes": 2803463,
+      "sha256": "39cb908aae3956237e06a887fdcf75cd0a438e85d8c1c8983af0f455dbca6354",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_005.npz",
+      "bytes": 2802126,
+      "sha256": "8c7f8afa1b11c3f6733b3c950dc82ef05c46415120fc419fa0e8b1e739e7d6b1",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_006.npz",
+      "bytes": 2802218,
+      "sha256": "a58705168ea8a0344d030376d557612ed40242bdfb5153e8989d1efa696b3eb4",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_007.npz",
+      "bytes": 2803838,
+      "sha256": "662ba978e5aa2d79088324b3d5e79bb8c711ab2964fef8fb61c62e7353c75cbc",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_008.npz",
+      "bytes": 2802177,
+      "sha256": "6c367c64287462b2bcbb2e70cf298deedd35064260a233bb63bd4a8ede287cb9",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_009.npz",
+      "bytes": 2802416,
+      "sha256": "bcac14cf2d3e96e19e4bf286c1169592ce74cd4bdb90929b3f8cffe1e5281d14",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_010.npz",
+      "bytes": 2802123,
+      "sha256": "a8db1151a514ac2e420aaf8a76fa372f0831d37b205db233ee1200bf41c2b20f",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_011.npz",
+      "bytes": 2803141,
+      "sha256": "a5e98c990e2bdd68cb5e79a3aa2aba755bf3dba6e2f6d0933122ba0bbc87704c",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_012.npz",
+      "bytes": 2803416,
+      "sha256": "4a981bb8c95da2e86cce4c101a1c79fe6efc26e341b2a96b187efe8604fb6433",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_013.npz",
+      "bytes": 2802207,
+      "sha256": "56a6b0d260091405cfb7b96e113a45e3c410dbf011eefb2db8a7502c514035ad",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_014.npz",
+      "bytes": 2802023,
+      "sha256": "07edebb131751357f1d7b9cdafde1ade346def7d0464b630b0d44e0edf5f7ad1",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_015.npz",
+      "bytes": 2801964,
+      "sha256": "62ae2f20e18050a807b7eaccc2b7607ee133cf24ac33096ab788d11dcc437673",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_016.npz",
+      "bytes": 2802885,
+      "sha256": "f7b72189635dea58861af51ed0ad298e185e7a5c565b99a5976e70d158d26eec",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_017.npz",
+      "bytes": 2801415,
+      "sha256": "eff55f12c2fc505515e9257d445a66acd2b7d8849d36cd3776ddc5d267a77278",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_018.npz",
+      "bytes": 2801930,
+      "sha256": "54043f8b73fe02d6795b62fcedfbf7abd9b868fc3c5a9faa0e2463d17e9a1779",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/chunk_019.npz",
+      "bytes": 2801331,
+      "sha256": "1d08389be0f8c6599574fb2e50025dee0370044b22407414700d0eed2eaf5625",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/pets/verification_codexgen.json",
+      "bytes": 250,
+      "sha256": "97e429e8b7ab6fd9d9e3fe91672165b14be957d0f926924b5e868745fb618c88",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/shapes/chunk_000.npz",
+      "bytes": 2802458,
+      "sha256": "1b4bf6b62ef5bf7e41a6ba5682a5a5d49aceb489e787ae240b45e996a7372c6b",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/shapes/chunk_001.npz",
+      "bytes": 2802883,
+      "sha256": "88d9a47faea5e4c2635530d3a7837e52146fd4389818f359921cb06a06028e2f",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/shapes/chunk_002.npz",
+      "bytes": 2802396,
+      "sha256": "57053c0b9dc8fe05c9e7f2f8ea787655e24adcd8e1c0d7f945b9a8b7f591853e",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/shapes/chunk_003.npz",
+      "bytes": 561004,
+      "sha256": "2fc8685637f7438bb0927107505deda57924cebfd8d2d4bb28bfe30cb250f4f7",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/prisma_transcoder/shapes/verification_codexgen.json",
+      "bytes": 250,
+      "sha256": "97e429e8b7ab6fd9d9e3fe91672165b14be957d0f926924b5e868745fb618c88",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/shapes/dense_0000_codexgen.npz",
+      "bytes": 7284652,
+      "sha256": "c6dc4afbbf3591e15351001d0ea08d1f35eb5ad720b864f8dc4b70c14c0844e0",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/shapes/dense_0010_codexgen.npz",
+      "bytes": 7285429,
+      "sha256": "49d33f418e127bb8a8c851b6c22d879e7ec072c1e6ccf6f743c440aa174d6cf5",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/shapes/dense_0020_codexgen.npz",
+      "bytes": 7285093,
+      "sha256": "7b92a28abec854333ed1090eb92d8431a6759548ada75c3af0fd06d1209c4fe1",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/shapes/dense_0030_codexgen.npz",
+      "bytes": 1456887,
+      "sha256": "7d4d75fe48a906562ac83c44a9ec1857d39eefdebd6308fe141df5bcf1874873",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/activations/shapes/metadata_codexgen.json",
+      "bytes": 2525,
+      "sha256": "475f1bf65cb6bda36987839a92079a4e1fa70bcc457c3c7b0f4db83e86ebc9de",
+      "asset": "vision-overcomplete-activations-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k16_s0/imagenette_codexgen.npz",
+      "bytes": 6541023,
+      "sha256": "abea9f57f5a432de33ff116151195482c9b58e06c3f3b8477694dc4608865449",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k16_s1/imagenette_codexgen.npz",
+      "bytes": 6543703,
+      "sha256": "e51123d727b94d9194388d5db99a62ad6fbb6cf631940b839b2c9ae611aced96",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k16_s2/imagenette_codexgen.npz",
+      "bytes": 6550662,
+      "sha256": "f4768f69bafd270be7388f34646792f9ca9286167e8b4882c3e17db6975c4a19",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k32_s0/dtd_codexgen.npz",
+      "bytes": 9800183,
+      "sha256": "3c2f74e02e84f0e35285ab4d4e76afcbc99011802741e3015ea9afcb2f1f62d5",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k32_s0/imagenette_codexgen.npz",
+      "bytes": 13104441,
+      "sha256": "993801651573326a8f2f62ac5de9062e087750c7a3af1ab8d24c3749c6d3eb83",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k32_s0/imagewoof_codexgen.npz",
+      "bytes": 3668488,
+      "sha256": "d30305e5e5c38e45625e83bae9466c8ac72765121d3c19f4f8cf612773e7d3f5",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k32_s0/parts_codexgen.npz",
+      "bytes": 7623408,
+      "sha256": "73ced2c0c87e0ac24e9b72f2cd0e8237da3d208b6b80679c8c68fb01cef4defd",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k32_s0/pets_codexgen.npz",
+      "bytes": 7302104,
+      "sha256": "ae4a1f5f3d9e64a523e4a99c112ef4a6fc72669fdddfb74121f5af8a7c239ecb",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k32_s0/shapes_codexgen.npz",
+      "bytes": 1067212,
+      "sha256": "3bc5d8098b7d6a4c11b73ea3c9c2e2c09a623634a0b1bd9e6f50a6ce12e31639",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k32_s1/imagenette_codexgen.npz",
+      "bytes": 13079017,
+      "sha256": "3e787452f48dfa81ac391a38fe8039272c064868630a57f20d895f2baebca255",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/archetypal_k32_s2/imagenette_codexgen.npz",
+      "bytes": 13033955,
+      "sha256": "a426204f22127e8d164f504d8b91373515478cb8e903fd93cebce0516d671adf",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k16_s0/imagenette_codexgen.npz",
+      "bytes": 7823543,
+      "sha256": "db544becc9ab3b3932b680f9a754ef138c9e87bbaf09d145853cea25ba45da63",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k16_s1/imagenette_codexgen.npz",
+      "bytes": 7769521,
+      "sha256": "34e04b892f2eb7e3c9bbb2bb3caf458b7f70eba2b9b5377cf45635e9a21449c0",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k16_s2/imagenette_codexgen.npz",
+      "bytes": 7819301,
+      "sha256": "a6e3d732b0d1e5e594f7b99792dadf44826b89fef4383de232f227b8a578a5e0",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k32_s0/dtd_codexgen.npz",
+      "bytes": 20274005,
+      "sha256": "ebf892b10821c2d6833a57a6525e9c8e7d6f283aa40f16fe335592b0fba4142a",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k32_s0/imagenette_codexgen.npz",
+      "bytes": 16029530,
+      "sha256": "fc536abe5d9278b0c6122d7b1947fc2b49f2cedceec0c27e6060f6a2f6be0674",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k32_s0/imagewoof_codexgen.npz",
+      "bytes": 6703926,
+      "sha256": "7f5db3250ef4593b32992c0bda2565db2ba91432cdad0ab89650e3026ce59ec1",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k32_s0/parts_codexgen.npz",
+      "bytes": 14576237,
+      "sha256": "d608b11600bab82ca3df15ad8cbd4b374829bc435b7bd738f5eb517f291e2245",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k32_s0/pets_codexgen.npz",
+      "bytes": 13792810,
+      "sha256": "c346c41898ba295fef07d4d3c48c0cdc7f2c23b970e0a306f30ceeaab300aae1",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k32_s0/shapes_codexgen.npz",
+      "bytes": 2713191,
+      "sha256": "897c72c5187040c9ab8cb3154e177905c4fe14bea00cc9e27995ba1d66cd33a1",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k32_s1/imagenette_codexgen.npz",
+      "bytes": 16043777,
+      "sha256": "d57d8ab7ba522e422ea660266d9c7ba42c237d5409647da29c71d73cc4ab7390",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/batchtopk_k32_s2/imagenette_codexgen.npz",
+      "bytes": 16047012,
+      "sha256": "39c8f6cfa0b50652b52b521681e7cc117a6fbc1e38a54a7b6686e33149057779",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k16_s0/imagenette_codexgen.npz",
+      "bytes": 17215646,
+      "sha256": "357f72205d97eb162e98dcc73d98361146c2daa76812f3b9bd260ea84353696a",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k16_s1/imagenette_codexgen.npz",
+      "bytes": 16537693,
+      "sha256": "74bfca9e5e100ea40833fce2352ac27a229d83f1118df8cce9133ad2a72891c5",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k16_s2/imagenette_codexgen.npz",
+      "bytes": 16766302,
+      "sha256": "e4deff80230d3e7fc62278daa0b551e4d602d92db29204260494361df120cba0",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k32_s0/dtd_codexgen.npz",
+      "bytes": 21287754,
+      "sha256": "d35a4af065ec0b45e190c933b46d63936716ca5d41bbe6865545048a85033e69",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k32_s0/imagenette_codexgen.npz",
+      "bytes": 22439887,
+      "sha256": "4310be882dd6f40265a3ba2dc1266f7cb50376adcefcbf9eefa8e6eb537fce4e",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k32_s0/imagewoof_codexgen.npz",
+      "bytes": 7931666,
+      "sha256": "74bac245b18a6417f0b8c49ab688bd21d756403f406a7fa10779440e7123572a",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k32_s0/parts_codexgen.npz",
+      "bytes": 16366447,
+      "sha256": "ce38321d471e59abb68322cb8f2fed693ea1f4d8caffb47a3c88b3430207de02",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k32_s0/pets_codexgen.npz",
+      "bytes": 15701222,
+      "sha256": "b59773e5c2e7e6f3e1a8286fd6ceda2bf56a7c32817898264a084fb1ae917e87",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k32_s0/shapes_codexgen.npz",
+      "bytes": 2798234,
+      "sha256": "7bfbaadeb209497fb9654d5e2fb51be54f818fbe3c6c72974abaa7f8040d72a6",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k32_s1/imagenette_codexgen.npz",
+      "bytes": 21417467,
+      "sha256": "7812771a583333281d854e5c9f4afc129cfd34d7da1c6e25e3726fe0051383c7",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/jump_k32_s2/imagenette_codexgen.npz",
+      "bytes": 21532795,
+      "sha256": "48daca46e456cf32829d220f9cab2bfe099730383a1f30d54ffd08e69e93c264",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/pretrained_ra/dtd_codexgen.npz",
+      "bytes": 3088092,
+      "sha256": "9c12001acaa3396905f089328a8347f05eff80055333f934fcb2103873b1f37d",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/pretrained_ra/gratings_codexgen.npz",
+      "bytes": 521760,
+      "sha256": "0ceb4ef2d461459c0ab032fcafa1f9fd252b0dfeb3939e430a56d163cbcc3064",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/pretrained_ra/imagenette_codexgen.npz",
+      "bytes": 4112764,
+      "sha256": "30596c1ca605d843aa9e7f3d8d2aea80917ef34a0293a5627499ad07249165a9",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/pretrained_ra/imagewoof_codexgen.npz",
+      "bytes": 1349236,
+      "sha256": "a10bec63bf8b6b3d6e0a5f4b6a1530abb81f681bd509ab42b2c177958020f9a9",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/pretrained_ra/parts_codexgen.npz",
+      "bytes": 2612294,
+      "sha256": "1f2549c8d72be1c036242fde7dc4aff625614bb0e613a1af6b0d409320e46c71",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/pretrained_ra/pets_codexgen.npz",
+      "bytes": 2684042,
+      "sha256": "fa2dc8e363a309582f8171bf49417c294c2738ebdf50a76515ee90933b5a3e5e",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/pretrained_ra/shapes_codexgen.npz",
+      "bytes": 365390,
+      "sha256": "c353a3686b3762c7a5d0689f23327d777297b25ef73d969e4e278649a495d141",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/prisma_transcoder/dtd_codexgen.npz",
+      "bytes": 17659990,
+      "sha256": "1fbb37ea3ffa374a264fed2ac5cee10925ba365d833b47957615a82d2a56c913",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/prisma_transcoder/gratings_codexgen.npz",
+      "bytes": 2469900,
+      "sha256": "03ce28e736f985bd306023afb4aa406ce2c458538cb698a80c322227b8bc9c88",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/prisma_transcoder/imagenette_codexgen.npz",
+      "bytes": 22338371,
+      "sha256": "22bb25b6041eaa53955a505302ce427850e2e19d242f92cb3c1da81ceb66c2e0",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/prisma_transcoder/imagewoof_codexgen.npz",
+      "bytes": 6383466,
+      "sha256": "4f333533c13932c3319798cc22e362d26b16e0245252e836095d1dfd9ca60df2",
+      "asset": "vision-overcomplete-codes-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/prisma_transcoder/parts_codexgen.npz",
+      "bytes": 13519762,
+      "sha256": "7ef4fe5ba1b97e5690ec8aa5460891b5041cd347355f1fce44831497243ac1cb",
+      "asset": "vision-overcomplete-codes-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/prisma_transcoder/pets_codexgen.npz",
+      "bytes": 12766298,
+      "sha256": "3da65d10c2daf3015629f512dab65538cae1485cea5f0d039c3541cb146214bb",
+      "asset": "vision-overcomplete-codes-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/prisma_transcoder/shapes_codexgen.npz",
+      "bytes": 1730004,
+      "sha256": "596f5bb61ac66aaf8e35e4f6c1585525ed6aaad71caad53988f9bb6c2402b5e3",
+      "asset": "vision-overcomplete-codes-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k16_s0/imagenette_codexgen.npz",
+      "bytes": 160504218,
+      "sha256": "d5f1330bd611e80b23cc800370e0b4bcf3273f446abed2bd25bf469f96df09aa",
+      "asset": "vision-overcomplete-codes-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k16_s1/imagenette_codexgen.npz",
+      "bytes": 160808671,
+      "sha256": "92fa964b37f3ce045e3931415ee522aadd44fc32285b2d588f1e010473cdaf0d",
+      "asset": "vision-overcomplete-codes-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k16_s2/imagenette_codexgen.npz",
+      "bytes": 160679843,
+      "sha256": "bb4b8bda45bf88726b16e0cf7b14a9aafc2d0dad4fbb3eeb5f11bb8ae4d2e817",
+      "asset": "vision-overcomplete-codes-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k32_s0/dtd_codexgen.npz",
+      "bytes": 189904183,
+      "sha256": "3e67ee32a1d63c5c2d3e0eb9386e286ec6df042d7a05a0fb511896b9dcf6b7e4",
+      "asset": "vision-overcomplete-codes-02.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k32_s0/imagenette_codexgen.npz",
+      "bytes": 209664690,
+      "sha256": "717f2fc11927a50ebdeee939d784e9f797848c5476a68d906fabd18cfaf528e7",
+      "asset": "vision-overcomplete-codes-03.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k32_s0/imagewoof_codexgen.npz",
+      "bytes": 68679760,
+      "sha256": "428db0b8e67397bdf91053be4d949e583ae6a780bd5aaa296a50a5a1acb29975",
+      "asset": "vision-overcomplete-codes-03.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k32_s0/parts_codexgen.npz",
+      "bytes": 145561054,
+      "sha256": "afd99d9dedb6a23356c8cfa610df1ea7250bd7d4ad88beffee691ee8220700fc",
+      "asset": "vision-overcomplete-codes-03.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k32_s0/pets_codexgen.npz",
+      "bytes": 137801167,
+      "sha256": "01d5a90f5d57c690aa7f8cfa5b4e2b69adc85fa3538a8822c46355d0419bc5c3",
+      "asset": "vision-overcomplete-codes-04.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k32_s0/shapes_codexgen.npz",
+      "bytes": 21452442,
+      "sha256": "623d96e68c7f11dfb51d2651bb44b46bc95bebea1297d23b0009a2c595bac9de",
+      "asset": "vision-overcomplete-codes-04.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k32_s1/imagenette_codexgen.npz",
+      "bytes": 209793631,
+      "sha256": "866a5b3453ea172c4f83ee3958fa08becf676c36f08b829c4fa3a9695bbf2ad0",
+      "asset": "vision-overcomplete-codes-04.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_fixed_k32_s2/imagenette_codexgen.npz",
+      "bytes": 209630858,
+      "sha256": "15fb24953a6c4c528b218ea815dcd9953663cb7c74d233a134c62adee505125f",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_k16_s0/imagenette_codexgen.npz",
+      "bytes": 4725948,
+      "sha256": "28b5ef3dc55919d27f5c32d694c90cca304c24932a464d9d1872f6d66268fe19",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_k16_s1/imagenette_codexgen.npz",
+      "bytes": 4936866,
+      "sha256": "f2c0a39451e977575fb1dd497465a3cad43bebd6c466c003dbe2ec11a9cda1b4",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_k16_s2/imagenette_codexgen.npz",
+      "bytes": 4753321,
+      "sha256": "2f10c109c167b11fcb8b49e762bc3c9ffbfaad03338a48424b1d3bfb52976c8f",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_k32_s0/imagenette_codexgen.npz",
+      "bytes": 5593732,
+      "sha256": "b484328850899aa9550d4b2a3e26fddfe35d34e22a221b0ba12c0f036411c115",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_k32_s1/imagenette_codexgen.npz",
+      "bytes": 5352069,
+      "sha256": "8ce103e4feee93e8add43838b21ea5eed204cd1c501c6f8b142750c29f423321",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/relu_k32_s2/imagenette_codexgen.npz",
+      "bytes": 5919423,
+      "sha256": "96206ba65d6186438e7c34977799f8caed122cf6278ff78cbd5a081dcef4db98",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k16_s0/imagenette_codexgen.npz",
+      "bytes": 6186563,
+      "sha256": "850f6a767e4922e0e2e7aad008b1a9ddba42fa25365d73053cb36705225c8ffa",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k16_s1/imagenette_codexgen.npz",
+      "bytes": 6188434,
+      "sha256": "68a6b56b5a0e0ceae1852052d086bf2df2b19a7507a842ee1a95003c15e0b2f3",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k16_s2/imagenette_codexgen.npz",
+      "bytes": 6189208,
+      "sha256": "84432378e99d3037d0e5b94ccd9d78aeb4606f95a90dc771a7410ecf75f93838",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k32_s0/dtd_codexgen.npz",
+      "bytes": 9976037,
+      "sha256": "82b3d079441a384359b1364803aef640efc72332b8627ca0e2cc10a209479cbb",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k32_s0/imagenette_codexgen.npz",
+      "bytes": 12559025,
+      "sha256": "b5275339aba348999ae23ad5417a7624e9e3453a92dd6a23aa65ac88ec1c7ab1",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k32_s0/imagewoof_codexgen.npz",
+      "bytes": 3663885,
+      "sha256": "8e10090435ec5da88b2ca55fc77a48424b73204caa4dfc4ff2fa0d7bd003afe2",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k32_s0/parts_codexgen.npz",
+      "bytes": 7723495,
+      "sha256": "5920b1318a55bddf5eaa4084c16c84399b0a51d2fe90a0790cf3136aee61bed2",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k32_s0/pets_codexgen.npz",
+      "bytes": 7316507,
+      "sha256": "d04a0c04313f7034c456bd61a1ef10444bcac1a4d68a93480eaf9604ce412742",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k32_s0/shapes_codexgen.npz",
+      "bytes": 1079897,
+      "sha256": "8b00b15188df3ca4aa91ed3ea43095bf13c931776bded976c492ce2e7d9dd9af",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k32_s1/imagenette_codexgen.npz",
+      "bytes": 12551552,
+      "sha256": "c7c0ce4e765f521be614dd7f84d9e54dc0b656be99ddba4de832e349f75f17c7",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/codes/topk_k32_s2/imagenette_codexgen.npz",
+      "bytes": 12556912,
+      "sha256": "0b3427e5ee24d651f0f2d8b46c086abc9c8f8cdc053505715474fd0338ef4634",
+      "asset": "vision-overcomplete-codes-05.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k16_s0/model_codexgen.pt",
+      "bytes": 28427442,
+      "sha256": "645cfaf97326ffa061b23ac61044eb286f4a19899f71853f803aa5593b46d1ce",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k16_s0/training_codexgen.json",
+      "bytes": 2003,
+      "sha256": "a25a49352e9e9283003eca36ee185eac5855b36870aca2561bd96d7ae71b5ddd",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k16_s1/model_codexgen.pt",
+      "bytes": 28427442,
+      "sha256": "85da8e93fde0a0a5c134abb8b38bfaba0ad45ac27221dced0ba9aeca1c9f65f1",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k16_s1/training_codexgen.json",
+      "bytes": 2014,
+      "sha256": "f3133681abb26379fd3bf0c7325680a7b3e2339d9200c56ddf09a5b127a14d19",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k16_s2/model_codexgen.pt",
+      "bytes": 28427442,
+      "sha256": "85514b6b475d22dbe56f11f85d6aee61859d8978ccdd3ebfb416c0d746b664f8",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k16_s2/training_codexgen.json",
+      "bytes": 2012,
+      "sha256": "f0e9b8fa569a5af6be4bd08bce20675b21702d67677c14926d6b48be4987ab8c",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k32_s0/model_codexgen.pt",
+      "bytes": 28427442,
+      "sha256": "ed402ceeae96a229c5ca9a663ed59254457233aab7867a52a33c3e34ee0d1e2f",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k32_s0/training_codexgen.json",
+      "bytes": 1881,
+      "sha256": "e0d66936f5a7ae1077fc70ba90caf3f09a5ba36421ba5234b07f4f78f8df0c7e",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k32_s1/model_codexgen.pt",
+      "bytes": 28427442,
+      "sha256": "45479f553855f834d37a16ad233545ff9fd060d1397c0982cf156814e172c3f9",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k32_s1/training_codexgen.json",
+      "bytes": 1882,
+      "sha256": "8abf35d43ccf2a879e21a9d680a555f1cf31099c458bc553d037d77ade6b30a7",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k32_s2/model_codexgen.pt",
+      "bytes": 28427442,
+      "sha256": "a25077c0c5b8a19a886c12043b6e6f1f35da1d18e46d831c2037b69ad42c82f9",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/archetypal_k32_s2/training_codexgen.json",
+      "bytes": 1918,
+      "sha256": "7b8fe214c22782ee3586151cdaa85f1fd540bb36aa4c9eb8847274ef827c5294",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k16_s0/model_codexgen.pt",
+      "bytes": 14271343,
+      "sha256": "db62ef9665cef7c9f059799d4800a8c752c42a2ff91c461ff55289099814b446",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k16_s0/training_codexgen.json",
+      "bytes": 2101,
+      "sha256": "7acefe0ff324d2f5d6a16e1a4e43afe39fbb10c6611981f0f836bd828b8cec0d",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k16_s1/model_codexgen.pt",
+      "bytes": 14271343,
+      "sha256": "28423eafc148272a8a4bc3326aea1187724fb278eb0bc011cc045b5d73a64e20",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k16_s1/training_codexgen.json",
+      "bytes": 2094,
+      "sha256": "f003f7eea568ee8cb531a4b82319e34a099201a070a0b4f90eb3a7cbc9ed9386",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k16_s2/model_codexgen.pt",
+      "bytes": 14271343,
+      "sha256": "3d7e2c41a88f01c8154d046cce1b6f16fcc4ff3fe4527713bedfd3648aad43dd",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k16_s2/training_codexgen.json",
+      "bytes": 2087,
+      "sha256": "064df0da9071bcf6e19b678b24422f8d6ffee32d019f874ef1a743fb789b9d09",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k32_s0/model_codexgen.pt",
+      "bytes": 14271343,
+      "sha256": "30cae01ee3d03583644b1b00d2096a0fe5f09d1c96147d09dd36f7167576623d",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k32_s0/training_codexgen.json",
+      "bytes": 2082,
+      "sha256": "3830eba16adfc3865db0d2d99a8e616bb2d0de866c74f14b065349c47b940a84",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k32_s1/model_codexgen.pt",
+      "bytes": 14271343,
+      "sha256": "294e8fec23561c5a70252d71c2955d16c9373649c450fa88f8534e75c2930a7c",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k32_s1/training_codexgen.json",
+      "bytes": 2104,
+      "sha256": "b9e508fe6af0fda03240a6304513fca596718b9d40482e62f4d8b547b762d890",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k32_s2/model_codexgen.pt",
+      "bytes": 14271343,
+      "sha256": "4aa455135351cb4ec19015fcd9d2aab580d8b676eaf6a6795cc412d1f574d1d9",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/batchtopk_k32_s2/training_codexgen.json",
+      "bytes": 2090,
+      "sha256": "674ec24a3ea2c418a95554e4db594cc16d7bd71e5d1f59abfc098e3da5513635",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k16_s0/model_codexgen.pt",
+      "bytes": 14277551,
+      "sha256": "a270ce0cf1e9f5bad8d2ea8d4984f72e5723b2bd72c0e74e686888c97fdc0330",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k16_s0/training_codexgen.json",
+      "bytes": 2248,
+      "sha256": "10b2a79d8f77d53c276231060b212c145198e8f5f0e07015e238ebd94a265986",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k16_s1/model_codexgen.pt",
+      "bytes": 14277551,
+      "sha256": "2e97bf6adecd204477fd07c32181f20ca13cf3c334c121cf62b362f16ff94143",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k16_s1/training_codexgen.json",
+      "bytes": 2244,
+      "sha256": "4ac3dc29696181dc46f9f2f4779ba48cb5e24697bf45f7b1a11a15073c110ff3",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k16_s2/model_codexgen.pt",
+      "bytes": 14277551,
+      "sha256": "623eed6fa741ef45c5d9b447dc738391c447349762ce13e43930337d032003a2",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k16_s2/training_codexgen.json",
+      "bytes": 2203,
+      "sha256": "727e9611e73ae81bfbe654c343cf0d14312a40937596c96ee1268340203b976e",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k32_s0/model_codexgen.pt",
+      "bytes": 14277551,
+      "sha256": "1baa4582fd82d601163916f7315f9739686462a0be4c711c08b0c3df229da7cd",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k32_s0/training_codexgen.json",
+      "bytes": 2256,
+      "sha256": "c043562eb8c64fb7d068365fbf23e3f46fe59462b750d1b54b0b1cb7ab8cf298",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k32_s1/model_codexgen.pt",
+      "bytes": 14277551,
+      "sha256": "8186818697daafbf40282650567a2131aa31d4a29cee241f2d99a4849e078845",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k32_s1/training_codexgen.json",
+      "bytes": 2283,
+      "sha256": "1b8794b1f7f0caa8bea81065420fe5cdd93b25ee760c95fd292ede3aea91907e",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k32_s2/model_codexgen.pt",
+      "bytes": 14277551,
+      "sha256": "efaafa6fa7bc43ac40aaed3612a99288228d5334a763e5e51ff5f81fddce3ca0",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/jump_k32_s2/training_codexgen.json",
+      "bytes": 2285,
+      "sha256": "438c200bacba57f2b071d8d031dda20737104b2cc7e25e76e31861d11acba7c9",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/pretrained/RA-SAE-DINOv2-32k.pth.json",
+      "bytes": 242,
+      "sha256": "27a0e675923501657bfe175a29a2b29f640343095e8636909f54a0521434e42c",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/pretrained/README.md",
+      "bytes": 2746,
+      "sha256": "154679beb0f7df73c3a00c455a0381cc36bfa57cc4c2429d57edc9b93a7fffd1",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/pretrained/README.md.json",
+      "bytes": 224,
+      "sha256": "a60d6b7be830e72fe0d23038af4278b63584dc2d0c62ae69d038e12b781dfea0",
+      "asset": "vision-overcomplete-weights-00.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/pretrained/compact_codexgen.pt",
+      "bytes": 196995132,
+      "sha256": "6939cae7b4ea8fbdc521441d772035476021bfb80ed34759bda5e180d53b50b5",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/pretrained/config.json",
+      "bytes": 447,
+      "sha256": "022a201c19d8255682c7df350b03f8ec719588f6e5d6b80367ab4193db9c0f83",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/pretrained/config.json.json",
+      "bytes": 225,
+      "sha256": "333ab399a9eccf00a9b8c4fa8a1024605a883118c20addfd2879452b69de990d",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/pretrained/ra_sae.py.json",
+      "bytes": 225,
+      "sha256": "9eb2515af1b2f3ba2b6c084f1b090dbcc0c827036b5f3e30a6090d60887df3ca",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/pretrained/verification_codexgen.json",
+      "bytes": 692,
+      "sha256": "5b77b567f68e83e53a1f1a33b6a0a06840f59dd008d3dc8c153f36ccdc036061",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k16_s0/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "024ba8120fd932f612f4ece71cde1082cc33f11575536b2876bbb4dc51f84a84",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k16_s0/training_codexgen.json",
+      "bytes": 1979,
+      "sha256": "f7afa79b47ac027ba5ae848f1b707818c8c9997fd8785a0463c93ed8a6e2e37b",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k16_s1/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "82a6cfab1a6b2d9b6ae07f8138bae3212c66287ce46801cf756c3768acbea038",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k16_s1/training_codexgen.json",
+      "bytes": 1971,
+      "sha256": "bd6e69221a6400686767f3801edddd7b4f903855bc4bad4dd1f4242a281a11f7",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k16_s2/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "c2984d45e2b58225f23f88e8f54280b169d86844f871c08dea6ec144a9cc08be",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k16_s2/training_codexgen.json",
+      "bytes": 1971,
+      "sha256": "257323d2b843b325ab072a4bc176116008136d97920d7cf93adc18cef5fefdfe",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k32_s0/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "dd2b1a3ff953dabd9d21d5e9c6a9c499d69eac9de39163190a0d3b415c2b8f7c",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k32_s0/training_codexgen.json",
+      "bytes": 1979,
+      "sha256": "ca35feef69377fa41673bf287238a89ebe52ad20e9ca17f9d0e544a561507ce1",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k32_s1/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "56530257d9f2bc05a6fe58ba1d2ee081225d3ad206dbce916ca805890e3513c9",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k32_s1/training_codexgen.json",
+      "bytes": 1975,
+      "sha256": "dbac20eb8659c9d61117822e3b73e833a2ac12aab52df51b124a185941dbece3",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k32_s2/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "feeaff0cd2264d825ee069988736c3690f2ca0b5d2f73b8ac2aacb9704424ed9",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_fixed_k32_s2/training_codexgen.json",
+      "bytes": 1975,
+      "sha256": "be53a302e70b2e519ecbd66c304aab17f398a0eae2f7bc681b482f5bc283918a",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k16_s0/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "6618a4818145315f1774a0bb579afab4b6f16e1bc43f0f95d21ba980e36cbb6c",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k16_s0/training_codexgen.json",
+      "bytes": 2159,
+      "sha256": "0a13872aefc6f15cac4d1874e58e904c623d7e2cac9b67fdb9127d96eed31c5d",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k16_s1/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "5ec741eeef4adc690f213079d99b88e062b39f303143c92412abd41ab4cb12b0",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k16_s1/training_codexgen.json",
+      "bytes": 2137,
+      "sha256": "fd9adc7d3e13c59b30e5efae0b6e60772c7fb7db2e85b66ee2131b235b7a3f96",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k16_s2/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "7677baa0217bcdd6ef6c4d80af17f1613bd05e02cba015e74b8dcea495c283e0",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k16_s2/training_codexgen.json",
+      "bytes": 2128,
+      "sha256": "6060342a7479601e4a06975c04a3f35fe7680ffa6dd81b60ccc076cb5a9f4db9",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k32_s0/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "cfa00e2bee89f00acdcd9b3657c0ff1c70ade520fb81afd843196f18337fc55c",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k32_s0/training_codexgen.json",
+      "bytes": 2153,
+      "sha256": "5d05b5176cb3b68b29667fe09a8a5e59cc8e62f50da60202a662c69863e8ed0a",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k32_s1/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "e823d3ee4458ec7e4e2c1fbff53787f087961217f8e5d0653087310460f8fb32",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k32_s1/training_codexgen.json",
+      "bytes": 2127,
+      "sha256": "4ead2a0b1bd5665c1818d79bf96036fa528112cdf1d21279984f68eee66ff1a4",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k32_s2/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "e2bc3879e64dfb684edf79a14147719664711c7122b099b9a61f6613c678b89f",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/relu_k32_s2/training_codexgen.json",
+      "bytes": 2128,
+      "sha256": "e8a5c11102241ad8e885fb15fc2e9f3fb06b3b4c8e2e9987de2144af225d6404",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k16_s0/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "ab6b3e7f675774374cf1b9007ecabeac2a2b8f5a6365647f6942ed79dd63cb6b",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k16_s0/training_codexgen.json",
+      "bytes": 2000,
+      "sha256": "60256c6bf8e0d135e2a73704a313f21c95a3aa92798b40b9e41435888a91d4b6",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k16_s1/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "230a20837c31072659f01be350d4db9d762eec55c408abc0ad509f36b4face56",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k16_s1/training_codexgen.json",
+      "bytes": 2011,
+      "sha256": "b229d85142d930c8e68b6e77694297ee55e1c761e80c2d11470aaff73ffee2c6",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k16_s2/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "334abe1acf8642a3d7715d2b09580dd290c554e68963a9b97970866c9b30789c",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k16_s2/training_codexgen.json",
+      "bytes": 2026,
+      "sha256": "7259d0559c9cf3afb084aea36eaac9aafb7008eec365968a730ae695a0caaa7a",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k32_s0/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "5448cf877f20f77dcb1b9fb8b01d4d810cd56dbcbad0e855a73b0dfa35a3f0eb",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k32_s0/training_codexgen.json",
+      "bytes": 2052,
+      "sha256": "8e9330e76602dffc89a0ef2edec6200c039dec83f21ba284ac14b7a55510c26d",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k32_s1/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "0ac8223160bfaf7ff6b23546b381f2e42f7da43ecb79525d6f829d80fcc20e7f",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k32_s1/training_codexgen.json",
+      "bytes": 2012,
+      "sha256": "f9afcef1b05099ee2777b856e1636c2dc23efd7f80428652ee552b11c7dea175",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k32_s2/model_codexgen.pt",
+      "bytes": 14271148,
+      "sha256": "2bbb8f08b7a69f0acd01bcfd9010464dfb3f4fac89598e7b3df69aadef64b1cf",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/topk_k32_s2/training_codexgen.json",
+      "bytes": 2027,
+      "sha256": "90c051df58dfd772a73a7ce5003ec8ef9b739d7b65b8ddbdc45abbd5b0e0e021",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/transcoder/config.json",
+      "bytes": 2268,
+      "sha256": "cff101c56cd690848cc1891e7269cc7f95bdd02c089b38e5d49754fb82ac8ebd",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/transcoder/config.json.json",
+      "bytes": 264,
+      "sha256": "fd9acff73aa7f293c67ea6c3803bf25f5871b734bebd8ef27b299956ad68aaeb",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/transcoder/metadata.json",
+      "bytes": 766,
+      "sha256": "7ed47544063a0d28a351089a72272b1f2c81b352aff92fe87db7011831a9dcf3",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/transcoder/output_mean_codexgen.npy",
+      "bytes": 6272,
+      "sha256": "b60114c730ae2ee108f37d3761fe9cb889c131bdd0f96e6a02b75304a7f21249",
+      "asset": "vision-overcomplete-weights-01.zip"
+    },
+    {
+      "path": "vision_tokens/overcomplete/checkpoints/transcoder/weights.pt.json",
+      "bytes": 268,
+      "sha256": "5deb946bad80dfd3057b7ccc1b907ea80b162a1836e07ec53f7a8da386147b90",
+      "asset": "vision-overcomplete-weights-01.zip"
+    }
+  ],
+  "assets": [
+    {
+      "name": "vision-overcomplete-inputs-00.zip",
+      "bytes": 131702303,
+      "sha256": "9ffc9d297d2acfa02f1700b4ebffe94fb8fe9cde17622631e0c3bc0f9e99e4c4"
+    },
+    {
+      "name": "vision-overcomplete-activations-00.zip",
+      "bytes": 466210595,
+      "sha256": "eca3da9e41aa8e253fe445eec5f4898fcc39be79f594562eed1fd15800e21a4b"
+    },
+    {
+      "name": "vision-overcomplete-activations-01.zip",
+      "bytes": 469403014,
+      "sha256": "40e03af69bc42a7ae0b38c4250a311bc7a23a642c8b12d65465af73e0f40b4e7"
+    },
+    {
+      "name": "vision-overcomplete-activations-02.zip",
+      "bytes": 299216792,
+      "sha256": "fd3980abd38535c346cc7564498e5e2a777abd513f9ab2de7270dcd6bf5bbac5"
+    },
+    {
+      "name": "vision-overcomplete-codes-00.zip",
+      "bytes": 460107270,
+      "sha256": "6cdfad147e711c1661cea76731594331343a0e3d9ddb7ec0f1e16ee1acfb977e"
+    },
+    {
+      "name": "vision-overcomplete-codes-01.zip",
+      "bytes": 348931600,
+      "sha256": "5d87eb661cf2e80078f42ae748987e67000fc1a369049ed883daf32ad704570b"
+    },
+    {
+      "name": "vision-overcomplete-codes-02.zip",
+      "bytes": 350326006,
+      "sha256": "b7650965e603f48938ee0a8a299cefa057053213e02192e116d3f7404d5ea91f"
+    },
+    {
+      "name": "vision-overcomplete-codes-03.zip",
+      "bytes": 423596435,
+      "sha256": "f3accdf82dc5bbfff89ad968c753b875be1d1a78c973abd3baf0f019bd47eb91"
+    },
+    {
+      "name": "vision-overcomplete-codes-04.zip",
+      "bytes": 368758824,
+      "sha256": "528937befc05da151cd4f4e62a8067fd0fec7f1b0eed8466587ab89db9bd04a0"
+    },
+    {
+      "name": "vision-overcomplete-codes-05.zip",
+      "bytes": 325829093,
+      "sha256": "28c8dc2e423f797870940f0f05dcb35a1655f7ff50502a81d3c7d72c8fbfd06b"
+    },
+    {
+      "name": "vision-overcomplete-weights-00.zip",
+      "bytes": 305415241,
+      "sha256": "8b1402ce25eeb3ab519dc27dfc0253561798bba5e62ccadae57d4c0eb2d0d8fd"
+    },
+    {
+      "name": "vision-overcomplete-weights-01.zip",
+      "bytes": 421167915,
+      "sha256": "24bf42407b8355ec8816264d7b7c213d72500980d7333ed3fe53571f243ee4bf"
+    }
+  ],
+  "upstream_weights": {
+    "ra_sae": "matybohacek/RA-SAE-DINOv2-32k",
+    "revision": "1e10a216938e112302b31e3bb2f69818e59a12a9",
+    "transcoder": "Prisma-Multimodal/CLIP-transcoder-topk-256-x64-all_patches_1-mlp-94",
+    "transcoder_revision": "96c293a7299a99fe3d70f1f15498215849f22d96"
+  }
+}

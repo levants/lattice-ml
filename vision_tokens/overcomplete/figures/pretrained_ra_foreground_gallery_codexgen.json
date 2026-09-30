@@ -1,0 +1,173 @@
+{
+  "selection": "Exploratory: pet foreground occupancy times spatial entropy, with transfer support requirements; not an unbiased evaluation",
+  "panels": [
+    {
+      "model": "pretrained_ra",
+      "feature": 9882,
+      "dataset": "imagenette",
+      "row": 265,
+      "position": 204,
+      "response": 4.007577419281006,
+      "source": "imagenette2-320/val/n02102040/ILSVRC2012_val_00017370.JPEG",
+      "label": "English springer",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30516,
+      "dataset": "imagenette",
+      "row": 265,
+      "position": 169,
+      "response": 4.412023544311523,
+      "source": "imagenette2-320/val/n02102040/ILSVRC2012_val_00017370.JPEG",
+      "label": "English springer",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 14056,
+      "dataset": "imagenette",
+      "row": 265,
+      "position": 185,
+      "response": 1.9730284214019775,
+      "source": "imagenette2-320/val/n02102040/ILSVRC2012_val_00017370.JPEG",
+      "label": "English springer",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 9882,
+      "dataset": "imagewoof",
+      "row": 24,
+      "position": 135,
+      "response": 4.591649055480957,
+      "source": "imagewoof2-320/val/n02088364/ILSVRC2012_val_00013381.JPEG",
+      "label": "Beagle",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30516,
+      "dataset": "imagewoof",
+      "row": 77,
+      "position": 39,
+      "response": 5.063704013824463,
+      "source": "imagewoof2-320/val/n02105641/ILSVRC2012_val_00030831.JPEG",
+      "label": "Old English sheepdog",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 14056,
+      "dataset": "imagewoof",
+      "row": 99,
+      "position": 151,
+      "response": 4.295553207397461,
+      "source": "imagewoof2-320/val/n02115641/ILSVRC2012_val_00022330.JPEG",
+      "label": "Dingo",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 9882,
+      "dataset": "pets",
+      "row": 19,
+      "position": 153,
+      "response": 4.638240814208984,
+      "source": "american_pit_bull_terrier_58",
+      "label": "american_pit_bull_terrier",
+      "split": "test",
+      "mirror_row": 19
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30516,
+      "dataset": "pets",
+      "row": 199,
+      "position": 69,
+      "response": 4.88621711730957,
+      "source": "saint_bernard_28",
+      "label": "saint_bernard",
+      "split": "test",
+      "mirror_row": 199
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 14056,
+      "dataset": "pets",
+      "row": 43,
+      "position": 102,
+      "response": 4.366069793701172,
+      "source": "shiba_inu_56",
+      "label": "shiba_inu",
+      "split": "test",
+      "mirror_row": 43
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 9882,
+      "dataset": "parts",
+      "row": 23,
+      "position": 106,
+      "response": 3.2273073196411133,
+      "source": "PartImageNet/images/test/n02102973_1226.JPEG",
+      "split": "test",
+      "label": "n02102973"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30516,
+      "dataset": "parts",
+      "row": 25,
+      "position": 102,
+      "response": 3.8284473419189453,
+      "source": "PartImageNet/images/test/n02124075_11466.JPEG",
+      "split": "test",
+      "label": "n02124075"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 14056,
+      "dataset": "parts",
+      "row": 27,
+      "position": 115,
+      "response": 5.062087059020996,
+      "source": "PartImageNet/images/test/n02133161_10554.JPEG",
+      "split": "test",
+      "label": "n02133161"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 9882,
+      "dataset": "dtd",
+      "row": 278,
+      "position": 116,
+      "response": 2.468052387237549,
+      "source": "wrinkled/wrinkled_0010.jpg",
+      "split": "test",
+      "label": "wrinkled"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30516,
+      "dataset": "dtd",
+      "row": 188,
+      "position": 0,
+      "response": 0.0,
+      "source": "banded/banded_0002.jpg",
+      "split": "test",
+      "label": "banded"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 14056,
+      "dataset": "dtd",
+      "row": 257,
+      "position": 246,
+      "response": 0.8588716983795166,
+      "source": "smeared/smeared_0018.jpg",
+      "split": "test",
+      "label": "smeared"
+    }
+  ]
+}

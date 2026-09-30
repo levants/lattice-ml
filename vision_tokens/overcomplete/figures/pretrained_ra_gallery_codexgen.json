@@ -1,0 +1,173 @@
+{
+  "selection": "First three training-selected features",
+  "panels": [
+    {
+      "model": "pretrained_ra",
+      "feature": 4271,
+      "dataset": "imagenette",
+      "row": 308,
+      "position": 163,
+      "response": 7.980679988861084,
+      "source": "imagenette2-320/val/n03394916/ILSVRC2012_val_00025761.JPEG",
+      "label": "French horn",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30355,
+      "dataset": "imagenette",
+      "row": 340,
+      "position": 226,
+      "response": 7.958958625793457,
+      "source": "imagenette2-320/val/n03888257/ILSVRC2012_val_00001440.JPEG",
+      "label": "parachute",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 11318,
+      "dataset": "imagenette",
+      "row": 339,
+      "position": 154,
+      "response": 6.989945411682129,
+      "source": "imagenette2-320/val/n03445777/ILSVRC2012_val_00036171.JPEG",
+      "label": "golf ball",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 4271,
+      "dataset": "imagewoof",
+      "row": 0,
+      "position": 0,
+      "response": 0.0,
+      "source": "imagewoof2-320/val/n02086240/ILSVRC2012_val_00002701.JPEG",
+      "label": "Shih-Tzu",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30355,
+      "dataset": "imagewoof",
+      "row": 0,
+      "position": 0,
+      "response": 0.0,
+      "source": "imagewoof2-320/val/n02086240/ILSVRC2012_val_00002701.JPEG",
+      "label": "Shih-Tzu",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 11318,
+      "dataset": "imagewoof",
+      "row": 41,
+      "position": 196,
+      "response": 2.482813835144043,
+      "source": "imagewoof2-320/val/n02093754/ILSVRC2012_val_00004511.JPEG",
+      "label": "Border terrier",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 4271,
+      "dataset": "pets",
+      "row": 0,
+      "position": 0,
+      "response": 0.0,
+      "source": "newfoundland_31",
+      "label": "newfoundland",
+      "split": "test",
+      "mirror_row": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30355,
+      "dataset": "pets",
+      "row": 0,
+      "position": 0,
+      "response": 0.0,
+      "source": "newfoundland_31",
+      "label": "newfoundland",
+      "split": "test",
+      "mirror_row": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 11318,
+      "dataset": "pets",
+      "row": 0,
+      "position": 0,
+      "response": 0.0,
+      "source": "newfoundland_31",
+      "label": "newfoundland",
+      "split": "test",
+      "mirror_row": 0
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 4271,
+      "dataset": "parts",
+      "row": 0,
+      "position": 0,
+      "response": 0.0,
+      "source": "PartImageNet/images/test/n01440764_1108.JPEG",
+      "split": "test",
+      "label": "n01440764"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30355,
+      "dataset": "parts",
+      "row": 0,
+      "position": 0,
+      "response": 0.0,
+      "source": "PartImageNet/images/test/n01440764_1108.JPEG",
+      "split": "test",
+      "label": "n01440764"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 11318,
+      "dataset": "parts",
+      "row": 0,
+      "position": 0,
+      "response": 0.0,
+      "source": "PartImageNet/images/test/n01440764_1108.JPEG",
+      "split": "test",
+      "label": "n01440764"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 4271,
+      "dataset": "dtd",
+      "row": 188,
+      "position": 0,
+      "response": 0.0,
+      "source": "banded/banded_0002.jpg",
+      "split": "test",
+      "label": "banded"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 30355,
+      "dataset": "dtd",
+      "row": 188,
+      "position": 0,
+      "response": 0.0,
+      "source": "banded/banded_0002.jpg",
+      "split": "test",
+      "label": "banded"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 11318,
+      "dataset": "dtd",
+      "row": 188,
+      "position": 0,
+      "response": 0.0,
+      "source": "banded/banded_0002.jpg",
+      "split": "test",
+      "label": "banded"
+    }
+  ]
+}

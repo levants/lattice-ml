@@ -1,0 +1,9 @@
+{
+  "evaluated_model_dataset_pairs": 73,
+  "verified_query_closures": 1168,
+  "independent_image_position_permutations": 1168,
+  "within_dataset_exact_crop_split_leakage": false,
+  "exact_duplicate_crop_groups": [],
+  "source_width_and_syntax": "passed",
+  "native_adapter_checks": "passed"
+}

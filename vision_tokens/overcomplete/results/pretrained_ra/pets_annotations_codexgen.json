@@ -1,0 +1,75 @@
+{
+  "model": "pretrained_ra",
+  "dataset": "pets",
+  "features": [
+    {
+      "feature": 4093,
+      "images": 20,
+      "distinct_labels": 14,
+      "dominant_annotation": 1,
+      "annotation_coverage": 0.0,
+      "random_mean": 0.42581122448979586,
+      "random_q025_q975": [
+        0.24514030612244897,
+        0.611313775510204
+      ],
+      "norm_matched_coverage": 0.2443877551020408
+    },
+    {
+      "feature": 29969,
+      "images": 1,
+      "distinct_labels": 1,
+      "dominant_annotation": 1,
+      "annotation_coverage": 0.0,
+      "random_mean": 0.4902295918367347,
+      "random_q025_q975": [
+        0.0,
+        1.0
+      ],
+      "norm_matched_coverage": 0.0
+    },
+    {
+      "feature": 21444,
+      "images": 20,
+      "distinct_labels": 12,
+      "dominant_annotation": 1,
+      "annotation_coverage": 0.0,
+      "random_mean": 0.43513903061224496,
+      "random_q025_q975": [
+        0.268577806122449,
+        0.6111798469387757
+      ],
+      "norm_matched_coverage": 0.3137755102040816
+    },
+    {
+      "feature": 8288,
+      "images": 2,
+      "distinct_labels": 2,
+      "dominant_annotation": 1,
+      "annotation_coverage": 0.0,
+      "random_mean": 0.4226020408163265,
+      "random_q025_q975": [
+        0.0,
+        1.0
+      ],
+      "norm_matched_coverage": 0.0
+    },
+    {
+      "feature": 26994,
+      "images": 20,
+      "distinct_labels": 7,
+      "dominant_annotation": 1,
+      "annotation_coverage": 0.5244897959183674,
+      "random_mean": 0.39633545918367347,
+      "random_q025_q975": [
+        0.23329719387755102,
+        0.5728954081632655
+      ],
+      "norm_matched_coverage": 0.3683673469387755
+    }
+  ],
+  "note": "Annotation association is not a universal feature meaning. Different classes and positions are allowed.",
+  "mean_coverage": 0.10489795918367348,
+  "mean_random": 0.43402346938775505,
+  "mean_norm_matched": 0.18530612244897957
+}

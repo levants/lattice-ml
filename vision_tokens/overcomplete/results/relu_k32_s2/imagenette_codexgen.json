@@ -1,0 +1,341 @@
+{
+  "model": "relu_k32_s2",
+  "dataset": "imagenette",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 0.17973510211776766,
+      "l0": 18.1914453125
+    },
+    "train": {
+      "images": 200,
+      "r2": 0.2187689297256985,
+      "l0": 11.160546875
+    },
+    "val": {
+      "images": 50,
+      "r2": 0.19340924959502215,
+      "l0": 18.147734375
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        946,
+        586
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.20386086404323578,
+            1.4819244623184207
+          ],
+          "closed": [
+            1.6559226512908936,
+            1.4832327365875244
+          ],
+          "pooled_test": 8,
+          "common_test": 8,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 196
+        },
+        "v": {
+          "query": [
+            2.4279269695282006,
+            0.1141585186123848
+          ],
+          "closed": [
+            2.4304983615875244,
+            1.9091973304748535
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 180
+        },
+        "meet": {
+          "query": [
+            0.20386086404323578,
+            0.1141585186123848
+          ],
+          "closed": [
+            0.20400895178318024,
+            0.11472974717617035
+          ],
+          "pooled_test": 26,
+          "common_test": 24,
+          "test_labels": [
+            "English springer",
+            "French horn",
+            "cassette player",
+            "chain saw",
+            "church",
+            "garbage truck",
+            "gas pump",
+            "golf ball",
+            "tench"
+          ],
+          "test_label_count": 9,
+          "test_sites": 574
+        },
+        "join": {
+          "query": [
+            2.4279269695282006,
+            1.4819244623184207
+          ],
+          "closed": [
+            2.4304983615875244,
+            1.9091973304748535
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 180
+        }
+      }
+    },
+    {
+      "features": [
+        39,
+        296
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.3798731416463852,
+            2.7622640132904053
+          ],
+          "closed": [
+            2.9494285583496094,
+            2.7622640132904053
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 202
+        },
+        "v": {
+          "query": [
+            3.077238893508911,
+            0.2364921197295189
+          ],
+          "closed": [
+            3.0776045322418213,
+            2.7332630157470703
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 188
+        },
+        "meet": {
+          "query": [
+            0.3798731416463852,
+            0.2364921197295189
+          ],
+          "closed": [
+            0.3800324499607086,
+            0.23879599571228027
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 689
+        },
+        "join": {
+          "query": [
+            3.077238893508911,
+            2.7622640132904053
+          ],
+          "closed": [
+            3.0808095932006836,
+            2.7622640132904053
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "golf ball"
+          ],
+          "test_label_count": 1,
+          "test_sites": 188
+        }
+      }
+    },
+    {
+      "features": [
+        1262,
+        7
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            1.7271784543991089,
+            3.099020624160767
+          ],
+          "closed": [
+            2.993319511413574,
+            3.099179983139038
+          ],
+          "pooled_test": 5,
+          "common_test": 5,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 166
+        },
+        "v": {
+          "query": [
+            3.1903900623321535,
+            1.6467679738998413
+          ],
+          "closed": [
+            3.1906182765960693,
+            3.011857032775879
+          ],
+          "pooled_test": 4,
+          "common_test": 4,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 144
+        },
+        "meet": {
+          "query": [
+            1.7271784543991089,
+            1.6467679738998413
+          ],
+          "closed": [
+            1.7271784543991089,
+            1.6613436937332153
+          ],
+          "pooled_test": 8,
+          "common_test": 8,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 388
+        },
+        "join": {
+          "query": [
+            3.1903900623321535,
+            3.099020624160767
+          ],
+          "closed": [
+            3.1906182765960693,
+            3.099179983139038
+          ],
+          "pooled_test": 4,
+          "common_test": 4,
+          "test_labels": [
+            "French horn"
+          ],
+          "test_label_count": 1,
+          "test_sites": 144
+        }
+      }
+    },
+    {
+      "features": [
+        1111,
+        905
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.2760849595069885,
+            2.6056365013122575
+          ],
+          "closed": [
+            2.4202706813812256,
+            2.6107664108276367
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 81
+        },
+        "v": {
+          "query": [
+            2.9479023933410655,
+            0.14091072231531143
+          ],
+          "closed": [
+            2.951383113861084,
+            2.7187137603759766
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 61
+        },
+        "meet": {
+          "query": [
+            0.2760849595069885,
+            0.14091072231531143
+          ],
+          "closed": [
+            0.2760849595069885,
+            0.15810228884220123
+          ],
+          "pooled_test": 18,
+          "common_test": 18,
+          "test_labels": [
+            "English springer",
+            "French horn",
+            "cassette player",
+            "church",
+            "gas pump",
+            "tench"
+          ],
+          "test_label_count": 6,
+          "test_sites": 283
+        },
+        "join": {
+          "query": [
+            2.9479023933410655,
+            2.6056365013122575
+          ],
+          "closed": [
+            2.951383113861084,
+            2.7187137603759766
+          ],
+          "pooled_test": 7,
+          "common_test": 7,
+          "test_labels": [
+            "English springer"
+          ],
+          "test_label_count": 1,
+          "test_sites": 61
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

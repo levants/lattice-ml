@@ -1,0 +1,173 @@
+{
+  "selection": "Exploratory: test-set activation frequency across datasets; not an unbiased evaluation",
+  "panels": [
+    {
+      "model": "pretrained_ra",
+      "feature": 13101,
+      "dataset": "imagenette",
+      "row": 296,
+      "position": 126,
+      "response": 3.9178192615509033,
+      "source": "imagenette2-320/val/n03028079/ILSVRC2012_val_00016832.JPEG",
+      "label": "church",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 31585,
+      "dataset": "imagenette",
+      "row": 290,
+      "position": 64,
+      "response": 4.145395755767822,
+      "source": "imagenette2-320/val/n03028079/ILSVRC2012_val_00003351.JPEG",
+      "label": "church",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 8391,
+      "dataset": "imagenette",
+      "row": 288,
+      "position": 252,
+      "response": 3.0661983489990234,
+      "source": "imagenette2-320/val/n03000684/ILSVRC2012_val_00029211.JPEG",
+      "label": "chain saw",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 13101,
+      "dataset": "imagewoof",
+      "row": 93,
+      "position": 223,
+      "response": 4.244675636291504,
+      "source": "imagewoof2-320/val/n02115641/ILSVRC2012_val_00007782.JPEG",
+      "label": "Dingo",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 31585,
+      "dataset": "imagewoof",
+      "row": 26,
+      "position": 65,
+      "response": 3.930598258972168,
+      "source": "imagewoof2-320/val/n02088364/ILSVRC2012_val_00020762.JPEG",
+      "label": "Beagle",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 8391,
+      "dataset": "imagewoof",
+      "row": 95,
+      "position": 247,
+      "response": 3.111726760864258,
+      "source": "imagewoof2-320/val/n02115641/ILSVRC2012_val_00011750.JPEG",
+      "label": "Dingo",
+      "split": "test"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 13101,
+      "dataset": "pets",
+      "row": 131,
+      "position": 223,
+      "response": 4.217947959899902,
+      "source": "Russian_Blue_93",
+      "label": "russian_blue",
+      "split": "test",
+      "mirror_row": 131
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 31585,
+      "dataset": "pets",
+      "row": 159,
+      "position": 32,
+      "response": 4.182589530944824,
+      "source": "Ragdoll_71",
+      "label": "ragdoll",
+      "split": "test",
+      "mirror_row": 159
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 8391,
+      "dataset": "pets",
+      "row": 81,
+      "position": 249,
+      "response": 3.3889377117156982,
+      "source": "Abyssinian_3",
+      "label": "abyssinian",
+      "split": "test",
+      "mirror_row": 81
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 13101,
+      "dataset": "parts",
+      "row": 25,
+      "position": 62,
+      "response": 3.9763152599334717,
+      "source": "PartImageNet/images/test/n02124075_11466.JPEG",
+      "split": "test",
+      "label": "n02124075"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 31585,
+      "dataset": "parts",
+      "row": 18,
+      "position": 241,
+      "response": 3.7323336601257324,
+      "source": "PartImageNet/images/test/n02071294_1326.JPEG",
+      "split": "test",
+      "label": "n02071294"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 8391,
+      "dataset": "parts",
+      "row": 29,
+      "position": 235,
+      "response": 3.1162397861480713,
+      "source": "PartImageNet/images/test/n02408429_10410.JPEG",
+      "split": "test",
+      "label": "n02408429"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 13101,
+      "dataset": "dtd",
+      "row": 247,
+      "position": 206,
+      "response": 3.6741206645965576,
+      "source": "pleated/pleated_0045.jpg",
+      "split": "test",
+      "label": "pleated"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 31585,
+      "dataset": "dtd",
+      "row": 247,
+      "position": 160,
+      "response": 4.301085948944092,
+      "source": "pleated/pleated_0045.jpg",
+      "split": "test",
+      "label": "pleated"
+    },
+    {
+      "model": "pretrained_ra",
+      "feature": 8391,
+      "dataset": "dtd",
+      "row": 265,
+      "position": 248,
+      "response": 3.0289649963378906,
+      "source": "stratified/stratified_0042.jpg",
+      "split": "test",
+      "label": "stratified"
+    }
+  ]
+}

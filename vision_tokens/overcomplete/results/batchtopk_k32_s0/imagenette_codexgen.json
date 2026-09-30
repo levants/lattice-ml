@@ -1,0 +1,384 @@
+{
+  "model": "batchtopk_k32_s0",
+  "dataset": "imagenette",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 0.6398242497503708,
+      "l0": 47.4362109375
+    },
+    "train": {
+      "images": 200,
+      "r2": 0.8088227024248374,
+      "l0": 35.09650390625
+    },
+    "val": {
+      "images": 50,
+      "r2": 0.6414363148466016,
+      "l0": 46.873984375
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        329,
+        399
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.655618667602539,
+            4.807679843902588
+          ],
+          "closed": [
+            2.6573030948638916,
+            4.808408260345459
+          ],
+          "pooled_test": 17,
+          "common_test": 17,
+          "test_labels": [
+            "English springer",
+            "French horn",
+            "tench"
+          ],
+          "test_label_count": 3,
+          "test_sites": 56
+        },
+        "v": {
+          "query": [
+            5.305645370483399,
+            2.7307034730911255
+          ],
+          "closed": [
+            5.311759948730469,
+            2.7361373901367188
+          ],
+          "pooled_test": 22,
+          "common_test": 21,
+          "test_labels": [
+            "English springer",
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "tench"
+          ],
+          "test_label_count": 5,
+          "test_sites": 78
+        },
+        "meet": {
+          "query": [
+            2.655618667602539,
+            2.7307034730911255
+          ],
+          "closed": [
+            2.6573030948638916,
+            2.732254981994629
+          ],
+          "pooled_test": 26,
+          "common_test": 26,
+          "test_labels": [
+            "English springer",
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "golf ball",
+            "tench"
+          ],
+          "test_label_count": 6,
+          "test_sites": 152
+        },
+        "join": {
+          "query": [
+            5.305645370483399,
+            4.807679843902588
+          ],
+          "closed": [
+            5.321117401123047,
+            4.814568519592285
+          ],
+          "pooled_test": 16,
+          "common_test": 9,
+          "test_labels": [
+            "French horn",
+            "tench"
+          ],
+          "test_label_count": 2,
+          "test_sites": 30
+        }
+      }
+    },
+    {
+      "features": [
+        585,
+        650
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.2058839797973633,
+            4.509833908081055
+          ],
+          "closed": [
+            2.21191668510437,
+            4.513174057006836
+          ],
+          "pooled_test": 17,
+          "common_test": 15,
+          "test_labels": [
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "parachute",
+            "tench"
+          ],
+          "test_label_count": 5,
+          "test_sites": 87
+        },
+        "v": {
+          "query": [
+            4.349247932434082,
+            2.5079500675201416
+          ],
+          "closed": [
+            4.349247932434082,
+            2.508110523223877
+          ],
+          "pooled_test": 14,
+          "common_test": 13,
+          "test_labels": [
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "parachute",
+            "tench"
+          ],
+          "test_label_count": 5,
+          "test_sites": 93
+        },
+        "meet": {
+          "query": [
+            2.2058839797973633,
+            2.5079500675201416
+          ],
+          "closed": [
+            2.2058839797973633,
+            2.508110523223877
+          ],
+          "pooled_test": 20,
+          "common_test": 18,
+          "test_labels": [
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "parachute",
+            "tench"
+          ],
+          "test_label_count": 5,
+          "test_sites": 206
+        },
+        "join": {
+          "query": [
+            4.349247932434082,
+            4.509833908081055
+          ],
+          "closed": [
+            4.3662519454956055,
+            4.521098613739014
+          ],
+          "pooled_test": 12,
+          "common_test": 9,
+          "test_labels": [
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "parachute",
+            "tench"
+          ],
+          "test_label_count": 5,
+          "test_sites": 27
+        }
+      }
+    },
+    {
+      "features": [
+        338,
+        1231
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            1.9060092568397522,
+            2.3416115283966072
+          ],
+          "closed": [
+            2.1589765548706055,
+            2.3417720794677734
+          ],
+          "pooled_test": 14,
+          "common_test": 11,
+          "test_labels": [
+            "garbage truck",
+            "gas pump"
+          ],
+          "test_label_count": 2,
+          "test_sites": 53
+        },
+        "v": {
+          "query": [
+            4.94490795135498,
+            1.5499535202980042
+          ],
+          "closed": [
+            4.958754539489746,
+            1.5846458673477173
+          ],
+          "pooled_test": 11,
+          "common_test": 11,
+          "test_labels": [
+            "garbage truck",
+            "gas pump"
+          ],
+          "test_label_count": 2,
+          "test_sites": 54
+        },
+        "meet": {
+          "query": [
+            1.9060092568397522,
+            1.5499535202980042
+          ],
+          "closed": [
+            1.9080133438110352,
+            1.5534191131591797
+          ],
+          "pooled_test": 19,
+          "common_test": 15,
+          "test_labels": [
+            "English springer",
+            "French horn",
+            "garbage truck",
+            "gas pump"
+          ],
+          "test_label_count": 4,
+          "test_sites": 74
+        },
+        "join": {
+          "query": [
+            4.94490795135498,
+            2.3416115283966072
+          ],
+          "closed": [
+            4.958754539489746,
+            2.3417720794677734
+          ],
+          "pooled_test": 11,
+          "common_test": 11,
+          "test_labels": [
+            "garbage truck",
+            "gas pump"
+          ],
+          "test_label_count": 2,
+          "test_sites": 38
+        }
+      }
+    },
+    {
+      "features": [
+        1458,
+        1333
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            2.4913101196289062,
+            3.4870397090911864
+          ],
+          "closed": [
+            2.5153980255126953,
+            3.488434314727783
+          ],
+          "pooled_test": 36,
+          "common_test": 27,
+          "test_labels": [
+            "French horn",
+            "cassette player",
+            "chain saw",
+            "garbage truck",
+            "gas pump",
+            "golf ball"
+          ],
+          "test_label_count": 6,
+          "test_sites": 103
+        },
+        "v": {
+          "query": [
+            4.892277336120606,
+            1.9548790454864502
+          ],
+          "closed": [
+            4.90977668762207,
+            1.956956386566162
+          ],
+          "pooled_test": 26,
+          "common_test": 23,
+          "test_labels": [
+            "cassette player",
+            "chain saw",
+            "garbage truck",
+            "gas pump",
+            "golf ball",
+            "parachute",
+            "tench"
+          ],
+          "test_label_count": 7,
+          "test_sites": 99
+        },
+        "meet": {
+          "query": [
+            2.4913101196289062,
+            1.9548790454864502
+          ],
+          "closed": [
+            2.4933409690856934,
+            1.956956386566162
+          ],
+          "pooled_test": 46,
+          "common_test": 37,
+          "test_labels": [
+            "French horn",
+            "cassette player",
+            "chain saw",
+            "garbage truck",
+            "gas pump",
+            "golf ball",
+            "parachute",
+            "tench"
+          ],
+          "test_label_count": 8,
+          "test_sites": 206
+        },
+        "join": {
+          "query": [
+            4.892277336120606,
+            3.4870397090911864
+          ],
+          "closed": [
+            4.90977668762207,
+            3.488434314727783
+          ],
+          "pooled_test": 22,
+          "common_test": 16,
+          "test_labels": [
+            "cassette player",
+            "chain saw",
+            "garbage truck",
+            "gas pump",
+            "golf ball"
+          ],
+          "test_label_count": 5,
+          "test_sites": 45
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

@@ -1,0 +1,348 @@
+{
+  "model": "topk_k16_s2",
+  "dataset": "imagenette",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 0.5824712847246756,
+      "l0": 16.0
+    },
+    "train": {
+      "images": 200,
+      "r2": 0.7778054652863128,
+      "l0": 16.0
+    },
+    "val": {
+      "images": 50,
+      "r2": 0.585706400607181,
+      "l0": 16.0
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        1420,
+        646
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.654721975326538,
+            6.08077335357666
+          ],
+          "closed": [
+            3.687040090560913,
+            6.09372615814209
+          ],
+          "pooled_test": 14,
+          "common_test": 14,
+          "test_labels": [
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "tench"
+          ],
+          "test_label_count": 4,
+          "test_sites": 84
+        },
+        "v": {
+          "query": [
+            7.06557559967041,
+            3.290039539337158
+          ],
+          "closed": [
+            7.1282243728637695,
+            3.2910101413726807
+          ],
+          "pooled_test": 15,
+          "common_test": 14,
+          "test_labels": [
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "tench"
+          ],
+          "test_label_count": 4,
+          "test_sites": 68
+        },
+        "meet": {
+          "query": [
+            3.654721975326538,
+            3.290039539337158
+          ],
+          "closed": [
+            3.654721975326538,
+            3.290039539337158
+          ],
+          "pooled_test": 19,
+          "common_test": 18,
+          "test_labels": [
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "tench"
+          ],
+          "test_label_count": 4,
+          "test_sites": 154
+        },
+        "join": {
+          "query": [
+            7.06557559967041,
+            6.08077335357666
+          ],
+          "closed": [
+            7.162294387817383,
+            6.146141052246094
+          ],
+          "pooled_test": 12,
+          "common_test": 10,
+          "test_labels": [
+            "French horn",
+            "chain saw",
+            "gas pump",
+            "tench"
+          ],
+          "test_label_count": 4,
+          "test_sites": 28
+        }
+      }
+    },
+    {
+      "features": [
+        1250,
+        719
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.010008215904236,
+            8.392224311828615
+          ],
+          "closed": [
+            3.0767645835876465,
+            8.4779052734375
+          ],
+          "pooled_test": 10,
+          "common_test": 6,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 16
+        },
+        "v": {
+          "query": [
+            5.627842712402343,
+            3.861475944519043
+          ],
+          "closed": [
+            5.64488410949707,
+            3.911816358566284
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 46
+        },
+        "meet": {
+          "query": [
+            3.010008215904236,
+            3.861475944519043
+          ],
+          "closed": [
+            3.0767645835876465,
+            3.8769657611846924
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 66
+        },
+        "join": {
+          "query": [
+            5.627842712402343,
+            8.392224311828615
+          ],
+          "closed": [
+            5.790520191192627,
+            8.52525806427002
+          ],
+          "pooled_test": 10,
+          "common_test": 5,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 7
+        }
+      }
+    },
+    {
+      "features": [
+        111,
+        1220
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.5409202575683594,
+            6.396634101867677
+          ],
+          "closed": [
+            3.5564067363739014,
+            6.410987377166748
+          ],
+          "pooled_test": 10,
+          "common_test": 9,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 44
+        },
+        "v": {
+          "query": [
+            7.730382347106934,
+            3.2656962871551514
+          ],
+          "closed": [
+            7.733187198638916,
+            3.280734062194824
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 51
+        },
+        "meet": {
+          "query": [
+            3.5409202575683594,
+            3.2656962871551514
+          ],
+          "closed": [
+            3.5564067363739014,
+            3.280734062194824
+          ],
+          "pooled_test": 10,
+          "common_test": 10,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 84
+        },
+        "join": {
+          "query": [
+            7.730382347106934,
+            6.396634101867677
+          ],
+          "closed": [
+            7.815365791320801,
+            6.410987377166748
+          ],
+          "pooled_test": 10,
+          "common_test": 5,
+          "test_labels": [
+            "tench"
+          ],
+          "test_label_count": 1,
+          "test_sites": 21
+        }
+      }
+    },
+    {
+      "features": [
+        1219,
+        625
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            3.879236578941345,
+            6.604026794433594
+          ],
+          "closed": [
+            3.8969361782073975,
+            6.714204788208008
+          ],
+          "pooled_test": 11,
+          "common_test": 7,
+          "test_labels": [
+            "English springer",
+            "church",
+            "garbage truck",
+            "golf ball",
+            "tench"
+          ],
+          "test_label_count": 5,
+          "test_sites": 10
+        },
+        "v": {
+          "query": [
+            7.086397647857666,
+            3.8335230350494385
+          ],
+          "closed": [
+            7.093043804168701,
+            3.8562076091766357
+          ],
+          "pooled_test": 8,
+          "common_test": 1,
+          "test_labels": [
+            "church"
+          ],
+          "test_label_count": 1,
+          "test_sites": 2
+        },
+        "meet": {
+          "query": [
+            3.879236578941345,
+            3.8335230350494385
+          ],
+          "closed": [
+            3.8969361782073975,
+            3.8562076091766357
+          ],
+          "pooled_test": 12,
+          "common_test": 9,
+          "test_labels": [
+            "English springer",
+            "church",
+            "garbage truck",
+            "golf ball",
+            "tench"
+          ],
+          "test_label_count": 5,
+          "test_sites": 31
+        },
+        "join": {
+          "query": [
+            7.086397647857666,
+            6.604026794433594
+          ],
+          "closed": [
+            7.093043804168701,
+            6.756420135498047
+          ],
+          "pooled_test": 7,
+          "common_test": 1,
+          "test_labels": [
+            "church"
+          ],
+          "test_label_count": 1,
+          "test_sites": 1
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}

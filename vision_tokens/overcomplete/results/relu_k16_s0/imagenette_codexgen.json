@@ -1,0 +1,336 @@
+{
+  "model": "relu_k16_s0",
+  "dataset": "imagenette",
+  "metrics": {
+    "test": {
+      "images": 100,
+      "r2": 6.414507772400935e-05,
+      "l0": 11.808046875
+    },
+    "train": {
+      "images": 200,
+      "r2": 6.739259310495349e-05,
+      "l0": 9.7481640625
+    },
+    "val": {
+      "images": 50,
+      "r2": 0.00022552479547455206,
+      "l0": 12.043671875
+    }
+  },
+  "queries": [
+    {
+      "features": [
+        127,
+        355
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.020145421847701073,
+            0.048679111152887346
+          ],
+          "closed": [
+            0.021622827276587486,
+            0.05464455112814903
+          ],
+          "pooled_test": 7,
+          "common_test": 1,
+          "test_labels": [
+            "church"
+          ],
+          "test_label_count": 1,
+          "test_sites": 1
+        },
+        "v": {
+          "query": [
+            0.04538487643003464,
+            0.022330280393362045
+          ],
+          "closed": [
+            0.04584056884050369,
+            0.024354875087738037
+          ],
+          "pooled_test": 7,
+          "common_test": 2,
+          "test_labels": [
+            "church",
+            "gas pump"
+          ],
+          "test_label_count": 2,
+          "test_sites": 2
+        },
+        "meet": {
+          "query": [
+            0.020145421847701073,
+            0.022330280393362045
+          ],
+          "closed": [
+            0.021622827276587486,
+            0.024354875087738037
+          ],
+          "pooled_test": 14,
+          "common_test": 2,
+          "test_labels": [
+            "church",
+            "gas pump"
+          ],
+          "test_label_count": 2,
+          "test_sites": 2
+        },
+        "join": {
+          "query": [
+            0.04538487643003464,
+            0.048679111152887346
+          ],
+          "closed": [
+            0.04584056884050369,
+            0.05464455112814903
+          ],
+          "pooled_test": 3,
+          "common_test": 1,
+          "test_labels": [
+            "church"
+          ],
+          "test_label_count": 1,
+          "test_sites": 1
+        }
+      }
+    },
+    {
+      "features": [
+        1107,
+        654
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.023960890248417854,
+            0.059323892742395426
+          ],
+          "closed": [
+            0.024282045662403107,
+            0.05973474681377411
+          ],
+          "pooled_test": 19,
+          "common_test": 5,
+          "test_labels": [
+            "church",
+            "gas pump",
+            "tench"
+          ],
+          "test_label_count": 3,
+          "test_sites": 8
+        },
+        "v": {
+          "query": [
+            0.0518749438226223,
+            0.02662801556289196
+          ],
+          "closed": [
+            0.051883723586797714,
+            0.029379358515143394
+          ],
+          "pooled_test": 22,
+          "common_test": 6,
+          "test_labels": [
+            "cassette player",
+            "church",
+            "garbage truck",
+            "gas pump"
+          ],
+          "test_label_count": 4,
+          "test_sites": 9
+        },
+        "meet": {
+          "query": [
+            0.023960890248417854,
+            0.02662801556289196
+          ],
+          "closed": [
+            0.024282045662403107,
+            0.029379358515143394
+          ],
+          "pooled_test": 31,
+          "common_test": 9,
+          "test_labels": [
+            "cassette player",
+            "church",
+            "garbage truck",
+            "gas pump",
+            "tench"
+          ],
+          "test_label_count": 5,
+          "test_sites": 22
+        },
+        "join": {
+          "query": [
+            0.0518749438226223,
+            0.059323892742395426
+          ],
+          "closed": [
+            0.051883723586797714,
+            0.05973474681377411
+          ],
+          "pooled_test": 14,
+          "common_test": 2,
+          "test_labels": [
+            "church",
+            "gas pump"
+          ],
+          "test_label_count": 2,
+          "test_sites": 2
+        }
+      }
+    },
+    {
+      "features": [
+        202,
+        30
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.023156804032623768,
+            0.049280449748039246
+          ],
+          "closed": [
+            0.0672285407781601,
+            0.049798015505075455
+          ],
+          "pooled_test": 6,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "v": {
+          "query": [
+            0.05215077996253968,
+            0.02438357099890709
+          ],
+          "closed": [
+            0.05561229959130287,
+            0.024509744718670845
+          ],
+          "pooled_test": 5,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        },
+        "meet": {
+          "query": [
+            0.023156804032623768,
+            0.02438357099890709
+          ],
+          "closed": [
+            0.024997102096676826,
+            0.024509744718670845
+          ],
+          "pooled_test": 10,
+          "common_test": 2,
+          "test_labels": [
+            "church",
+            "gas pump"
+          ],
+          "test_label_count": 2,
+          "test_sites": 2
+        },
+        "join": {
+          "query": [
+            0.05215077996253968,
+            0.049280449748039246
+          ],
+          "closed": [
+            0.0672285407781601,
+            0.049798015505075455
+          ],
+          "pooled_test": 3,
+          "common_test": 0,
+          "test_labels": [],
+          "test_label_count": 0,
+          "test_sites": 0
+        }
+      }
+    },
+    {
+      "features": [
+        327,
+        463
+      ],
+      "operations": {
+        "u": {
+          "query": [
+            0.02481899783015251,
+            0.04851315319538117
+          ],
+          "closed": [
+            0.02594221942126751,
+            0.051594845950603485
+          ],
+          "pooled_test": 11,
+          "common_test": 1,
+          "test_labels": [
+            "garbage truck"
+          ],
+          "test_label_count": 1,
+          "test_sites": 4
+        },
+        "v": {
+          "query": [
+            0.05470791310071947,
+            0.02391894720494747
+          ],
+          "closed": [
+            0.05486930161714554,
+            0.024043865501880646
+          ],
+          "pooled_test": 11,
+          "common_test": 3,
+          "test_labels": [
+            "garbage truck"
+          ],
+          "test_label_count": 1,
+          "test_sites": 7
+        },
+        "meet": {
+          "query": [
+            0.02481899783015251,
+            0.02391894720494747
+          ],
+          "closed": [
+            0.025459686294198036,
+            0.02400186099112034
+          ],
+          "pooled_test": 16,
+          "common_test": 6,
+          "test_labels": [
+            "garbage truck",
+            "tench"
+          ],
+          "test_label_count": 2,
+          "test_sites": 11
+        },
+        "join": {
+          "query": [
+            0.05470791310071947,
+            0.04851315319538117
+          ],
+          "closed": [
+            0.058479901403188705,
+            0.051594845950603485
+          ],
+          "pooled_test": 8,
+          "common_test": 1,
+          "test_labels": [
+            "garbage truck"
+          ],
+          "test_label_count": 1,
+          "test_sites": 4
+        }
+      }
+    }
+  ],
+  "closure_checks": 16
+}
