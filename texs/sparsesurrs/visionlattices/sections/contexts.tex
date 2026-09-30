@@ -1,0 +1,219 @@
+\section{The Relation-Induced Context}
+\label{sec:contexts}
+We now give the mathematical construction independently of the neural
+model. This preserves the proof pattern of the companion paper and
+makes explicit which properties come from order theory rather than from
+training. Throughout this section, $\U$ can be any complete lattice.
+
+\subsection{From individual summaries to a Galois ideal}
+\label{sub:galois-ideal}
+Let $X$ be a set and $J\subseteq X\times\U$ any relation. Assign each
+object the summary
+\begin{equation}\label{eq:relation-summary}
+      u_{x}=\bigwedge\{u\in\U\mid(x,u)\in J\}.
+\end{equation}
+The empty meet is $\top_{\U}$. For visual data, $J$ is the graph of the
+chosen summary map, so this meet is over a singleton; it does not replace
+the spatial maximum in \cref{eq:max-summary}. Put $\X=\mathcal{P}(X)$ and
+\begin{equation}\label{eq:incidence}
+      (A,u)\in I\quad\Longleftrightarrow\quad
+      u\leq u_{x}\text{ for every }x\in A.
+\end{equation}
+Here $A,B\in\X$ denote collections of objects and $u,v\in\U$ denote
+attribute descriptions. Individual images are indexed by $x$.
+
+\begin{definition}[Galois ideal and lattice-theoretic context]
+      \label{def:galois-ideal}
+      For complete lattices $\X$ and $\U$, a relation
+      $I\subseteq\X\times\U$ is a Galois ideal if it is a lower set in the
+      product order and is closed under arbitrary joins in each coordinate
+      separately. Thus, including empty families,
+      \begin{equation}\label{eq:ideal-joins}
+            \begin{aligned}
+                  (A_{t},u)\in I\ (t\in T) & \Longrightarrow
+                  (\bigvee_{t\in T}A_{t},u)\in I,            \\
+                  (A,u_{t})\in I\ (t\in T) & \Longrightarrow
+                  (A,\bigvee_{t\in T}u_{t})\in I.
+            \end{aligned}
+      \end{equation}
+      The triple $(\X,\U,I)$ is then a lattice-theoretic formal context
+      \cite{FCA_Latt_Theor}.
+\end{definition}
+
+\begin{proposition}[Relation-induced Galois ideal]
+      \label{prop:galois-ideal}
+      The relation in \cref{eq:incidence} is a Galois ideal.
+\end{proposition}
+\begin{proof}
+      Suppose $(A,u)\in I$, $B\subseteq A$, and $v\leq u$. For every $x\in B$,
+      we have $v\leq u\leq u_{x}$, so $(B,v)\in I$. This proves the lower-set
+      property. If $(A,u_{t})\in I$ for every $t\in T$, each $u_{x}$ with
+      $x\in A$ is an upper bound of the family, hence
+      $\bigvee_{t\in T}u_{t}\leq u_{x}$. If $(A_{t},u)\in I$ for every
+      $t\in T$, every $x\in\bigcup_{t\in T}A_{t}$ belongs to some $A_{t}$ and
+      satisfies $u\leq u_{x}$. The first assertion also holds for an empty
+      family because its join is $\bot_{\U}$; the second is then vacuous.
+\end{proof}
+
+\subsection{Derivations, closure, and concepts}
+\label{sub:derivations}
+The summary and retrieval maps are
+\begin{equation}\label{eq:derivations}
+      F_{I}(A)=\bigwedge_{x\in A}u_{x},\qquad
+      G_{I}(u)=\{x\in X\mid u\leq u_{x}\}.
+\end{equation}
+Thus $F_{I}(\varnothing)=\top_{\U}$ and $G_{I}(\bot_{\U})=X$.
+
+\begin{proposition}[Summary--retrieval adjunction]
+      \label{prop:adjunction}
+      The maps $F_{I}:\X\to\U$ and $G_{I}:\U\to\X$ are antitone and satisfy
+      \begin{equation}\label{eq:adjunction}
+            A\subseteq G_{I}(u)\quad\Longleftrightarrow\quad u\leq F_{I}(A).
+      \end{equation}
+      Consequently, $c_{I}=G_{I}F_{I}$ and $d_{I}=F_{I}G_{I}$ are closure
+      operators on $\X$ and $\U$, respectively.
+\end{proposition}
+\begin{proof}
+      If $B\subseteq A$, taking a meet over the larger set gives
+      $F_{I}(A)\leq F_{I}(B)$. If $u\leq v$, every summary dominating $v$
+      also dominates $u$, so $G_{I}(v)\subseteq G_{I}(u)$. Finally,
+      $A\subseteq G_{I}(u)$ means exactly that $u\leq u_{x}$ for all
+      $x\in A$, equivalently $u\leq\bigwedge_{x\in A}u_{x}$.
+
+      The equivalence gives $A\subseteq G_{I}F_{I}(A)$ and
+      $u\leq F_{I}G_{I}(u)$. The composites are monotone since each factor is
+      antitone. Applying antitonicity to these inequalities gives
+      $F_{I}G_{I}F_{I}=F_{I}$ and $G_{I}F_{I}G_{I}=G_{I}$, hence idempotence
+      of both composites. These are precisely extensivity, monotonicity, and
+      idempotence, the defining properties of closure operators.
+\end{proof}
+
+\begin{proposition}[Identification of context derivations]
+      \label{prop:identification}
+      The lattice-theoretic derivations associated with $I$ are exactly
+      $A^{I}=F_{I}(A)$ and $u^{I}=G_{I}(u)$.
+\end{proposition}
+\begin{proof}
+      By definition, $u^{I}$ is the join of all $A$ incident with $u$, here
+      $\bigcup\{A\in\X\mid(A,u)\in I\}$. Every such $A$ is contained in
+      $G_{I}(u)$; conversely, each $x\in G_{I}(u)$ supplies the incident set
+      $\{x\}$. Thus this union is $G_{I}(u)$. Similarly, $A^{I}$ is the join
+      of all $u$ incident with $A$. Every such $u$ lies below $F_{I}(A)$,
+      and $F_{I}(A)$ is itself incident with $A$, proving equality.
+\end{proof}
+
+A lattice-theoretic formal concept is a pair $(A,u)$ satisfying
+$F_{I}(A)=u$ and $G_{I}(u)=A$. The set $A$ is its \emph{extent}, and $u$
+is its \emph{intent}. Order the concepts by
+\begin{equation}\label{eq:concept-order}
+      (A,u)\leq(B,v)\quad\Longleftrightarrow\quad
+      A\subseteq B\quad\Longleftrightarrow\quad v\leq u.
+\end{equation}
+A larger extent has a weaker shared description. Closed concepts record
+all consequences of a query on the chosen dataset, not on unseen images.
+
+\begin{theorem}[Concept lattice and generated concepts]
+      \label{thm:concept-lattice}
+      The concepts form a complete lattice $\B_{I}$. For any indexed family
+      $\{(A_{t},u_{t})\}_{t\in T}$,
+      \begin{equation}\label{eq:concept-operations}
+            \begin{aligned}
+                  \bigwedge_{t\in T}(A_{t},u_{t})
+                   & =\left(\bigcap_{t\in T}A_{t},
+                  d_{I}(\bigvee_{t\in T}u_{t})\right),    \\
+                  \bigvee_{t\in T}(A_{t},u_{t})
+                   & =\left(c_{I}(\bigcup_{t\in T}A_{t}),
+                  \bigwedge_{t\in T}u_{t}\right).
+            \end{aligned}
+      \end{equation}
+      The generated concepts are
+      \begin{equation}\label{eq:generated-concepts}
+            \gamma(A)=(c_{I}(A),F_{I}(A)),\qquad
+            \mu(u)=(G_{I}(u),d_{I}(u)).
+      \end{equation}
+\end{theorem}
+\begin{proof}
+      Closed sets of a closure operator are closed under arbitrary
+      intersections: if each $A_{t}$ is closed, monotonicity gives
+      $c_{I}(\bigcap_{t}A_{t})\subseteq A_{t}$ for every $t$, and extensivity
+      gives the reverse inclusion to their intersection. Their least closed
+      upper bound is the closure of their union. Also, directly from the
+      adjunction,
+      \begin{equation}\label{eq:derivation-family}
+            G_{I}(\bigvee_{t\in T}u_{t})=\bigcap_{t\in T}G_{I}(u_{t}),\qquad
+            F_{I}(\bigcup_{t\in T}A_{t})=\bigwedge_{t\in T}F_{I}(A_{t}).
+      \end{equation}
+      Together with $F_{I}G_{I}F_{I}=F_{I}$, these identities give the stated
+      intents and establish both formulas, including empty families. The same
+      identities prove that $\gamma(A)$ and $\mu(u)$ are concepts.
+\end{proof}
+
+The maps in \cref{eq:generated-concepts} need not be embeddings: distinct
+queries or source sets can generate the same concept. In particular,
+$G_{I}(d_{I}(u))=G_{I}(u)$. A join of raw queries conjoins requirements,
+whereas a meet relaxes them:
+\begin{equation}\label{eq:query-operations}
+      G_{I}(u\vee v)=G_{I}(u)\cap G_{I}(v),\qquad
+      G_{I}(u\wedge v)\supseteq G_{I}(u)\cup G_{I}(v).
+\end{equation}
+The inclusion can be strict. These operations on queries should not be
+confused with the extent-ordered concept operations in
+\cref{eq:concept-operations}.
+
+\subsection{A worked example and classical representation}
+\label{sub:example-scaling}
+Suppose three images have summaries
+\begin{equation}\label{eq:worked-summaries}
+      u_{x_{1}}=(4,1),\qquad u_{x_{2}}=(2,3),\qquad u_{x_{3}}=(1,0).
+\end{equation}
+Then $\U=[0,4]\times[0,3]$. The query $(2,1)$ retrieves $x_{1},x_{2}$
+and is already closed. The query $(3,1)$ retrieves only $x_{1}$ and
+closes to $(4,1)$. Both queries have the same positive support, so a
+presence-only representation cannot distinguish them. In the other
+direction, the singleton $\{x_{3}\}$ closes to all three images because
+every summary dominates $(1,0)$. Finally,
+\begin{equation}\label{eq:worked-meet-join}
+      \begin{aligned}
+            G_{I}((3,0)\vee(0,2))   & =\varnothing, \\
+            G_{I}((3,0)\wedge(0,2)) & =X
+            \supsetneq\{x_{1},x_{2}\}.
+      \end{aligned}
+\end{equation}
+Here a stronger conjunction is empty, whereas the shared lower bound
+is a completely unselective query. Neither outcome is mathematically
+exceptional.
+
+For a functional summary map, this construction is a pattern structure:
+each object has a description in a meet-semilattice, and common
+descriptions are obtained by meets~\cite{ganter2001pattern}. It is also
+representable by classical FCA without discarding magnitudes.
+
+\begin{proposition}[Observed-threshold representation]
+      \label{prop:ordinal-scaling}
+      Let $X$ be finite and nonempty, with nonnegative real summaries and $\U$
+      as in \cref{eq:vector-lattice}. Define classical attributes
+      \begin{equation}\label{eq:ordinal-attributes}
+            E=\{(j,a)\mid 1\leq j\leq d,\ a>0,
+            \ a=u_{x,j}\text{ for some }x\in X\}.
+      \end{equation}
+      Declare $x$ incident with $(j,a)$ exactly when $u_{x,j}\geq a$. This
+      classical context and the vector context have identical closed extents;
+their concept lattices are therefore isomorphic by preservation of extents.
+\end{proposition}
+\begin{proof}
+      The classical intent of $A\subseteq X$ consists precisely of the pairs
+      $(j,a)$ with $a\leq F_{I}(A)_{j}$. Each coordinate of $F_{I}(A)$ is an
+      observed value or zero, including $A=\varnothing$, whose meet is $M$.
+      Thus satisfying every attribute in that classical intent is equivalent
+      to dominating $F_{I}(A)$. Consequently $A''=G_{I}F_{I}(A)$. Since a
+      concept is determined by its extent and ordered by extent inclusion,
+      the equality of extent closures proves the isomorphism.
+\end{proof}
+
+An arbitrary $u\in\U$ can be rounded coordinatewise upward to the next
+observed value without changing its extent. Presence-only FCA retains
+just one bit per coordinate, whereas ordinal scaling retains the relevant
+thresholds. Any advantage over a presence baseline is therefore an
+advantage of retaining amplitudes, not an expressive advantage over FCA.
+The vector representation gives these amplitudes and their operations
+directly, without materializing a larger binary incidence matrix.

@@ -1,0 +1,19 @@
+[project]
+name = "vision-lattices-reproduction"
+version = "0.1.0"
+description = "Reproduction environment for the vision lattice paper"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.5",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "scikit-learn>=1.8.0",
+    "matplotlib>=3.10.8",
+    "nbformat>=5.10",
+    "nbclient>=0.10",
+    "ipykernel>=6.0",
+    "pymupdf>=1.27.2.3",
+]
+
+[tool.uv.workspace]
+members = []

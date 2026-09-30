@@ -1,0 +1,12 @@
+{
+  "legacy_artifact_sha256": {
+    "digits_seed_17_codexgen.npz": "8f3ec6f5b99508becd891b7dd3e855164a04a393e6295b75f2a57cc10ccd090c",
+    "digits_seed_17_codexgen.pt": "bcb03995e06efbafde2f8d5236071530ac3c8f5f0b6a655bee94669fd23cf241",
+    "digits_seed_29_codexgen.npz": "2d1f145c794fee57090e9f142e765cda4aa90dafff9301eb06eff6c91a989e5a",
+    "digits_seed_29_codexgen.pt": "44898153e9733a9d3b711319760bd749d09808ab31a8ac880ea0b4a1ec86a605",
+    "digits_seed_43_codexgen.npz": "835e1ad7b49baaf55cbbbc11a1f518ebd38fdf99e33aaee6a8d4cc729ca0fdc9",
+    "digits_seed_43_codexgen.pt": "e4dd193e44ec9e4cfdb743df278362591aaea7f08194d6f00892bb5d62848883"
+  },
+  "verified": "All nine arrays per legacy cache preserved exactly",
+  "destination": "vision_tokens/digits"
+}

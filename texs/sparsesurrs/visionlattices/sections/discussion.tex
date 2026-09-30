@@ -1,0 +1,58 @@
+\section{Discussion and Conclusion}\label{sec:discussion}
+Sparse visual codes and order-theoretic descriptions play different
+roles. The surrogate supplies candidate coordinates; the context states
+exactly how those coordinates are shared and retrieved. The construction
+retains the original relation-induced proof pattern and is fully
+compatible with established pattern structures and ordinally scaled
+FCA. Its value here is an explicit, checkable specification of visual
+feature queries rather than a new general representation theorem.
+
+The main vision-specific lesson is that max pooling changes the spatial
+question. A coordinatewise image query allows separate witnesses for its
+requirements. A same-site query requires a common witness and generally
+cannot be represented by a single summary vector. The single-vector
+criterion and the downset context explain this distinction exactly,
+while the executed pilot shows that it materially affects the retrieved
+sets even in a small convolutional network.
+
+The empirical findings also constrain the utility claim. Graded queries
+outperform the chosen presence baseline, but cosine retrieval is stronger
+for digit labels. Such labels measure class association, not the
+correctness of a semantic name attached to a latent coordinate. Replacing
+all activations by SAE reconstructions checks one aspect of fidelity;
+it does not establish the causal importance of an individual coordinate
+or conjunction. Controlled feature interventions, as explored in related
+vision SAE work~\cite{stevens2025vision}, address a different question.
+
+Several limitations remain. The digit benchmark uses one small dataset and one
+fixed split.
+The natural-image extension uses a deterministic CIFAR-10 subset,
+one frozen ResNet34, and a surrogate with only moderate reconstruction
+fidelity. It supplies inspectable examples rather than a second
+comparative retrieval benchmark.
+Training seeds and overlapping source draws do not provide independent
+dataset replications. Training and SAE seeds are varied together, so
+these runs do not isolate sources of variation. Dead coordinates are
+common, there is no external spatial annotation, and no vision
+transformer or transcoder is evaluated. The spatial downset construction is
+analyzed
+mathematically but its full lattice is not mined experimentally. These
+limitations preclude broad claims about vision-model interpretability.
+
+A larger study should fix pretrained backbone and surrogate revisions,
+verify their activation conventions, and compare at least two vision
+families on independent natural-image collections. It should include
+spatially annotated tasks, matched sparsity and reconstruction quality,
+strong dense and sparse retrieval baselines, and uncertainty estimates
+whose resampling units match the intended population. Coordinate
+alignment across independently learned dictionaries requires its own
+method; coincident index numbers do not supply such alignment. A useful
+intervention study would compare selected feature edits with random and
+norm-matched controls while measuring reconstruction error and the
+backbone's output change.
+
+The present paper provides a self-contained mathematical specification,
+an executable digit pilot, measured natural-image feature galleries, and an
+explicit route to this broader study.
+It shows how to ask precise questions about shared sparse evidence, and
+why retaining the spatial meaning of those questions is essential.

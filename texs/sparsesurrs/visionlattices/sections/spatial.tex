@@ -1,0 +1,126 @@
+\section{Spatial Witnesses and the Limits of Pooling}
+\label{sec:spatial}
+The preceding construction is valid for any chosen summaries. Its
+interpretation nevertheless depends on how they were formed. This
+section isolates the spatial issue and gives an exact representation
+when max pooling is too coarse.
+
+\subsection{Separate-site and same-site evidence}
+\label{sub:spatial-witnesses}
+For a query $u\in\U$, define two image retrieval sets:
+\begin{equation}\label{eq:spatial-extents}
+  \begin{aligned}
+    G_{\mathrm{img}}(u)
+         & =\{x\mid \forall j\ \exists p\in P_{x}: u_{j}\leq z_{x,p,j}\}, \\
+    H(u) & =\{x\mid \exists p\in P_{x}\ \forall j: u_{j}\leq z_{x,p,j}\}.
+  \end{aligned}
+\end{equation}
+The first is $G_{I}(u)$ for max-pooled summaries. The second requires a
+single site to witness every coordinate. It is also the image projection
+of the extent in the site-level context.
+
+\begin{proposition}[Spatial relaxation under max pooling]
+  \label{prop:spatial-relaxation}
+  For every query, $H(u)\subseteq G_{\mathrm{img}}(u)$. Equality holds for
+  queries with at most one positive coordinate, but can fail for two
+  positive coordinates. In general, $H$ need not take joins to intersections.
+\end{proposition}
+\begin{proof}
+  A site witnessing every coordinate supplies a witness for each coordinate
+  separately. With one positive coordinate, a site attaining its maximum
+  witnesses that coordinate, while nonnegativity satisfies the others.
+  For a zero query, every image qualifies since each $P_{x}$ is nonempty.
+  For strictness, take one image with codes $(2,0)$ and $(0,2)$. It belongs
+  to $G_{\mathrm{img}}((2,2))$ but not to $H((2,2))$. It also belongs to
+  both $H((2,0))$ and $H((0,2))$, proving failure of join-to-intersection
+  preservation.
+\end{proof}
+
+The example prevents treating $H$ as the retrieval half of the same
+vector-lattice adjunction: any antitone Galois retrieval map must satisfy
+\cref{eq:derivation-family}. It also suggests an observable diagnostic.
+When $G_{\mathrm{img}}(u)\neq\varnothing$, define the witness discrepancy
+\begin{equation}\label{eq:witness-discrepancy}
+  \Delta(u)=1-\frac{|H(u)|}{|G_{\mathrm{img}}(u)|}.
+\end{equation}
+This measures the fraction of pooled matches lacking a same-site
+witness. It is undefined for an empty pooled extent and is not a measure
+of semantic error: dispersed evidence may be exactly what a query intends.
+
+\subsection{When a vector suffices, and when a downset is needed}
+\label{sub:downsets}
+Write $\down v=\{u\in\U\mid u\leq v\}$. The set of queries witnessed
+at some site of image $x$ is
+\begin{equation}\label{eq:site-downset}
+  s_{x}=\bigcup_{p\in P_{x}}\down z_{x,p}.
+\end{equation}
+It is a downset: whenever it contains a query, it contains all weaker
+queries. Max pooling replaces it by the generally larger principal
+downset $\down u_{x}$.
+
+\begin{proposition}[Single-vector criterion for spatial evidence]
+  \label{prop:principal-criterion}
+  For a finite nonempty $P_{x}$, the downset $s_{x}$ is principal if and
+  only if one site code dominates all the other site codes. In that case
+  it equals $\down u_{x}$.
+\end{proposition}
+\begin{proof}
+  If one site code dominates all the others, it is their coordinatewise
+  maximum, and the union in \cref{eq:site-downset} is its principal downset.
+  Conversely, suppose $s_{x}=\down v$. Every site code lies below $v$,
+  so $u_{x}\leq v$. Because $v\in s_{x}$, some site $p$ satisfies
+  $v\leq z_{x,p}\leq u_{x}$. Hence $v=z_{x,p}=u_{x}$, and that site code
+  dominates all the others.
+\end{proof}
+
+The criterion describes a restrictive special case, not a generic
+property of sparse representations. To retain same-site evidence, let
+$\mathcal{D}(\U)$ be the set of all downsets of $\U$, including the
+empty set, ordered by inclusion. Arbitrary unions and intersections are
+its joins and meets; it is a complete lattice with bottom $\varnothing$
+and top $\U$. Use $s_{x}$ as the description of image $x$ and define
+\begin{equation}\label{eq:downset-derivations}
+  F_{\mathrm{sp}}(A)=\bigcap_{x\in A}s_{x},\qquad
+  G_{\mathrm{sp}}(u)=\{x\mid u\subseteq s_{x}\},
+  \quad u\in\mathcal{D}(\U).
+\end{equation}
+Here $u$ denotes a downset-valued attribute, rather than a vector.
+
+\begin{theorem}[Downset context for spatial evidence]
+  \label{thm:spatial-context}
+  The maps in \cref{eq:downset-derivations} form an antitone Galois
+  connection. For every vector $v\in\U$,
+  \begin{equation}\label{eq:principal-retrieval}
+    G_{\mathrm{sp}}(\down v)=H(v).
+  \end{equation}
+  Thus same-site vector queries admit exact concept closure after passing
+  to downset descriptions.
+\end{theorem}
+\begin{proof}
+  The equivalence $A\subseteq G_{\mathrm{sp}}(u)$ if and only if
+  $u\subseteq\bigcap_{x\in A}s_{x}$ proves the adjunction, just as in
+  \cref{prop:adjunction}. Since $s_{x}$ is downward closed,
+  $\down v\subseteq s_{x}$ is equivalent to $v\in s_{x}$, which is exactly
+  the existence of a site code dominating $v$.
+\end{proof}
+
+This uses the established pattern-structure construction with richer
+descriptions. It does not make same-site retrieval preserve vector joins:
+$\down v\cup\down w$ generally differs from $\down(v\vee w)$.
+The former can be witnessed at different sites, whereas the latter
+requires a site satisfying the joint vector. Closure may likewise turn
+a principal downset into a nonprincipal one.
+
+The representation is computationally concrete. A finite union of
+principal downsets is determined by its maximal generating vectors.
+Intersections can be computed using
+\begin{equation}\label{eq:downset-intersection}
+  \left(\bigcup_{i}\down v_{i}\right)
+  \cap\left(\bigcup_{j}\down w_{j}\right)
+  =\bigcup_{i,j}\down(v_{i}\wedge w_{j}).
+\end{equation}
+Dominated generators can then be discarded. The number of undominated
+generators can grow rapidly, so the pilot computes $H$ by direct site
+comparisons and does not enumerate the downset concept lattice.
+This preserves the distinction between an exact representation theorem
+and a scalable mining algorithm.

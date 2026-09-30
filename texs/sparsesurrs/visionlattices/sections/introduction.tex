@@ -1,0 +1,83 @@
+\begin{abstract}
+Sparse surrogate models describe neural activations using a small number
+of active latent coordinates. We study how these coordinates can be
+combined into reproducible queries about images and spatial sites.
+Following a relation-induced construction for language-model features,
+we derive a lattice-theoretic formal context from nonnegative visual
+codes. Common descriptions are coordinatewise minima, and retrieval is
+coordinatewise threshold satisfaction. We retain the Galois-ideal and
+adjunction proofs and identify the construction with a pattern structure
+and, on finite data, an ordinally scaled classical context. The
+vision-specific issue is spatial quantification: max pooling allows
+different coordinates to be witnessed at different sites. We characterize
+when one vector can represent same-site evidence and give a downset-valued
+construction when it cannot. Three digit CNN/autoencoder runs evaluate
+held-out retrieval and reconstruction. A frozen ResNet34 with a sparse
+autoencoder supplies measured animal and vehicle feature galleries on a
+fixed 1,500-image CIFAR-10 subset. Explicit query examples distinguish
+pooled matches from same-site witnesses. Exhaustive finite checks verify
+the algebra independently. Released code, weights, images, and activations
+make the examples auditable; the results do not establish causal or
+class-exclusive interpretations of the learned coordinates.
+\end{abstract}
+
+\noindent\textbf{Keywords:} formal concept analysis; pattern structures;
+computer vision; sparse autoencoders; spatial feature analysis.
+
+\section{Introduction}\label{sec:introduction}
+A vision model can recognize an image accurately while leaving unclear
+which internal features support its decision. Feature visualization
+investigates patterns that activate individual units, whereas sparse
+surrogates learn a larger dictionary in which an activation is represented
+by relatively few nonzero coefficients
+\cite{olah2017featureVis,gao2024,lim2025patchsae}.
+Neither construction makes a coordinate a semantic concept by definition.
+A useful next question is relational: which images share a collection of
+features, at which activation levels, and in which spatial locations?
+
+Formal concept analysis (FCA) organizes objects and their shared
+attributes into a concept lattice~\cite{ganter1999formal}. In the present
+setting, the objects are images or spatial sites, and an attribute query
+specifies minimum values for selected sparse coordinates. For example, a
+query requiring two features at levels $2$ and $1$ retrieves precisely the
+objects whose codes dominate $(2,1)$. The common description of those
+objects is their coordinatewise minimum. Closing the query replaces it
+by this common description without changing its retrieved objects.
+This is a mathematical account of shared evidence, not a guarantee that
+the evidence has the interpretation suggested by a feature visualization.
+
+The paper adapts the summary--retrieval framework of the companion
+language-model manuscript~\cite{tsinadzeCompanion}. We preserve its
+sequence of arguments: construct a Galois ideal, derive the antitone
+Galois connection, identify the context derivations, and relate the
+resulting concepts to classical FCA. These arguments are applications of
+established theory~\cite{FCA_Latt_Theor,ganter2001pattern}; we make no
+novelty claim for the existence of the adjunction or concept lattice.
+
+Images introduce a distinction that cannot be handled by changing the
+word ``token'' to ``patch.'' If one patch exhibits the first feature and
+another exhibits the second, their coordinatewise maximum satisfies the
+two-feature query even though neither patch satisfies it. The difference
+is between ``for each coordinate, some site'' and ``some site, for every
+coordinate.'' We formalize both readings, characterize the special case
+in which a single vector represents them equally, and use a lattice of
+downsets to retain same-site evidence in general. Site-level evidence
+itself need not be spatially local in the input: attention and convolution
+can give a site a receptive field larger than its displayed cell.
+
+Our empirical contribution combines a controlled digit pilot with a
+natural-image feature study. The digit pilot uses a convolutional
+classifier, a nonnegative Top-$k$ sparse autoencoder, separate training,
+calibration, and test images, and saved query vectors and scores. A frozen
+pretrained ResNet34 supplies animal and vehicle examples. Public vision
+libraries supply a route to further models; their published benchmark
+numbers are not results of this paper. Our studies test whether the
+proposed operations can be computed and interpreted consistently. They
+do not test foundation-model superiority or establish a new state of
+the art.
+
+The exposition first specifies sparse surrogates and spatial summaries,
+then develops the context and its spatial refinement. We subsequently
+report computational checks, the digit benchmark, and natural-image
+examples, and conclude with
+the scope of the evidence and requirements for a larger evaluation.

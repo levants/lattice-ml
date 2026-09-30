@@ -1,0 +1,53 @@
+{
+  "backbone": "torchvision ResNet34 IMAGENET1K_V1",
+  "backbone_url": "https://download.pytorch.org/models/resnet34-b627a593.pth",
+  "backbone_sha256": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f",
+  "hook": "layer3 output, after residual addition and ReLU",
+  "input_size": [
+    96,
+    96
+  ],
+  "site_grid": [
+    6,
+    6
+  ],
+  "preprocessing": "RGB /255, bilinear resize, ImageNet mean/std",
+  "sae_width": 256,
+  "sae_latents": 512,
+  "sae_topk": 16,
+  "sae_epochs": 12,
+  "seed": 2026,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "split_sizes": [
+    1000,
+    250,
+    250
+  ],
+  "selection": "first 125 train and 25 test images per class",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "torch": "2.14.0",
+  "torchvision": "0.29.0",
+  "numpy": "2.5.3",
+  "test_reconstruction_r2": 0.5760596990585327,
+  "test_site_l0": 16.0,
+  "training_alive": 165,
+  "claim": "Illustrative feature study; no CIFAR classifier benchmark",
+  "artifact_sha256": {
+    "activations/resnet34_codes_codexgen.npz": "b6e92b19a4b8b4ef6505cbff3989561386d32d24dff57ca291d1a54e5f965b27",
+    "checkpoints/resnet34_imagenet1k_v1_codexgen.pt": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f",
+    "checkpoints/sae_codexgen.pt": "9148f24495e1792d6c599a63dc9dfaf51ad576920bd14879bd117a0ec510536a",
+    "dataset/cifar10_sample_codexgen.npz": "6314585f2df940849219a7c8acfc48512d25de62643c5cb7cc2048c1924a28d1"
+  }
+}

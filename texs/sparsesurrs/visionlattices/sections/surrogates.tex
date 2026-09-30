@@ -1,0 +1,107 @@
+\section{Sparse Visual Features and Their Summaries}
+\label{sec:surrogates}
+The construction needs nonnegative feature descriptions and a declared
+object set. It does not depend on a particular neural architecture.
+We separate the feature extractor, the sparse surrogate, and the spatial
+summary so that each operation has an explicit interpretation.
+
+\subsection{Activation states and sparse surrogates}
+\label{sub:activation-states}
+Let $X$ be a finite nonempty image collection. For image $x\in X$, let
+$P_{x}$ be a finite nonempty set of spatial sites. A frozen vision model
+provides an activation $h_{x,p}\in\R^{m}$ at site $p\in P_{x}$ of a fixed
+layer. In a convolutional network these sites index a feature map; in a
+vision transformer they can index patch tokens. Classification and
+register tokens must be handled separately if the intended interpretation
+is spatial.
+
+A sparse autoencoder (SAE) encodes and reconstructs the same activation:
+\begin{equation}\label{eq:sae}
+  z_{x,p}=E(h_{x,p})\in\R_{\geq 0}^{d},\qquad
+  \widehat h_{x,p}=D(z_{x,p}),\qquad
+  D(z)=W_{\mathrm{dec}}z+b_{\mathrm{dec}}.
+\end{equation}
+Typically $d>m$. A nonnegative Top-$k$ encoder takes a rectified linear
+projection and retains its $k$ largest entries, so its code has at most
+$k$ nonzero coordinates~\cite{gao2024}. With this hard sparsity constraint,
+one can minimize squared reconstruction error. An alternative is a
+rectified encoder with an $\ell_{1}$ penalty:
+\begin{equation}\label{eq:sae-loss}
+  \mathcal{L}_{\mathrm{SAE}}
+  =\mathbb{E}_{h}\bigl[
+    \|D(E(h))-h\|_{2}^{2}+\lambda\|E(h)\|_{1}\bigr].
+\end{equation}
+The pilot uses the hard Top-$k$ constraint, not the penalized objective.
+Decoder normalization removes a simple source of arbitrary scaling;
+training and random initialization can still change the dictionary.
+
+A transcoder instead takes the input $a_{x,p}$ to a selected transformation
+and predicts its output $h_{x,p}$:
+\begin{equation}\label{eq:transcoder}
+  z_{x,p}=E_{\mathrm{TC}}(a_{x,p}),\qquad
+  \widehat h_{x,p}=D_{\mathrm{TC}}(z_{x,p}).
+\end{equation}
+It is a sparse surrogate for a computation rather than merely for an
+activation state~\cite{dunefsky2024transcoders}. Both models fit the theory
+when their codes are nonnegative. Their coordinates are not directly
+comparable across dictionaries, even when dimensions coincide. The pilot
+below evaluates SAEs only; no SAE--transcoder advantage is inferred.
+
+\subsection{Images, regions, and spatial sites}
+\label{sub:spatial-objects}
+For an image-level analysis, define its summary by
+\begin{equation}\label{eq:max-summary}
+  u_{x,j}=\max_{p\in P_{x}}z_{x,p,j},\qquad 1\leq j\leq d.
+\end{equation}
+This is an existential summary for each coordinate separately. It retains
+activation magnitudes but discards which site supplies each maximum.
+A region-level analysis can instead use objects $(x,S)$ with nonempty
+$S\subseteq P_{x}$ and take the maximum over $S$. A site-level analysis
+uses objects $(x,p)$ and assigns the unpooled code $z_{x,p}$. All three
+choices yield the same kind of graded context; they answer different
+questions.
+
+For a fixed image context, let
+\begin{equation}\label{eq:vector-lattice}
+  M_{j}=\max_{x\in X}u_{x,j},\qquad
+  \U=\prod_{j=1}^{d}[0,M_{j}],\qquad \X=\mathcal{P}(X).
+\end{equation}
+Order $\U$ coordinatewise and $\X$ by inclusion. A complete lattice is an
+ordered set in which every family, including the empty family, has a
+least upper bound (join) and a greatest lower bound (meet). In $\U$ these
+operations are coordinatewise suprema and infima, with bottom $0$ and
+top $M$. In $\X$ they are unions and intersections, with bottom
+$\varnothing$ and top $X$. A coordinate with $M_{j}=0$ simply contributes a
+one-element factor. Sparsity of site codes need not survive max pooling:
+different sites can activate different coordinates.
+
+The bound $M$ is specific to the context on which closure is computed.
+For held-out retrieval, a frozen training query is compared directly with
+new codes without clipping them at $M$. Thus the experiment does not
+silently use test activations to choose training thresholds. A larger
+context can be defined afterwards, but its closure operator can differ.
+
+\subsection{Available vision libraries}
+\label{sub:libraries}
+Public implementations make the framework applicable beyond the pilot.
+ViT-Prisma supplies activation access, vision SAEs, and CLIP transcoders;
+its published resources include CLIP and DINO dictionaries
+\cite{joseph2025prisma,vitprisma}.
+SAEV provides a vision SAE training and inference workflow with linked
+Hugging Face checkpoints~\cite{saev,stevens2025vision}.
+Overcomplete offers several SAE and dictionary-learning variants together
+with visualization and evaluation tools~\cite{overcomplete}.
+PatchSAE provides closely related evidence that sparse visual codes can
+support patch-level analysis during model adaptation
+\cite{lim2025patchsae}.
+
+For a foundation-model extension, ViT-Prisma is the first candidate when
+both SAEs and transcoders are required; SAEV is a natural alternative for
+vision SAE experiments, and Overcomplete for controlled training studies.
+This is a choice of software scope, not a measured performance ranking.
+A checkpoint is usable only with its matching backbone, layer, activation
+normalization, preprocessing, and token selection. The implementation
+therefore accepts cached nonnegative site codes as its core interface.
+The executed pilot uses the project's existing PyTorch environment and a
+small explicitly defined surrogate, rather than claiming to have tested
+these external libraries.
