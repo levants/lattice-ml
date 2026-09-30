@@ -29,10 +29,10 @@ The vision lattice paper and its reproducibility artifacts use the same
 folder and Python package structure as the research source repository.
 
 - [Paper and compiled PDF](texs/sparsesurrs/visionlattices/README.md).
-- [Datasets, weights, cached activations, and queries](vision_tokens/README.md).
+- [Data, weights, activations, and queries](vision_tokens/README.md).
 - [Python sources](src/lattmc/vision/).
 - [Executed notebooks](notebooks/vision/).
-- [Scientific review and limitations](texs/sparsesurrs/visionlattices/REVIEW.md).
+- [Scientific review](texs/sparsesurrs/visionlattices/REVIEW.md).
 
 The evidence includes three digit CNN/SAE runs and a frozen ResNet34 with a
 Top-16 SAE on a 1,500-image CIFAR-10 sample. Measured galleries show animal
