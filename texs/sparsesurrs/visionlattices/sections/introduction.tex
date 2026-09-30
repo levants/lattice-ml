@@ -14,8 +14,11 @@ when one vector can represent same-site evidence and give a downset-valued
 construction when it cannot. Three digit CNN/autoencoder runs evaluate
 held-out retrieval and reconstruction. A frozen ResNet34 with a sparse
 autoencoder supplies measured animal and vehicle feature galleries on a
-fixed 1,500-image CIFAR-10 subset. Explicit query examples distinguish
-pooled matches from same-site witnesses. Exhaustive finite checks verify
+fixed 1,500-image CIFAR-10 subset. Additional Imagenette and Imagewoof
+experiments compare ResNet34 and DINOv2, combining dataset exemplars,
+optimized stimuli, and controlled response probes. Explicit query examples
+distinguish pooled matches from same-site witnesses. Exhaustive finite checks
+verify
 the algebra independently. Released code, weights, images, and activations
 make the examples auditable; the results do not establish causal or
 class-exclusive interpretations of the learned coordinates.
@@ -69,7 +72,10 @@ Our empirical contribution combines a controlled digit pilot with a
 natural-image feature study. The digit pilot uses a convolutional
 classifier, a nonnegative Top-$k$ sparse autoencoder, separate training,
 calibration, and test images, and saved query vectors and scores. A frozen
-pretrained ResNet34 supplies animal and vehicle examples. Public vision
+pretrained ResNet34 supplies animal and vehicle examples. Higher-resolution
+Imagenette photographs and Imagewoof transfer images extend the analysis
+to a DINOv2 vision transformer and gradient-based feature visualization.
+Public vision
 libraries supply a route to further models; their published benchmark
 numbers are not results of this paper. Our studies test whether the
 proposed operations can be computed and interpreted consistently. They

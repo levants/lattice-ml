@@ -4,7 +4,7 @@ Main manuscript: `visionlattices.tex`; compiled output: `visionlattices.pdf`.
 The source is independent of the companion paper's build tree.
 
 - `config/`: minimal preamble and author metadata.
-- `sections/`: seven readable, single-level manuscript inputs.
+- `sections/`: eight readable, single-level manuscript inputs.
 - `tables/`, `figures/`: generated experimental artifacts.
 - `vision_tokens/`: datasets, checkpoints, caches, and results.
   The canonical location is `vision_tokens/` at the repository root.
@@ -14,7 +14,8 @@ The source is independent of the companion paper's build tree.
 
 Python code is in `src/lattmc/vision/` at the repository root.
 Executed notebooks are `visionlattices_codexgen.ipynb` and
-`feature_examples_codexgen.ipynb`, both in `notebooks/vision/`.
+`feature_examples_codexgen.ipynb`, and
+`imagenette_features_codexgen.ipynb`, all in `notebooks/vision/`.
 Every added Python source and notebook has the `_codexgen` suffix.
 The existing empty `__init__.py` is unchanged. The complete vision
 source, notebooks, data, and manuscript are mirrored at
@@ -70,3 +71,12 @@ Copy the verified PDF from the isolated build to this directory. On another
 system, use its normal `latexmk` executable and temporary directories.
 The supplied `tac.cls` was present initially and is unused; this article
 uses the standard article class, as does the source manuscript.
+
+
+## Imagenette and transformer extension
+
+See `vision_tokens/IMAGENETTE.md` at the repository root for the matched
+ResNet34/DINOv2 protocol, Imagewoof transfer examples, optimized stimuli,
+and controlled response probes. Six additional figures and three tables
+are generated from that evidence. The frozen transformer checkpoint is
+included, so extraction and feature visualization can run offline.

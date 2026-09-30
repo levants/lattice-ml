@@ -7,7 +7,7 @@
     "vision_tokens",
     "texs/sparsesurrs/visionlattices"
   ],
-  "note": "Paths are repository-relative. This manifest excludes itself.",
+  "note": "Repository-relative files, excluding this manifest.",
   "files": {
     "src/lattmc/vision/__init__.py": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -17,9 +17,17 @@
       "sha256": "da2df4e2dc6444a00127d1d935e3b64676cc06bcf0448031fb7e57ca67685ae7",
       "bytes": 3114
     },
+    "src/lattmc/vision/backbones_codexgen.py": {
+      "sha256": "23ea5a8cafccaf7357e7f422b6b8e47dcb81928d54182f27bbc8ffba829720c7",
+      "bytes": 3087
+    },
     "src/lattmc/vision/contexts_codexgen.py": {
       "sha256": "8d85a6de90daf250afe65778579ada4daa3acb48f274f3069c4fdf27ff293e39",
       "bytes": 3446
+    },
+    "src/lattmc/vision/datasets_codexgen.py": {
+      "sha256": "f0869851db36e26e5a9e8c2daca5735be71c30ec25732b93b7d6d2007dd08287",
+      "bytes": 5231
     },
     "src/lattmc/vision/examples_codexgen.py": {
       "sha256": "bc4fcd2a546508fc4a1ad5c1806fa9da1d2ad47c97f539a96e692037d85dc928",
@@ -28,6 +36,26 @@
     "src/lattmc/vision/experiment_codexgen.py": {
       "sha256": "ac2d232c1f5775c49b9b586060e40ce94a22cb2cb390aba704560cfd449aabd3",
       "bytes": 10009
+    },
+    "src/lattmc/vision/feature_report_codexgen.py": {
+      "sha256": "1e21964b2361ef62673c048344a96912b37cb0b99fa2042787d96540e7192368",
+      "bytes": 6701
+    },
+    "src/lattmc/vision/feature_tables_codexgen.py": {
+      "sha256": "54236f7cd0ef6191d01b7dde6dc7f1fbb6cc59c7bf924a952353c2e2c78c1349",
+      "bytes": 3182
+    },
+    "src/lattmc/vision/featureviz_codexgen.py": {
+      "sha256": "8fdbc6df4a23f8106398fd7f3af076c4ea6489d44c0739863aca53f747c767fd",
+      "bytes": 9835
+    },
+    "src/lattmc/vision/featureviz_notebook_codexgen.py": {
+      "sha256": "e9efd89e4fb85fef4f1dc35aaf212c7ef8e206b5b33f1278c40540c6123b68d9",
+      "bytes": 4836
+    },
+    "src/lattmc/vision/imagenette_codexgen.py": {
+      "sha256": "68149a2d64fd5a2e939ed507c1761bed6681d7ea11639c11b509293c762a021d",
+      "bytes": 4226
     },
     "src/lattmc/vision/models_codexgen.py": {
       "sha256": "19f6d4f40ca9d3de110256206d9c0c152d23f9318cf5ea72884994ab5ffbca9c",
@@ -53,6 +81,10 @@
       "sha256": "f8080a9676f2a621a1bb33f5a0a9d153eee542868916ba0c1f924b1018c3b4cd",
       "bytes": 5347
     },
+    "src/lattmc/vision/verify_featureviz_codexgen.py": {
+      "sha256": "8d1d9acce1ac1050d5d842a660444f50a6d12ba42b6bee26ad90fb6539ce6bb2",
+      "bytes": 6979
+    },
     "src/lattmc/vision/verify_natural_codexgen.py": {
       "sha256": "a2bc8222d59362fc042cfcd4346744a4817a3863c7bb52ee66ff80c98c763ef7",
       "bytes": 4953
@@ -61,17 +93,25 @@
       "sha256": "8f111780c6d019f899f0bcca3cfec518d6171f4accc65a4e7c44de1d9ee44a73",
       "bytes": 836640
     },
+    "notebooks/vision/imagenette_features_codexgen.ipynb": {
+      "sha256": "551c33b61e2a2cbfdfd2a1ff0a6960d4b92cc0aa2cecf3f689b8884df0f75231",
+      "bytes": 3813333
+    },
     "notebooks/vision/visionlattices_codexgen.ipynb": {
       "sha256": "2c9c84d07648d4de483249e76795b3c369a0490524017a434309cf2fab78144d",
       "bytes": 8493
     },
+    "vision_tokens/IMAGENETTE.md": {
+      "sha256": "7dbc98318b716476adce6ed637b0267d63f0d53ee0a059f1b0a918818c24e28f",
+      "bytes": 4272
+    },
     "vision_tokens/README.md": {
-      "sha256": "1a2283189c4fd521ae7054c20ee7f3ddbf834ec3e51803d761fcd94445430e90",
-      "bytes": 3186
+      "sha256": "57d8a5bb5a917245d777486390a322bd99281799cd765d53097526af5d2e5659",
+      "bytes": 3547
     },
     "vision_tokens/THIRD_PARTY.md": {
-      "sha256": "622a1b08e6e8c9253a9183d94e4a543dbe5595f7d6ce8d59dca1b074ffef3b2d",
-      "bytes": 2105
+      "sha256": "62f02abaedbe8af8af7a5b36fa784dc0565b6b2cf3d6c7d6bb59631f48658de2",
+      "bytes": 3496
     },
     "vision_tokens/cifar10_resnet34/activations/resnet34_codes_codexgen.npz": {
       "sha256": "b6e92b19a4b8b4ef6505cbff3989561386d32d24dff57ca291d1a54e5f965b27",
@@ -146,48 +186,192 @@
       "bytes": 504214
     },
     "vision_tokens/environment/pyproject.toml": {
-      "sha256": "b60d60b679e183e1f6dc24bbef642b3b99c47944208b811aa34a08c7cdd8a74c",
-      "bytes": 427
+      "sha256": "3ae291ea88922d75a41ac921c3714706e8285a3dc4ad6b219490f60c6eb4eae6",
+      "bytes": 476
     },
     "vision_tokens/environment/requirements-tested.txt": {
-      "sha256": "bf0553d220b5fb9a2a455091f588cdf1ad322d965debd10d6cb2be4cc35a5a22",
-      "bytes": 208
+      "sha256": "a8a7de01d6ce7ec6470026cef1383f778cb251973fd146733222a5abd0e27344",
+      "bytes": 263
     },
     "vision_tokens/environment/uv.lock": {
-      "sha256": "bb9125f3b789f88321aee29438e47972cd7656435c55174f2852867cc3232676",
-      "bytes": 338941
+      "sha256": "fb46463120d31182812626d9b4d112f43d41091f65afb2f65a5f5e7e0beb30fa",
+      "bytes": 412649
+    },
+    "vision_tokens/imagenette_dinov2/activations/codes_0000_codexgen.npz": {
+      "sha256": "4109d2abbcdaae50d14b87ffef74651ad3e0f6d591127d9145402e61923b6dd5",
+      "bytes": 31047946
+    },
+    "vision_tokens/imagenette_dinov2/activations/codes_0075_codexgen.npz": {
+      "sha256": "d8538923e97c20118b84ebc59f6ccf84f5d6c7c8babcdfbd5d5f3ec0c021381a",
+      "bytes": 31043156
+    },
+    "vision_tokens/imagenette_dinov2/activations/codes_0150_codexgen.npz": {
+      "sha256": "4b85db3e9015a2448736416e05eda1ff9c1fc77d9a6303c6a044e8179a5e89b4",
+      "bytes": 31040375
+    },
+    "vision_tokens/imagenette_dinov2/activations/codes_0225_codexgen.npz": {
+      "sha256": "02795e107994f44daa43392b0fde0b8064d8dc4548f8d1f01a64b2d783f164f7",
+      "bytes": 31026772
+    },
+    "vision_tokens/imagenette_dinov2/activations/codes_0300_codexgen.npz": {
+      "sha256": "bdbdc05cfaf833a7fb23f1679b0c52279ebb73b3ec5dea2ce7ff72ea3916f988",
+      "bytes": 31009786
+    },
+    "vision_tokens/imagenette_dinov2/activations/codes_0375_codexgen.npz": {
+      "sha256": "06ab2292a27415516d057def7a52d3e705c9a4618ce3d56f99b1eb938ab0354c",
+      "bytes": 30999777
+    },
+    "vision_tokens/imagenette_dinov2/checkpoints/LICENSE_DINOV2.txt": {
+      "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+      "bytes": 11359
+    },
+    "vision_tokens/imagenette_dinov2/checkpoints/backbone_provenance_codexgen.json": {
+      "sha256": "e5ca6deb38d29d70b891a144b5c63d58504c7e428151618535fab305f684fca6",
+      "bytes": 399
+    },
+    "vision_tokens/imagenette_dinov2/checkpoints/model/config.json": {
+      "sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+      "bytes": 547
+    },
+    "vision_tokens/imagenette_dinov2/checkpoints/model/model.safetensors": {
+      "sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+      "bytes": 88249960
+    },
+    "vision_tokens/imagenette_dinov2/checkpoints/model/preprocessor_config.json": {
+      "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828",
+      "bytes": 436
+    },
+    "vision_tokens/imagenette_dinov2/checkpoints/sae_codexgen.pt": {
+      "sha256": "ee4bd982ff9c970a720fc8c0e69f928a39aff7419c226da0cda2d295752fdd0d",
+      "bytes": 2370065
+    },
+    "vision_tokens/imagenette_dinov2/results/experiment_codexgen.json": {
+      "sha256": "ba3f2d8ef94ce81f029b8f1cb4d720e2fc13dd703322772c5d88d29417b66c65",
+      "bytes": 2101
+    },
+    "vision_tokens/imagenette_dinov2/results/featureviz_codexgen.json": {
+      "sha256": "1996ac447e0ef30c194ef4572f9300692ce4e14b88fc61c15e8a0985b1a5aa9e",
+      "bytes": 1269
+    },
+    "vision_tokens/imagenette_dinov2/retrieval/queries_codexgen.npz": {
+      "sha256": "e65c63b93dc6ff489e0ff3d1a378c8c60d5d6aea5ab06181ad23bf3b994d8fb2",
+      "bytes": 1768
+    },
+    "vision_tokens/imagenette_dinov2/visualization/optimized_codexgen.npz": {
+      "sha256": "a239319db5482b1ee822e5a14f3d38942dd577fdc005458517cf2ed09cc24289",
+      "bytes": 4171354
+    },
+    "vision_tokens/imagenette_dinov2/visualization/probes_codexgen.npz": {
+      "sha256": "1d02e31d49206d4a59aa4baf6e2ed43b4b67f10299cc57a3ac8a5014fcf0d866",
+      "bytes": 9454792
+    },
+    "vision_tokens/imagenette_imagewoof/dataset/imagenette_codexgen.npz": {
+      "sha256": "6a85c292064eba9f450546236cb3f98d237f9113a80109b48f7ed6793431e348",
+      "bytes": 38059037
+    },
+    "vision_tokens/imagenette_imagewoof/dataset/imagenette_originals_codexgen.zip": {
+      "sha256": "deec08407c277afa634dabfef364ae93c78a3e8740e2822b1eb7027223b7f125",
+      "bytes": 9352296
+    },
+    "vision_tokens/imagenette_imagewoof/dataset/imagewoof_codexgen.npz": {
+      "sha256": "5a1a07dcf69cd727423dede68bb3fd49b38bd277fb1b9f5c54c4285f0970981b",
+      "bytes": 11958994
+    },
+    "vision_tokens/imagenette_imagewoof/dataset/imagewoof_originals_codexgen.zip": {
+      "sha256": "f3b2ae281c8f115dae5927376a1935fae5e4709812b225f5b638c797b65d0ffb",
+      "bytes": 2617111
+    },
+    "vision_tokens/imagenette_imagewoof/results/imagenette_codexgen.json": {
+      "sha256": "f1168b3fdbfb93cdcda4821f5855386eb69cd5cfd28983e84463db58aef460d4",
+      "bytes": 68314
+    },
+    "vision_tokens/imagenette_imagewoof/results/imagewoof_codexgen.json": {
+      "sha256": "e46789381bd4ef3e414ee934c38607a582a4df2892d8af3b8343e69cd9c593b0",
+      "bytes": 19948
+    },
+    "vision_tokens/imagenette_resnet34/activations/codes_0000_codexgen.npz": {
+      "sha256": "528580b759a227c64c433298a473d11a0ce80a5c48faf61a0fe389698e509fba",
+      "bytes": 9031691
+    },
+    "vision_tokens/imagenette_resnet34/activations/codes_0075_codexgen.npz": {
+      "sha256": "a64583102c5d27a3200670d0982693e5c9ea14288930293d63da3dddbf515362",
+      "bytes": 9405191
+    },
+    "vision_tokens/imagenette_resnet34/activations/codes_0150_codexgen.npz": {
+      "sha256": "94578e326a53bb9586e74b9f6c2ccfa22a65b06431fb716665d1bef3cfd77f2c",
+      "bytes": 9354045
+    },
+    "vision_tokens/imagenette_resnet34/activations/codes_0225_codexgen.npz": {
+      "sha256": "9dab424f8c16ff06b447112dde8ff5c19fb75f953f54335e1996d3b54c07ae7a",
+      "bytes": 9142970
+    },
+    "vision_tokens/imagenette_resnet34/activations/codes_0300_codexgen.npz": {
+      "sha256": "17d96d7e8202c59443ca6933a645b12a9f5c73cd6ae5677fae1e2fe03878106c",
+      "bytes": 9025697
+    },
+    "vision_tokens/imagenette_resnet34/activations/codes_0375_codexgen.npz": {
+      "sha256": "a76047c03fb94b5c435826a9c60bbc380889984dd310c85faebff2018fca0691",
+      "bytes": 8541076
+    },
+    "vision_tokens/imagenette_resnet34/checkpoints/sae_codexgen.pt": {
+      "sha256": "9b8cd4eb2074fbb2b9ab602f009b4687a868949bda45979ef94a5276dadfda18",
+      "bytes": 1056785
+    },
+    "vision_tokens/imagenette_resnet34/results/experiment_codexgen.json": {
+      "sha256": "8322c256fbc8b256ba2d859bf26dfd7752c264cc555c3f594e19369134c1c624",
+      "bytes": 2104
+    },
+    "vision_tokens/imagenette_resnet34/results/featureviz_codexgen.json": {
+      "sha256": "2b0b0ac8db928deb39dabc0994ed58320bfcffd1d178c21e00276152a8a991dc",
+      "bytes": 1284
+    },
+    "vision_tokens/imagenette_resnet34/retrieval/queries_codexgen.npz": {
+      "sha256": "7d95a8c888787863ed50fc918f79248a137cff7d2252a54196bf9a8ea5d277ab",
+      "bytes": 1778
+    },
+    "vision_tokens/imagenette_resnet34/visualization/optimized_codexgen.npz": {
+      "sha256": "65d2a025d298d74bfd465e88e1e35cd4f16c3427b725648d139fb4b208aaf9a7",
+      "bytes": 4174370
+    },
+    "vision_tokens/imagenette_resnet34/visualization/probes_codexgen.npz": {
+      "sha256": "4fff0fd0e086b872af326ae0fe2de33ba2a9413965fe46c934a36fdbcdb46acf",
+      "bytes": 9754956
     },
     "vision_tokens/provenance/migration_codexgen.json": {
       "sha256": "a6fccb1862c4fcf77cbcd4243501eec5c1cd3b13c1b05d91004695fd98a679c8",
       "bytes": 761
+    },
+    "vision_tokens/provenance/pre_imagenette_manifest_codexgen.json": {
+      "sha256": "f37293592d71f9bd6b9013a31338172bc3d840ba31e7ccaa5bbaea5a1a095469",
+      "bytes": 12090
     },
     "vision_tokens/provenance/previous_verification_manifest_codexgen.json": {
       "sha256": "20b6cb8c0d73e684abc4db7e3db360736b74295fa3a6e3cb16b5ec0f3b8f82eb",
       "bytes": 3684
     },
     "texs/sparsesurrs/visionlattices/LIBRARIES.md": {
-      "sha256": "8d942ea90891569124d3c344db185e47842a26d1e802f3841e659c5f84736772",
-      "bytes": 3362
+      "sha256": "a006eecd4ca8897948c28c44c2f922ca935da11608e6a7bfafe0046b1d1dacd1",
+      "bytes": 4048
     },
     "texs/sparsesurrs/visionlattices/README.md": {
-      "sha256": "eb693d0bab65d94e83faba185e7567f0137025cbebf04ef10a6ff1f9f6afeb4c",
-      "bytes": 3051
+      "sha256": "fca1a40e0efc872cb45e5a04fe29d85ed0e8a22b5e6f52cf4c989a4fee16ac0a",
+      "bytes": 3492
     },
     "texs/sparsesurrs/visionlattices/REVIEW.md": {
-      "sha256": "283365f57f932ecbb5fb573c1ff361bac1d382c0bda40e9a345e86e5540ef98d",
-      "bytes": 5933
+      "sha256": "fa06b546aac38591428b7a77df1ba8e7b22510fc0b04ef21a02b16325fd1cf49",
+      "bytes": 6517
     },
     "texs/sparsesurrs/visionlattices/VERIFICATION.md": {
-      "sha256": "7003c34de344b919aea55118b7cce659e5bc506912f40fd825b8fec71464b245",
-      "bytes": 4189
+      "sha256": "32c74c368de6add0456344e71fd5848ab09739ebc65583e8eefd708a8b98fbca",
+      "bytes": 5732
     },
     "texs/sparsesurrs/visionlattices/config/metadata.tex": {
       "sha256": "5bbbcf6d573ebdd53dd91aa4d260ce09b3c2e595d90a89eacbf81cbb54ba57b0",
       "bytes": 205
     },
     "texs/sparsesurrs/visionlattices/config/preamble.tex": {
-      "sha256": "b609d5fd67b6e064a22174411367ece245e55b7a8592ba3b1a0e5a0e7abedf1c",
-      "bytes": 1295
+      "sha256": "de1c2634f7f0c805d0722eee6e3d480d322ee79dbb861986134e01c9e5035a3d",
+      "bytes": 1316
     },
     "texs/sparsesurrs/visionlattices/figures/feature_animals_codexgen.pdf": {
       "sha256": "c936558b705c01bdf6407d59f21f61dd8b6096367d791ec339f80c6f5184fa9c",
@@ -205,6 +389,18 @@
       "sha256": "ab54f34fc1b8976d33244498327b4c4826b70769c1b09674b2885d3cb40a84c6",
       "bytes": 15191
     },
+    "texs/sparsesurrs/visionlattices/figures/imagenette_dinov2_codexgen.pdf": {
+      "sha256": "f61d251c41668e95428c2a3cb3aaf8628f62e18d9bdb3a5b03ba0e5d20803b28",
+      "bytes": 580905
+    },
+    "texs/sparsesurrs/visionlattices/figures/imagenette_resnet34_codexgen.pdf": {
+      "sha256": "6fb161ecc6e529f9603d59f4081a7516bda084cbe4a70c9db55a8c3d29ade90a",
+      "bytes": 530312
+    },
+    "texs/sparsesurrs/visionlattices/figures/optimized_features_codexgen.pdf": {
+      "sha256": "16b4ac41ba5c4a76b2497aa5b667ff27f9833cdf593a82a52a91428146c7cb96",
+      "bytes": 1018698
+    },
     "texs/sparsesurrs/visionlattices/figures/query_cat_dog_codexgen.pdf": {
       "sha256": "8d815b033d644acccade315f0bfb89c1a577f84275bf81ce8b3a4e373ca0a9d4",
       "bytes": 64870
@@ -217,29 +413,45 @@
       "sha256": "b5f0205e3be65ac7caad5d258d8fecfdab7cac96f8735fedb32b2d3358f7baf7",
       "bytes": 21817
     },
+    "texs/sparsesurrs/visionlattices/figures/rotation_tuning_codexgen.pdf": {
+      "sha256": "5329190b419583e14f0d21bee44bbca8a163b0e58b4a6821ad8bf27f6cb41b0f",
+      "bytes": 16483
+    },
     "texs/sparsesurrs/visionlattices/figures/spatial_example_codexgen.pdf": {
       "sha256": "d0fe521c00c8fa16155e51536572335d1890166b823b4b772290bbebd3b8412d",
       "bytes": 10886
     },
+    "texs/sparsesurrs/visionlattices/figures/synthetic_stimuli_codexgen.pdf": {
+      "sha256": "8c60bf1cc8f295b689d9875046ec660d1f423785df2ff28d08a360866f3dda98",
+      "bytes": 22287
+    },
+    "texs/sparsesurrs/visionlattices/figures/synthetic_tuning_codexgen.pdf": {
+      "sha256": "5872cb311756418b10bd076e97eb1178770b3d7ec3c2ef60d2fced20c5014561",
+      "bytes": 21192
+    },
     "texs/sparsesurrs/visionlattices/references.bib": {
-      "sha256": "b65f9205baa49932d0f4f8dddba3a72bd88bb2ce0766295dd0cd73f2ef05ec5c",
-      "bytes": 5949
+      "sha256": "cf47a0f58d5fd3e01d58b757d3bf0ab07da9004df46208b4dcaa7e53d11cc376",
+      "bytes": 7134
     },
     "texs/sparsesurrs/visionlattices/sections/contexts.tex": {
       "sha256": "b84dc5d097d6d2e71b4d21310907b19fabdf67d58c547ea291ac7ffad0f1cfbc",
       "bytes": 10690
     },
     "texs/sparsesurrs/visionlattices/sections/discussion.tex": {
-      "sha256": "4b46190cba21496f27c1097ab15411a44a4ff9ccd5eca896db8b145d6a3ab9cf",
-      "bytes": 3459
+      "sha256": "ef9ae75c3c30bb31d142884e5be87db6724fec92505619daffca4ebfc4f4fa25",
+      "bytes": 4035
     },
     "texs/sparsesurrs/visionlattices/sections/experiments.tex": {
       "sha256": "3aacc63f0e300b18d1dcc4c1a38d0f0f8e3a519955565d032e2ab2e465dbaf49",
       "bytes": 12781
     },
+    "texs/sparsesurrs/visionlattices/sections/feature_visualization.tex": {
+      "sha256": "057964d93a3378461df39ee950d39e5facca2b19c28818aea0300dc33510e573",
+      "bytes": 13027
+    },
     "texs/sparsesurrs/visionlattices/sections/introduction.tex": {
-      "sha256": "a301b21f339f25121a8f0d45498387ad90cac1d15c3a7546e20333466ba5b9c4",
-      "bytes": 5079
+      "sha256": "bbe348ebad50d20b9d3f9c7e4a28255419444284d7147b6c03e8397f3f1f92e8",
+      "bytes": 5400
     },
     "texs/sparsesurrs/visionlattices/sections/spatial.tex": {
       "sha256": "790f77f78d269106a50ca3a6d6a44fced04e39f94a17151714c7219145e73ca8",
@@ -250,8 +462,20 @@
       "bytes": 5592
     },
     "texs/sparsesurrs/visionlattices/sections/visual_examples.tex": {
-      "sha256": "4b4f3132d49b9304af4c087d570aeacdf24f984acdb960a0a659085bc126cc2f",
-      "bytes": 9086
+      "sha256": "f82161108bcf187486462816884f0db467a08940c82cb55867cdd56c9ed0eea2",
+      "bytes": 8813
+    },
+    "texs/sparsesurrs/visionlattices/tables/imagenette_features.tex": {
+      "sha256": "7c8e924b30f35a44cb920fefa176f6518eb94fbd27bcca862c2b8d531bea412e",
+      "bytes": 575
+    },
+    "texs/sparsesurrs/visionlattices/tables/imagenette_metrics.tex": {
+      "sha256": "80212404e2bc8e8dec33199c9ce9d8204bbd9990433e0341afa7539e2e99eae0",
+      "bytes": 495
+    },
+    "texs/sparsesurrs/visionlattices/tables/imagenette_queries.tex": {
+      "sha256": "b76079adbf4dac5e0b1fbda8b08cadbf69030a7bb47299e4ca17d35c9c7c5e28",
+      "bytes": 514
     },
     "texs/sparsesurrs/visionlattices/tables/reconstruction.tex": {
       "sha256": "4bbb03f44e038a7ae8f8b941b9fc1f73d8d887f56c53b75363a3f7a1f97fe96a",
@@ -270,16 +494,16 @@
       "bytes": 22698
     },
     "texs/sparsesurrs/visionlattices/visionlattices.bbl": {
-      "sha256": "0a002f87498172840cbefde3f1f3f821df501c249746a62685b4659bc0f85dda",
-      "bytes": 32822
+      "sha256": "4514925b9ea3ac5da935edd4c11bdaecc8236288237bc907dc8404ebc8dc69c0",
+      "bytes": 40435
     },
     "texs/sparsesurrs/visionlattices/visionlattices.pdf": {
-      "sha256": "40d65eac9f6611b0a5fc545cbd157397ebead79a6124f77b3eafbaba3880ac93",
-      "bytes": 703251
+      "sha256": "85057ecd24f4275be26f2dcc257a5a460f893d3b2792c7437368e32e0cd0da9b",
+      "bytes": 2903413
     },
     "texs/sparsesurrs/visionlattices/visionlattices.tex": {
-      "sha256": "9c8a96724d4cf1ee2ddd1741bce6690e33ddf71506faecc1169db104a33469f8",
-      "bytes": 339
+      "sha256": "848adfdc8668d62886b4ea147905cc6b51f5c4ced7e593e718847887314cbde6",
+      "bytes": 378
     }
   }
 }

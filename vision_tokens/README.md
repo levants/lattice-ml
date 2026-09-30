@@ -68,6 +68,14 @@ Copy that experiment directory first to preserve its original evidence.
 `--weights` accepts the documented ResNet34 checkpoint. These are optional
 when the released subset and checkpoint are present.
 
-The two executed notebooks live in `notebooks/vision/`. Every new Python
+The three executed notebooks live in `notebooks/vision/`. Every new Python
 module lives in `src/lattmc/vision/` and carries the `_codexgen` suffix.
 See `THIRD_PARTY.md` for dataset and pretrained-weight provenance.
+
+
+## Higher-resolution images and a vision transformer
+
+[Imagenette extension](IMAGENETTE.md) documents the CNN/DINOv2 experiments,
+Imagewoof transfer images, gradient-based input optimization, and controlled
+response probes. Its shared image data are in `imagenette_imagewoof/`;
+model-specific evidence is in `imagenette_resnet34/` and `imagenette_dinov2/`.

@@ -1,0 +1,80 @@
+{
+  "features": [
+    {
+      "feature": 5,
+      "class_id": 1,
+      "class": "English springer",
+      "source_row": 35,
+      "test_rows": [
+        269,
+        266,
+        264
+      ],
+      "test_ap": 0.7475862068965516
+    },
+    {
+      "feature": 330,
+      "class_id": 4,
+      "class": "church",
+      "source_row": 108,
+      "test_rows": [
+        299,
+        291,
+        341
+      ],
+      "test_ap": 0.4575221043324491
+    }
+  ],
+  "optimization_steps": 120,
+  "initializations_per_feature": 2,
+  "seed": 2028,
+  "objective": "log-mean-exp pre-Top-k response / training RMS",
+  "initial_actual_codes": [
+    0.0,
+    0.0,
+    0.7940378189086914,
+    0.0
+  ],
+  "optimized_actual_codes": [
+    22.314228057861328,
+    19.57392120361328,
+    15.759511947631836,
+    16.93857192993164
+  ],
+  "rotation_degrees": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330
+  ],
+  "lattice_queries": [
+    {
+      "operation": "u",
+      "pooled": 11,
+      "same_site": 1
+    },
+    {
+      "operation": "v",
+      "pooled": 14,
+      "same_site": 14
+    },
+    {
+      "operation": "meet",
+      "pooled": 61,
+      "same_site": 61
+    },
+    {
+      "operation": "join",
+      "pooled": 5,
+      "same_site": 1
+    }
+  ]
+}

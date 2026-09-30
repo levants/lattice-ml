@@ -3,8 +3,9 @@
 Reviewed on 2026-09-30 against project repositories and model collections.
 These are extension candidates. The executed studies use the local
 PyTorch digit CNN/SAE and a pretrained torchvision ResNet34 with a
-locally trained SAE. ViT-Prisma, SAEV, and Overcomplete remain researched
-options; they were not used to produce the reported experiments.
+locally trained SAE, plus a Hugging Face Transformers DINOv2 ViT-S/14
+with its own SAE. ViT-Prisma, SAEV, and Overcomplete remain researched
+options; those three packages were not used for the experiments.
 
 ## Recommended first choice: ViT-Prisma
 
@@ -67,3 +68,16 @@ Do not clip negative codes silently: either use a nonnegative surrogate or
 explicitly define a different ordered description space. Do not align
 features across models by coordinate index. Do not infer a transformer's
 causal receptive field from the patch grid.
+
+
+## Executed transformer adapter: Hugging Face Transformers
+
+The extension uses `facebook/dinov2-small` at immutable revision
+`ed25f3a31f01632728cabb09d1542f84ab7b0056`, loaded locally with eager
+attention. It takes final layer-normalized patch tokens and excludes CLS.
+The original checkpoint, configuration, upstream license, and hashes are
+released under `vision_tokens/imagenette_dinov2/checkpoints/`.
+See `vision_tokens/IMAGENETTE.md` for the exact input and SAE conventions.
+
+[Model card](https://huggingface.co/facebook/dinov2-small) and
+[upstream model repository](https://github.com/facebookresearch/dinov2).

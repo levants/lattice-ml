@@ -19,6 +19,91 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{dosovitskiy2021vit}{inproceedings}{}{}
+      \name{author}{12}{}{%
+        {{hash=72308762399d6ab62bbd9391c64c7bfd}{%
+           family={Dosovitskiy},
+           familyi={D\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=836254958eac09b30d45dd67a75ce4fa}{%
+           family={Beyer},
+           familyi={B\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6807e3c00242c6bf6a3179905040471b}{%
+           family={Kolesnikov},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b398fca6879fde89a032b8e7de2f26b5}{%
+           family={Weissenborn},
+           familyi={W\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=00b950307c7d096765bb6df00c7c5c3a}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Xiaohua},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a47640139e63b9b5969c969dfe95def}{%
+           family={Unterthiner},
+           familyi={U\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=965baf6fa5686a42b1564330c5e11f2f}{%
+           family={Dehghani},
+           familyi={D\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=06829adce8713f0ace444279dcd7328f}{%
+           family={Minderer},
+           familyi={M\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c95269b4a2e23e1e526be521c7ec6ad4}{%
+           family={Heigold},
+           familyi={H\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=450963f966620925cb8fecd32f7a6ee1}{%
+           family={Gelly},
+           familyi={G\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=493a532418540859dca92cf3b579de2a}{%
+           family={Houlsby},
+           familyi={H\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{fullhash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \strng{fullhashraw}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \strng{bibnamehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{authorbibnamehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{authornamehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{authorfullhash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \strng{authorfullhashraw}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations}
+      \field{title}{An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=YicbFdNTTy
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=YicbFdNTTy
+      \endverb
+    \endentry
     \entry{dunefsky2024transcoders}{misc}{}{}
       \name{author}{3}{}{%
         {{hash=2663ff547a6b9ef3aa47b41a23eb10d5}{%
@@ -289,6 +374,38 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1109/CVPR.2016.90
+      \endverb
+    \endentry
+    \entry{howardImagenette}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=5ed422e177c5444b96679479aeed0c51}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ed422e177c5444b96679479aeed0c51}
+      \strng{fullhash}{5ed422e177c5444b96679479aeed0c51}
+      \strng{fullhashraw}{5ed422e177c5444b96679479aeed0c51}
+      \strng{bibnamehash}{5ed422e177c5444b96679479aeed0c51}
+      \strng{authorbibnamehash}{5ed422e177c5444b96679479aeed0c51}
+      \strng{authornamehash}{5ed422e177c5444b96679479aeed0c51}
+      \strng{authorfullhash}{5ed422e177c5444b96679479aeed0c51}
+      \strng{authorfullhashraw}{5ed422e177c5444b96679479aeed0c51}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Imagenette and Imagewoof}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/fastai/imagenette
+      \endverb
+      \verb{url}
+      \verb https://github.com/fastai/imagenette
       \endverb
     \endentry
     \entry{saev}{online}{}{}
@@ -582,6 +699,83 @@
       \endverb
       \verb{url}
       \verb https://distill.pub/2020/circuits/zoom-in/
+      \endverb
+    \endentry
+    \entry{oquab2024dinov2}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=837bdf8ff88db746f81a2e1284a60422}{%
+           family={Oquab},
+           familyi={O\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7aaaf1f5fc651003103cdbeca6243a5}{%
+           family={Darcet},
+           familyi={D\bibinitperiod},
+           given={Timothée},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e5f418be9295a0b058f1a4241bf11a49}{%
+           family={Moutakanni},
+           familyi={M\bibinitperiod},
+           given={Théo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cd6e2699b7bedd76aeed8613ed078015}{%
+           family={Vo},
+           familyi={V\bibinitperiod},
+           given={Huy},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5b93cc67d00372e1b5b40bfa6e60eb53}{%
+           family={Szafraniec},
+           familyi={S\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5dc4b47031c8b2907cad670adafdeed4}{%
+           family={Khalidov},
+           familyi={K\bibinitperiod},
+           given={Vasil},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f4329de85325465dd871adf4af9a1903}{%
+           family={Fernandez},
+           familyi={F\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e95875c24fa3832f61892aeb77b3adc7}{%
+           family={Haziza},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e5dfae4582081d649e3a0d5342050016}{%
+           family={Massa},
+           familyi={M\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=25ec75200061b14f2e37b3872b718180}{%
+           family={El-Nouby},
+           familyi={E\bibinithyphendelim N\bibinitperiod},
+           given={Alaaeldin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{618ed95633c96d24beb38093a078f50c}
+      \strng{fullhash}{46d5d7667ceb2877d710de26ffc68e68}
+      \strng{fullhashraw}{46d5d7667ceb2877d710de26ffc68e68}
+      \strng{bibnamehash}{618ed95633c96d24beb38093a078f50c}
+      \strng{authorbibnamehash}{618ed95633c96d24beb38093a078f50c}
+      \strng{authornamehash}{618ed95633c96d24beb38093a078f50c}
+      \strng{authorfullhash}{46d5d7667ceb2877d710de26ffc68e68}
+      \strng{authorfullhashraw}{46d5d7667ceb2877d710de26ffc68e68}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions on Machine Learning Research}
+      \field{title}{{DINOv2}: Learning Robust Visual Features without Supervision}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=a68SUt6zFt
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=a68SUt6zFt
       \endverb
     \endentry
     \entry{vitprisma}{online}{}{}

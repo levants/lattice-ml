@@ -1,0 +1,285 @@
+{
+  "date": "2026-09-30",
+  "repository": "https://github.com/levants/lattice-ml",
+  "scope": [
+    "src/lattmc/vision",
+    "notebooks/vision",
+    "vision_tokens",
+    "texs/sparsesurrs/visionlattices"
+  ],
+  "note": "Paths are repository-relative. This manifest excludes itself.",
+  "files": {
+    "src/lattmc/vision/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/lattmc/vision/audit_codexgen.py": {
+      "sha256": "da2df4e2dc6444a00127d1d935e3b64676cc06bcf0448031fb7e57ca67685ae7",
+      "bytes": 3114
+    },
+    "src/lattmc/vision/contexts_codexgen.py": {
+      "sha256": "8d85a6de90daf250afe65778579ada4daa3acb48f274f3069c4fdf27ff293e39",
+      "bytes": 3446
+    },
+    "src/lattmc/vision/examples_codexgen.py": {
+      "sha256": "bc4fcd2a546508fc4a1ad5c1806fa9da1d2ad47c97f539a96e692037d85dc928",
+      "bytes": 8537
+    },
+    "src/lattmc/vision/experiment_codexgen.py": {
+      "sha256": "ac2d232c1f5775c49b9b586060e40ce94a22cb2cb390aba704560cfd449aabd3",
+      "bytes": 10009
+    },
+    "src/lattmc/vision/models_codexgen.py": {
+      "sha256": "19f6d4f40ca9d3de110256206d9c0c152d23f9318cf5ea72884994ab5ffbca9c",
+      "bytes": 1463
+    },
+    "src/lattmc/vision/natural_codexgen.py": {
+      "sha256": "08554452b2d85c3e8b90c18c1b36af2517a813f301ae463dbb85267c768deaf3",
+      "bytes": 7476
+    },
+    "src/lattmc/vision/notebook_codexgen.py": {
+      "sha256": "cdb4f7b035fb1a53634c9fdcda48872b48142cc5a847c3b4dc18c8186dadfee1",
+      "bytes": 10412
+    },
+    "src/lattmc/vision/paths_codexgen.py": {
+      "sha256": "3f973456204c61cc49e61b440c20b2cc1ff9c05159fd2f69027871f620b24ab1",
+      "bytes": 960
+    },
+    "src/lattmc/vision/report_codexgen.py": {
+      "sha256": "3959b94cf226aa73931845302e241f58f1d776609c32a4451d9701655a950569",
+      "bytes": 6088
+    },
+    "src/lattmc/vision/verify_codexgen.py": {
+      "sha256": "f8080a9676f2a621a1bb33f5a0a9d153eee542868916ba0c1f924b1018c3b4cd",
+      "bytes": 5347
+    },
+    "src/lattmc/vision/verify_natural_codexgen.py": {
+      "sha256": "a2bc8222d59362fc042cfcd4346744a4817a3863c7bb52ee66ff80c98c763ef7",
+      "bytes": 4953
+    },
+    "notebooks/vision/feature_examples_codexgen.ipynb": {
+      "sha256": "8f111780c6d019f899f0bcca3cfec518d6171f4accc65a4e7c44de1d9ee44a73",
+      "bytes": 836640
+    },
+    "notebooks/vision/visionlattices_codexgen.ipynb": {
+      "sha256": "2c9c84d07648d4de483249e76795b3c369a0490524017a434309cf2fab78144d",
+      "bytes": 8493
+    },
+    "vision_tokens/README.md": {
+      "sha256": "1a2283189c4fd521ae7054c20ee7f3ddbf834ec3e51803d761fcd94445430e90",
+      "bytes": 3186
+    },
+    "vision_tokens/THIRD_PARTY.md": {
+      "sha256": "622a1b08e6e8c9253a9183d94e4a543dbe5595f7d6ce8d59dca1b074ffef3b2d",
+      "bytes": 2105
+    },
+    "vision_tokens/cifar10_resnet34/activations/resnet34_codes_codexgen.npz": {
+      "sha256": "b6e92b19a4b8b4ef6505cbff3989561386d32d24dff57ca291d1a54e5f965b27",
+      "bytes": 32940413
+    },
+    "vision_tokens/cifar10_resnet34/checkpoints/resnet34_imagenet1k_v1_codexgen.pt": {
+      "sha256": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f",
+      "bytes": 87319819
+    },
+    "vision_tokens/cifar10_resnet34/checkpoints/sae_codexgen.pt": {
+      "sha256": "9148f24495e1792d6c599a63dc9dfaf51ad576920bd14879bd117a0ec510536a",
+      "bytes": 1054223
+    },
+    "vision_tokens/cifar10_resnet34/dataset/cifar10_sample_codexgen.npz": {
+      "sha256": "6314585f2df940849219a7c8acfc48512d25de62643c5cb7cc2048c1924a28d1",
+      "bytes": 4243124
+    },
+    "vision_tokens/cifar10_resnet34/results/natural_codexgen.json": {
+      "sha256": "9d24b02f5e3773f319940ccad1fd5aba02f1f5d9c2b4421a5be540a55e905504",
+      "bytes": 1545
+    },
+    "vision_tokens/cifar10_resnet34/results/visual_examples_codexgen.json": {
+      "sha256": "f9995dda2cfcfc411011b8726401cec7ce90e6218130f6a05ec0257c5260cf8f",
+      "bytes": 9099
+    },
+    "vision_tokens/cifar10_resnet34/retrieval/visual_queries_codexgen.npz": {
+      "sha256": "d9b329ac5eea0052e9dea3e7c7d0d128d67f215f3fb59c3185c9b146ef07e556",
+      "bytes": 2649
+    },
+    "vision_tokens/digits/activations/digits_seed_17_codexgen.npz": {
+      "sha256": "b67c51d0e6cd200ac8a0a4ab1a82427ef5ac4d21c2c6e0e7a087d2513296444c",
+      "bytes": 4515817
+    },
+    "vision_tokens/digits/activations/digits_seed_29_codexgen.npz": {
+      "sha256": "589bf840f45bf72ac894077f5140a86b49d5c7020ea8a6dcfc1081467ba6ceae",
+      "bytes": 4430736
+    },
+    "vision_tokens/digits/activations/digits_seed_43_codexgen.npz": {
+      "sha256": "3a891fed4e4f34051d0979a36c0ee47be43be7ccf65de10be98c4e1c19113443",
+      "bytes": 4383710
+    },
+    "vision_tokens/digits/checkpoints/digits_seed_17_codexgen.pt": {
+      "sha256": "bcb03995e06efbafde2f8d5236071530ac3c8f5f0b6a655bee94669fd23cf241",
+      "bytes": 77573
+    },
+    "vision_tokens/digits/checkpoints/digits_seed_29_codexgen.pt": {
+      "sha256": "44898153e9733a9d3b711319760bd749d09808ab31a8ac880ea0b4a1ec86a605",
+      "bytes": 77573
+    },
+    "vision_tokens/digits/checkpoints/digits_seed_43_codexgen.pt": {
+      "sha256": "e4dd193e44ec9e4cfdb743df278362591aaea7f08194d6f00892bb5d62848883",
+      "bytes": 77573
+    },
+    "vision_tokens/digits/dataset/digits_codexgen.npz": {
+      "sha256": "7cd8b8b1293517becb06329b4164cfef6e47aa43c0654d6131006b53f7f2d7ae",
+      "bytes": 153196
+    },
+    "vision_tokens/digits/results/results_codexgen.json": {
+      "sha256": "7464e5e8d0f35242602fa8e05745829cab8097ddd59eb75ef138d90544513bd3",
+      "bytes": 83541
+    },
+    "vision_tokens/digits/retrieval/digits_seed_17_codexgen.npz": {
+      "sha256": "330d80a71357067149ddc89a029ad2da95b851135758ccb0d4de8ce72419480a",
+      "bytes": 517345
+    },
+    "vision_tokens/digits/retrieval/digits_seed_29_codexgen.npz": {
+      "sha256": "6b0f18994b3bb2b5c3b9b87fd3a05e259c063ed599282ddf18a7d74748faba82",
+      "bytes": 490345
+    },
+    "vision_tokens/digits/retrieval/digits_seed_43_codexgen.npz": {
+      "sha256": "bda6fa50b2135519f2030a714eb249ca82d82c60a1b4df60197675e5a7fffa69",
+      "bytes": 504214
+    },
+    "vision_tokens/environment/pyproject.toml": {
+      "sha256": "b60d60b679e183e1f6dc24bbef642b3b99c47944208b811aa34a08c7cdd8a74c",
+      "bytes": 427
+    },
+    "vision_tokens/environment/requirements-tested.txt": {
+      "sha256": "bf0553d220b5fb9a2a455091f588cdf1ad322d965debd10d6cb2be4cc35a5a22",
+      "bytes": 208
+    },
+    "vision_tokens/environment/uv.lock": {
+      "sha256": "bb9125f3b789f88321aee29438e47972cd7656435c55174f2852867cc3232676",
+      "bytes": 338941
+    },
+    "vision_tokens/provenance/migration_codexgen.json": {
+      "sha256": "a6fccb1862c4fcf77cbcd4243501eec5c1cd3b13c1b05d91004695fd98a679c8",
+      "bytes": 761
+    },
+    "vision_tokens/provenance/previous_verification_manifest_codexgen.json": {
+      "sha256": "20b6cb8c0d73e684abc4db7e3db360736b74295fa3a6e3cb16b5ec0f3b8f82eb",
+      "bytes": 3684
+    },
+    "texs/sparsesurrs/visionlattices/LIBRARIES.md": {
+      "sha256": "8d942ea90891569124d3c344db185e47842a26d1e802f3841e659c5f84736772",
+      "bytes": 3362
+    },
+    "texs/sparsesurrs/visionlattices/README.md": {
+      "sha256": "eb693d0bab65d94e83faba185e7567f0137025cbebf04ef10a6ff1f9f6afeb4c",
+      "bytes": 3051
+    },
+    "texs/sparsesurrs/visionlattices/REVIEW.md": {
+      "sha256": "283365f57f932ecbb5fb573c1ff361bac1d382c0bda40e9a345e86e5540ef98d",
+      "bytes": 5933
+    },
+    "texs/sparsesurrs/visionlattices/VERIFICATION.md": {
+      "sha256": "7003c34de344b919aea55118b7cce659e5bc506912f40fd825b8fec71464b245",
+      "bytes": 4189
+    },
+    "texs/sparsesurrs/visionlattices/config/metadata.tex": {
+      "sha256": "5bbbcf6d573ebdd53dd91aa4d260ce09b3c2e595d90a89eacbf81cbb54ba57b0",
+      "bytes": 205
+    },
+    "texs/sparsesurrs/visionlattices/config/preamble.tex": {
+      "sha256": "b609d5fd67b6e064a22174411367ece245e55b7a8592ba3b1a0e5a0e7abedf1c",
+      "bytes": 1295
+    },
+    "texs/sparsesurrs/visionlattices/figures/feature_animals_codexgen.pdf": {
+      "sha256": "c936558b705c01bdf6407d59f21f61dd8b6096367d791ec339f80c6f5184fa9c",
+      "bytes": 60660
+    },
+    "texs/sparsesurrs/visionlattices/figures/feature_transport_codexgen.pdf": {
+      "sha256": "c9255f729517b80c4c52d6e57cb51b51dea586e337ccf35c7f7b50088223cda7",
+      "bytes": 58598
+    },
+    "texs/sparsesurrs/visionlattices/figures/feature_tuning_codexgen.pdf": {
+      "sha256": "944033a7f89d1194bc216351427b009c74115e64a2cc47676bc879f4abf5e1d8",
+      "bytes": 20211
+    },
+    "texs/sparsesurrs/visionlattices/figures/image_retrieval_codexgen.pdf": {
+      "sha256": "ab54f34fc1b8976d33244498327b4c4826b70769c1b09674b2885d3cb40a84c6",
+      "bytes": 15191
+    },
+    "texs/sparsesurrs/visionlattices/figures/query_cat_dog_codexgen.pdf": {
+      "sha256": "8d815b033d644acccade315f0bfb89c1a577f84275bf81ce8b3a4e373ca0a9d4",
+      "bytes": 64870
+    },
+    "texs/sparsesurrs/visionlattices/figures/query_ship_truck_codexgen.pdf": {
+      "sha256": "7818f43cc21fb8d7ae608ad0e7b4c8e19eeda997b7715fccc35c88f424e13043",
+      "bytes": 53358
+    },
+    "texs/sparsesurrs/visionlattices/figures/retrieval_codexgen.pdf": {
+      "sha256": "b5f0205e3be65ac7caad5d258d8fecfdab7cac96f8735fedb32b2d3358f7baf7",
+      "bytes": 21817
+    },
+    "texs/sparsesurrs/visionlattices/figures/spatial_example_codexgen.pdf": {
+      "sha256": "d0fe521c00c8fa16155e51536572335d1890166b823b4b772290bbebd3b8412d",
+      "bytes": 10886
+    },
+    "texs/sparsesurrs/visionlattices/references.bib": {
+      "sha256": "b65f9205baa49932d0f4f8dddba3a72bd88bb2ce0766295dd0cd73f2ef05ec5c",
+      "bytes": 5949
+    },
+    "texs/sparsesurrs/visionlattices/sections/contexts.tex": {
+      "sha256": "b84dc5d097d6d2e71b4d21310907b19fabdf67d58c547ea291ac7ffad0f1cfbc",
+      "bytes": 10690
+    },
+    "texs/sparsesurrs/visionlattices/sections/discussion.tex": {
+      "sha256": "4b46190cba21496f27c1097ab15411a44a4ff9ccd5eca896db8b145d6a3ab9cf",
+      "bytes": 3459
+    },
+    "texs/sparsesurrs/visionlattices/sections/experiments.tex": {
+      "sha256": "3aacc63f0e300b18d1dcc4c1a38d0f0f8e3a519955565d032e2ab2e465dbaf49",
+      "bytes": 12781
+    },
+    "texs/sparsesurrs/visionlattices/sections/introduction.tex": {
+      "sha256": "a301b21f339f25121a8f0d45498387ad90cac1d15c3a7546e20333466ba5b9c4",
+      "bytes": 5079
+    },
+    "texs/sparsesurrs/visionlattices/sections/spatial.tex": {
+      "sha256": "790f77f78d269106a50ca3a6d6a44fced04e39f94a17151714c7219145e73ca8",
+      "bytes": 6035
+    },
+    "texs/sparsesurrs/visionlattices/sections/surrogates.tex": {
+      "sha256": "1d43eb3fae3738910f1c164d25c9e0794a3e0bed002b0977d59317683f3ea792",
+      "bytes": 5592
+    },
+    "texs/sparsesurrs/visionlattices/sections/visual_examples.tex": {
+      "sha256": "4b4f3132d49b9304af4c087d570aeacdf24f984acdb960a0a659085bc126cc2f",
+      "bytes": 9086
+    },
+    "texs/sparsesurrs/visionlattices/tables/reconstruction.tex": {
+      "sha256": "4bbb03f44e038a7ae8f8b941b9fc1f73d8d887f56c53b75363a3f7a1f97fe96a",
+      "bytes": 432
+    },
+    "texs/sparsesurrs/visionlattices/tables/retrieval.tex": {
+      "sha256": "3b69cfa60d088d595bd4cf6911bf21b43f734928a2e25d71de7ed456ea5c3154",
+      "bytes": 504
+    },
+    "texs/sparsesurrs/visionlattices/tables/spatial.tex": {
+      "sha256": "621e0e76e8213dfbfaac89c47a535dd78a1b3ea8f594a61497816fb97aa3ef23",
+      "bytes": 418
+    },
+    "texs/sparsesurrs/visionlattices/tac.cls": {
+      "sha256": "a55ad53c6e6f537e073475568c6df9800ec495784cb695a7eaf00a29c4afe8ec",
+      "bytes": 22698
+    },
+    "texs/sparsesurrs/visionlattices/visionlattices.bbl": {
+      "sha256": "0a002f87498172840cbefde3f1f3f821df501c249746a62685b4659bc0f85dda",
+      "bytes": 32822
+    },
+    "texs/sparsesurrs/visionlattices/visionlattices.pdf": {
+      "sha256": "40d65eac9f6611b0a5fc545cbd157397ebead79a6124f77b3eafbaba3880ac93",
+      "bytes": 703251
+    },
+    "texs/sparsesurrs/visionlattices/visionlattices.tex": {
+      "sha256": "9c8a96724d4cf1ee2ddd1741bce6690e33ddf71506faecc1169db104a33469f8",
+      "bytes": 339
+    }
+  }
+}

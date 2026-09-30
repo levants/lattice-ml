@@ -1,0 +1,20 @@
+\begin{table}[tbp]
+\centering
+\begin{tabular}{llrr}
+\toprule
+Model & Query & Pooled matches & Same-site matches \\
+\midrule
+ResNet34 & u & 11 & 1 \\
+ResNet34 & v & 14 & 14 \\
+ResNet34 & meet & 61 & 61 \\
+ResNet34 & join & 5 & 1 \\
+DINOv2 & u & 26 & 3 \\
+DINOv2 & v & 8 & 8 \\
+DINOv2 & meet & 86 & 86 \\
+DINOv2 & join & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\caption{Query extents on the 200 evaluation photographs. The meet and join
+combine source activation requirements.}
+\label{tab:imagenette-queries}
+\end{table}

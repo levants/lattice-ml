@@ -24,24 +24,32 @@ it does not establish the causal importance of an individual coordinate
 or conjunction. Controlled feature interventions, as explored in related
 vision SAE work~\cite{stevens2025vision}, address a different question.
 
-Several limitations remain. The digit benchmark uses one small dataset and one
-fixed split.
-The natural-image extension uses a deterministic CIFAR-10 subset,
-one frozen ResNet34, and a surrogate with only moderate reconstruction
-fidelity. It supplies inspectable examples rather than a second
-comparative retrieval benchmark.
-Training seeds and overlapping source draws do not provide independent
-dataset replications. Training and SAE seeds are varied together, so
-these runs do not isolate sources of variation. Dead coordinates are
-common, there is no external spatial annotation, and no vision
-transformer or transcoder is evaluated. The spatial downset construction is
-analyzed
-mathematically but its full lattice is not mined experimentally. These
-limitations preclude broad claims about vision-model interpretability.
+The Imagenette and Imagewoof experiments add a pretrained transformer,
+higher-resolution exemplars, optimized stimuli, and controlled response
+curves. They test feature hypotheses through complementary observations.
+Optimization can expose inputs that increase a coordinate without showing
+that a human-readable interpretation uniquely describes its behavior.
+Synthetic probes constrain particular hypotheses; reconstructing a circuit
+also requires evidence about feature construction and downstream use.
+
+Several limitations remain. The digit benchmark uses one small dataset
+and one fixed split; its paired seeds change both CNN and SAE. The
+natural-image subsets are deterministic, and the new CNN/ViT studies
+use one SAE seed each. ImageNet-derived photographs do not establish
+unseen-data backbone generalization. The CIFAR surrogate has moderate
+fidelity and many inactive coordinates. The new DINOv2 surrogate has
+lower reconstruction fidelity on Imagewoof than on Imagenette, so
+transfer interpretations must account for this additional loss.
+There is no external spatial annotation, optimized-stimulus comparisons
+lack random-coordinate controls, and no transcoder is evaluated.
+The downset construction is analyzed mathematically but its full lattice
+is not mined experimentally. These limitations preclude broad claims
+about vision-model interpretability.
 
 A larger study should fix pretrained backbone and surrogate revisions,
-verify their activation conventions, and compare at least two vision
-families on independent natural-image collections. It should include
+verify their activation conventions, and expand comparisons within both
+convolutional and transformer families on independent image collections. It
+should include
 spatially annotated tasks, matched sparsity and reconstruction quality,
 strong dense and sparse retrieval baselines, and uncertainty estimates
 whose resampling units match the intended population. Coordinate
@@ -52,7 +60,7 @@ norm-matched controls while measuring reconstruction error and the
 backbone's output change.
 
 The present paper provides a self-contained mathematical specification,
-an executable digit pilot, measured natural-image feature galleries, and an
-explicit route to this broader study.
+an executable digit pilot, measured CNN and transformer feature studies,
+and an explicit route to this broader evaluation.
 It shows how to ask precise questions about shared sparse evidence, and
 why retaining the spatial meaning of those questions is essential.

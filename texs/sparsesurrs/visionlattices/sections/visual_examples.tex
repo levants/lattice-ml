@@ -67,7 +67,7 @@ are displayed without invented detail. Site maps are response locations
 in the feature grid, not segmentation masks or causal attribution maps:
 the residual network's receptive fields can cover most or all of an image.
 
-\begin{figure}[p]
+\begin{figure}[tbp]
  \centering
  \includegraphics[width=\linewidth]{figures/feature_animals_codexgen.pdf}
  \caption{Dataset exemplars and site activation maps for coordinates
@@ -157,13 +157,9 @@ activation requirements; its result is not a conjunction of class names.
  \label{fig:vehicle-queries}
 \end{figure}
 
-These examples make the semantics of pooling and lattice operations
-visible in actual images. Named-city, geographic, or sports-team studies
-would require suitable image labels and controls for landmarks, text,
-logos, and backgrounds. The present animal and vehicle labels support
-the reported comparisons only. Following the distinction between feature
-hypotheses and circuit evidence in~\cite{olah2020zoom}, a future causal
-analysis should test predictions under controlled interventions rather
-than treating these galleries as recovered computational circuits.
+The animal and vehicle examples make the spatial distinction visible.
+Named-city or sports-team studies need labels and controls for landmarks,
+text, logos, and backgrounds. The next section adds higher-resolution
+images and tests feature hypotheses with optimized and controlled stimuli.
 
 \clearpage

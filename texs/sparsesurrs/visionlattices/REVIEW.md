@@ -3,7 +3,8 @@
 ## Assessment
 
 The manuscript is a coherent exploratory methods paper with proved
-statements and an executed small vision pilot. It is suitable for author
+statements and executed CNN and vision-transformer experiments. It is suitable
+for author
 review toward an arXiv methods preprint. It is not currently a competitive
 submission to a prestigious mathematics journal or a main-track vision or
 machine-learning conference. Compilation and reproducibility establish
@@ -43,19 +44,28 @@ ResNet34 supplies the dense features on 1,500 CIFAR-10 images. The
 surrogate reconstruction R2 is 0.576 and only 165/512 features are active
 on training data; this is illustrative evidence with limited fidelity.
 
-The greatest remaining empirical weaknesses are the small digit benchmark,
-deterministic natural-image subset, absence of ViTs and transcoders,
-many inactive SAE coordinates,
-no spatial semantic annotations, no feature-specific causal intervention,
-and no full evaluation of downset mining. Reconstruction replacement is a
-faithfulness diagnostic, not validation of individual feature meanings.
-The experiment does not compare against the original spatial classifier
-as a retrieval baseline, and max pooling discards useful digit geometry.
+The Imagenette/Imagewoof extension adds a frozen DINOv2 ViT-S/14,
+independent CNN and transformer SAEs, higher-resolution galleries,
+gradient-based feature visualization, and controlled shape and rotation
+probes. Its 450 photographs and model outputs are released. Imagenette
+test reconstruction R2 is 0.878 for ResNet34 and 0.707 for DINOv2; Imagewoof
+transfer R2 is 0.881 and 0.596. This adds useful evidence, but does not
+establish that DINOv2 is intrinsically harder to represent: pretraining,
+width, dictionary size, and token counts differ as well.
+
+The remaining weaknesses include small deterministic subsets, one seed
+for each new SAE, limited reconstruction fidelity on DINOv2 transfer,
+no external spatial annotations, no individual-feature downstream
+interventions, no transcoder comparison, and no full evaluation of downset
+mining. Input optimization shows response control but is not a recovered
+circuit. The synthetic probes do not isolate curvature from all other
+shape properties. Random-coordinate controls would help distinguish
+selective interpretations from generic optimized-response behavior.
 
 ## Priorities for a stronger submission
 
-1. Evaluate fixed CLIP and DINO-family backbones with matching public SAEs,
-   and matched CLIP transcoders if the paper claims a surrogate comparison.
+1. Expand the DINOv2 result across checkpoints, public SAE variants, and
+   CLIP; add matched transcoders if claiming a surrogate comparison.
 2. Add independent natural-image datasets and spatially annotated queries.
    Split by original image before generating patches or crops.
 3. Match reconstruction quality and sparsity; investigate inactive features.

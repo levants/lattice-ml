@@ -44,3 +44,16 @@ Start with `vision_tokens/README.md` for reproduction commands and the
 isolated uv environment. Artifact hashes and migration provenance are in
 `vision_tokens/provenance/`; upstream attribution is in
 `vision_tokens/THIRD_PARTY.md`.
+
+### Imagenette, Imagewoof, and a vision transformer
+
+The extension adds 350 Imagenette photographs and 100 Imagewoof transfer
+photographs, with original JPEGs, crops, and exact model activations.
+Frozen ResNet34 and DINOv2 ViT-S/14 have separate Top-32 SAEs. Six new figures
+compare dataset exemplars, eight optimized inputs, synthetic shape probes,
+and rotation responses; numerical lattice-query extents are also provided.
+See [the reproduction guide](vision_tokens/IMAGENETTE.md) and the executed
+notebook `notebooks/vision/imagenette_features_codexgen.ipynb`.
+
+The study follows Distill's multi-evidence approach to feature hypotheses.
+It does not claim to recover the same curve detectors or causal circuits.
