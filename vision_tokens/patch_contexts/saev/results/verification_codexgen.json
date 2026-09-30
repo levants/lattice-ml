@@ -1,0 +1,15 @@
+{
+  "model": "saev",
+  "cached_images": 300,
+  "cached_sites": 76800,
+  "vector_queries": 40,
+  "downset_concepts": 10,
+  "identical_pixel_cases": 3,
+  "native": {
+    "recomputed_images": 10,
+    "full_dictionary_reencoded": true,
+    "recomputed_control_images": 12,
+    "hook_max_absolute_error": 0.0,
+    "reference": "HF register backbone layer 10 forward hook"
+  }
+}

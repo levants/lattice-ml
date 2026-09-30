@@ -1,0 +1,2181 @@
+{
+  "scope": "patch code, notebook, upstream source, and evidence",
+  "excludes": [
+    "paper",
+    "tex",
+    "pdf",
+    "unused checkpoints"
+  ],
+  "files": [
+    {
+      "path": "notebooks/vision/patch_contexts_codexgen.ipynb",
+      "bytes": 6144346,
+      "sha256": "a080131b5404eb5bfa113fee0e84ecf8401b25fb9a0dfd4dd64c24ceb113a90d"
+    },
+    {
+      "path": "src/lattmc/vision/patch_contexts_codexgen.py",
+      "bytes": 5599,
+      "sha256": "648b105bfe37fa21b35c79b6ed13405c8f4d855edcc6fd07c041975abe721e4a"
+    },
+    {
+      "path": "src/lattmc/vision/patch_controls_codexgen.py",
+      "bytes": 6973,
+      "sha256": "98d2e39dcfe37b5b8d2fa9c5e932ecad08ea5b5e4df0509cf8180970b9d5bb2d"
+    },
+    {
+      "path": "src/lattmc/vision/patch_extract_codexgen.py",
+      "bytes": 5228,
+      "sha256": "49f91f10657cf8cfd4ef8a94269d07ee04656859f313d48b29795a0461ab9590"
+    },
+    {
+      "path": "src/lattmc/vision/patch_figures_codexgen.py",
+      "bytes": 7268,
+      "sha256": "754d0d1e9b2fc74f4026e64005c670785ed5a7f19d77f3d3bbb0c90421b4288a"
+    },
+    {
+      "path": "src/lattmc/vision/patch_models_codexgen.py",
+      "bytes": 5779,
+      "sha256": "995fa50ba2e9adc3bd84b81c71dc106e2decb50dbcdd38b3844d59d0ccb64f0b"
+    },
+    {
+      "path": "src/lattmc/vision/patch_notebook_codexgen.py",
+      "bytes": 6088,
+      "sha256": "6b97da620600a4bacf261a7c5429fe0d77749c1ca01a379921e73c482feb78a8"
+    },
+    {
+      "path": "src/lattmc/vision/patch_release_codexgen.py",
+      "bytes": 3620,
+      "sha256": "2ec727c25c9033bb066b6301d966cda46404e750f11f923193d354b8f3250894"
+    },
+    {
+      "path": "src/lattmc/vision/patch_verify_codexgen.py",
+      "bytes": 8256,
+      "sha256": "ad032959bb27a7ca043ad8e1fe852cb284cce58d7610644ab4b3da560987102a"
+    },
+    {
+      "path": "src/lattmc/vision/patch_weights_codexgen.py",
+      "bytes": 2416,
+      "sha256": "44839e7c1821f5aca9598b3dd130f35def24a06d3140b5e4ba9bf82948d1022a"
+    },
+    {
+      "path": "vision_tokens/README.md",
+      "bytes": 4028,
+      "sha256": "ee2cde44f2944a8f403c904fa97ede2d5169378790d5b6d3af1d934c1003f14f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/.gitignore",
+      "bytes": 170,
+      "sha256": "05c147768aa7939bf25f254d778a8fc49dbdf73da9d228c58e2f5bf82d8c472d"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/README.md",
+      "bytes": 8103,
+      "sha256": "778161a91f774664e2b9091fb551b8a7694a0d4e8b06493b97d962b65952d143"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/README.md",
+      "bytes": 7411,
+      "sha256": "10fb3b0c75833fa72f545fc7d6c2b759f65bfb47b9661da4076e03bf385ebc78"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/metadata.json",
+      "bytes": 3099,
+      "sha256": "17dbf6757ee29138cc157a59761345a4fb28439c904547fbd4f556eb87b75e8d"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_config.json",
+      "bytes": 469,
+      "sha256": "d5654ca30b7766b77197fe1d7c118150eeb7ede68e18a9eb92824984f5392d22"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_model.safetensors.part000",
+      "bytes": 83886080,
+      "sha256": "0e1d23b8d952d30f911010df6c0e9d1a3336b55ad36f4f4f5d1d2f350ed61ddb"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_model.safetensors.part001",
+      "bytes": 83886080,
+      "sha256": "c3fdff8bd17a1ca554be2f4edd22b3ab0fce62b73eba0efc46dcec5c81269d3f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_model.safetensors.part002",
+      "bytes": 83886080,
+      "sha256": "1b6ca149abde487da7fe3adeaa6e6a069250d9e0387bf7258c61f805ee8ffdde"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_model.safetensors.part003",
+      "bytes": 83886080,
+      "sha256": "d854b787e01b135eddf41801754ed1ec9eca2c84c05f61bc9b3966f3b775c6fc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_model.safetensors.part004",
+      "bytes": 83886080,
+      "sha256": "dcd81f446af34a215d8cfff44b543a8ed35cd97a37a3d0774b27fadc1e584e39"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_model.safetensors.part005",
+      "bytes": 83886080,
+      "sha256": "1141f69fb7e9a48bbf8752dafcfa6b1d8ba3c57b0b7a1a429a314a3b8fca8ba0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_model.safetensors.part006",
+      "bytes": 83886080,
+      "sha256": "9f505b3aa71468c59d6172dbea9078ba318afef4b269449cc675010cf260bf4d"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_model.safetensors.part007",
+      "bytes": 17940724,
+      "sha256": "cd493d040a298eb440730237cac80df351ed58d913025e86574114a2a68f7061"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/open_clip_model.safetensors.parts.json",
+      "bytes": 1555,
+      "sha256": "bb2d5dbc998f0ff7e4e8cf73965345c95f5febf37e5073a581c7c8021665ee32"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/special_tokens_map.json",
+      "bytes": 472,
+      "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/tokenizer.json",
+      "bytes": 2224053,
+      "sha256": "d8b124290bc4bcd18cd3f72747f525e2a1d8c266cf3089e52da38ee417564ac5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/tokenizer_config.json",
+      "bytes": 737,
+      "sha256": "19d7b034cb0cc3ce9766c2231373ab8aa8991fc72e2c8f76558bfaae3de0d563"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/vocab.json",
+      "bytes": 862328,
+      "sha256": "5047b556ce86ccaf6aa22b3ffccfc52d391ea4accdab9c2f2407da5b742d4363"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_backbone/weights_sha256.json",
+      "bytes": 104,
+      "sha256": "cf4ae50bbec56be74c84a1e4454a064807f8f146c33faa282e27307b8500ff99"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_sae/README.md",
+      "bytes": 1737,
+      "sha256": "e620a2e71c011b537943e7b0b0466b6a2b4723cd03a7f745d7c87e7734026e82"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_sae/config.json",
+      "bytes": 2254,
+      "sha256": "12cea62eb98097f2a80c2651632e1fd5d1413c14d5c63b52eda79008a7c0db25"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_sae/metadata.json",
+      "bytes": 1822,
+      "sha256": "928407962fe0b60b61c481a89c21d28abb3a8c5ec017da6aaac2de170dabb5e7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_sae/weights.pt.part000",
+      "bytes": 83886080,
+      "sha256": "cba4a8433f3498a22fce194f202c37c25070bf5be877ef093eace130de56b0a1"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_sae/weights.pt.part001",
+      "bytes": 83886080,
+      "sha256": "ca3d9a456fadbe051dbebe33c533fcdcb79ec4ac76c27e6ff84007904c810a51"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_sae/weights.pt.part002",
+      "bytes": 83886080,
+      "sha256": "dc4069f6f6148d3d545a35d438f6c1c70baa10fea05b8bf5e99fc804303119b6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_sae/weights.pt.part003",
+      "bytes": 50533592,
+      "sha256": "ac044081880c33de9c351d2a9d3e77af57a0ae1084f4ddaa3ba48f06a4eab06b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_sae/weights.pt.parts.json",
+      "bytes": 774,
+      "sha256": "57e0bbebdd695a39d63ff545a238add0503fe71076fc5528670e3b2a8b4db07c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/prisma_sae/weights_sha256.json",
+      "bytes": 87,
+      "sha256": "ef0b8081cb16424ef8ca71f6c2ef5fcb555766c02666ae23806443ce81242cad"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/README.md",
+      "bytes": 3571,
+      "sha256": "1067418bc733120ae41f27b02794142e12de474e91bc6e4687ab13dd22c65dee"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/config.json",
+      "bytes": 1002,
+      "sha256": "6af60aa760138fc90db0ba37b7701730b140b9bf1742514412d03050e72bf7e0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/metadata.json",
+      "bytes": 2050,
+      "sha256": "a66ec7576670c1e4f9cc2c405c882536a765bfd85e148ddeb36980b26a2ae5f6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/model.safetensors.part000",
+      "bytes": 83886080,
+      "sha256": "1afd1901e8db6894428e0e2e629ad834a0f8a5c25d03c9cea9f6ef7589cac038"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/model.safetensors.part001",
+      "bytes": 83886080,
+      "sha256": "316f88c8775673b7575136dba11e1a30d2af739123aa3e9d45f36e51eae3de4e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/model.safetensors.part002",
+      "bytes": 83886080,
+      "sha256": "21f631419fa146d8b687491275de0c0c6281fe7e5325e63825c1be2cef9c16eb"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/model.safetensors.part003",
+      "bytes": 83886080,
+      "sha256": "dc47b947de7dc7b2702d22e7e4da2982eeacc86480abcaa8bd71327082535fbd"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/model.safetensors.part004",
+      "bytes": 10813976,
+      "sha256": "2e9634084bafb40780037df25f916f55238ab5b57fae2f5c95bc217d09a10493"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/model.safetensors.parts.json",
+      "bytes": 973,
+      "sha256": "3121d46b397d8da5c388c7913388283a0d03d91d7171b05e61dd6933fc9bf9ff"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/preprocessor_config.json",
+      "bytes": 436,
+      "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_register_backbone/weights_sha256.json",
+      "bytes": 94,
+      "sha256": "b624b337501cf2a909946a77b146afa478e448581a2c4859b1d115531f44bc25"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_sae/README.md",
+      "bytes": 508,
+      "sha256": "a526c72c3b1ff4860d004dd4e669ba931f6b52499d170f4b85687d165e0fe985"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_sae/config.json",
+      "bytes": 972,
+      "sha256": "1ac74bbf45976bfe3a4cfa622099a1534a3fdf5c98316a4c270cc2b86083062f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_sae/metadata.json",
+      "bytes": 796,
+      "sha256": "c258be80d25860f1ce2b819b4a652446c125400543cee2283915b0b1914d0826"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_sae/sae.pt.part000",
+      "bytes": 83886080,
+      "sha256": "a74be2c66779227da37e01f694e2b5fc8e46ce73414b3533e4e8be1a9bec45b8"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_sae/sae.pt.part001",
+      "bytes": 67212290,
+      "sha256": "9fcf07e9477d71042cea1a0fb059d93c08c9c9f4342d37f4acc2d2e3c04f066e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_sae/sae.pt.parts.json",
+      "bytes": 448,
+      "sha256": "39afde19626b3ed1ffc8bcea1d49a419a48399f2c75009b2a65a6897b3b04489"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/checkpoints/saev_sae/weights_sha256.json",
+      "bytes": 83,
+      "sha256": "c89f4efd3db8a83971284ac5b64794476467d3d55a526fdc93e8dc15b7c5aec3"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/environment/pyproject.toml",
+      "bytes": 784,
+      "sha256": "7ecada9c7ae9b539b2cfbd3a494742e1938e1e312cf7fbdb9c40332eb615f87b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/environment/runtime.json",
+      "bytes": 164,
+      "sha256": "06beda5cbcdc4f10cfa8b6c1ddbf2cb27cdf4b83ea11a376a48f32ff7e938f86"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/environment/versions.json",
+      "bytes": 708,
+      "sha256": "23cdb567f14a9afc4fab83eb326785e1ea304192ceb900903e034ea2ca161624"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_000_codexgen.npz",
+      "bytes": 5101066,
+      "sha256": "7cd4623b37102cc2b3d9f782151f8473cbeb468c61bdb3ce9987711a7bb195ea"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_010_codexgen.npz",
+      "bytes": 5102448,
+      "sha256": "ba5a7d6dbaef4bdb205f1d5e13ae2230a14a77db0f5048747b8379879112c287"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_020_codexgen.npz",
+      "bytes": 5054506,
+      "sha256": "d78191ceae89cc8c55c91ac6a1d0ffeb336d5cd99507817a8739f9d2dcbe360b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_030_codexgen.npz",
+      "bytes": 5037789,
+      "sha256": "d2fd33015ceee2332d397812887a096a31968b8c2f061c6c76ba109a61a327cf"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_040_codexgen.npz",
+      "bytes": 5080497,
+      "sha256": "60a173c0c65d34d61b32c23e541a7010edcc77515f3388cc353212fb6341d51a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_050_codexgen.npz",
+      "bytes": 5083775,
+      "sha256": "182067ff78dacc0df5880214b8cc4c846beefc2755a77322b78ba99fb3dbe914"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_060_codexgen.npz",
+      "bytes": 5112584,
+      "sha256": "ffe752bfec4442aab7ad8780ecbd869b10893c13a19c2e69229f3b49bee7d9d7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_070_codexgen.npz",
+      "bytes": 5131094,
+      "sha256": "daf24c780830c09e0d5a22b98e07a2c3cc55b6708a3968ae52dbff69547dc063"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_080_codexgen.npz",
+      "bytes": 5153699,
+      "sha256": "e872301c57309c9f32d5c88598ea2512e9ce5405413b26ef4f36570760da7a3e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_090_codexgen.npz",
+      "bytes": 5110887,
+      "sha256": "8d99b5f240de97b3b2d1a25740c6cf74b410c1abf9fb5275efde732886156460"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_100_codexgen.npz",
+      "bytes": 5128241,
+      "sha256": "27d48a859d666d5f9723a403d6a0336ca00a03639ae503bcba71ea1de12121cc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_110_codexgen.npz",
+      "bytes": 5125980,
+      "sha256": "05092dba1405415ce4fc2c4e98dd571ae9999abca7c0984140f84ba29185b528"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_120_codexgen.npz",
+      "bytes": 5118132,
+      "sha256": "2e99e6fb8342d83da628e884c25621009a4358648a13c672d527d3f90610c4d9"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_130_codexgen.npz",
+      "bytes": 5111327,
+      "sha256": "f5955257d3efab243415563516e6562429ad252072f8f3e0eeec0afdf9c5bf2a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_140_codexgen.npz",
+      "bytes": 5188331,
+      "sha256": "57de8cd9b141c874f37553e7fa89db0a93251844eb14f066e5f85d7a544c20e2"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_150_codexgen.npz",
+      "bytes": 5182220,
+      "sha256": "aec4ddae6c390d35355a5724384e8824f8d7be23bfebeb5635680f087d98e56b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_160_codexgen.npz",
+      "bytes": 5080000,
+      "sha256": "ec6b74e8ca255a26f8eeac2f0e92701ad8fba987759ee93958f9f3e8670ccaa3"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_170_codexgen.npz",
+      "bytes": 5066792,
+      "sha256": "f2642f5c8602649abf227c9692dec7179724f6c145673becf9c98be0f072824b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_180_codexgen.npz",
+      "bytes": 5038684,
+      "sha256": "889c6ee4a6def5af911bfefdbed3b83f6744f8aef086d93a83c6973ec0d092c1"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_190_codexgen.npz",
+      "bytes": 5012014,
+      "sha256": "6593ef8490e27886a4e54eae938ac56d42687fc4bcc9a20043abe1ccae745947"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_200_codexgen.npz",
+      "bytes": 5120473,
+      "sha256": "8110ef743e2bc97539e3356c37252568984b2c8346f49e64b05b6c026bc93803"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_210_codexgen.npz",
+      "bytes": 5070270,
+      "sha256": "702c115683a75c1ab5416593a1e4acde397d021fc887bc1d0e5c63ba567f1ad0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_220_codexgen.npz",
+      "bytes": 5121880,
+      "sha256": "511057efffb186e2a8196f03cd136c8efcce96173693e7494d61d829440c731e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_230_codexgen.npz",
+      "bytes": 5143338,
+      "sha256": "2ab389e8733ff16cd33279de39cf9beeb394e0b8351b5381d607f39052821c25"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_240_codexgen.npz",
+      "bytes": 5114568,
+      "sha256": "1e2f3fe8bfa39b0aab49580ed371c6575601ff7d618253a4fb8f2ef384593236"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_250_codexgen.npz",
+      "bytes": 5091832,
+      "sha256": "a60dd3b6feb8d1670ab49670625368efa3e18fcb70a32e84e9b20326b47d7cf8"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_260_codexgen.npz",
+      "bytes": 5078638,
+      "sha256": "349868a6da358f330e0b804b76276fe5993cb333c8edc6ef83d28ce6b4ba5526"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_270_codexgen.npz",
+      "bytes": 5180843,
+      "sha256": "580295791df997d9d0da48b8da9457577b557294c8c748d1d5c737a9d1ce8227"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_280_codexgen.npz",
+      "bytes": 5112462,
+      "sha256": "07697d5f0cfab2000d44751544521ce1253ed5405c22485011a51c99e1c140b6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/chunk_290_codexgen.npz",
+      "bytes": 5059176,
+      "sha256": "d27d83e1569877281fc91a356f101b300724ca0b7c8f75bcb900cf3fa6f82f8a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/activations/selected_codexgen.npz",
+      "bytes": 508854,
+      "sha256": "4403e24f16b52410e1c1db105069ebb09e62247a06a27369cd9b36c943161737"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_00_codexgen.npz",
+      "bytes": 93369,
+      "sha256": "e8dbe816e0e2b544401b115653d4b80819737db2e4caf3528406679dfc62a0d1"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_01_codexgen.npz",
+      "bytes": 100516,
+      "sha256": "90790096df16f52c802123f75811316790d0184d7d4e66f6419d80e4b549e6fc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_02_codexgen.npz",
+      "bytes": 90719,
+      "sha256": "de701e62ce3a91b32650c11703fdb01bdd312af2b830fe8faf35fe58b60b2bf2"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_03_codexgen.npz",
+      "bytes": 47157,
+      "sha256": "cd8de60c39061022705a5f189806bb3d47d8fa8479d8fdad9ee99aa63f468045"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_04_codexgen.npz",
+      "bytes": 106356,
+      "sha256": "2bfd90068b42be26eccf4e4d00b3a36b87bdf82e1808e6801729b09038906f92"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_05_codexgen.npz",
+      "bytes": 106398,
+      "sha256": "84faf7a6fe01593183b9396dd92dd4bd88920a5883c38b3e9c4b319adf32a83f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_06_codexgen.npz",
+      "bytes": 90470,
+      "sha256": "9f42e813e553159845ee197403ab96611a3d60409f7de2a14c0abd22ee1a1bb5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_07_codexgen.npz",
+      "bytes": 72934,
+      "sha256": "297e3ce9d1d6b9bc1d56b4f4658d6669b28c5ee0ccfcda10b0a601178926f1df"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_08_codexgen.npz",
+      "bytes": 96964,
+      "sha256": "fb5c5e4eb40435c13d5e4518585bd0216f362bf52d6d443a7c93d388257fa613"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/contexts/class_09_codexgen.npz",
+      "bytes": 117217,
+      "sha256": "9d77f2d00f829b8fdfbe1966a8b35b700520e9cb5c2fdfa8781ed247ef0796a8"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/controls/context_01_codexgen.npz",
+      "bytes": 133385,
+      "sha256": "e7a6ca0833c281d860ea091ce51aa3acbd5810b77d49cbad4ad5b616720b02d8"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/controls/context_04_codexgen.npz",
+      "bytes": 173089,
+      "sha256": "e5bb2906857e63af8ee55b1bb7a4b5a3c51bb69ddcd8515983cc745f2c18a9ed"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/controls/context_06_codexgen.npz",
+      "bytes": 170244,
+      "sha256": "22e64c90e45fc508fa3fc8e2798c2db308eb6497e71cd74e86b71184042b3df3"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/controls/flip_codexgen.npz",
+      "bytes": 169762,
+      "sha256": "34f1274e78385e4e1602522714a97edd8e9cf2fd3933f9cd245e6ae1e59490bf"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/dataset/images_codexgen.npz",
+      "bytes": 32312601,
+      "sha256": "a5785af984f932c0f0d487ac7174436b578d3c1fda2274194c54a9d19c4bdbc4"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/figures/prisma_patch_controls_codexgen.png",
+      "bytes": 1018136,
+      "sha256": "a576eb8b39ca70c826f8a51d198216f163974f57b5014f0f4653e427e784ac8c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/figures/prisma_patch_downsets_codexgen.png",
+      "bytes": 201005,
+      "sha256": "84dce1c8e8ff4cd0404a0632977e24efe7e5fd34eaa0ab7bface218b72a0262c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/figures/prisma_patch_gallery_codexgen.png",
+      "bytes": 1314271,
+      "sha256": "e97602981f41393a097dee06f6813f416100823a9592e60acfee11bf5d88605d"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/results/contexts_codexgen.json",
+      "bytes": 9031,
+      "sha256": "e0d06a733f2dfeb926e9238f9cad7c48f4140b238f5c5c8586fa4cde74ea46ac"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/results/controls_codexgen.json",
+      "bytes": 4230,
+      "sha256": "f741e7279cb50e519256a7914e75e654e2946d05bea4dbbc64b39c7f92109f9a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/results/extraction_codexgen.json",
+      "bytes": 2637,
+      "sha256": "938caa6460d31d887741a0ca65524088b04ed1bf0921270dbd6d864b35c0f214"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/prisma/results/verification_codexgen.json",
+      "bytes": 376,
+      "sha256": "defcbcbd15a164c3c3e9e01ac7f4d7a1190683f4fb78c76906191639e29a3aaa"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_000_codexgen.npz",
+      "bytes": 18019846,
+      "sha256": "31180cb30164d63bffb8727511bc1edf9bb0c06807d6eaa9ee6ffcbf326fccc6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_010_codexgen.npz",
+      "bytes": 17861063,
+      "sha256": "94dbfea85c332914dc55d50152d18ab5b09b5f1d066ee1e04b963fa10d59ced5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_020_codexgen.npz",
+      "bytes": 17039634,
+      "sha256": "5300849165ec22af3d5c6aaee327fa3fb13c1d038cb8f5be226ccab7daba8c62"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_030_codexgen.npz",
+      "bytes": 17175989,
+      "sha256": "76943dd4c2d4a7519d774c12d151ba496b8a2b3a0e4fd03617cce5a1809c44bf"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_040_codexgen.npz",
+      "bytes": 17635423,
+      "sha256": "4359334061ad028876e2d9b76d855df6d15919662d73ed3261e1cc4c94fcb7e1"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_050_codexgen.npz",
+      "bytes": 17744398,
+      "sha256": "aca9675002c062193466b7ef2873e17ced59816d07db23d609eba52f50ce6c73"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_060_codexgen.npz",
+      "bytes": 18302232,
+      "sha256": "854750e0559187f2b3f4a75f326a7fdeebad1d4276d2d6acc7820a3cd28edf01"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_070_codexgen.npz",
+      "bytes": 18472472,
+      "sha256": "a69d9317759eca8fbbd18c73c895660e71e9c866ae3373042409c73981b2c393"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_080_codexgen.npz",
+      "bytes": 18238580,
+      "sha256": "c8e026f1bf7dcd07b8b81543e0aa559fad9faf5053dcfdfe742ed22e7f785848"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_090_codexgen.npz",
+      "bytes": 18320707,
+      "sha256": "fc094e8bce6ff5a0ae563d8d03a56b5e63a015c9bd540dbe4fff5cf7dc18cc47"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_100_codexgen.npz",
+      "bytes": 18207995,
+      "sha256": "031732067aac129a6ec43695079915b3f4c542ee7930d3e986d564966fe1e724"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_110_codexgen.npz",
+      "bytes": 18283683,
+      "sha256": "531a3e178f9d4e4c6e2a3c5a1c71a5bd7de1f7805e43dad7d92b5d020c097605"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_120_codexgen.npz",
+      "bytes": 17719957,
+      "sha256": "a40637a1430198837c0e269cb7b38f3ace7803e47823d780f32989137adc55b6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_130_codexgen.npz",
+      "bytes": 17577504,
+      "sha256": "0bde587487bca3b2e75af8c07b1f936cd071a43152decd545690db6a27a0091b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_140_codexgen.npz",
+      "bytes": 18250193,
+      "sha256": "573ab8b59eecae4c3e5efc58863a6453b51aa57fbd15fbe2d516fec5a728bf2c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_150_codexgen.npz",
+      "bytes": 18077259,
+      "sha256": "88a4589ad229ba8731aee202cb28788828a2c4b675e696b602fc90b94d0492d3"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_160_codexgen.npz",
+      "bytes": 17520808,
+      "sha256": "d27dd8d65cbe0eb729186a31e18dabb532133bed7a71ed0d18d07927c355a353"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_170_codexgen.npz",
+      "bytes": 17618890,
+      "sha256": "66baf6d94dd43e6d98dda8ab4905acf00ec3281b684c05053a52f3e616051112"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_180_codexgen.npz",
+      "bytes": 17324268,
+      "sha256": "f370719be5f98a9749713c6567cd0950fb6f21d385a9cd276c2ab0cc06aceb89"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_190_codexgen.npz",
+      "bytes": 17910145,
+      "sha256": "1f3ec7d68d955e0bdb62c859505350f61b80aa160c1d43bb4f406668d8e4c4ef"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_200_codexgen.npz",
+      "bytes": 18016724,
+      "sha256": "bfc19102bb0e804e69803f73b8f32c4b4b2e96dc57f513564af3101de8e9d2ec"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_210_codexgen.npz",
+      "bytes": 17285878,
+      "sha256": "4ed16c3f89d66e25bcf1d4f5ed834a23817f7a06222fb73c34dc89b34bfa449a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_220_codexgen.npz",
+      "bytes": 17706549,
+      "sha256": "67ee94143282350307c8931f13805f8aaceaf247c8a39a02ce755d5c29d28ae9"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_230_codexgen.npz",
+      "bytes": 18349393,
+      "sha256": "0985ee33c84cc2ae99af9a6e655817e8d553f497fc77ca7ddca92a24df0d7907"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_240_codexgen.npz",
+      "bytes": 18187679,
+      "sha256": "5c4d68b1985a7a2284f861a4beb9252524546441d60b7876c057649699d9d407"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_250_codexgen.npz",
+      "bytes": 18176792,
+      "sha256": "5663b15c82c927243a66f0ed140c0b452691cc75e38880dc2bb60a2392ca8f80"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_260_codexgen.npz",
+      "bytes": 17496533,
+      "sha256": "db034b8ae4a244524651e4ba7684462f1b6389957e58fe16a45f2a87016e89ef"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_270_codexgen.npz",
+      "bytes": 18071433,
+      "sha256": "076d6d4355508ba493f0930f38c68e3b5044c9b8e3c46c3c4d03e3e6ca55fd47"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_280_codexgen.npz",
+      "bytes": 17851147,
+      "sha256": "e0968f978d2710d0be76b2b8b2615341bba00aa21cd89a71e73afc2ef87d1367"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/chunk_290_codexgen.npz",
+      "bytes": 18010290,
+      "sha256": "faa896e6432884edfb618b5b9e50692e34d0f8e8751f3006f1cdd4068b5623cd"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/activations/selected_codexgen.npz",
+      "bytes": 380422,
+      "sha256": "fc5ab7f5523e9f0c223d7ac5a6e6d1947cca05569b04e14e663773f883db1f86"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_00_codexgen.npz",
+      "bytes": 28132,
+      "sha256": "58f5d82036bb2e5310c7adffcc073d4c900c09620f852fa548571c0135fbfb4a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_01_codexgen.npz",
+      "bytes": 39587,
+      "sha256": "851accfa645180ed32495f4f4fbb748b962b78f37bb9ce9c33233984079bb93a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_02_codexgen.npz",
+      "bytes": 34137,
+      "sha256": "7909393090c64b5951582b30ce5121df4e457bf7fc0eb7e628e062b90486c006"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_03_codexgen.npz",
+      "bytes": 9088,
+      "sha256": "2ef5ab0a0b1316ec90a852205cdead48b2dcc8bc862e0d9d3026c36e7d2687c3"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_04_codexgen.npz",
+      "bytes": 23756,
+      "sha256": "54508dd973fecece99a22afa162e009fdfdbb680e04b43a954a0393f9fc8c402"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_05_codexgen.npz",
+      "bytes": 76277,
+      "sha256": "110f4fee31988e7ece0bd39e8a3be871eb3c1f53c49b68448ad3dc4bbb1f4ae7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_06_codexgen.npz",
+      "bytes": 24946,
+      "sha256": "10ea64b10300b1dbcfe492a3f80df14c6917637f3ab3a28194c7b6400c0f0b52"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_07_codexgen.npz",
+      "bytes": 33627,
+      "sha256": "49a7a29beae91204d76819c6f9a1e4a159302e45511eb6f7dbb0f7d629465551"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_08_codexgen.npz",
+      "bytes": 43142,
+      "sha256": "fef934180277709c766a5a0daa4f151c7b0d1ffde238a852a269b700777f3081"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/contexts/class_09_codexgen.npz",
+      "bytes": 98219,
+      "sha256": "1897af36da0b4dc893eef7ea27f77979f77c4138cf848f3a7830e843e30c5ecc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/controls/context_01_codexgen.npz",
+      "bytes": 119806,
+      "sha256": "b3ffb209447f8cc452745516d14dd1a495b4f1ae21388befb7317bc5210d575e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/controls/context_04_codexgen.npz",
+      "bytes": 122004,
+      "sha256": "ed06ff26ae2487e3d321bf8496f46cf199856b09fcaeb28d04b5ab35495d7447"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/controls/context_06_codexgen.npz",
+      "bytes": 127955,
+      "sha256": "5a514f65d987dda381b19d948c04195bb104aecdd9daf2232cc104110b5e5eca"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/controls/flip_codexgen.npz",
+      "bytes": 128939,
+      "sha256": "5d5821920c7649a16bb5f5691ff214fdd99d8db9e9eadcc0b540e530cba72483"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/dataset/images_codexgen.npz",
+      "bytes": 32392911,
+      "sha256": "f670dd68e418f9b10fdfdd7effbd3a667ebefcda4047d74e69fa5f02faf8371b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/figures/saev_patch_controls_codexgen.png",
+      "bytes": 797736,
+      "sha256": "05be22e847874166dbbd8b5c769259ae1af49b6c4117f58e4db6a84c8d7aef70"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/figures/saev_patch_gallery_codexgen.png",
+      "bytes": 1257984,
+      "sha256": "6a7006fbaad8409aa2f977ba0689ddc115259dc66f208ed50ac6b1cd70499e78"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/results/contexts_codexgen.json",
+      "bytes": 9051,
+      "sha256": "b647bfb1ead6a75376f74e52efd1ba13dc301deafaed94689547e3cbd155bf85"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/results/controls_codexgen.json",
+      "bytes": 4682,
+      "sha256": "52c6f74286eff21dfdc8e1e2095c2e4323d8e67c73a1373fac8468df78f30026"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/results/extraction_codexgen.json",
+      "bytes": 2621,
+      "sha256": "0afb23a1b8ffdef869bbe4c3f07ae67d17c8a72f436ea8690bbd76a7a0b574cc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/saev/results/verification_codexgen.json",
+      "bytes": 373,
+      "sha256": "a7389aaf4c6ae6ae8b439bb197eb14113248d6b080303a09d5037e4140095637"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/normalization_provenance.json",
+      "bytes": 1005,
+      "sha256": "ca30f985bebf0f4abfec950ddd3092fd1a5560207436ad04efd851acb4b17d5e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/LICENSE",
+      "bytes": 1069,
+      "sha256": "88484325c0c5af34f183780cc390c436793fa5eee134d4decb14cba4be77f21b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/docs/README.md",
+      "bytes": 24759,
+      "sha256": "64553fbfb058ac2ee13876f81c0f6143e2542e2a97d05740c7b458dbb33430ed"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/setup.py",
+      "bytes": 1870,
+      "sha256": "68375d79c7c1ff71230a8e8320e46dc45831442fe370e48fb7f68472eca306c0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/__init__.py",
+      "bytes": 546,
+      "sha256": "9259607e9e0847f542c575d82b75c99e209e1e1c41975fbd1e2b3a4fe459cd56"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/configs/HookedTextTransformerConfig.py",
+      "bytes": 354,
+      "sha256": "fa00025b25af98dc00f121753dcf10fa73ad608f5fbe775d7436ec17ff7d5db6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/configs/HookedViTConfig.py",
+      "bytes": 3577,
+      "sha256": "63a4df409169426fb87579717692646cc00ba1b66b7a2c5c60faaf42414fdfe1"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/configs/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/cifar10.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/circle.py",
+      "bytes": 5864,
+      "sha256": "102318aaf290b60f7b846f4d46fa7cdd6b3fcb5bd6d1c8db75da7cd1445a1b1f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/conceptual_captions.py",
+      "bytes": 4737,
+      "sha256": "eecd9dd5e0c40f23ece34305f5f1fd99817987f47764729577c8b4ee168d2816"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/dsprites.py",
+      "bytes": 1268,
+      "sha256": "1683c6003a5086b5c77a87de6509c3bf4a03028e93c1723656f725e77cf0472e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/imagenet_classes_simple.py",
+      "bytes": 14833,
+      "sha256": "4a9bd5feed77eadd52b93b7a1a872228e4a27aa12a07ae153d68971efa9f29aa"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/imagenet_dataset.py",
+      "bytes": 5096,
+      "sha256": "42d6d61a4ccc9a52643a2d73002aa5c506e7255cab8d384c402c77b2723a0e56"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/imagenet_index.py",
+      "bytes": 35394,
+      "sha256": "ffff25e597c658345b401ceebd7dcbd8806f66e47d1e6037477d86f6e4ddb742"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/induction.py",
+      "bytes": 7724,
+      "sha256": "24283ef956db559912ccdab9de2a39005ad12e8c640f52628f9823348be96399"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/dataloaders/polygenic_induction.py",
+      "bytes": 7047,
+      "sha256": "6b028141d5cbf89393979cd38da0d0b09ff07a3dbe127ca41579b8a067007806"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/model_eval/README.md",
+      "bytes": 5914,
+      "sha256": "80ec3ca0331b1d7b31de30e7351418ada4db2b9364bb65095a0e9f278a67f16e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/model_eval/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/model_eval/clip_benchmark_tasks.yml",
+      "bytes": 3870,
+      "sha256": "8686bff53219550a2aded6fc9984d16ada5d6c7e2b11a511141686a403f21e2f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/model_eval/eval_utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/model_eval/eval_utils/main.py",
+      "bytes": 1220,
+      "sha256": "7725cf85f038fe8bacfa4b7578e1e43b18ba2a2095e82dcc13ed75bc108f2fd6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/model_eval/eval_utils/retr_eval.py",
+      "bytes": 2160,
+      "sha256": "49b47b1452b4ec9e765733811a4db403074671664377aa1c5b5358e60d07fe61"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/model_eval/eval_utils/wds_eval.py",
+      "bytes": 12942,
+      "sha256": "a3a562d1056bf0723eb9c2421d62b893e3f6195e82602d37d53f3d1f92385ac0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/model_eval/evaluate_clip_benchmark.py",
+      "bytes": 9911,
+      "sha256": "215330b15ab3355cd9d2a1c92f3ddc4aea41038f76591baf0110b436e2357557"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/model_eval/evaluate_imagenet.py",
+      "bytes": 5755,
+      "sha256": "5e1fe1c1c0d5498567843a142e3b12a01f0cf57f7d59739ad9a8221307664c70"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/activation_fns.py",
+      "bytes": 1493,
+      "sha256": "c8cba81842111403226291a8a41aceab916a53872b6425defbf0815163ec4390"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/base_text_transformer.py",
+      "bytes": 8840,
+      "sha256": "eb1c883e4743414d03d21bc44f0975119c830b4792fc25dd4510ab5fd44666a7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/base_transformer.py",
+      "bytes": 19006,
+      "sha256": "36ccaba9652a01f367fd88ed5ddace96b7ac4d49c6bb0b25816f7a057f2c22ee"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/base_vit.py",
+      "bytes": 46604,
+      "sha256": "c6eb097f4c12e3917feb0dde83f332a9e3c415a5a0a97a7f56ef2faad6847e94"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/build_zero_shot_classifier.py",
+      "bytes": 4855,
+      "sha256": "d42952981c4ec19f4bcb85d28f1e126e9c77acbe03579157bff9c1f5109a92da"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/layers/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/layers/attention.py",
+      "bytes": 11144,
+      "sha256": "d66726780c89135f9dc2c2d67148f67b11150b5b1ebdd9e74ea61a7e986fb0d8"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/layers/head.py",
+      "bytes": 1078,
+      "sha256": "e79ac1b5a0dfc2d4a44fbab5a22a65a2710d7e597be644779349d6452f953c58"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/layers/layer_norm.py",
+      "bytes": 3507,
+      "sha256": "7367e889af66ef601595b3683fc7b7965cb7365f684ce55cad722aeaa92c71c9"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/layers/mlp.py",
+      "bytes": 3098,
+      "sha256": "44998357a0de560dc74b57c4155f85af68fa3843b58da94b6eb5ee46b2c65154"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/layers/patch_embedding.py",
+      "bytes": 1823,
+      "sha256": "362b7c5ad22e3aef5a2a90f4543707df36cf9158919396cf2ed6637036454817"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/layers/position_embedding.py",
+      "bytes": 1123,
+      "sha256": "8f891a0ca97868d9b3fb64a1fde4d598cc864a7cca69b2feffa0590424993a8b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/layers/transformer_block.py",
+      "bytes": 8114,
+      "sha256": "426cacb0a6bb1deb4121e5673d68c3964018f4f61d399834e0d55d8cfd0b9bb3"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/model_config_registry.py",
+      "bytes": 21602,
+      "sha256": "9257a6860c5a5d4ef3fcaa71f125cf597fb605c51047b54ccef1012465cb10bc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/model_loader.py",
+      "bytes": 33183,
+      "sha256": "04521149b9b1ac34a2c114f85f60494bd95ca25d0535adea4f60de2b4923072f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/models/weight_conversion.py",
+      "bytes": 38445,
+      "sha256": "cedbb4a90ce5d878112f44cbb9825f4ce1749d0122183bb491c309635b07445f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/prisma_tools/__init__.py",
+      "bytes": 127,
+      "sha256": "5023f74ebb4288537a1687f8325dbd1ded66f03ee52e56be51e9abb459b33d35"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/prisma_tools/activation_cache.py",
+      "bytes": 34650,
+      "sha256": "e8119854a5ec48ddcbdf9fedef59644ce9375011ceffd7e4eb307f2a81ab485f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/prisma_tools/factored_matrix.py",
+      "bytes": 9529,
+      "sha256": "74bc96d7749366a61a12b20534f21ee31973b131279dcec06eb15ad283eb0381"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/prisma_tools/hook_point.py",
+      "bytes": 3916,
+      "sha256": "d8315b09904b63cdc349a5e7196c5cbc3e634853c8d231d86351948ba79aae06"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/prisma_tools/hooked_root_module.py",
+      "bytes": 11291,
+      "sha256": "2243331817c87b305e74643534965bbdd37c5581e078a90452b77e3720199576"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/prisma_tools/lens_handle.py",
+      "bytes": 766,
+      "sha256": "b7bcb684d199ac9cb2fb500c784205ffcabe95b58bb497851bc87da6212d6618"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/prisma_tools/logit_lens.py",
+      "bytes": 4373,
+      "sha256": "bc2ff5f9fbb33ba8f3d472707e9a5aaa52b8fe6c114de7ee91b32c3f2e59aae6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/__init__.py",
+      "bytes": 248,
+      "sha256": "834abf311c635a4329e422e13a3b4da7b93357483aa1b8b1b20da17128586f90"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/config.py",
+      "bytes": 15876,
+      "sha256": "08807a384f45a4fd1f6ac723bdda7e2fb427e0ff2e02dc16e334dff6d3e115ce"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/evals/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/evals/eval_feature_list.py",
+      "bytes": 6863,
+      "sha256": "9b9f8ad46d21d3b2bcd3d7c58ce10e582a2e51fba767f97d84adb1e1949f5ab8"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/evals/eval_neuron_basis.py",
+      "bytes": 11091,
+      "sha256": "082f24015c49a142c1288769590835b36a97e53b2d451250a9d98f6358f17eee"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/evals/evals.py",
+      "bytes": 58496,
+      "sha256": "6c56bc7bf8d2a451899f716db48a93c6fa3515b1e1642bc9bdeb42e5edab40df"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/evals/model_eval.py",
+      "bytes": 14015,
+      "sha256": "0c74176b1a6523639e20854483f8fd0854d5af6d906708536cfb67201ac07ea5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/evals/train_tinyclip_kadinsky_adapter.py",
+      "bytes": 7324,
+      "sha256": "24c2c592a03c06eab2e667966a60e79053f465ced06a25b724b9198c588f88d4"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/sae.py",
+      "bytes": 30243,
+      "sha256": "228663eebc8a9c75e6fe65bf6d3d4432d499ad105ae7873ddaec0cf8045f93a6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/sae_utils.py",
+      "bytes": 7437,
+      "sha256": "d34e2aedbc70b617628d94fb270466c3d0fc26d6513e58e58ace7fbd711e13b2"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/train_sae.py",
+      "bytes": 32974,
+      "sha256": "7ecf216a77c233cc5dae2e15fba566b8ee5c5e6fdb61b6a0a2d9275e456e30b1"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/training/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/training/activations_store.py",
+      "bytes": 22031,
+      "sha256": "8aa046a14800ee86ed8d64184be236b64479f8bebc85acfb6ed0308e134d6552"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/training/geometric_median.py",
+      "bytes": 3220,
+      "sha256": "23d9261f87da45669fa982fdd29a4c7619b3a9c6f32693561127245071240f11"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/training/get_scheduler.py",
+      "bytes": 3869,
+      "sha256": "f1ceb72e5a166391b0d7d3dd0a1da5038a9010bddb2ee06c0d4ca13a8445cf07"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/sae/transcoder.py",
+      "bytes": 3563,
+      "sha256": "374ed7b3d950896f36453e84aa096dca7f2da76f106153ece171542c804576fb"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/training/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/training/early_stopping.py",
+      "bytes": 827,
+      "sha256": "bd415d67598b6a91260ca2c813efe0cca8e709e4778928126c471432943634c7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/training/schedulers.py",
+      "bytes": 2703,
+      "sha256": "037096cf373b6176928957762e8302534c82c5144d8a66771189f60cdde3b8c0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/training/trainer.py",
+      "bytes": 7591,
+      "sha256": "d17fecf30d68552ed15b8776d3b5ed9c1222979b9bff34accaba14b7d6a53546"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/training/training_dictionary.py",
+      "bytes": 433,
+      "sha256": "67fd17374322cc421e7c6ae607b41cc204a8ae441643a164389781bf972e8ffb"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/training/training_utils.py",
+      "bytes": 1468,
+      "sha256": "27406aaf629a27ce9d7665ed722dffb2755944ed3edccff5c69d946e2141c6e5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/transforms/__init__.py",
+      "bytes": 31,
+      "sha256": "3c1ccd83725100e1f45ca2ad072c3fc62c147f7c9f10d44b1bf59270b45ed983"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/transforms/model_transforms.py",
+      "bytes": 1527,
+      "sha256": "8448deafb29fc5d607f687b029a27eae780c6b0afae08c86161398934ff31244"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/constants.py",
+      "bytes": 513,
+      "sha256": "93d456ba03a47d9aae023cde4a0435ae07d0cdec4c3f490a1cfe53827893a6e7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/data_utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/data_utils/cifar/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/data_utils/cifar/cifar_10_utils.py",
+      "bytes": 3156,
+      "sha256": "eca80e8bd13b1c5072632597cae9fa9ca6ff1f7e037d1510e4f33de29ed24e1b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/data_utils/imagenet/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/data_utils/imagenet/imagenet100_classes.py",
+      "bytes": 6555,
+      "sha256": "1024f1a77e7de9e181ba790fb0434d80dd86eba57018e8b4e0d593187cdc9149"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/data_utils/imagenet/imagenet_dict.py",
+      "bytes": 30581,
+      "sha256": "9ac8055fe78c1602b84eb1be5767f15dd20921a2066bdf381a9a5f3821f06617"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/data_utils/imagenet/imagenet_emoji.py",
+      "bytes": 40652,
+      "sha256": "540322e11495ba0354697743eafc2f8f5b64c1ecf0f5c2384cbc85c74456ed3f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/data_utils/imagenet/imagenet_utils.py",
+      "bytes": 1948,
+      "sha256": "ac66544dd7979863a0edd2505f0665b7becb7e5ddccaf8e09347cf6af5499cbf"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/data_utils/loader.py",
+      "bytes": 2828,
+      "sha256": "2eb7b65f5df970fc0e6bbf5bd601adc8633f6148e591a85824fb5b5038141f3c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/devices.py",
+      "bytes": 2501,
+      "sha256": "3eab50bdceeb79bf12be987a7fb3d41e810a8910e57c1381234080604d046add"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/enums.py",
+      "bytes": 87,
+      "sha256": "cd4a498c72b88cc1316ce01f13cd751adb9168bc93175ca2ed2387be08d3eb15"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/get_activations.py",
+      "bytes": 5870,
+      "sha256": "a6ba73448b55fdbc1754d233ad983f23ba2d05eb4749a38372c91c6afc34021b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/load_model.py",
+      "bytes": 2784,
+      "sha256": "82db930aeba1125f7128d88f41ab44d5c970035519d46a8539da77f2766ff7cd"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/openai_templates.py",
+      "bytes": 3300,
+      "sha256": "f43f7f107fc8c49aca4d68e29e3c0e52834d6408138f309e58d8d6e24f77e61a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/prisma_utils.py",
+      "bytes": 11704,
+      "sha256": "5378a1752ccbe2f950e4b994ef5997bcb4c014534fed7bebf8eb433fa7628bf0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/saving_utils.py",
+      "bytes": 1773,
+      "sha256": "bdcb954366b697ba14927757819492d8e3946962862a9c19c20a624fd3f2f3a1"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/tutorial_utils.py",
+      "bytes": 7256,
+      "sha256": "6e959eadc160fc3d4d31ccb7058947b23ba4cb8b1cdc7bf32fb9878fb105590e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/utils/wandb_utils.py",
+      "bytes": 629,
+      "sha256": "6f1e70875a1fae5d1d7e6e5e510a5f23daffb51bec45668417a254eaeb3bbad0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/visualization/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/visualization/get_color.js",
+      "bytes": 1961,
+      "sha256": "99d2b246dc59f32cb1d0fbb88713e1e4f63dfbda30cdb0ce676bd6fe4c72e4fe"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/visualization/main_visualize.js",
+      "bytes": 7958,
+      "sha256": "2e63793a4c32a03416affa3ad85762cc9ba7620d26b506f981415c458fab24b2"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/visualization/patch_level_logit_lens.py",
+      "bytes": 9925,
+      "sha256": "b3a51d626336c8323c2ac92da9e3a8708d47e4771139e172766d0f67496eecad"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/visualization/patch_to_img.js",
+      "bytes": 283,
+      "sha256": "70d7fc1d7694865660d02f7f6f3cf3e3bb3b371ba72b773768e8846ca37a73cc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/visualization/template.html",
+      "bytes": 1040,
+      "sha256": "9fceb1b3cb8809ad3d03ec82a79840b7373c35ed23047ec63294f98665f8afa0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/visualization/visualize_attention.py",
+      "bytes": 3480,
+      "sha256": "bae600e415e4581dfdb8104b5968e0b5e03f32da49597e7bdd65adf721d59823"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/visualization/visualize_attention_js.py",
+      "bytes": 8768,
+      "sha256": "8f245397ed4c802e96eade510bf3631c02f070ec4cb9924968ccd16815048e5b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/visualization/visualize_image.py",
+      "bytes": 2472,
+      "sha256": "dfc81389b6f211a209fbc6b5d04cc0622a93e28a102c02aab08b3cef4bf69e50"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/README.md",
+      "bytes": 2667,
+      "sha256": "ed28d73806ec16a6a894c67d30cbf2052990f1c02fb68b5bf3d437e34a159138"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/configs/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/configs/configs.py",
+      "bytes": 1019,
+      "sha256": "8e819469194c29a0fd7d69a78e8976e38cd1be9511e760f5da71c124ec9107f5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/configs/sae_jepa_config.py",
+      "bytes": 2004,
+      "sha256": "0e7cd591aca4400dc45cef924c1fd0ea5f218c69576d44d69e42d96735091069"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/convert_vjepa_to_hf.py",
+      "bytes": 7456,
+      "sha256": "67e64248d67da0c94493a6ba6c4fe698ba9e008b083b873f22ed49306286b4ba"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/evals/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/evals/eval_configs/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/evals/eval_configs/imagenet_config.yaml",
+      "bytes": 1538,
+      "sha256": "77f589aa4df61288447956053a5ba840e5945398f7080522e8422ab434968711"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/evals/imagenet_classification.py",
+      "bytes": 16962,
+      "sha256": "4301fee74bfe5aa8c1d51c7d03aaff027701c092ebf0a347e4e8489816f297ae"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/evals/main_distributed.py",
+      "bytes": 6495,
+      "sha256": "7182713b2cea0fc17bc1121055eb0baf9f0fe52bddde5bd4d90b646a067736c8"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/evals/scaffold.py",
+      "bytes": 542,
+      "sha256": "f9a5daf81424d82d586c4b52212ce4da28a3d7853ddb152b31d9c0eab8ceef65"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/modeling_vjepa.py",
+      "bytes": 56316,
+      "sha256": "b0603339f0fa1ffdbfed7937295b167233dc90d4748b1621af02ffcdab5066a3"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/paths_cw.yaml",
+      "bytes": 251,
+      "sha256": "9e8761867ee4ce8975cc44e3b8ead9dba9f5b9fca2107d4dfe5771e7fe4bdf87"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/airstore_dataset.py",
+      "bytes": 15729,
+      "sha256": "d0de77291faa934fa2c3f1255d11574fb1448661bf50f50533a8a7ae25735e2f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/audio_video_dataset.py",
+      "bytes": 10673,
+      "sha256": "ad676cde3c76b9891ffe2c499badfdb8984b25a02378564fb123f289606a1533"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/blobstore_dataset.py",
+      "bytes": 25087,
+      "sha256": "5439cd835a69d754fe5bb057a7cd4e5f53df0ea7d80f1cdd21cddcc5e34ad998"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/data_manager.py",
+      "bytes": 14920,
+      "sha256": "4c1ee94905f40f9a0f5668a128722007a746dbf7d61f88dfcfbbe6f063cd65e2"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/dm_perception.py",
+      "bytes": 7350,
+      "sha256": "8893c0be20d54a8a6d5bb58ad3f8ec316aaf469731bce0f51003e519993d2d7f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/ht100m_captions.py",
+      "bytes": 8466,
+      "sha256": "8cd989e7a63db68973611d1d5df5f466f136dcc3d6b100587ea5177c506a0756"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/imagenet1k.py",
+      "bytes": 6958,
+      "sha256": "8a1138ea398f86b4ba8412bf380bd4865f22eec08b8dffd623c84d7bb29f14e1"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/imagenet22k.py",
+      "bytes": 7046,
+      "sha256": "b8a40ab8d7a3e441033eb17928b81fe04c94503c434815d828748cfa9b9a1136"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/iterable_video_dataset.py",
+      "bytes": 9072,
+      "sha256": "86bd8f6a1a312a6c4ffa34437f76621fefed6310ef12a1ac5abf17c00a58dc08"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/laion.py",
+      "bytes": 7836,
+      "sha256": "6d4ceaadda985691f259dedeb825f5b16a7256c4cf2c14ece4d46aac19e41844"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/lvd_images.py",
+      "bytes": 8756,
+      "sha256": "623d81152f2d7dfa92f8ee29e0bb5fa1bb289f430244f9e35241777b5a6870b2"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/mixed_dataset.py",
+      "bytes": 13466,
+      "sha256": "25640c76f95e951ed73813a92fc7ced3cb1e00aa0fe3d05828ac82d11c5c4a85"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/mvbench.py",
+      "bytes": 9093,
+      "sha256": "bc9c475bce4c6ff452f7959655c9ec9340b00a1666f03eb4db1770a5f3672005"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/dataloader.py",
+      "bytes": 7613,
+      "sha256": "40d767b1daeccf1105f39e0116cb3a1597ab496e2bb28fea3dfab173b7ce4e07"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/kenburns.py",
+      "bytes": 3097,
+      "sha256": "1f105dc3ed5774c68ca478d313344608a8c5ee1ec567a8f23797b6311ad5e1e9"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/tokenizers/__init__.py",
+      "bytes": 92,
+      "sha256": "ab553fba7b3c7cfff59f937596137c3abdc5f48bb3c758ac3ee38cf125e30ad6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/tokenizers/tokenizer.py",
+      "bytes": 6314,
+      "sha256": "de1ef37aea4af38d5950165cd2c2e75bbf1102781ea4125f7550d93e98629507"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/utils.py",
+      "bytes": 464,
+      "sha256": "03b92006b153c9e7da6edbeedd3d064262c60605439f9eb8a4672d52501d41f9"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/video/functional.py",
+      "bytes": 3743,
+      "sha256": "b9780d004c5e6ad4b9858e4a8bb5984f0606825e6facf6ffc40960b66475d305"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/video/randaugment.py",
+      "bytes": 16344,
+      "sha256": "b6eb871f65c0b98aa293fa9702011fc87c2249296e362a12360077531e8cd859"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/video/randerase.py",
+      "bytes": 6328,
+      "sha256": "5e2780b11874dcd005ba91f383a2cf62be363c45ec6d079cc49d8e28191ce7cc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/video/transforms.py",
+      "bytes": 40724,
+      "sha256": "5f0fe6ff12e9aacb8b6c2bc3b365d96a639e4e7597519323b67eb34f67d93049"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/video/transforms_builder.py",
+      "bytes": 5596,
+      "sha256": "9edf2c7f69d74e725383e866dca76a5da2c67d5925aafa0fbbacacfe13271e0f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/video/volume_transforms.py",
+      "bytes": 5094,
+      "sha256": "4bd2068a1a5787b3d697626dd410f9a4fad7f8d857a61e5359569d8701218a90"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/utils/weighted_sampler.py",
+      "bytes": 14865,
+      "sha256": "e103eca5b33ce5c647db296e62885a40d17b5ecf1490a7e28f9bb50010de75d7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/video_dataset.py",
+      "bytes": 12561,
+      "sha256": "1c040b746f7313fdf7a7440da8703c71dd1a35f9435316f5bfc9a54e6554dedd"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/video_webdataset.py",
+      "bytes": 8262,
+      "sha256": "c9b4a59b9a8b6a37f0ede65bcb560ba19364e79e4367f9c198097ee1263a97ae"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/datasets/webvid.py",
+      "bytes": 11576,
+      "sha256": "878e4f393b91677be1da9e33c6d758684599994fcb5907db53a21cb8c76d6674"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/causal.py",
+      "bytes": 4417,
+      "sha256": "56cdb21a1d1bf33f1e34da1d004ac52a436c00d678e15e8e3bdb43246477fd95"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/default.py",
+      "bytes": 454,
+      "sha256": "8c5b359226f4f5a49db534f720329539e0b2328232d6d54e59b70535a770ccae"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/multiblock.py",
+      "bytes": 6472,
+      "sha256": "b6f1e856d796073972eb022c3dc30b916fd4be7b4e8d9f7c3909200e8bd27684"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/multiblock3d.py",
+      "bytes": 8348,
+      "sha256": "48934163b0306eb4fc9eb6848d45832a194376c5fcf02178ffd1ef8a3e23de99"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/multiseq_multiblock3d.py",
+      "bytes": 9030,
+      "sha256": "b61b006541cf313761fa889f965287a0fe6a44738fecd08707ee700178ac8867"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/random.py",
+      "bytes": 1980,
+      "sha256": "fc403984b39548281cebb7fdc50d6e0a14fb8180fa367a5b365d207b9a555740"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/random_tube.py",
+      "bytes": 3772,
+      "sha256": "99d4fc5fbf163f79d928603526d2cc7a3dd669e4be3bf4ef2e5c8eac63567316"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/simple_multiblock.py",
+      "bytes": 4856,
+      "sha256": "24268dd2a50c18c256072f73c42f7aaf64cc6c783c092681febccbead7b9da57"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/masks/utils.py",
+      "bytes": 679,
+      "sha256": "e7e0811279f3c6c0ac52105f27148d62f83a1d51012525ac8145713738081a95"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/attentive_pooler.py",
+      "bytes": 4611,
+      "sha256": "5ca772cb9c2b7244c398d119ad9506cabe7231eae72b16befc75b4885463278b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2.py",
+      "bytes": 15532,
+      "sha256": "ec4c997d729191f1da362852b20a57da0b837e7fa46afd8b54f450422db3cc2f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2_layers/__init__.py",
+      "bytes": 414,
+      "sha256": "6dbf9db5fd20e694d01c7c6f4bb2709890b65d17d03f666df0fddc1c77a7af28"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2_layers/attention.py",
+      "bytes": 2328,
+      "sha256": "468ac286463c06be1082cf49f72c5ae65023083cc3bb573878356cbfd9fe7702"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2_layers/block.py",
+      "bytes": 9504,
+      "sha256": "bd6ee82668a1c0d31cd665f06ce4accecc97de8da41301a06585e82c921d4a0c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2_layers/dino_head.py",
+      "bytes": 2010,
+      "sha256": "1a8dfb966458a85ba4807604a0842ed22e3ee69e0c20cebcdac99559cbd838a0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2_layers/drop_path.py",
+      "bytes": 1160,
+      "sha256": "949100aac4d9c19c9d65319dbd362886c5d46a72d7586ba4fd500e9f1d51570c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2_layers/layer_scale.py",
+      "bytes": 823,
+      "sha256": "356817b5d1390737128cbcc03a5333fd3060b73beae478772282ccb851d0ef85"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2_layers/mlp.py",
+      "bytes": 1272,
+      "sha256": "c18c5b3f021408597a473bb710070ec3fb3b39f5a2e42e88ae83ced425a608b5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2_layers/patch_embed.py",
+      "bytes": 2836,
+      "sha256": "3f0f4d2731fde5b0e1c2dde15c690ae5e0d340e3099f361f2e0182e8cf0bdbe0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/dinov2_layers/swiglu_ffn.py",
+      "bytes": 1859,
+      "sha256": "df81d9901240214edc1831ce1b77558dcd6227b29a2f000fc5f546df55d2d09a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/omnimae.py",
+      "bytes": 34476,
+      "sha256": "62052729e0625ccc5f96a3c25018417d9d86f94f26c88d5d182693b814e1139d"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/openclip.py",
+      "bytes": 26030,
+      "sha256": "ae3f471838c07c9552f68360b81b00f4fe638912aea0a089fe7d3d7f022515a5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/videomae.py",
+      "bytes": 13507,
+      "sha256": "5c3a1c0270314a97ce82f052f5f2637f183218045b5a0e5d3ce078ead310f22f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/baselines/videomaev2.py",
+      "bytes": 11857,
+      "sha256": "448d9f464bde64cf61568c40399351bb770ca2eef4e336eb7bfac04bbc345a53"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/predictor.py",
+      "bytes": 9334,
+      "sha256": "2779a34b722e269e5bbd5cabf2a85ada065cab0827982c3ab875e747d0777896"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/text_transformer.py",
+      "bytes": 12974,
+      "sha256": "54b33862e60914f40278196768c28deac55446d1ff90633781e3530288eb76a3"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/utils/modules.py",
+      "bytes": 7311,
+      "sha256": "a7e7cb40a1ddbae09ddbd85571805b9c323cee2214bd3b5a9950eaa1d0a08f9a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/utils/multimask.py",
+      "bytes": 1457,
+      "sha256": "18bd60feb3885cfb4cf76d19b1504c177ca7b1fd67acb95e63d11c5d1375d343"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/utils/patch_embed.py",
+      "bytes": 2017,
+      "sha256": "4f4e43158d856b8cf3a091d5bd14601d5fdcce9ac7e5b32fcaa7538310e6c596"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/utils/pos_embs.py",
+      "bytes": 3577,
+      "sha256": "bf9f48958325038fab168b96153c1b540b73916f1483f49afb2e39c888717fd5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/utils/rope.py",
+      "bytes": 8988,
+      "sha256": "46767d86420a5d82915a8cd8176cbba1f55ef05cfffdd2e6cfbbd8737fcedff4"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/models/vision_transformer.py",
+      "bytes": 11262,
+      "sha256": "dca8223c3b721988f238dec5b81122d3d066f82f804fb48691aabd1ce2c2d642"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/adamw.py",
+      "bytes": 21862,
+      "sha256": "7de50dd7bb960d80b01e799c19b5b363a8568a7b7e0647fb84e5cfd66e0450b0"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/cluster.py",
+      "bytes": 10610,
+      "sha256": "e0e280e6107563bf9624c44ec14365a9fbd8098bb674ede0dc8761622900d5ce"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/cluster_processor/__init__.py",
+      "bytes": 213,
+      "sha256": "fac0db925de1d787a9291966c9995b66cc9b8e6c7b0de80a98f10eedd44dcfaf"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/cluster_processor/_cluster_processor.py",
+      "bytes": 9342,
+      "sha256": "0a2232a7da425defbc8580261f6a1794d40d1f800ff45bce7f7e35dab8911270"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/cluster_processor/_local_file_dataset.py",
+      "bytes": 1346,
+      "sha256": "7fef8157da278df3c6163deac74ab4b87415385e95ac031b90e7e45fdec02b36"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/cluster_processor/_rsc_cluster_processor.py",
+      "bytes": 8675,
+      "sha256": "0a8ef3b7f3d3bd4cdd0a0c37e59f801b8e6457f51edf3733d6258d4594a64335"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/distributed.py",
+      "bytes": 3106,
+      "sha256": "7f277540b5adefabfec8e482ab636001da8ae01b6832060acf1e9178ba6c991e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/logging.py",
+      "bytes": 6384,
+      "sha256": "94279c74ce345cf2318518a37f043221b34ff072db242c78a1ec57d160f85b28"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/model.py",
+      "bytes": 498,
+      "sha256": "b854be407cc3c102198a5e62b9188682aea43e8ecb1f21b26a9ed8759a3907f7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/monitoring.py",
+      "bytes": 5724,
+      "sha256": "d94bc7359d1c74bace09036dcb3e333f53ae0722316a7a237744fa9780478521"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/profiler.py",
+      "bytes": 3135,
+      "sha256": "1cb9c8d553a5cfe688361b940d2f62329147cb470786a35c5eed5f8d4fdb2659"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/schedulers.py",
+      "bytes": 2048,
+      "sha256": "c628b6abc22b79906ac8dc5915dab0415241327f99422cd01742e4e8863d9ad7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/temp_ssd_dir.py",
+      "bytes": 541,
+      "sha256": "60178af497c2e911db676eecf44e5c6bce0be20982102bb2f09e3a4d46dfac44"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/src/utils/tensors.py",
+      "bytes": 2245,
+      "sha256": "a19ba8e3494b801394352d18f565befeed9a7e47d3e3ea72b20a050cfab66c1a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/test_vjepa.py",
+      "bytes": 3260,
+      "sha256": "3aa95b36ddc79e58bbb93d7556794acfa7adf97078d0747003941cd3e0eb1633"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma/src/vit_prisma/vjepa_hf/train_jepa_sae.py",
+      "bytes": 639,
+      "sha256": "7adb078b61592ea474e0eb115d3926a0c265069aef52364b1efc34e26ee15ff5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/prisma_revision.json",
+      "bytes": 109,
+      "sha256": "d52057213faf67df95ad7280e8fd39412fc1495d32d612e10aca637ed4caf0d6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/LICENSE",
+      "bytes": 1109,
+      "sha256": "29dd1abc6c820dea6dc8f4f052b3c6c6a460587275db124548bb030643714461"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/README.md",
+      "bytes": 1429,
+      "sha256": "218d73fdae9730f058891ee43872070f32b3f0d182be79d40cc326dc21e477a8"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/pyproject.toml",
+      "bytes": 2261,
+      "sha256": "c878f119d4e38aebb5d07c4fa7161183515e2c6066fa2272cc9848e0e1ea0b7c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/__init__.py",
+      "bytes": 959,
+      "sha256": "8537cc1b64fd05b638abd957248d918b73cf0fff52173357c9a244969c8149e6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/colors.py",
+      "bytes": 1446,
+      "sha256": "fe0bc6dfd67b8809da7b00b09a12f75081093c1775c1da2771c1419c2997e981"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/configs.py",
+      "bytes": 11069,
+      "sha256": "389bac17e237295e629a30c39d5b33babb127dcd52709169769bb6584bb93efc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/README.md",
+      "bytes": 6642,
+      "sha256": "0b2b2e1882820767df90c672bd884196b1f4051821b0efa06a6966fd0c7b6d17"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/__init__.py",
+      "bytes": 1643,
+      "sha256": "dcaefd14e30245d69914ead2c7942ed5a32c79766306849c3615c194b1a87a12"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/bird_mae.py",
+      "bytes": 27296,
+      "sha256": "aa32af7b5f1fef4f75e2eafdf92741c92c4ed940c308da446ada283a1a21c690"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/buffers.py",
+      "bytes": 7982,
+      "sha256": "07c4646743e9a4ecc39847d6ea654f81f880e47899cbb5e4a96914ed621d69ed"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/clip.py",
+      "bytes": 3521,
+      "sha256": "d9d96904eff7fcf052a6dd7f3b16335d98d953c5e3f15c7c1ebcdd1f42b0b285"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/datasets.py",
+      "bytes": 25517,
+      "sha256": "1316df9d63b4aa8a58d9c2887b922d8cc997717cfc639576bde474f0b9f260b5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/dinov2.py",
+      "bytes": 2602,
+      "sha256": "333a0f913253e430c8b09c24a0ad35c7a69095147ccee51566931b318e3d1ab6"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/dinov3.py",
+      "bytes": 22176,
+      "sha256": "7bb26f91e52ec3ad056209a372967474f12475ba9805d088e56ebb69842335b5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/fake_clip.py",
+      "bytes": 2618,
+      "sha256": "34ec2347014ef26ac038648689717f32c90e0d34597229b0992e174549b9f0fc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/filesystem.md",
+      "bytes": 4308,
+      "sha256": "5419769e5cd395c6c84b987a4ed3bf0b21582eadbc493a3d890c4d1989ea47f2"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/indexed.py",
+      "bytes": 3958,
+      "sha256": "0021fc24016d629a003643c67baf47f3379b34791b0b65c8d663518cabc3a3aa"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/models.py",
+      "bytes": 2602,
+      "sha256": "283a97db2fea9b9424ffbdd6cc7ea34e8508d6bbc4b919368b66659f838f3d2c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/ordered.py",
+      "bytes": 13452,
+      "sha256": "932fbf76786bec67b4784ecf046ac4f2d15043bd9a37fc999d71376c8bc894a9"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/pe.py",
+      "bytes": 5357,
+      "sha256": "68212348746ec00ca7ef209f7cfe32322cc49aaf0fd91f6013ece49db4cbf637"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/performance.md",
+      "bytes": 4979,
+      "sha256": "1a601cb60081bcb157b174b51edd8e4103ea4cdd02084e11b3796b5052e58d42"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/shards.py",
+      "bytes": 38638,
+      "sha256": "9e1ad9a39a08b714f34304da1b29301dc25b2fca7c4d765a0be3e29b915af9e2"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/shuffled.py",
+      "bytes": 24962,
+      "sha256": "947b4403c82f3ccfa021d5fdc7084288a4590c1e0ad822d00d7528a7ac2ee23b"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/siglip.py",
+      "bytes": 2799,
+      "sha256": "70c201a65d2d2d5890ef228dfec93f70acecf06bd0813245d477ae90e311f5cc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/data/transforms.py",
+      "bytes": 3991,
+      "sha256": "1e35fb99d451ffba619ee95766d8fe4e8f6edb2559f1fc9205160e2ef2d7292e"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/disk.py",
+      "bytes": 5196,
+      "sha256": "7d8421ab7ce7036aed7d9d33a46c92577842c712ac12fa5a98d3626561d24d01"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/framework/__init__.py",
+      "bytes": 245,
+      "sha256": "84d16975424b0b8d993ab49719117444bd053233f18ffa81ad18db559854c516"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/framework/inference.py",
+      "bytes": 11333,
+      "sha256": "6a249cbc9ed2251b63f29b64981500d7f045124c5c22954f496e589a6da80dd4"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/framework/shards.py",
+      "bytes": 4280,
+      "sha256": "f2c3760ea91af73e5bda9d3ccb5e5a2aafcb75d1f106c7653e54849713009cbb"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/framework/train.py",
+      "bytes": 28709,
+      "sha256": "3b322e32c61e2b24e25a7d896e26d3a9d41cb22d2fff697f1e002e1b0aed39ce"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/helpers.py",
+      "bytes": 22501,
+      "sha256": "23b3b4dcb402c7a58a6e69a590a94ba4c5f68e275b534f74b5d5baa14e5d7ebb"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/interactive/features.py",
+      "bytes": 18586,
+      "sha256": "6d3e5b9c36a0e459299116f4395c3a3df34b11ddc18ca0b6b6deff5654cc12b5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/interactive/metrics.py",
+      "bytes": 44608,
+      "sha256": "a08deb2adac221186c2d68c84995cd7c09a5425cf9575f3eb8cd92d48d1fef17"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/interactive/shards.py",
+      "bytes": 4545,
+      "sha256": "1e36e1b57306954e257f14e11406e4ff7adaeec167d384b941c37c29ad6e51cd"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/metrics.py",
+      "bytes": 6506,
+      "sha256": "9051f13136e23f715f04427f64c837b4602980845422ccbd25433e0f4d843b37"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/nn/__init__.py",
+      "bytes": 271,
+      "sha256": "d0a37d38adfba9670a19299068997fe301fa5ce66795ccc9fd7ad3ce01383971"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/nn/modeling.py",
+      "bytes": 24041,
+      "sha256": "8f16d95b7ab84b2efa22c745e3af4611eec8da51547ee1f2d06327cfbc8582b8"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/nn/objectives.py",
+      "bytes": 7650,
+      "sha256": "4729b8222cc76c57dd3475ed145115e14664e009cc7ff3286ced9758755354f7"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/utils/monitoring.py",
+      "bytes": 7085,
+      "sha256": "dc0a5af984d0a71a2339be60dddf1cd2f6dc7d54dd63c414f1aaf676e0322408"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/utils/scheduling.py",
+      "bytes": 5364,
+      "sha256": "a869c26ec38af6db65bd1a3f8ad9da7c2b67714218517340a0b5d185b3064ba5"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/utils/statistics.py",
+      "bytes": 4078,
+      "sha256": "6c9623638273b1b47503cec534141632948545013a6470df0492051cfa720682"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/utils/wandb.py",
+      "bytes": 2069,
+      "sha256": "d3e975853defb70310f42521eff8dc9141a75735b4bba3233141652fd8bfa182"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/saev/viz.py",
+      "bytes": 4028,
+      "sha256": "bfc5ff6662da3ad5deadb40079d950f6a9c170e49d7da43a1f46ef80be3ad8ec"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/classification/dist/app.js",
+      "bytes": 237845,
+      "sha256": "db3fd83805958ac5de201b4da7d01eccb7516b6b2cffcc2af24ac779e316b405"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/classification/dist/main.css",
+      "bytes": 19986,
+      "sha256": "a74a8d0bf673509c9e63a284176cdb9b437aaf4880dcb56b887b7d78078e8eee"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/classification/index.html",
+      "bytes": 406,
+      "sha256": "ebe226315fd2da9c88658277522ff557734d5d860ec2988c57f0dc71c365602c"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/classification/main.css",
+      "bytes": 59,
+      "sha256": "cc1a7ad0d019ddb1d32d0ecb588ba0ac26ce41d8625dd6c366348b25f83a28ec"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/comparison/dist/app.js",
+      "bytes": 363746,
+      "sha256": "fbab8599216de74e08bfc630cd57c28e21e27090fec3f00ca18fe555f63a1c5f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/comparison/dist/main.css",
+      "bytes": 20854,
+      "sha256": "5145cad4c4aa43341ba1c90f6008b84522d0695ca698c711fa22d2c2fadb3975"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/comparison/index.html",
+      "bytes": 397,
+      "sha256": "379c81463064460edee8a6bccdbf1e6078e68e41f9380853f4236e694e00a115"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/comparison/main.css",
+      "bytes": 59,
+      "sha256": "cc1a7ad0d019ddb1d32d0ecb588ba0ac26ce41d8625dd6c366348b25f83a28ec"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/semseg/dist/app.js",
+      "bytes": 765591,
+      "sha256": "be7ce71979d403be5135f7edc60b40ef0615b4cec07c461d0e4d0ae18b42f637"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/semseg/dist/main.css",
+      "bytes": 19986,
+      "sha256": "a74a8d0bf673509c9e63a284176cdb9b437aaf4880dcb56b887b7d78078e8eee"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/semseg/index.html",
+      "bytes": 399,
+      "sha256": "68e9af07be758b95d6cb8077dd28268a86715f56a3bfc566d6d869b2ff5c686a"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/apps/semseg/main.css",
+      "bytes": 59,
+      "sha256": "cc1a7ad0d019ddb1d32d0ecb588ba0ac26ce41d8625dd6c366348b25f83a28ec"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/elm.json",
+      "bytes": 719,
+      "sha256": "f1398b321881623578dc70cddad04159731726c7ef0046140a698ff76e8c7e57"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/src/Classification.elm",
+      "bytes": 52125,
+      "sha256": "284754aefce4091d1cc5f0551709615adf588d039620ab1950ec4a34740c0b09"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/src/Comparison.elm",
+      "bytes": 31108,
+      "sha256": "8d5402987421d978af9a65166029d8c3e1c004ab4909ec88644f61ccfc7882eb"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/src/Gradio.elm",
+      "bytes": 7878,
+      "sha256": "a887d4b33c19b8bfb136f1d7e19cb95ccdd8a168d6f778e07baeff86afe22bcc"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/src/Requests.elm",
+      "bytes": 731,
+      "sha256": "5c686631109bda16510f42bc356ed2698001ae6792e4e116e1628bb538a3cd97"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/src/Semseg/Examples.elm",
+      "bytes": 515748,
+      "sha256": "ecd3a5c6c526930aa0bc34b0d5b049e168f21a1d82207b997ec6d388797eb419"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/src/Semseg.elm",
+      "bytes": 49373,
+      "sha256": "e12057e672c9a707edffe0d02a46d240b830af02b010bcfec3bc0509e3f47f20"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev/src/web/tailwind.config.js",
+      "bytes": 304,
+      "sha256": "a7ed39a0432fa14915abc4e2a3ec678733464bd35fe3f394b4c1e254f13a5b05"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev_normalization.json",
+      "bytes": 19369,
+      "sha256": "609469f08c57de10a41386f28d8eff32164c2434174036ac2541ae463477352f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev_revision.json",
+      "bytes": 96,
+      "sha256": "f97424f43a4e467ae7d4b16eeee73d7c1f5e9204bf2c41b5ad50571f2ec9078f"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev_training_activations.py",
+      "bytes": 35774,
+      "sha256": "328b6b7cd6b54b8f62ed42c1f373b7f53ddfe1b159b7be0dca465824e3042025"
+    },
+    {
+      "path": "vision_tokens/patch_contexts/upstream/saev_training_nn.py",
+      "bytes": 6515,
+      "sha256": "cb93e3f6145125c8fdffbe2f9b765e5da0735898e51fd1f1b68829ba779e24dd"
+    }
+  ]
+}

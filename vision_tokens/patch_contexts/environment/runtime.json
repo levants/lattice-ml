@@ -1,0 +1,6 @@
+{
+  "python": "3.14.2 (main, Dec  9 2025, 19:29:30) [Clang 21.1.4 ]",
+  "platform": "macOS-27.0-arm64-i386-64bit-Mach-O",
+  "device": "cpu",
+  "torch_threads": 4
+}

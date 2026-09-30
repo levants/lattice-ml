@@ -1,0 +1,24 @@
+{
+  "training_revision": "f6c6598e9ad902651249d31c5f25d749f99b0190",
+  "training_path": "saev/activations.py",
+  "normalization": "(clamp(x, -100000, 100000) - mean) / scalar",
+  "current_notebook_lower_clip": -1e-05,
+  "legacy_encoder": "relu((x - b_dec) @ W_enc + b_enc)",
+  "current_encoder": "relu(x @ W_enc + b_enc)",
+  "training_encoder_path": "saev/nn.py",
+  "diagnostic_first_two_images": {
+    "uncentered_mse": 44.35843276977539,
+    "uncentered_l0": 9543.541015625,
+    "legacy_mse": 0.07500849664211273,
+    "legacy_l0": 770.029296875
+  },
+  "normalization_notebook": {
+    "path": "examples/inference.ipynb",
+    "revision": "9715c45ffc5aa822bfdac9610b62664503ed1a71",
+    "sha256": "81693548ba0495a8741805b23ace05344eca492265d5f82c06a4b6dc279fc5b8"
+  },
+  "retained_training_sources": {
+    "saev_training_nn.py": "cb93e3f6145125c8fdffbe2f9b765e5da0735898e51fd1f1b68829ba779e24dd",
+    "saev_training_activations.py": "328b6b7cd6b54b8f62ed42c1f373b7f53ddfe1b159b7be0dca465824e3042025"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "model": "prisma",
+  "cached_images": 300,
+  "cached_sites": 14700,
+  "vector_queries": 40,
+  "downset_concepts": 10,
+  "identical_pixel_cases": 3,
+  "native": {
+    "recomputed_images": 10,
+    "full_dictionary_reencoded": true,
+    "recomputed_control_images": 12,
+    "hook_max_absolute_error": 8.58306884765625e-05,
+    "reference": "OpenCLIP residual block 11"
+  }
+}

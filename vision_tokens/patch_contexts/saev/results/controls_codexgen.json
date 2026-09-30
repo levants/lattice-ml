@@ -1,0 +1,234 @@
+{
+  "flip": [
+    {
+      "class_id": 0,
+      "mean_jaccard": 0.6946428571428571,
+      "nonempty_union_images": 10,
+      "shuffled_mean": 0.008644250194250193,
+      "shuffled_quantiles": [
+        0.0,
+        0.036081349206349145
+      ]
+    },
+    {
+      "class_id": 1,
+      "mean_jaccard": 0.501304347826087,
+      "nonempty_union_images": 10,
+      "shuffled_mean": 0.014400271287025403,
+      "shuffled_quantiles": [
+        0.002325581395348837,
+        0.03738961547790064
+      ]
+    },
+    {
+      "class_id": 2,
+      "mean_jaccard": 0.42142857142857143,
+      "nonempty_union_images": 4,
+      "shuffled_mean": 0.017920766254499204,
+      "shuffled_quantiles": [
+        0.0022405660377358494,
+        0.04393617021276585
+      ]
+    },
+    {
+      "class_id": 3,
+      "mean_jaccard": null,
+      "nonempty_union_images": 0,
+      "shuffled_mean": null,
+      "shuffled_quantiles": null
+    },
+    {
+      "class_id": 4,
+      "mean_jaccard": 0.45,
+      "nonempty_union_images": 5,
+      "shuffled_mean": 0.0015,
+      "shuffled_quantiles": [
+        0.0,
+        0.03333333333333333
+      ]
+    },
+    {
+      "class_id": 5,
+      "mean_jaccard": 0.7396491148310856,
+      "nonempty_union_images": 6,
+      "shuffled_mean": 0.057060841534891084,
+      "shuffled_quantiles": [
+        0.035977538201586834,
+        0.08666354133056269
+      ]
+    },
+    {
+      "class_id": 6,
+      "mean_jaccard": 0.5333333333333332,
+      "nonempty_union_images": 8,
+      "shuffled_mean": 0.006839285714285714,
+      "shuffled_quantiles": [
+        0.0,
+        0.04031249999999996
+      ]
+    },
+    {
+      "class_id": 7,
+      "mean_jaccard": 0.5345238095238095,
+      "nonempty_union_images": 4,
+      "shuffled_mean": 0.01126785714285714,
+      "shuffled_quantiles": [
+        0.0,
+        0.06190476190476191
+      ]
+    },
+    {
+      "class_id": 8,
+      "mean_jaccard": 0.42727272727272725,
+      "nonempty_union_images": 5,
+      "shuffled_mean": 0.014812761958988072,
+      "shuffled_quantiles": [
+        0.0,
+        0.041896551724137934
+      ]
+    },
+    {
+      "class_id": 9,
+      "mean_jaccard": 0.6036549045269974,
+      "nonempty_union_images": 8,
+      "shuffled_mean": 0.0628121445649083,
+      "shuffled_quantiles": [
+        0.04182396627908229,
+        0.08442473496298229
+      ]
+    }
+  ],
+  "identical_patch_controls": [
+    {
+      "class_id": 1,
+      "source_row": 264,
+      "site": 168,
+      "conditions": [
+        "original",
+        "3x3 window",
+        "isolated patch",
+        "relocated patch"
+      ],
+      "ratios": [
+        1.864991069374151,
+        0.8075436448888182,
+        0.0,
+        0.0
+      ],
+      "pair_codes": [
+        [
+          14.659893035888672,
+          5.11907434463501
+        ],
+        [
+          6.560340404510498,
+          2.2165660858154297
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "class_id": 4,
+      "source_row": 291,
+      "site": 198,
+      "conditions": [
+        "original",
+        "3x3 window",
+        "isolated patch",
+        "relocated patch"
+      ],
+      "ratios": [
+        1.4877121842257544,
+        0.39331840909709226,
+        0.0,
+        0.0
+      ],
+      "pair_codes": [
+        [
+          3.7535877227783203,
+          2.561880111694336
+        ],
+        [
+          3.116631031036377,
+          0.6773048043251038
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "class_id": 6,
+      "source_row": 319,
+      "site": 143,
+      "conditions": [
+        "original",
+        "3x3 window",
+        "isolated patch",
+        "relocated patch"
+      ],
+      "ratios": [
+        1.8578683264197628,
+        0.9302346262869494,
+        0.0,
+        0.0
+      ],
+      "pair_codes": [
+        [
+          5.2821879386901855,
+          2.32108473777771
+        ],
+        [
+          4.7051544189453125,
+          1.1621670722961426
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "normalization_sensitivity": {
+    "current_encoder_mse": 44.60589599609375,
+    "current_encoder_l0": 9677.3623046875,
+    "images": 10,
+    "training_rows": [
+      0,
+      25,
+      50,
+      75,
+      100,
+      125,
+      150,
+      175,
+      200,
+      225
+    ],
+    "training_normalization": {
+      "mse": 0.07228949666023254,
+      "mean_l0": 735.2960815429688
+    },
+    "notebook_normalization": {
+      "mse": 0.6880203485488892,
+      "mean_l0": 2249.564453125
+    },
+    "input_rmse": 0.8038991093635559
+  }
+}

@@ -79,3 +79,12 @@ See `THIRD_PARTY.md` for dataset and pretrained-weight provenance.
 Imagewoof transfer images, gradient-based input optimization, and controlled
 response probes. Its shared image data are in `imagenette_imagewoof/`;
 model-specific evidence is in `imagenette_resnet34/` and `imagenette_dinov2/`.
+
+## Pretrained patch dictionaries and concepts
+
+[Patch contexts](patch_contexts/README.md) executes native Prisma and SAEV
+encoders, with matching CLIP and DINOv2 register backbones. It includes
+exact projected concepts, common-site meet/join galleries, reflection
+comparisons, and identical-pixel context controls. The executed notebook
+is `notebooks/vision/patch_contexts_codexgen.ipynb`. This extension's public
+release contains code, notebooks, and experimental evidence only.

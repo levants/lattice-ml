@@ -1,0 +1,575 @@
+{
+  "name": "prisma",
+  "selected_dimensions": 20,
+  "context_images": 300,
+  "patches_per_image": 49,
+  "operations": [
+    "u",
+    "v",
+    "meet",
+    "join"
+  ],
+  "concept_scope": "all 200 training and 100 test images",
+  "cases": [
+    {
+      "class_id": 0,
+      "class": "tench",
+      "features": [
+        45071,
+        20867
+      ],
+      "contrasts": [
+        3.1915115179892704,
+        2.989005390616265
+      ],
+      "source_rows": [
+        18,
+        6
+      ],
+      "source_sites": [
+        23,
+        32
+      ],
+      "source_joint_scores": [
+        3.2893399484927395,
+        3.212999510106355
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "same_site_test": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "patches_test": [
+        46,
+        46,
+        46,
+        46
+      ],
+      "closed_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "downset_generators": 3,
+      "downset_test_images": 0
+    },
+    {
+      "class_id": 1,
+      "class": "English springer",
+      "features": [
+        28900,
+        12391
+      ],
+      "contrasts": [
+        3.2451092734214417,
+        3.0374438337563716
+      ],
+      "source_rows": [
+        40,
+        44
+      ],
+      "source_sites": [
+        30,
+        33
+      ],
+      "source_joint_scores": [
+        3.407474009016232,
+        3.30081893829485
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "same_site_test": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "patches_test": [
+        26,
+        24,
+        26,
+        24
+      ],
+      "closed_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "downset_generators": 1,
+      "downset_test_images": 0
+    },
+    {
+      "class_id": 2,
+      "class": "cassette player",
+      "features": [
+        29747,
+        33737
+      ],
+      "contrasts": [
+        2.815897621574249,
+        2.5742210357483817
+      ],
+      "source_rows": [
+        68,
+        64
+      ],
+      "source_sites": [
+        36,
+        28
+      ],
+      "source_joint_scores": [
+        2.8669690022523313,
+        2.6958865966865093
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "same_site_test": [
+        2,
+        3,
+        3,
+        2
+      ],
+      "patches_test": [
+        10,
+        14,
+        14,
+        10
+      ],
+      "closed_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "downset_generators": 2,
+      "downset_test_images": 1
+    },
+    {
+      "class_id": 3,
+      "class": "chain saw",
+      "features": [
+        37428,
+        26240
+      ],
+      "contrasts": [
+        2.133329349513406,
+        1.6807203174832948
+      ],
+      "source_rows": [
+        90,
+        88
+      ],
+      "source_sites": [
+        25,
+        18
+      ],
+      "source_joint_scores": [
+        0.5783818457824956,
+        0.5643138479902536
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        39,
+        6,
+        40,
+        6
+      ],
+      "same_site_test": [
+        8,
+        0,
+        9,
+        0
+      ],
+      "patches_test": [
+        11,
+        0,
+        12,
+        0
+      ],
+      "closed_positive_counts": [
+        2,
+        7,
+        2,
+        7
+      ],
+      "downset_generators": 3,
+      "downset_test_images": 0
+    },
+    {
+      "class_id": 4,
+      "class": "church",
+      "features": [
+        37418,
+        37109
+      ],
+      "contrasts": [
+        2.9911098390955146,
+        2.8621398728969827
+      ],
+      "source_rows": [
+        109,
+        105
+      ],
+      "source_sites": [
+        12,
+        41
+      ],
+      "source_joint_scores": [
+        2.607281871283372,
+        2.0637818531523946
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        9,
+        10,
+        10,
+        9
+      ],
+      "same_site_test": [
+        6,
+        8,
+        8,
+        6
+      ],
+      "patches_test": [
+        34,
+        66,
+        66,
+        34
+      ],
+      "closed_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "downset_generators": 9,
+      "downset_test_images": 0
+    },
+    {
+      "class_id": 5,
+      "class": "French horn",
+      "features": [
+        22138,
+        48472
+      ],
+      "contrasts": [
+        3.0735418336689535,
+        2.9076686870991177
+      ],
+      "source_rows": [
+        126,
+        139
+      ],
+      "source_sites": [
+        36,
+        25
+      ],
+      "source_joint_scores": [
+        3.4681432313039795,
+        3.317791014055486
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "same_site_test": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "patches_test": [
+        16,
+        18,
+        18,
+        16
+      ],
+      "closed_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "downset_generators": 1,
+      "downset_test_images": 1
+    },
+    {
+      "class_id": 6,
+      "class": "garbage truck",
+      "features": [
+        43367,
+        19208
+      ],
+      "contrasts": [
+        3.0587809583034296,
+        2.9347965692083444
+      ],
+      "source_rows": [
+        166,
+        165
+      ],
+      "source_sites": [
+        34,
+        34
+      ],
+      "source_joint_scores": [
+        2.9920807997160943,
+        2.618403632915294
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "same_site_test": [
+        3,
+        5,
+        5,
+        3
+      ],
+      "patches_test": [
+        4,
+        7,
+        7,
+        4
+      ],
+      "closed_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "downset_generators": 3,
+      "downset_test_images": 0
+    },
+    {
+      "class_id": 7,
+      "class": "gas pump",
+      "features": [
+        20386,
+        48606
+      ],
+      "contrasts": [
+        2.1669306286246366,
+        1.7982674286798945
+      ],
+      "source_rows": [
+        175,
+        182
+      ],
+      "source_sites": [
+        22,
+        33
+      ],
+      "source_joint_scores": [
+        1.5405387066645482,
+        1.4026108031639657
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        19,
+        20,
+        20,
+        19
+      ],
+      "same_site_test": [
+        3,
+        5,
+        5,
+        3
+      ],
+      "patches_test": [
+        5,
+        7,
+        7,
+        5
+      ],
+      "closed_positive_counts": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "downset_generators": 3,
+      "downset_test_images": 0
+    },
+    {
+      "class_id": 8,
+      "class": "golf ball",
+      "features": [
+        22791,
+        46841
+      ],
+      "contrasts": [
+        3.127142279060211,
+        3.098882230701123
+      ],
+      "source_rows": [
+        216,
+        206
+      ],
+      "source_sites": [
+        29,
+        17
+      ],
+      "source_joint_scores": [
+        2.9891363213651596,
+        2.8918958694256016
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "same_site_test": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "patches_test": [
+        31,
+        26,
+        32,
+        25
+      ],
+      "closed_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "downset_generators": 1,
+      "downset_test_images": 0
+    },
+    {
+      "class_id": 9,
+      "class": "parachute",
+      "features": [
+        21315,
+        46103
+      ],
+      "contrasts": [
+        2.820464207047037,
+        2.679579762186595
+      ],
+      "source_rows": [
+        242,
+        235
+      ],
+      "source_sites": [
+        33,
+        18
+      ],
+      "source_joint_scores": [
+        3.869729374176224,
+        3.8496457684112246
+      ],
+      "query_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "pooled_test": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "same_site_test": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "patches_test": [
+        51,
+        55,
+        55,
+        51
+      ],
+      "closed_positive_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "downset_generators": 2,
+      "downset_test_images": 0
+    }
+  ]
+}

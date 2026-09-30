@@ -1,0 +1,100 @@
+[project]
+name = "saev"
+version = "0.1.0"
+description = "Sparse autoencoders for vision transformers in PyTorch"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "adjusttext>=1.3.0",
+    "altair>=5.4.1",
+    "beartype>=0.19.0",
+    "datasets>=3.0.1",
+    "duckdb>=1.3.2",
+    "einops>=0.8.0",
+    "glasbey>=0.3.0",
+    "h5py>=3.15.1",
+    "invoke>=2.2.0",
+    "jaxtyping>=0.3.2",
+    "marimo[mcp]>=0.20.2",
+    "matplotlib>=3.9.2",
+    "numpy>=2.3.2",
+    "open-clip-torch>=2.28.0",
+    "orjson>=3.11.2",
+    "pillow>=10.4.0",
+    "polars>=1.36.0",
+    "psutil>=6.1.0",
+    "scikit-learn>=1.7.0",
+    "scipy>=1.16.1",
+    "submitit>=1.5.4",
+    "torch>=2.9.0",
+    "tqdm>=4.66.5",
+    "tyro>=0.8.12",
+    "viztracer>=1.0.4",
+    "wandb==0.22.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://imageomics.github.io/saev"
+Issues = "https://github.com/Imageomics/saev/issues"
+
+[tool.ruff]
+extend-exclude = ["tests/sweeps"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["F722", "E402", "E501"]
+
+[tool.uv]
+package = true
+default-groups = "all"
+
+[tool.uv.workspace]
+members = [
+    "contrib/trait_discovery",
+    "contrib/birdsong",
+    "contrib/mimics",
+]
+
+[tool.coverage.run]
+patch = ["subprocess"]
+
+[dependency-groups]
+dev = [
+    "coverage-badge>=1.1.2",
+    "gradio>=3.36.1",
+    "hypothesis[codemods]>=6.119.0",
+    "hypothesis-torch>=0.8.4",
+    "huggingface-hub>=0.26.5",
+    "mkdocs-material>=9.6.20",
+    "mkdocstrings[python]>=0.30.1",
+    "mkdocs-gen-files>=0.5.0",
+    "mkdocs-literate-nav>=0.6.2",
+    "pytest>=8.3.3",
+    "pytest-xdist>=3.6.1",
+    "pytest-cov>=6.1.1",
+    "pytest-json-report>=1.5.0",
+    "pytest-timeout>=2.2.0",
+    "vl-convert-python>=1.8.0",
+    # https://github.com/mkdocs/mkdocs/issues/4032
+    "click==8.2.1",
+    "transformers>=4.57.3",
+]
+
+[tool.pytest.ini_options]
+timeout = 300
+timeout_method = "thread"
+addopts = "-m 'not integration'"
+filterwarnings = [
+    "ignore:Can't initialize NVML:UserWarning"
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests (deselect with '-m \"not integration\"')",
+]
+
+[tool.marimo.runtime]
+watcher_on_save = "autorun"
