@@ -1,0 +1,37 @@
+{
+    "data": {
+        "shard_root": "/local/scratch/stevens.994/cache/saev/724b1b7be995ef7212d64640fec2885737a706a33b8e5a18f7f323223bd43af1/",
+        "patches": "patches",
+        "layer": -2,
+        "clamp": 100000.0,
+        "n_random_samples": 524288,
+        "scale_mean": true,
+        "scale_norm": true
+    },
+    "n_workers": 32,
+    "n_patches": 100000000,
+    "sae": {
+        "d_vit": 768,
+        "exp_factor": 32,
+        "sparsity_coeff": 0.0004,
+        "n_reinit_samples": 524288,
+        "ghost_grads": false,
+        "remove_parallel_grads": true,
+        "normalize_w_dec": true,
+        "seed": 147
+    },
+    "n_sparsity_warmup": 500,
+    "lr": 0.003,
+    "n_lr_warmup": 500,
+    "sae_batch_size": 16384,
+    "track": true,
+    "wandb_project": "saev",
+    "tag": "baseline-v4.8",
+    "log_every": 25,
+    "ckpt_path": "./checkpoints",
+    "device": "cuda",
+    "seed": 55,
+    "slurm": false,
+    "slurm_acct": "PAS2136",
+    "log_to": "./logs"
+}

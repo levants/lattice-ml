@@ -1,0 +1,82 @@
+{
+  "_id": "6724ff9e879cb5bc22a5b2fc",
+  "id": "Prisma-Multimodal/sparse-autoencoder-clip-b-32-sae-vanilla-x64-layer-11-hook_resid_post-l1-1e-05",
+  "private": false,
+  "pipeline_tag": "feature-extraction",
+  "library_name": "torch",
+  "tags": [
+    "torch",
+    "clip",
+    "vision",
+    "transformers",
+    "interpretability",
+    "sparse autoencoder",
+    "sae",
+    "mechanistic interpretability",
+    "feature-extraction",
+    "en",
+    "license:apache-2.0",
+    "region:us"
+  ],
+  "downloads": 34,
+  "likes": 0,
+  "modelId": "Prisma-Multimodal/sparse-autoencoder-clip-b-32-sae-vanilla-x64-layer-11-hook_resid_post-l1-1e-05",
+  "author": "Prisma-Multimodal",
+  "sha": "2b1cb17ffb8b06e7f45a699dfc97d417f9879be4",
+  "lastModified": "2025-05-08T17:21:51.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "language": "en",
+    "tags": [
+      "clip",
+      "vision",
+      "transformers",
+      "interpretability",
+      "sparse autoencoder",
+      "sae",
+      "mechanistic interpretability"
+    ],
+    "license": "apache-2.0",
+    "library_name": "torch",
+    "pipeline_tag": "feature-extraction",
+    "metrics": [
+      {
+        "type": "explained_variance",
+        "value": 98.5,
+        "pretty_name": "Explained Variance %",
+        "range": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      {
+        "type": "l0",
+        "value": 1408.15,
+        "pretty_name": "L0"
+      }
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "weights.pt"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2024-11-01T16:19:42.000Z",
+  "usedStorage": 302191832
+}

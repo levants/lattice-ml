@@ -1,0 +1,27 @@
+{
+  "path": "weights.pt",
+  "bytes": 302191832,
+  "sha256": "c4a92171b0503059a9aafc43a0d0006f2522602c70f95f71648ccd9c6aeb2136",
+  "parts": [
+    {
+      "path": "weights.pt.part000",
+      "bytes": 83886080,
+      "sha256": "cba4a8433f3498a22fce194f202c37c25070bf5be877ef093eace130de56b0a1"
+    },
+    {
+      "path": "weights.pt.part001",
+      "bytes": 83886080,
+      "sha256": "ca3d9a456fadbe051dbebe33c533fcdcb79ec4ac76c27e6ff84007904c810a51"
+    },
+    {
+      "path": "weights.pt.part002",
+      "bytes": 83886080,
+      "sha256": "dc4069f6f6148d3d545a35d438f6c1c70baa10fea05b8bf5e99fc804303119b6"
+    },
+    {
+      "path": "weights.pt.part003",
+      "bytes": 50533592,
+      "sha256": "ac044081880c33de9c351d2a9d3e77af57a0ae1084f4ddaa3ba48f06a4eab06b"
+    }
+  ]
+}

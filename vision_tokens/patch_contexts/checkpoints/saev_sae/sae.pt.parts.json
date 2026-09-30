@@ -1,0 +1,17 @@
+{
+  "path": "sae.pt",
+  "bytes": 151098370,
+  "sha256": "be96bce0cfb11a101cf453feaf38eaa42e67b469291a6c4563699237e9f59cb3",
+  "parts": [
+    {
+      "path": "sae.pt.part000",
+      "bytes": 83886080,
+      "sha256": "a74be2c66779227da37e01f694e2b5fc8e46ce73414b3533e4e8be1a9bec45b8"
+    },
+    {
+      "path": "sae.pt.part001",
+      "bytes": 67212290,
+      "sha256": "9fcf07e9477d71042cea1a0fb059d93c08c9c9f4342d37f4acc2d2e3c04f066e"
+    }
+  ]
+}

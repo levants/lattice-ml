@@ -1,0 +1,40 @@
+{
+  "_id": "67ab9a67c3568bdf807e7660",
+  "id": "osunlp/SAE_DINOv2_24K_ViT-B-14_IN1K",
+  "private": false,
+  "tags": [
+    "arxiv:2502.06755",
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 18,
+  "likes": 2,
+  "modelId": "osunlp/SAE_DINOv2_24K_ViT-B-14_IN1K",
+  "author": "osunlp",
+  "sha": "71587e230c8295fb1927f2da344768a0445e2c17",
+  "lastModified": "2025-02-11T18:46:04.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "mit"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "sae.pt"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2025-02-11T18:43:51.000Z",
+  "usedStorage": 151098370
+}

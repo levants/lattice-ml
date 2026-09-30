@@ -1,0 +1,7 @@
+# Exact originals are reassembled from hash-verified, Git-sized parts.
+/checkpoints/*/*.pt
+/checkpoints/*/*.safetensors
+*.reassembling
+**/__pycache__/
+*.egg-info/
+.venv/

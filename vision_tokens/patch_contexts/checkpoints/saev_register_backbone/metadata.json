@@ -1,0 +1,90 @@
+{
+  "_id": "6765a76bec1f9cad649c9b40",
+  "id": "facebook/dinov2-with-registers-base",
+  "private": false,
+  "pipeline_tag": "image-feature-extraction",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "dinov2_with_registers",
+    "image-feature-extraction",
+    "dino",
+    "vision",
+    "arxiv:2309.16588",
+    "arxiv:2010.11929",
+    "arxiv:2304.07193",
+    "arxiv:2111.06377",
+    "license:apache-2.0",
+    "region:us"
+  ],
+  "downloads": 131689,
+  "likes": 11,
+  "modelId": "facebook/dinov2-with-registers-base",
+  "author": "facebook",
+  "sha": "a1d738ccfa7ae170945f210395d99dde8adb1805",
+  "lastModified": "2024-12-23T09:39:33.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "Dinov2WithRegistersModel"
+    ],
+    "model_type": "dinov2_with_registers"
+  },
+  "cardData": {
+    "library_name": "transformers",
+    "pipeline_tag": "image-feature-extraction",
+    "license": "apache-2.0",
+    "tags": [
+      "dino",
+      "vision"
+    ],
+    "inference": false
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel",
+    "pipeline_tag": "image-feature-extraction",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    }
+  ],
+  "spaces": [
+    "stepfun-ai/Step1X-3D",
+    "bfshi/AutoGaze",
+    "ginigen/3D-LLAMA",
+    "cavargas10/Step1X-TextureGeneration",
+    "AgenticPrediction/Agentic_Predictive_Maintenance",
+    "cavargas10/Step1X-Boceto3D",
+    "minhtung/Step1X-3D",
+    "k-aidios/AI-RAY",
+    "AI-DrivenTesting/CU1-X",
+    "uriva/AutoGaze",
+    "danielzest/GenD-Sentinel",
+    "SameerLiaquat/deepfake-face-check"
+  ],
+  "createdAt": "2024-12-20T17:20:43.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 86583552
+    },
+    "total": 86583552
+  },
+  "usedStorage": 346358296
+}
