@@ -1,0 +1,22 @@
+{
+  "stage": "Before reading dataset labels or class counts; visual identities are apparent from pixels. Earlier project galleries were seen, so this is label-withheld exploratory reading, not an independent blinded annotation study.",
+  "topk": {
+    "329_507": "Strong images show human noses/mouths and dog/cat facial regions. Hypothesis: shared facial configuration, with skin, fur, edges and attention context as alternatives.",
+    "468_1271_1430_871_399": "Animal faces at different scales; nose bridge, eye and muzzle neighborhoods recur. Foreground anatomy plausible; object identity, portrait framing and dictionary redundancy not excluded.",
+    "282_798": "282 has gabled roof/trim and branches; 798 has printed pump panels, but a dog scene at median response. Test architectural/edge/signage connection before rejecting cross-category responses.",
+    "54_585_942": "Strong images contain people playing brass instruments; peak sites differ across hair, ear, collar and instrument. May encode a scene-level association rather than a local instrument detector.",
+    "source_0_7": "A person holding a fish amid greenery and brass instruments are visibly different. Source token for S0 lies on greenery; S7 on reflective metal. Native meet nonzero needs direct inspection; projection deletes the only shared coordinate."
+  },
+  "transcoder": {
+    "32929_41201_18417_40486": "Patterned textile and automobile gravel/background recur; other peaks are near a dog in patterned cloth and a zigzag pattern. Repeated local structure/contrast plausible; broad texture sensitivity or amplitude confound also plausible.",
+    "13769_5792": "Green snake scales and decorative curls; decorative repeating patterns and a grid perspective ceiling. Test higher-level repetition/curvature cautiously.",
+    "19489": "Feline muzzle/whisker regions at strongest responses; median response on decorative pattern is a counterexample to a unique cat label.",
+    "source_chain": "Native meet expands sharply with more contrasting sources; test whether ubiquitous coordinates survive. Sparse global metadata or broad context could dominate."
+  },
+  "pretrained_ra": {
+    "4271_4929": "Several people playing brass instruments; boxes can be hands, instrument or person. Stronger category concentration than other inspected dictionaries.",
+    "8811_10816_17231_31554": "Fish/angling scenes; one coordinate peaks on fish and another on surrounding net. Shared scene context must be distinguished from the marked pixels.",
+    "30521_22522": "Human face or shoulder at strong responses, including a person holding an animal at median. Test association with depicted people separately from literal fish appearance.",
+    "4093_21444_26994": "Background sites across animals, a building, a golf ball, sky, vegetation and interiors. Low-specificity contextual response remains possible; do not assign a single object label."
+  }
+}

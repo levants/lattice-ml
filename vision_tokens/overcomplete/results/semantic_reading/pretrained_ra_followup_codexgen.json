@@ -1,0 +1,596 @@
+{
+  "model": "pretrained_ra",
+  "selection": "post-atlas exploratory",
+  "results": [
+    {
+      "name": "person_scene3_q50",
+      "family": "visual_followup",
+      "features": [
+        30521,
+        22522,
+        8811
+      ],
+      "query": [
+        2.0484697818756104,
+        2.8703205585479736,
+        2.414747476577759
+      ],
+      "components": [
+        [
+          2.0484697818756104,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.8703205585479736,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.414747476577759
+        ]
+      ],
+      "operation": "join",
+      "sources": [],
+      "positive_coordinates": 3,
+      "patch_count": 0,
+      "common": 0,
+      "pooled": 4,
+      "component_pooled": [
+        13,
+        9,
+        10
+      ],
+      "component_common": [
+        13,
+        9,
+        10
+      ],
+      "component_union": 21,
+      "component_intersection": 4,
+      "separate_common_intersection": 4,
+      "image_closure": [
+        3.1444737911224365,
+        3.619481325149536,
+        2.753720760345459
+      ],
+      "patch_closure": [
+        4.973158836364746,
+        5.768955230712891,
+        5.85133695602417
+      ],
+      "closure_bound": [
+        4.973158836364746,
+        5.768955230712891,
+        5.85133695602417
+      ],
+      "witnesses": [
+        {
+          "image": 1,
+          "site": 0,
+          "code": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            4.445039749145508,
+            4.226710319519043,
+            3.016836166381836
+          ],
+          "argmax_sites": [
+            71,
+            53,
+            154
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.2493381588112777
+        },
+        {
+          "image": 6,
+          "site": 0,
+          "code": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            3.1444737911224365,
+            3.619481325149536,
+            4.324406147003174
+          ],
+          "argmax_sites": [
+            55,
+            36,
+            209
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.2610024738771843
+        }
+      ],
+      "panels": [
+        {
+          "image": 1,
+          "site": 71,
+          "values": [
+            4.445039749145508,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            4.445039749145508,
+            4.226710319519043,
+            3.016836166381836
+          ],
+          "argmax_sites": [
+            71,
+            53,
+            154
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.2493381588112777
+        },
+        {
+          "image": 6,
+          "site": 55,
+          "values": [
+            3.1444737911224365,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            3.1444737911224365,
+            3.619481325149536,
+            4.324406147003174
+          ],
+          "argmax_sites": [
+            55,
+            36,
+            209
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.2610024738771843
+        }
+      ]
+    },
+    {
+      "name": "person_scene3_q80",
+      "family": "visual_followup",
+      "features": [
+        30521,
+        22522,
+        8811
+      ],
+      "query": [
+        3.340076208114624,
+        4.363269805908203,
+        3.8714890480041504
+      ],
+      "components": [
+        [
+          3.340076208114624,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.363269805908203,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.8714890480041504
+        ]
+      ],
+      "operation": "join",
+      "sources": [],
+      "positive_coordinates": 3,
+      "patch_count": 0,
+      "common": 0,
+      "pooled": 1,
+      "component_pooled": [
+        7,
+        3,
+        6
+      ],
+      "component_common": [
+        7,
+        3,
+        6
+      ],
+      "component_union": 12,
+      "component_intersection": 1,
+      "separate_common_intersection": 1,
+      "image_closure": [
+        3.7775723934173584,
+        5.624077796936035,
+        3.9412312507629395
+      ],
+      "patch_closure": [
+        4.973158836364746,
+        5.768955230712891,
+        5.85133695602417
+      ],
+      "closure_bound": [
+        4.973158836364746,
+        5.768955230712891,
+        5.85133695602417
+      ],
+      "witnesses": [
+        {
+          "image": 7,
+          "site": 0,
+          "code": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            3.7775723934173584,
+            5.624077796936035,
+            3.9412312507629395
+          ],
+          "argmax_sites": [
+            55,
+            21,
+            202
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.0180143097123684
+        }
+      ],
+      "panels": [
+        {
+          "image": 7,
+          "site": 55,
+          "values": [
+            3.7775723934173584,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            3.7775723934173584,
+            5.624077796936035,
+            3.9412312507629395
+          ],
+          "argmax_sites": [
+            55,
+            21,
+            202
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.0180143097123684
+        }
+      ]
+    },
+    {
+      "name": "contrast2_q50",
+      "family": "visual_followup",
+      "features": [
+        4271,
+        11318
+      ],
+      "query": [
+        5.360751628875732,
+        3.055697441101074
+      ],
+      "components": [
+        [
+          5.360751628875732,
+          0.0
+        ],
+        [
+          0.0,
+          3.055697441101074
+        ]
+      ],
+      "operation": "join",
+      "sources": [],
+      "positive_coordinates": 2,
+      "patch_count": 0,
+      "common": 0,
+      "pooled": 0,
+      "component_pooled": [
+        10,
+        10
+      ],
+      "component_common": [
+        10,
+        10
+      ],
+      "component_union": 20,
+      "component_intersection": 0,
+      "separate_common_intersection": 0,
+      "image_closure": [
+        8.336490631103516,
+        7.513728141784668
+      ],
+      "patch_closure": [
+        8.336490631103516,
+        7.513728141784668
+      ],
+      "closure_bound": [
+        8.336490631103516,
+        7.513728141784668
+      ],
+      "witnesses": [],
+      "panels": []
+    },
+    {
+      "name": "contrast2_q80",
+      "family": "visual_followup",
+      "features": [
+        4271,
+        11318
+      ],
+      "query": [
+        6.712332248687744,
+        5.46370792388916
+      ],
+      "components": [
+        [
+          6.712332248687744,
+          0.0
+        ],
+        [
+          0.0,
+          5.46370792388916
+        ]
+      ],
+      "operation": "join",
+      "sources": [],
+      "positive_coordinates": 2,
+      "patch_count": 0,
+      "common": 0,
+      "pooled": 0,
+      "component_pooled": [
+        8,
+        7
+      ],
+      "component_common": [
+        8,
+        7
+      ],
+      "component_union": 15,
+      "component_intersection": 0,
+      "separate_common_intersection": 0,
+      "image_closure": [
+        8.336490631103516,
+        7.513728141784668
+      ],
+      "patch_closure": [
+        8.336490631103516,
+        7.513728141784668
+      ],
+      "closure_bound": [
+        8.336490631103516,
+        7.513728141784668
+      ],
+      "witnesses": [],
+      "panels": []
+    },
+    {
+      "name": "background3_q50",
+      "family": "visual_followup",
+      "features": [
+        4093,
+        21444,
+        26994
+      ],
+      "query": [
+        1.8056609630584717,
+        1.7329384088516235,
+        1.8819868564605713
+      ],
+      "components": [
+        [
+          1.8056609630584717,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.7329384088516235,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.8819868564605713
+        ]
+      ],
+      "operation": "join",
+      "sources": [],
+      "positive_coordinates": 3,
+      "patch_count": 0,
+      "common": 0,
+      "pooled": 9,
+      "component_pooled": [
+        355,
+        76,
+        61
+      ],
+      "component_common": [
+        355,
+        76,
+        61
+      ],
+      "component_union": 384,
+      "component_intersection": 9,
+      "separate_common_intersection": 9,
+      "image_closure": [
+        1.9217395782470703,
+        2.391843795776367,
+        2.0186824798583984
+      ],
+      "patch_closure": [
+        6.5684099197387695,
+        7.800915718078613,
+        7.180145740509033
+      ],
+      "closure_bound": [
+        6.5684099197387695,
+        7.800915718078613,
+        7.180145740509033
+      ],
+      "witnesses": [
+        {
+          "image": 11,
+          "site": 0,
+          "code": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            4.516602516174316,
+            5.267682075500488,
+            2.814647912979126
+          ],
+          "argmax_sites": [
+            63,
+            49,
+            92
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.4955725664697779
+        },
+        {
+          "image": 13,
+          "site": 0,
+          "code": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            3.146313190460205,
+            4.994744300842285,
+            2.1599338054656982
+          ],
+          "argmax_sites": [
+            27,
+            37,
+            77
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.147688039398882
+        }
+      ],
+      "panels": [
+        {
+          "image": 11,
+          "site": 63,
+          "values": [
+            4.516602516174316,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            4.516602516174316,
+            5.267682075500488,
+            2.814647912979126
+          ],
+          "argmax_sites": [
+            63,
+            49,
+            92
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.4955725664697779
+        },
+        {
+          "image": 13,
+          "site": 27,
+          "values": [
+            3.146313190460205,
+            0.0,
+            0.0
+          ],
+          "maxima": [
+            3.146313190460205,
+            4.994744300842285,
+            2.1599338054656982
+          ],
+          "argmax_sites": [
+            27,
+            37,
+            77
+          ],
+          "common_margin": 0.0,
+          "pooled_margin": 1.147688039398882
+        }
+      ]
+    },
+    {
+      "name": "background3_q80",
+      "family": "visual_followup",
+      "features": [
+        4093,
+        21444,
+        26994
+      ],
+      "query": [
+        3.0021111965179443,
+        3.09615159034729,
+        3.358384370803833
+      ],
+      "components": [
+        [
+          3.0021111965179443,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.09615159034729,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.358384370803833
+        ]
+      ],
+      "operation": "join",
+      "sources": [],
+      "positive_coordinates": 3,
+      "patch_count": 0,
+      "common": 0,
+      "pooled": 0,
+      "component_pooled": [
+        186,
+        41,
+        22
+      ],
+      "component_common": [
+        186,
+        41,
+        22
+      ],
+      "component_union": 217,
+      "component_intersection": 0,
+      "separate_common_intersection": 0,
+      "image_closure": [
+        6.5684099197387695,
+        7.800915718078613,
+        7.180145740509033
+      ],
+      "patch_closure": [
+        6.5684099197387695,
+        7.800915718078613,
+        7.180145740509033
+      ],
+      "closure_bound": [
+        6.5684099197387695,
+        7.800915718078613,
+        7.180145740509033
+      ],
+      "witnesses": [],
+      "panels": []
+    }
+  ]
+}

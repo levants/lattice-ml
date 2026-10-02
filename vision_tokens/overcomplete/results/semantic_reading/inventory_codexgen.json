@@ -1,0 +1,3638 @@
+[
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_0_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 246,
+    "common": 246,
+    "patches": 1362
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_0_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 309,
+    "common": 308,
+    "patches": 2293
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_0_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 350,
+    "common": 348,
+    "patches": 4363
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_0_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 238,
+    "common": 231,
+    "patches": 992
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_1_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 227,
+    "common": 225,
+    "patches": 936
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_1_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 303,
+    "common": 287,
+    "patches": 1509
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_1_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 321,
+    "common": 316,
+    "patches": 2305
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_1_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 221,
+    "common": 208,
+    "patches": 686
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_2_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 19,
+    "common": 16,
+    "patches": 134
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_2_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 7,
+    "common": 7,
+    "patches": 54
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_2_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 97,
+    "common": 59,
+    "patches": 366
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_2_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 6,
+    "common": 6,
+    "patches": 43
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_3_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 327,
+    "common": 325,
+    "patches": 2413
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_3_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 286,
+    "common": 284,
+    "patches": 1819
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_3_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 350,
+    "common": 344,
+    "patches": 3559
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "existing_3_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 282,
+    "common": 275,
+    "patches": 1509
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_253",
+    "family": "single",
+    "positive": 1,
+    "pooled": 420,
+    "common": 420,
+    "patches": 1284
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_329",
+    "family": "single",
+    "positive": 1,
+    "pooled": 316,
+    "common": 316,
+    "patches": 2556
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_177",
+    "family": "single",
+    "positive": 1,
+    "pooled": 226,
+    "common": 226,
+    "patches": 523
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_274",
+    "family": "single",
+    "positive": 1,
+    "pooled": 53,
+    "common": 53,
+    "patches": 510
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_1458",
+    "family": "single",
+    "positive": 1,
+    "pooled": 47,
+    "common": 47,
+    "patches": 249
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_754",
+    "family": "single",
+    "positive": 1,
+    "pooled": 155,
+    "common": 155,
+    "patches": 1015
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_282",
+    "family": "single",
+    "positive": 1,
+    "pooled": 24,
+    "common": 24,
+    "patches": 313
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_468",
+    "family": "single",
+    "positive": 1,
+    "pooled": 286,
+    "common": 286,
+    "patches": 2122
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_1065",
+    "family": "single",
+    "positive": 1,
+    "pooled": 86,
+    "common": 86,
+    "patches": 711
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_507",
+    "family": "single",
+    "positive": 1,
+    "pooled": 246,
+    "common": 246,
+    "patches": 1399
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_54",
+    "family": "single",
+    "positive": 1,
+    "pooled": 7,
+    "common": 7,
+    "patches": 54
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_942",
+    "family": "single",
+    "positive": 1,
+    "pooled": 5,
+    "common": 5,
+    "patches": 137
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_798",
+    "family": "single",
+    "positive": 1,
+    "pooled": 50,
+    "common": 50,
+    "patches": 325
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_1430",
+    "family": "single",
+    "positive": 1,
+    "pooled": 322,
+    "common": 322,
+    "patches": 2530
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_792",
+    "family": "single",
+    "positive": 1,
+    "pooled": 56,
+    "common": 56,
+    "patches": 524
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_1346",
+    "family": "single",
+    "positive": 1,
+    "pooled": 216,
+    "common": 216,
+    "patches": 3591
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_1271",
+    "family": "single",
+    "positive": 1,
+    "pooled": 332,
+    "common": 332,
+    "patches": 3086
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_374",
+    "family": "single",
+    "positive": 1,
+    "pooled": 202,
+    "common": 202,
+    "patches": 1040
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_871",
+    "family": "single",
+    "positive": 1,
+    "pooled": 228,
+    "common": 228,
+    "patches": 1052
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_1517",
+    "family": "single",
+    "positive": 1,
+    "pooled": 81,
+    "common": 81,
+    "patches": 862
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_112",
+    "family": "single",
+    "positive": 1,
+    "pooled": 27,
+    "common": 27,
+    "patches": 416
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_399",
+    "family": "single",
+    "positive": 1,
+    "pooled": 211,
+    "common": 211,
+    "patches": 1284
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_1402",
+    "family": "single",
+    "positive": 1,
+    "pooled": 12,
+    "common": 12,
+    "patches": 172
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "single_585",
+    "family": "single",
+    "positive": 1,
+    "pooled": 24,
+    "common": 24,
+    "patches": 223
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_2_0_q50",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 360,
+    "common": 352,
+    "patches": 1057
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_2_0_q80",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 220,
+    "common": 204,
+    "patches": 364
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_2_1_q50",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 350,
+    "common": 348,
+    "patches": 4363
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_2_1_q80",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 238,
+    "common": 231,
+    "patches": 992
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_2_0_q50",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 93,
+    "common": 1,
+    "patches": 2
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_2_0_q80",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 32,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_2_1_q50",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 85,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_2_1_q80",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 39,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_2_0_q50",
+    "family": "random",
+    "positive": 2,
+    "pooled": 39,
+    "common": 2,
+    "patches": 5
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_2_0_q80",
+    "family": "random",
+    "positive": 2,
+    "pooled": 1,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_2_1_q50",
+    "family": "random",
+    "positive": 2,
+    "pooled": 46,
+    "common": 1,
+    "patches": 3
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_2_1_q80",
+    "family": "random",
+    "positive": 2,
+    "pooled": 6,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_3_0_q50",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 104,
+    "common": 9,
+    "patches": 14
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_3_0_q80",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 32,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_3_1_q50",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 315,
+    "common": 288,
+    "patches": 1611
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_3_1_q80",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 180,
+    "common": 36,
+    "patches": 57
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_3_0_q50",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 43,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_3_0_q80",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 7,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_3_1_q50",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 5,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_3_1_q80",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_3_0_q50",
+    "family": "random",
+    "positive": 3,
+    "pooled": 16,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_3_0_q80",
+    "family": "random",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_3_1_q50",
+    "family": "random",
+    "positive": 3,
+    "pooled": 69,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_3_1_q80",
+    "family": "random",
+    "positive": 3,
+    "pooled": 2,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_4_0_q50",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 44,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_4_0_q80",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 8,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_4_1_q50",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 310,
+    "common": 271,
+    "patches": 1007
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_4_1_q80",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 177,
+    "common": 7,
+    "patches": 8
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_4_0_q50",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 4,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_4_0_q80",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_4_1_q50",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 5,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_4_1_q80",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_4_0_q50",
+    "family": "random",
+    "positive": 4,
+    "pooled": 19,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_4_0_q80",
+    "family": "random",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_4_1_q50",
+    "family": "random",
+    "positive": 4,
+    "pooled": 12,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_4_1_q80",
+    "family": "random",
+    "positive": 4,
+    "pooled": 2,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_6_0_q50",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 18,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_6_0_q80",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 3,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_6_1_q50",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 285,
+    "common": 18,
+    "patches": 18
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_6_1_q80",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 138,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_6_0_q50",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_6_0_q80",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_6_1_q50",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_6_1_q80",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_6_0_q50",
+    "family": "random",
+    "positive": 6,
+    "pooled": 2,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_6_0_q80",
+    "family": "random",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_6_1_q50",
+    "family": "random",
+    "positive": 6,
+    "pooled": 1,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_6_1_q80",
+    "family": "random",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_8_0_q50",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 2,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_8_0_q80",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_8_1_q50",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 157,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "coactive_8_1_q80",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 4,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_8_0_q50",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_8_0_q80",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_8_1_q50",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "lowcorr_8_1_q80",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_8_0_q50",
+    "family": "random",
+    "positive": 8,
+    "pooled": 3,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_8_0_q80",
+    "family": "random",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_8_1_q50",
+    "family": "random",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "random_8_1_q80",
+    "family": "random",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_native_join",
+    "family": "source",
+    "positive": 64,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_projected_join",
+    "family": "source",
+    "positive": 7,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_native_join",
+    "family": "source",
+    "positive": 94,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_projected_join",
+    "family": "source",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_native_join",
+    "family": "source",
+    "positive": 121,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_projected_join",
+    "family": "source",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_4_5_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_4_5_native_join",
+    "family": "source",
+    "positive": 171,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_4_5_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_4_5_projected_join",
+    "family": "source",
+    "positive": 9,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_4_5_6_7_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_4_5_6_7_native_join",
+    "family": "source",
+    "positive": 220,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_4_5_6_7_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_1_2_3_4_5_6_7_projected_join",
+    "family": "source",
+    "positive": 10,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_7_native_meet",
+    "family": "source",
+    "positive": 1,
+    "pooled": 66,
+    "common": 66,
+    "patches": 631
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_7_native_join",
+    "family": "source",
+    "positive": 63,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_7_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "source_0_7_projected_join",
+    "family": "source",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "face2_q50",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 350,
+    "common": 348,
+    "patches": 4363
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "face2_q80",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 238,
+    "common": 231,
+    "patches": 992
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "face3_q50",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 348,
+    "common": 207,
+    "patches": 862
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "face3_q80",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 233,
+    "common": 3,
+    "patches": 3
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "face4_q50",
+    "family": "visual_followup",
+    "positive": 4,
+    "pooled": 343,
+    "common": 166,
+    "patches": 402
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "face4_q80",
+    "family": "visual_followup",
+    "positive": 4,
+    "pooled": 229,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "face6_q50",
+    "family": "visual_followup",
+    "positive": 6,
+    "pooled": 306,
+    "common": 5,
+    "patches": 6
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "face6_q80",
+    "family": "visual_followup",
+    "positive": 6,
+    "pooled": 175,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "structure2_q50",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 29,
+    "common": 7,
+    "patches": 11
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "structure2_q80",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 7,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "contrast2_q50",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 51,
+    "common": 1,
+    "patches": 1
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "contrast2_q80",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 9,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "contrast3_q50",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 9,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "contrast3_q80",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "contrast4_q50",
+    "family": "visual_followup",
+    "positive": 4,
+    "pooled": 4,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "contrast4_q80",
+    "family": "visual_followup",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "performance3_q50",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 17,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "topk_k32_s0",
+    "name": "performance3_q80",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 3,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_0_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 209,
+    "common": 194,
+    "patches": 338
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_0_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 260,
+    "common": 233,
+    "patches": 444
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_0_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 305,
+    "common": 280,
+    "patches": 641
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_0_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 195,
+    "common": 175,
+    "patches": 282
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_1_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 241,
+    "common": 148,
+    "patches": 196
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_1_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 241,
+    "common": 143,
+    "patches": 197
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_1_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 357,
+    "common": 235,
+    "patches": 402
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_1_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 177,
+    "common": 79,
+    "patches": 99
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_2_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 289,
+    "common": 110,
+    "patches": 143
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_2_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 234,
+    "common": 119,
+    "patches": 150
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_2_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 399,
+    "common": 214,
+    "patches": 344
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_2_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 172,
+    "common": 56,
+    "patches": 66
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_3_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 295,
+    "common": 142,
+    "patches": 199
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_3_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 295,
+    "common": 161,
+    "patches": 202
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_3_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 412,
+    "common": 241,
+    "patches": 399
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "existing_3_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 220,
+    "common": 92,
+    "patches": 108
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_32929",
+    "family": "single",
+    "positive": 1,
+    "pooled": 230,
+    "common": 230,
+    "patches": 470
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_41201",
+    "family": "single",
+    "positive": 1,
+    "pooled": 282,
+    "common": 282,
+    "patches": 719
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_18417",
+    "family": "single",
+    "positive": 1,
+    "pooled": 297,
+    "common": 297,
+    "patches": 886
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_19489",
+    "family": "single",
+    "positive": 1,
+    "pooled": 312,
+    "common": 312,
+    "patches": 983
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_6168",
+    "family": "single",
+    "positive": 1,
+    "pooled": 292,
+    "common": 292,
+    "patches": 704
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_47243",
+    "family": "single",
+    "positive": 1,
+    "pooled": 242,
+    "common": 242,
+    "patches": 465
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_34176",
+    "family": "single",
+    "positive": 1,
+    "pooled": 257,
+    "common": 257,
+    "patches": 554
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_13769",
+    "family": "single",
+    "positive": 1,
+    "pooled": 174,
+    "common": 174,
+    "patches": 306
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_24918",
+    "family": "single",
+    "positive": 1,
+    "pooled": 130,
+    "common": 130,
+    "patches": 227
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_5792",
+    "family": "single",
+    "positive": 1,
+    "pooled": 204,
+    "common": 204,
+    "patches": 715
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_6237",
+    "family": "single",
+    "positive": 1,
+    "pooled": 332,
+    "common": 332,
+    "patches": 595
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_39140",
+    "family": "single",
+    "positive": 1,
+    "pooled": 289,
+    "common": 289,
+    "patches": 490
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_28464",
+    "family": "single",
+    "positive": 1,
+    "pooled": 152,
+    "common": 152,
+    "patches": 236
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_19098",
+    "family": "single",
+    "positive": 1,
+    "pooled": 232,
+    "common": 232,
+    "patches": 432
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_33691",
+    "family": "single",
+    "positive": 1,
+    "pooled": 213,
+    "common": 213,
+    "patches": 292
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_17012",
+    "family": "single",
+    "positive": 1,
+    "pooled": 116,
+    "common": 116,
+    "patches": 170
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_48542",
+    "family": "single",
+    "positive": 1,
+    "pooled": 108,
+    "common": 108,
+    "patches": 228
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_40486",
+    "family": "single",
+    "positive": 1,
+    "pooled": 212,
+    "common": 212,
+    "patches": 378
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_5516",
+    "family": "single",
+    "positive": 1,
+    "pooled": 231,
+    "common": 231,
+    "patches": 349
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_41720",
+    "family": "single",
+    "positive": 1,
+    "pooled": 170,
+    "common": 170,
+    "patches": 485
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_23585",
+    "family": "single",
+    "positive": 1,
+    "pooled": 311,
+    "common": 311,
+    "patches": 742
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_25256",
+    "family": "single",
+    "positive": 1,
+    "pooled": 333,
+    "common": 333,
+    "patches": 603
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_27384",
+    "family": "single",
+    "positive": 1,
+    "pooled": 231,
+    "common": 231,
+    "patches": 303
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "single_5546",
+    "family": "single",
+    "positive": 1,
+    "pooled": 192,
+    "common": 192,
+    "patches": 329
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_2_0_q50",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 284,
+    "common": 120,
+    "patches": 188
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_2_0_q80",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 162,
+    "common": 48,
+    "patches": 57
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_2_1_q50",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 360,
+    "common": 207,
+    "patches": 320
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_2_1_q80",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 221,
+    "common": 83,
+    "patches": 99
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_2_0_q50",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 331,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_2_0_q80",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 194,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_2_1_q50",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 331,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_2_1_q80",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 194,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_2_0_q50",
+    "family": "random",
+    "positive": 2,
+    "pooled": 214,
+    "common": 17,
+    "patches": 19
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_2_0_q80",
+    "family": "random",
+    "positive": 2,
+    "pooled": 47,
+    "common": 2,
+    "patches": 2
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_2_1_q50",
+    "family": "random",
+    "positive": 2,
+    "pooled": 203,
+    "common": 9,
+    "patches": 9
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_2_1_q80",
+    "family": "random",
+    "positive": 2,
+    "pooled": 52,
+    "common": 2,
+    "patches": 2
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_3_0_q50",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 279,
+    "common": 60,
+    "patches": 78
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_3_0_q80",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 153,
+    "common": 15,
+    "patches": 18
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_3_1_q50",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 285,
+    "common": 31,
+    "patches": 36
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_3_1_q80",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 164,
+    "common": 6,
+    "patches": 6
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_3_0_q50",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 161,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_3_0_q80",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 28,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_3_1_q50",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 161,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_3_1_q80",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 28,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_3_0_q50",
+    "family": "random",
+    "positive": 3,
+    "pooled": 233,
+    "common": 2,
+    "patches": 2
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_3_0_q80",
+    "family": "random",
+    "positive": 3,
+    "pooled": 43,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_3_1_q50",
+    "family": "random",
+    "positive": 3,
+    "pooled": 167,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_3_1_q80",
+    "family": "random",
+    "positive": 3,
+    "pooled": 35,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_4_0_q50",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 262,
+    "common": 22,
+    "patches": 30
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_4_0_q80",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 129,
+    "common": 2,
+    "patches": 3
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_4_1_q50",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 270,
+    "common": 13,
+    "patches": 13
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_4_1_q80",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 142,
+    "common": 1,
+    "patches": 1
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_4_0_q50",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 130,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_4_0_q80",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 10,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_4_1_q50",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 130,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_4_1_q80",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 10,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_4_0_q50",
+    "family": "random",
+    "positive": 4,
+    "pooled": 173,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_4_0_q80",
+    "family": "random",
+    "positive": 4,
+    "pooled": 29,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_4_1_q50",
+    "family": "random",
+    "positive": 4,
+    "pooled": 162,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_4_1_q80",
+    "family": "random",
+    "positive": 4,
+    "pooled": 31,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_6_0_q50",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 248,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_6_0_q80",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 111,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_6_1_q50",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 248,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_6_1_q80",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 111,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_6_0_q50",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 63,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_6_0_q80",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 1,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_6_1_q50",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 63,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_6_1_q80",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 1,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_6_0_q50",
+    "family": "random",
+    "positive": 6,
+    "pooled": 171,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_6_0_q80",
+    "family": "random",
+    "positive": 6,
+    "pooled": 19,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_6_1_q50",
+    "family": "random",
+    "positive": 6,
+    "pooled": 155,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_6_1_q80",
+    "family": "random",
+    "positive": 6,
+    "pooled": 10,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_8_0_q50",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 122,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_8_0_q80",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 21,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_8_1_q50",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 122,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "coactive_8_1_q80",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 21,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_8_0_q50",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 30,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_8_0_q80",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 1,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_8_1_q50",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 30,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "lowcorr_8_1_q80",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 1,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_8_0_q50",
+    "family": "random",
+    "positive": 8,
+    "pooled": 29,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_8_0_q80",
+    "family": "random",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_8_1_q50",
+    "family": "random",
+    "positive": 8,
+    "pooled": 129,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "random_8_1_q80",
+    "family": "random",
+    "positive": 8,
+    "pooled": 8,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_native_meet",
+    "family": "source",
+    "positive": 46,
+    "pooled": 41,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_native_join",
+    "family": "source",
+    "positive": 466,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 26803
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_projected_join",
+    "family": "source",
+    "positive": 7,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_native_meet",
+    "family": "source",
+    "positive": 12,
+    "pooled": 514,
+    "common": 1,
+    "patches": 1
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_native_join",
+    "family": "source",
+    "positive": 654,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 26803
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_projected_join",
+    "family": "source",
+    "positive": 10,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_native_meet",
+    "family": "source",
+    "positive": 8,
+    "pooled": 529,
+    "common": 516,
+    "patches": 7189
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_native_join",
+    "family": "source",
+    "positive": 809,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 26803
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_projected_join",
+    "family": "source",
+    "positive": 11,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_4_5_native_meet",
+    "family": "source",
+    "positive": 8,
+    "pooled": 529,
+    "common": 516,
+    "patches": 7290
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_4_5_native_join",
+    "family": "source",
+    "positive": 1091,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_4_5_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 26803
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_4_5_projected_join",
+    "family": "source",
+    "positive": 17,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_4_5_6_7_native_meet",
+    "family": "source",
+    "positive": 8,
+    "pooled": 530,
+    "common": 523,
+    "patches": 10669
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_4_5_6_7_native_join",
+    "family": "source",
+    "positive": 1306,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_4_5_6_7_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 26803
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_1_2_3_4_5_6_7_projected_join",
+    "family": "source",
+    "positive": 20,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_7_native_meet",
+    "family": "source",
+    "positive": 57,
+    "pooled": 6,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_7_native_join",
+    "family": "source",
+    "positive": 455,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_7_projected_meet",
+    "family": "source",
+    "positive": 1,
+    "pooled": 171,
+    "common": 171,
+    "patches": 275
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "source_0_7_projected_join",
+    "family": "source",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "texture2_q50",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 296,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "texture2_q80",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 180,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "pattern3_q50",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 318,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "pattern3_q80",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 165,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "repetition2_q50",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 228,
+    "common": 58,
+    "patches": 83
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "repetition2_q80",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 103,
+    "common": 21,
+    "patches": 24
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "contrast2_q50",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 220,
+    "common": 5,
+    "patches": 5
+  },
+  {
+    "model": "prisma_transcoder",
+    "name": "contrast2_q80",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 54,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_0_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 6,
+    "common": 6,
+    "patches": 75
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_0_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 5,
+    "common": 5,
+    "patches": 57
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_0_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 9,
+    "common": 9,
+    "patches": 146
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_0_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 3,
+    "common": 3,
+    "patches": 23
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_1_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 5,
+    "common": 5,
+    "patches": 69
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_1_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 6,
+    "common": 6,
+    "patches": 44
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_1_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 6,
+    "common": 6,
+    "patches": 156
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_1_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 5,
+    "common": 4,
+    "patches": 4
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_2_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 4,
+    "common": 4,
+    "patches": 50
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_2_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 7,
+    "common": 7,
+    "patches": 83
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_2_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 7,
+    "common": 7,
+    "patches": 102
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_2_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 4,
+    "common": 4,
+    "patches": 40
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_3_u",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 6,
+    "common": 5,
+    "patches": 78
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_3_v",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 10,
+    "common": 9,
+    "patches": 206
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_3_meet",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 10,
+    "common": 10,
+    "patches": 266
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "existing_3_join",
+    "family": "existing",
+    "positive": 2,
+    "pooled": 6,
+    "common": 5,
+    "patches": 64
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_4271",
+    "family": "single",
+    "positive": 1,
+    "pooled": 8,
+    "common": 8,
+    "patches": 173
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_30355",
+    "family": "single",
+    "positive": 1,
+    "pooled": 4,
+    "common": 4,
+    "patches": 264
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_11318",
+    "family": "single",
+    "positive": 1,
+    "pooled": 7,
+    "common": 7,
+    "patches": 217
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_10760",
+    "family": "single",
+    "positive": 1,
+    "pooled": 5,
+    "common": 5,
+    "patches": 194
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_27034",
+    "family": "single",
+    "positive": 1,
+    "pooled": 6,
+    "common": 6,
+    "patches": 318
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_4093",
+    "family": "single",
+    "positive": 1,
+    "pooled": 186,
+    "common": 186,
+    "patches": 276
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_30943",
+    "family": "single",
+    "positive": 1,
+    "pooled": 4,
+    "common": 4,
+    "patches": 142
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_29969",
+    "family": "single",
+    "positive": 1,
+    "pooled": 11,
+    "common": 11,
+    "patches": 669
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_20917",
+    "family": "single",
+    "positive": 1,
+    "pooled": 1,
+    "common": 1,
+    "patches": 55
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_21444",
+    "family": "single",
+    "positive": 1,
+    "pooled": 41,
+    "common": 41,
+    "patches": 196
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_13604",
+    "family": "single",
+    "positive": 1,
+    "pooled": 4,
+    "common": 4,
+    "patches": 50
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_4929",
+    "family": "single",
+    "positive": 1,
+    "pooled": 5,
+    "common": 5,
+    "patches": 71
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_8811",
+    "family": "single",
+    "positive": 1,
+    "pooled": 6,
+    "common": 6,
+    "patches": 9
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_30521",
+    "family": "single",
+    "positive": 1,
+    "pooled": 7,
+    "common": 7,
+    "patches": 11
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_10816",
+    "family": "single",
+    "positive": 1,
+    "pooled": 9,
+    "common": 9,
+    "patches": 24
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_17231",
+    "family": "single",
+    "positive": 1,
+    "pooled": 5,
+    "common": 5,
+    "patches": 65
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_22522",
+    "family": "single",
+    "positive": 1,
+    "pooled": 3,
+    "common": 3,
+    "patches": 4
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_31554",
+    "family": "single",
+    "positive": 1,
+    "pooled": 7,
+    "common": 7,
+    "patches": 116
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_28201",
+    "family": "single",
+    "positive": 1,
+    "pooled": 8,
+    "common": 8,
+    "patches": 35
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_10849",
+    "family": "single",
+    "positive": 1,
+    "pooled": 5,
+    "common": 5,
+    "patches": 206
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_31985",
+    "family": "single",
+    "positive": 1,
+    "pooled": 4,
+    "common": 4,
+    "patches": 55
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_8288",
+    "family": "single",
+    "positive": 1,
+    "pooled": 7,
+    "common": 7,
+    "patches": 89
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_26994",
+    "family": "single",
+    "positive": 1,
+    "pooled": 22,
+    "common": 22,
+    "patches": 402
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "single_21635",
+    "family": "single",
+    "positive": 1,
+    "pooled": 2,
+    "common": 2,
+    "patches": 4
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_2_0_q50",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 6,
+    "common": 6,
+    "patches": 156
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_2_0_q80",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 5,
+    "common": 4,
+    "patches": 4
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_2_1_q50",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 7,
+    "common": 6,
+    "patches": 193
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_2_1_q80",
+    "family": "coactive",
+    "positive": 2,
+    "pooled": 3,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_2_0_q50",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_2_0_q80",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_2_1_q50",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_2_1_q80",
+    "family": "lowcorr",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_2_0_q50",
+    "family": "random",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_2_0_q80",
+    "family": "random",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_2_1_q50",
+    "family": "random",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_2_1_q80",
+    "family": "random",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_3_0_q50",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 1,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_3_0_q80",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_3_1_q50",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 4,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_3_1_q80",
+    "family": "coactive",
+    "positive": 3,
+    "pooled": 3,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_3_0_q50",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_3_0_q80",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_3_1_q50",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_3_1_q80",
+    "family": "lowcorr",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_3_0_q50",
+    "family": "random",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_3_0_q80",
+    "family": "random",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_3_1_q50",
+    "family": "random",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_3_1_q80",
+    "family": "random",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_4_0_q50",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 1,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_4_0_q80",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_4_1_q50",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_4_1_q80",
+    "family": "coactive",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_4_0_q50",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_4_0_q80",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_4_1_q50",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_4_1_q80",
+    "family": "lowcorr",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_4_0_q50",
+    "family": "random",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_4_0_q80",
+    "family": "random",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_4_1_q50",
+    "family": "random",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_4_1_q80",
+    "family": "random",
+    "positive": 4,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_6_0_q50",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_6_0_q80",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_6_1_q50",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_6_1_q80",
+    "family": "coactive",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_6_0_q50",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_6_0_q80",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_6_1_q50",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_6_1_q80",
+    "family": "lowcorr",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_6_0_q50",
+    "family": "random",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_6_0_q80",
+    "family": "random",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_6_1_q50",
+    "family": "random",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_6_1_q80",
+    "family": "random",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_8_0_q50",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_8_0_q80",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_8_1_q50",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "coactive_8_1_q80",
+    "family": "coactive",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_8_0_q50",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_8_0_q80",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_8_1_q50",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "lowcorr_8_1_q80",
+    "family": "lowcorr",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_8_0_q50",
+    "family": "random",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_8_0_q80",
+    "family": "random",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_8_1_q50",
+    "family": "random",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "random_8_1_q80",
+    "family": "random",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_native_join",
+    "family": "source",
+    "positive": 17,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_projected_join",
+    "family": "source",
+    "positive": 5,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_native_join",
+    "family": "source",
+    "positive": 24,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_projected_join",
+    "family": "source",
+    "positive": 6,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_native_join",
+    "family": "source",
+    "positive": 30,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_projected_join",
+    "family": "source",
+    "positive": 8,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_4_5_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_4_5_native_join",
+    "family": "source",
+    "positive": 33,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_4_5_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_4_5_projected_join",
+    "family": "source",
+    "positive": 10,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_4_5_6_7_native_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_4_5_6_7_native_join",
+    "family": "source",
+    "positive": 39,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_4_5_6_7_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_1_2_3_4_5_6_7_projected_join",
+    "family": "source",
+    "positive": 12,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_7_native_meet",
+    "family": "source",
+    "positive": 1,
+    "pooled": 547,
+    "common": 547,
+    "patches": 32741
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_7_native_join",
+    "family": "source",
+    "positive": 13,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_7_projected_meet",
+    "family": "source",
+    "positive": 0,
+    "pooled": 547,
+    "common": 547,
+    "patches": 140032
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "source_0_7_projected_join",
+    "family": "source",
+    "positive": 5,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "person_scene3_q50",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 4,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "person_scene3_q80",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 1,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "contrast2_q50",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "contrast2_q80",
+    "family": "visual_followup",
+    "positive": 2,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "background3_q50",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 9,
+    "common": 0,
+    "patches": 0
+  },
+  {
+    "model": "pretrained_ra",
+    "name": "background3_q80",
+    "family": "visual_followup",
+    "positive": 3,
+    "pooled": 0,
+    "common": 0,
+    "patches": 0
+  }
+]
