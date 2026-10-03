@@ -8,6 +8,11 @@ import numpy as np
 
 from lattmc.vision.contexts_codexgen import VectorContext, spatial_extents
 
+import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
 
 def audit() -> dict[str, int]:
     """Exhaustively check finite-context identities and spatial retrieval laws.
@@ -76,4 +81,4 @@ def audit() -> dict[str, int]:
 
 
 if __name__ == "__main__":
-    print(audit())
+    logger.info(audit())

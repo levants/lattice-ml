@@ -20,6 +20,11 @@ from lattmc.vision.semantic_cache_codexgen import (
 )
 from lattmc.vision.semantic_report_codexgen import read_results
 
+import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
 
 def finite_check() -> int:
     """Exhaust 729 three-item, two-coordinate matrices and nine queries.
@@ -132,7 +137,7 @@ def main() -> None:
         json.dumps(controls, indent=2) + "\n")
     (DEST / "verification_codexgen.json").write_text(
         json.dumps(verification, indent=2) + "\n")
-    print(verification)
+    logging.info(verification)
 
 
 if __name__ == "__main__":
