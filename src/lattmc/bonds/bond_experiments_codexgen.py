@@ -6,6 +6,16 @@ All numerical comparisons use stored values without an epsilon.
 
 from __future__ import annotations
 
+from typing import Any
+from collections.abc import Callable
+from collections.abc import Hashable
+from collections.abc import Iterable
+from collections.abc import Sequence
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from numpy.typing import ArrayLike
+
 import gc
 import hashlib
 import importlib.metadata
@@ -26,7 +36,8 @@ NOTEBOOK_SEED = [
 ]
 
 
-def sha256(path):
+def sha256(path: Path | str) -> str:
+    """Compute the SHA-256 digest of a cached experiment input."""
     digest = hashlib.sha256()
     with Path(path).open('rb') as stream:
         for block in iter(lambda: stream.read(8 * 1024 * 1024), b''):
@@ -34,7 +45,17 @@ def sha256(path):
     return digest.hexdigest()
 
 
-def saturate(seed, xs, vs, le_x, le_v, join_x, join_v, cx, dv):
+def saturate[_X: Hashable, _V: Hashable](
+    seed: Iterable[tuple[_X, _V]],
+    xs: Sequence[_X],
+    vs: Sequence[_V],
+    le_x: Callable[[_X, _X], bool],
+    le_v: Callable[[_V, _V], bool],
+    join_x: Callable[[list[_X]], _X],
+    join_v: Callable[[list[_V]], _V],
+    cx: Callable[[_X], _X],
+    dv: Callable[[_V], _V],
+) -> tuple[set[tuple[_X, _V]], list[int]]:
     """Whole-fiber algorithm; closures and joins return lattice elements."""
     relation = set(seed)
     history = [len(relation)]
@@ -56,7 +77,18 @@ def saturate(seed, xs, vs, le_x, le_v, join_x, join_v, cx, dv):
         history.append(len(relation))
 
 
-def one_pair(seed, value, xs, vs, le_x, le_v, cx, dv, bx, bv):
+def one_pair[_X: Hashable, _V: Hashable](
+    seed: _X,
+    value: _V,
+    xs: Sequence[_X],
+    vs: Sequence[_V],
+    le_x: Callable[[_X, _X], bool],
+    le_v: Callable[[_V, _V], bool],
+    cx: Callable[[_X], _X],
+    dv: Callable[[_V], _V],
+    bx: _X,
+    bv: _V,
+) -> set[tuple[_X, _V]]:
     """Explicit small-lattice evaluation of the three rectangles."""
     a0, a1, v0, v1 = cx(bx), cx(seed), dv(bv), dv(value)
     return {
@@ -66,7 +98,8 @@ def one_pair(seed, value, xs, vs, le_x, le_v, cx, dv, bx, bv):
     }
 
 
-def extent(csc, query):
+def extent(csc: sparse.csc_matrix, query: np.ndarray) -> np.ndarray:
+    """Return the Boolean mask of rows dominating a sparse query."""
     candidates = np.ones(csc.shape[0], dtype=bool)
     active = np.flatnonzero(query > 0)
     sizes = np.diff(csc.indptr)[active]
@@ -81,7 +114,12 @@ def extent(csc, query):
     return candidates
 
 
-def intent(csr, rows, upper):
+def intent(
+    csr: sparse.csr_matrix,
+    rows: ArrayLike,
+    upper: np.ndarray,
+) -> np.ndarray:
+    """Compute the common intent of selected rows in bounded-size blocks."""
     rows = np.asarray(rows, dtype=int)
     result = upper.copy()
     for start in range(0, len(rows), 128):
@@ -90,7 +128,12 @@ def intent(csr, rows, upper):
     return result
 
 
-def context(kind, layer, seeds):
+def context(
+    kind: str,
+    layer: int,
+    seeds: Sequence[Sequence[int]],
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    """Evaluate cached one-pair bonds for one model layer."""
     start_time = time.perf_counter()
     folder = 'sae' if kind == 'sae' else 'transcoders'
     path = ROOT / f'notebooks/{folder}/data/{folder}/gpt2/V{layer}.npz'
@@ -158,7 +201,11 @@ def context(kind, layer, seeds):
     return manifest, records
 
 
-def comparisons(seeds, primary):
+def comparisons(
+    seeds: Sequence[Sequence[int]],
+    primary: Sequence[str],
+) -> list[dict[str, Any]]:
+    """Compare the cached surrogate contexts for the selected seeds."""
     arrays = {
         name: np.load(OUT / f'{name}_closures.npz') for name in primary
     }
@@ -196,7 +243,8 @@ def comparisons(seeds, primary):
     return records
 
 
-def run():
+def run() -> None:
+    """Run the registered experiments and save their results and provenance."""
     OUT.mkdir(exist_ok=True)
     rng = np.random.default_rng(20260928)
     seeds = [NOTEBOOK_SEED] + [

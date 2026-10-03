@@ -1,5 +1,14 @@
 """Measured exemplars, optimized stimuli, and controlled response probes."""
 
+from __future__ import annotations
+from typing import Any
+from pathlib import Path
+from collections.abc import Sequence
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from lattmc.vision.models_codexgen import TopKSAE
+
 import argparse
 import json
 
@@ -17,7 +26,11 @@ from lattmc.vision.contexts_codexgen import spatial_extents
 from lattmc.vision.paths_codexgen import experiment_root
 
 
-def choose_features(sample, codes):
+def choose_features(
+    sample: dict[str, np.ndarray],
+    codes: np.ndarray,
+) -> list[dict[str, Any]]:
+    """Select distinct class-contrast features using training images."""
     pooled = codes.max(1)
     train = np.flatnonzero(sample['splits'] == 'train')
     test = np.flatnonzero(sample['splits'] == 'test')
@@ -43,11 +56,25 @@ def choose_features(sample, codes):
     return records
 
 
-def codes_for(backbone, sae, center, scale, values):
+def codes_for(
+    backbone: Backbone,
+    sae: TopKSAE,
+    center: torch.Tensor,
+    scale: torch.Tensor,
+    values: torch.Tensor,
+) -> torch.Tensor:
+    """Extract normalized backbone features and encode them sparsely."""
     return sae.encode((backbone(values) - center) / scale)
 
 
-def optimize(backbone, sae, center, scale, features, training_scale):
+def optimize(
+    backbone: Backbone,
+    sae: TopKSAE,
+    center: torch.Tensor,
+    scale: torch.Tensor,
+    features: Sequence[int],
+    training_scale: np.ndarray,
+) -> dict[str, np.ndarray]:
     """Two fixed initializations per feature; keep every resulting image."""
     torch.manual_seed(2028)
     targets = torch.tensor(np.repeat(features, 2))
@@ -63,7 +90,9 @@ def optimize(backbone, sae, center, scale, features, training_scale):
     divisor = torch.tensor(training_scale)[targets].clamp_min(1e-6)
     trace = []
 
-    def render():
+    def render() -> torch.Tensor:
+        """Render bounded RGB images from the Fourier optimization parameters.
+        """
         complex_values = torch.view_as_complex(parameter)
         return torch.fft.irfft2(complex_values * spectrum,
                                 s=(size, size), norm='ortho').sigmoid()
@@ -103,7 +132,7 @@ def optimize(backbone, sae, center, scale, features, training_scale):
             'optimized_codes': after.numpy(), 'loss': np.array(trace)}
 
 
-def synthetic_stimuli():
+def synthetic_stimuli() -> tuple[np.ndarray, np.ndarray, np.ndarray]:
     """Mean/contrast-matched curves, straight lines, and right angles."""
     size, supersampling = 224, 4
     patterns, kinds, angles = [], [], []
@@ -134,7 +163,15 @@ def synthetic_stimuli():
     return patterns, np.array(kinds), np.array(angles)
 
 
-def probe(backbone, sae, center, scale, sample, records):
+def probe(
+    backbone: Backbone,
+    sae: TopKSAE,
+    center: torch.Tensor,
+    scale: torch.Tensor,
+    sample: dict[str, np.ndarray],
+    records: list[dict[str, Any]],
+) -> dict[str, np.ndarray]:
+    """Measure sparse responses to synthetic shapes and rotated exemplars."""
     synthetic, kinds, angles = synthetic_stimuli()
     features = [r['feature'] for r in records]
     scores = []
@@ -159,7 +196,13 @@ def probe(backbone, sae, center, scale, sample, records):
             'rotation_scores': np.stack(rotation_scores)}
 
 
-def queries(sample, cache, records, folder):
+def queries(
+    sample: dict[str, np.ndarray],
+    cache: dict[str, np.ndarray],
+    records: list[dict[str, Any]],
+    folder: Path,
+) -> list[dict[str, Any]]:
+    """Save exemplar queries and compare pooled with same-site satisfaction."""
     pooled = cache['codes'].max(1)
     features = [r['feature'] for r in records]
     sources = [r['source_row'] for r in records]
@@ -178,7 +221,9 @@ def queries(sample, cache, records, folder):
             for op, m in zip(['u', 'v', 'meet', 'join'], masks)]
 
 
-def run(name):
+def run(name: str) -> None:
+    """Generate and save feature visualizations and controlled response probes.
+    """
     torch.set_num_threads(4)
     torch.manual_seed(2028)
     sample, cache = dataset(), load_codes(name)

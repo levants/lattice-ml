@@ -1,5 +1,8 @@
 """Generate paper tables and scientific figures from saved pilot results."""
 
+from __future__ import annotations
+from collections.abc import Sequence
+
 import argparse
 import json
 from pathlib import Path
@@ -11,7 +14,14 @@ import numpy as np
 from lattmc.vision.paths_codexgen import experiment_root, load_digit_cache
 
 
-def table(path, caption, label, headings, rows):
+def table(
+    path: Path,
+    caption: str,
+    label: str,
+    headings: Sequence[str],
+    rows: Sequence[Sequence[object]],
+) -> None:
+    """Write a captioned LaTeX results table."""
     lines = [r"\begin{table}[tbp]", r"\centering", r"\small",
              r"\caption{" + caption + "}", r"\label{" + label + "}",
              r"\begin{tabular}{" + "l" + "r" * (len(headings) - 1) + "}",
@@ -21,7 +31,8 @@ def table(path, caption, label, headings, rows):
     path.write_text("\n".join(lines) + "\n")
 
 
-def generate(paper):
+def generate(paper: Path) -> None:
+    """Generate the digit pilot's paper tables from cached results."""
     paper = Path(paper)
     folder = experiment_root()
     result_path = folder / "results/results_codexgen.json"

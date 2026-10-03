@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "source_hashes": {
+    "texs/sparsesurrs/lattconference/tables/nyc-highlighted-excerpts.tex": "6da2069d2880be11574251283a960c913ce8a433506a20d87bba5bfdbe5dbe7e",
+    "texs/sparsesurrs/lattconference/tables/animals-highlighted-excerpts.tex": "06d35943141f17b32fe3a76a3a51886910f54f606cbb62f3fa38e06109910f45",
+    "texs/sparsesurrs/lattconference/experiments/graded-results.tex": "62992d56a6cba834a48499a993a589f6fc3eb89064b60fca6cbfa1465b390b0d",
+    "src/lattmc/latex/naming_codexgen.py": "965c0116fc2080a9fc6b471d765f4277ff872f288a6b936a7be3e84ea1b9848b"
+  },
+  "original_excerpt_bodies_unchanged": true,
+  "visual_pages_article": [
+    15,
+    16
+  ],
+  "visual_page_iclr": 26,
+  "source_archive_pixel_identical_pages": 106,
+  "code_mirror_verified": true,
+  "labels_preserved": true,
+  "scope": "Two historical main-text excerpt tables"
+}

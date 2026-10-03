@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-03",
+  "isolated": true,
+  "builds": {
+    "lattconference-combined": {
+      "pages": 125,
+      "pdf_sha256": "fef830f4c811d63047cfc2ad60ef83ca26f13eb87e6692999de9a80e2622f7bb",
+      "log_sha256": "a6e3b7eb060638c2b0cf97aa6e5d480922eabd0bdb95cbf15412feaf30ebf74c",
+      "unresolved_or_fatal_or_overfull": [],
+      "layout_warnings": [
+        "Underfull \\hbox (badness 10000) in alignment at lines 15--15",
+        "Underfull \\hbox (badness 10000) in alignment at lines 13--13",
+        "Underfull \\hbox (badness 1540) in paragraph at lines 68--77"
+      ],
+      "delivered_pdf_sha256": "fef830f4c811d63047cfc2ad60ef83ca26f13eb87e6692999de9a80e2622f7bb"
+    },
+    "lattconference-main": {
+      "pages": 34,
+      "pdf_sha256": "bd069c62fb5d9f91e67d818dae9484fceb3c2629fef5eb6399831d98fc65c1b0",
+      "log_sha256": "69064fc81106f80e11a2bc6117c2aa85239322f960870567a24da7958c67686c",
+      "unresolved_or_fatal_or_overfull": [],
+      "layout_warnings": [],
+      "delivered_pdf_sha256": "bd069c62fb5d9f91e67d818dae9484fceb3c2629fef5eb6399831d98fc65c1b0"
+    },
+    "lattconference-appendix": {
+      "pages": 93,
+      "pdf_sha256": "33ac13eb010eb4975cf6121e22febcd6871307467c6250a07eb6d3724128b7e2",
+      "log_sha256": "3febfc12e9d7cc076294a8371f0c65cebb65c9641c1293139ad5f81cf6caf9a7",
+      "unresolved_or_fatal_or_overfull": [],
+      "layout_warnings": [
+        "Underfull \\hbox (badness 10000) in alignment at lines 15--15",
+        "Underfull \\hbox (badness 10000) in alignment at lines 13--13",
+        "Underfull \\hbox (badness 1540) in paragraph at lines 68--77"
+      ],
+      "delivered_pdf_sha256": "33ac13eb010eb4975cf6121e22febcd6871307467c6250a07eb6d3724128b7e2"
+    },
+    "lattconference": {
+      "pages": 125,
+      "pdf_sha256": "ce40f32b998b11b7a03b11f2ec0f70b50220774abcbcf1f939432d58db7d489e",
+      "log_sha256": "9f9cc5017894bbf2ff96a24524c12108649b906a1dc6734dd3b0baf4312de2ea",
+      "unresolved_or_fatal_or_overfull": [],
+      "layout_warnings": [
+        "Underfull \\hbox (badness 10000) in alignment at lines 15--15",
+        "Underfull \\hbox (badness 10000) in alignment at lines 13--13",
+        "Underfull \\hbox (badness 1540) in paragraph at lines 68--77"
+      ],
+      "delivered_pdf_sha256": "755b738a75031be4bfe9ce0bf882104cd88880ca94d0e5ac191305477c5341ff"
+    },
+    "conference-iclr": {
+      "pages": 127,
+      "pdf_sha256": "3408909e54947cb6f42abd056ca3e478f1669cfbfa2219e1ab1190e88bbd114d",
+      "log_sha256": "be9f52c6a3e5751dc5fdfd3646b14cde679a85b2f0313057dc7bc227cbf835a2",
+      "unresolved_or_fatal_or_overfull": [],
+      "layout_warnings": [
+        "Underfull \\hbox (badness 2368) in paragraph at lines 13--13",
+        "Underfull \\hbox (badness 7522) in paragraph at lines 158--167",
+        "Underfull \\hbox (badness 10000) in paragraph at lines 158--167",
+        "Underfull \\vbox (badness 2799) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 10000) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 10000) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 1590) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 1331) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 5288) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 2680) has occurred while \\output is active []",
+        "Underfull \\hbox (badness 10000) in alignment at lines 15--15",
+        "Underfull \\hbox (badness 10000) in alignment at lines 13--13",
+        "Underfull \\vbox (badness 10000) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 10000) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 4454) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 10000) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 2150) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 10000) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 10000) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 10000) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 6252) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 1902) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 3503) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 10000) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 6893) has occurred while \\output is active []",
+        "Underfull \\vbox (badness 5954) has occurred while \\output is active []"
+      ],
+      "delivered_pdf_sha256": "3408909e54947cb6f42abd056ca3e478f1669cfbfa2219e1ab1190e88bbd114d"
+    }
+  },
+  "bibliography_before_appendix": true
+}

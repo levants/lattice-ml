@@ -1,5 +1,8 @@
 """Native pretrained Prisma TopK transcoder with explicit skip diagnostics."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import json
 
@@ -18,7 +21,8 @@ from lattmc.vision.patch_models_codexgen import CLIP_ID, ROOT as PATCH_ROOT
 NAME = 'prisma_transcoder'
 
 
-def backbone():
+def backbone() -> tuple[torch.nn.Module, dict[str, Any]]:
+    """Load the frozen backbone and its preprocessing configuration."""
     from lattmc.vision.patch_weights_codexgen import ensure
     from safetensors.torch import load_file
     from vit_prisma.models.base_vit import HookedViT
@@ -36,7 +40,8 @@ def backbone():
     return model.eval().requires_grad_(False), norm['preprocess_cfg']
 
 
-def extract(dataset):
+def extract(dataset: str) -> None:
+    """Extract and cache paired activations for the vision transcoder."""
     torch.set_num_threads(4)
     folder = ROOT / 'checkpoints/transcoder'
     config = VisionModelSAERunnerConfig.load_config(

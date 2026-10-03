@@ -1,5 +1,8 @@
 """Controlled native Overcomplete SAE comparison on a frozen image split."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import json
 import time
@@ -21,7 +24,11 @@ WIDTH = 1536
 FAMILIES = ['topk', 'batchtopk', 'jump', 'relu', 'archetypal', 'relu_fixed']
 
 
-def training_data():
+def training_data(
+
+) -> tuple[torch.Tensor, torch.Tensor, np.ndarray, np.floating, np.ndarray]:
+    """Sample training sites and return normalized data and scale statistics.
+    """
     _, records = load('imagenette')
     dense = load_dense('imagenette')
     train = np.array([r['split'] == 'train' for r in records])
@@ -39,7 +46,13 @@ def training_data():
     return x, v, mean, scale, sites
 
 
-def make(family, budget, points, device='cpu'):
+def make(
+    family: str,
+    budget: int,
+    points: torch.Tensor,
+    device: str = 'cpu',
+) -> SAE:
+    """Construct the requested sparse autoencoder family."""
     common = {'input_shape': 768, 'nb_concepts': WIDTH, 'device': device}
     if family == 'topk':
         return TopKSAE(**common, top_k=budget)
@@ -53,7 +66,8 @@ def make(family, budget, points, device='cpu'):
                      delta=0.2, use_multiplier=True)
 
 
-def score(model, values):
+def score(model: torch.nn.Module, values: torch.Tensor) -> dict[str, float]:
+    """Measure reconstruction error, sparsity, and unused feature fraction."""
     errors, nonzero, used = [], [], torch.zeros(WIDTH, dtype=torch.bool)
     with torch.no_grad():
         for batch in values.split(512):
@@ -66,7 +80,14 @@ def score(model, values):
             'dead_fraction': float((~used).float().mean())}
 
 
-def train(family, budget, seed, epochs=12, device='cpu'):
+def train(
+    family: str,
+    budget: int,
+    seed: int,
+    epochs: int = 12,
+    device: str = 'cpu',
+) -> None:
+    """Train the selected surrogate and save its checkpoint and history."""
     torch.set_num_threads(4)
     torch.manual_seed(seed)
     name = f'{family}_k{budget}_s{seed}'
@@ -139,7 +160,8 @@ def train(family, budget, seed, epochs=12, device='cpu'):
         json.dumps(report, indent=2) + '\n')
 
 
-def restore(name):
+def restore(name: str) -> tuple[SAE, dict[str, Any]]:
+    """Reconstruct a trained surrogate from its saved checkpoint."""
     checkpoint = torch.load(ROOT / f'checkpoints/{name}/model_codexgen.pt',
                             map_location='cpu', weights_only=True)
     model = make(checkpoint['family'], checkpoint['budget'],

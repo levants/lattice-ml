@@ -1,5 +1,12 @@
 """Measured patch galleries and exact-pixel controls, with optional PDF."""
 
+from __future__ import annotations
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from matplotlib.axes import Axes
+    from matplotlib.figure import Figure
+
 import argparse
 from pathlib import Path
 
@@ -17,7 +24,8 @@ CASES = [(1, 'Springer-associated'), (4, 'Church-associated'),
          (6, 'Truck-associated')]
 
 
-def save(fig, name, kind, paper):
+def save(fig: Figure, name: str, kind: str, paper: Path | None) -> None:
+    """Save a figure to the experiment and optional paper directory."""
     folder = ROOT / name / 'figures'
     folder.mkdir(exist_ok=True)
     stem = f'{name}_patch_{kind}_codexgen'
@@ -28,7 +36,13 @@ def save(fig, name, kind, paper):
     plt.close(fig)
 
 
-def photo(ax, image, site=None, grid=7):
+def photo(
+    ax: Axes,
+    image: np.ndarray,
+    site: int | None = None,
+    grid: int = 7,
+) -> None:
+    """Display an image and optionally outline a spatial grid cell."""
     ax.imshow(image)
     ax.set_axis_off()
     if site is not None:
@@ -39,7 +53,8 @@ def photo(ax, image, site=None, grid=7):
                                edgecolor='#00ffff', linewidth=1.6))
 
 
-def render(name, paper=None):
+def render(name: str, paper: Path | None = None) -> None:
+    """Render feature exemplars and query retrieval panels."""
     sample, codes, features, _ = read(name)
     root = ROOT / name
     test = np.flatnonzero(sample['splits'] == 'test')
@@ -111,7 +126,8 @@ def render(name, paper=None):
     save(fig, name, 'controls', paper)
 
 
-def downsets(paper=None):
+def downsets(paper: Path | None = None) -> None:
+    """Draw the finite downset example used in the paper."""
     fig, axes = plt.subplots(2, 2, figsize=(9, 7), layout='constrained')
     for row, name in enumerate(['prisma', 'saev']):
         sample, codes, features, _ = read(name)

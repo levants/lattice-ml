@@ -1,5 +1,8 @@
 """Audit all inputs, labels, citation keys, and TeX conventions."""
 
+from __future__ import annotations
+from pathlib import Path
+
 from collections import Counter
 import json
 import re
@@ -8,7 +11,8 @@ from .paths_codexgen import OUT, PACKAGE, PAPER, ROOT
 seen = []
 
 
-def expand(path):
+def expand(path: Path) -> str:
+    """Recursively expand the manuscript LaTeX input and include commands."""
     assert path not in seen, f'Repeated input: {path}'
     seen.append(path)
     source = path.read_text()

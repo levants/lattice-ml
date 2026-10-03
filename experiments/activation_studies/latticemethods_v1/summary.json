@@ -1,0 +1,1484 @@
+{
+  "ag_news/smol3": {
+    "related": {
+      "precision": {
+        "mean": 0.3478528725654838,
+        "interval": [
+          0.22737079925473827,
+          0.4707702624757207
+        ],
+        "defined_groups": 17,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.010051948051948052,
+        "interval": [
+          0.00556734693877551,
+          0.01472551020408163
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.06859902146032609,
+        "interval": [
+          -0.11451600811572828,
+          -0.02776330191833957
+        ],
+        "defined_groups": 17,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.12727272727272726,
+        "interval": [
+          0.08636363636363636,
+          0.17272727272727273
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.8727272727272726,
+        "interval": [
+          0.8454545454545455,
+          0.9000000000000001
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 28,
+      "overlapping_coordinate_cases": 30
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.22859073092544555,
+        "interval": [
+          0.15329587460511288,
+          0.3157531533917998
+        ],
+        "defined_groups": 17,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.015218923933209645,
+        "interval": [
+          0.008131423933209647,
+          0.023371521335807045
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.08080005639652468,
+        "interval": [
+          -0.1238623021115413,
+          -0.043170805238711835
+        ],
+        "defined_groups": 17,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.1409090909090909,
+        "interval": [
+          0.08636363636363636,
+          0.20909090909090905
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.8863636363636362,
+        "interval": [
+          0.8590909090909091,
+          0.9136363636363636
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 25,
+      "overlapping_coordinate_cases": 32
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "ag_news/smol15": {
+    "related": {
+      "precision": {
+        "mean": 0.3465862688186345,
+        "interval": [
+          0.26696776265938904,
+          0.42496172140298905
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.07044712430426717,
+        "interval": [
+          0.0458954081632653,
+          0.09484341372912801
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.05214945563598762,
+        "interval": [
+          -0.08920022837112845,
+          -0.01570483918315419
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.5772727272727273,
+        "interval": [
+          0.4954545454545455,
+          0.659090909090909
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.4136363636363636,
+        "interval": [
+          0.34090909090909094,
+          0.48636363636363633
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 129,
+      "overlapping_coordinate_cases": 44
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.2987450800103011,
+        "interval": [
+          0.2287620210728397,
+          0.3758555423622218
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.06761595547309833,
+        "interval": [
+          0.04779503710575139,
+          0.08992590445269015
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.05650521750190873,
+        "interval": [
+          -0.09283299052994003,
+          -0.019934754609103055
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.6,
+        "interval": [
+          0.5,
+          0.7
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.40909090909090906,
+        "interval": [
+          0.3181818181818182,
+          0.49090909090909085
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 130,
+      "overlapping_coordinate_cases": 45
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "ag_news/smol27": {
+    "related": {
+      "precision": {
+        "mean": 0.30541242015194514,
+        "interval": [
+          0.1820319233640631,
+          0.4520296620848744
+        ],
+        "defined_groups": 16,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.007559369202226344,
+        "interval": [
+          0.0025350185528756957,
+          0.013944387755102039
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.10638340549083598,
+        "interval": [
+          -0.15796387042157672,
+          -0.05627478293008478
+        ],
+        "defined_groups": 16,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.3909090909090909,
+        "interval": [
+          0.29090909090909095,
+          0.4772727272727273
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.7954545454545454,
+        "interval": [
+          0.7318181818181817,
+          0.859090909090909
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 45,
+      "overlapping_coordinate_cases": 16
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.16995039649785312,
+        "interval": [
+          0.0662180148802758,
+          0.2510490704933308
+        ],
+        "defined_groups": 15,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.008074211502782933,
+        "interval": [
+          0.0034689239332096476,
+          0.013227597402597402
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.14784247581998705,
+        "interval": [
+          -0.20316530472269495,
+          -0.09439314878094207
+        ],
+        "defined_groups": 15,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.38181818181818183,
+        "interval": [
+          0.2727272727272727,
+          0.4909090909090909
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.8045454545454546,
+        "interval": [
+          0.745340909090909,
+          0.868181818181818
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 43,
+      "overlapping_coordinate_cases": 12
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "ag_news/pythia_topk": {
+    "related": {
+      "precision": {
+        "mean": 0.2622497263200215,
+        "interval": [
+          0.24819337489236581,
+          0.2801948472724424
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.2904582560296846,
+        "interval": [
+          0.2044106447124304,
+          0.3807923701298699
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.006751178341632155,
+        "interval": [
+          -0.015974307831895393,
+          0.007596740859631186
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.12272727272727273,
+        "interval": [
+          0.03636363636363636,
+          0.2181818181818182
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.05454545454545454,
+        "interval": [
+          0.0,
+          0.12727272727272726
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 208,
+      "overlapping_coordinate_cases": 90
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.23873863010867347,
+        "interval": [
+          0.21307093412555955,
+          0.25974283929115616
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.31361688311688307,
+        "interval": [
+          0.20825540352504637,
+          0.41784299628942484
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.028803445506092287,
+        "interval": [
+          -0.051271219208330894,
+          -0.01185323981881045
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.15000000000000002,
+        "interval": [
+          0.05454545454545455,
+          0.2545454545454545
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.04090909090909091,
+        "interval": [
+          0.0,
+          0.1
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 211,
+      "overlapping_coordinate_cases": 90
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "ag_news/qwen_transcoder": {
+    "related": {
+      "precision": {
+        "mean": 0.27326947072917107,
+        "interval": [
+          0.22539759574652385,
+          0.3242168074272982
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.028248608534322817,
+        "interval": [
+          0.022292996289424858,
+          0.034494202226345076
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.07029455520763768,
+        "interval": [
+          -0.10369718658615693,
+          -0.03632325513216278
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.4545454545454546,
+        "interval": [
+          0.37715909090909083,
+          0.5318181818181819
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.6318181818181817,
+        "interval": [
+          0.5772727272727273,
+          0.6818181818181818
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 81,
+      "overlapping_coordinate_cases": 45
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.24014367865974018,
+        "interval": [
+          0.20108939003112525,
+          0.28186788977304944
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.032331168831168836,
+        "interval": [
+          0.02557117346938775,
+          0.039788334879406306
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.08368766015147182,
+        "interval": [
+          -0.11322175183538238,
+          -0.05575331061925987
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.4181818181818182,
+        "interval": [
+          0.33636363636363636,
+          0.5045454545454545
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.6181818181818182,
+        "interval": [
+          0.5499999999999999,
+          0.6863636363636365
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 84,
+      "overlapping_coordinate_cases": 39
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "ag_news/gemma_matryoshka": {
+    "related": {
+      "precision": {
+        "mean": 0.3319008901629259,
+        "interval": [
+          0.2678840274399356,
+          0.39987538983621984
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.06233673469387756,
+        "interval": [
+          0.047330194805194806,
+          0.07863455473098331
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.04606179209027144,
+        "interval": [
+          -0.06392042766798343,
+          -0.028426292108280866
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.4909090909090909,
+        "interval": [
+          0.40909090909090906,
+          0.5727272727272726
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.44090909090909086,
+        "interval": [
+          0.3545454545454545,
+          0.5272727272727273
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 123,
+      "overlapping_coordinate_cases": 62
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.3278133646049187,
+        "interval": [
+          0.2628376288548567,
+          0.3912131374807691
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.060088126159554736,
+        "interval": [
+          0.041553177179962895,
+          0.0811971011131725
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.04247343022706551,
+        "interval": [
+          -0.0686114300035257,
+          -0.013813522882123274
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.5409090909090909,
+        "interval": [
+          0.4590909090909091,
+          0.6227272727272728
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.5000000000000001,
+        "interval": [
+          0.40454545454545454,
+          0.5863636363636364
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": null,
+        "interval": null,
+        "defined_groups": 0,
+        "defined_classes": 0
+      },
+      "count": 220,
+      "nonempty": 110,
+      "overlapping_coordinate_cases": 61
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "ag_news/transport/3-15": {
+    "eligible": 13,
+    "before_precision": 0.2933057613602836,
+    "after_precision": 0.23811572193821165,
+    "added": 2428,
+    "correct_added": 597,
+    "lost": 15,
+    "zero": 0
+  },
+  "ag_news/transport/15-27": {
+    "eligible": 18,
+    "before_precision": 0.2749304655911545,
+    "after_precision": 0.2489902232739163,
+    "added": 2800,
+    "correct_added": 705,
+    "lost": 73,
+    "zero": 0
+  },
+  "ag_news/transport/3-27": {
+    "eligible": 13,
+    "before_precision": 0.2933057613602836,
+    "after_precision": 0.2597231102585962,
+    "added": 2656,
+    "correct_added": 676,
+    "lost": 10,
+    "zero": 0
+  },
+  "dbpedia_14/smol3": {
+    "related": {
+      "precision": {
+        "mean": 0.28017631857032216,
+        "interval": [
+          0.16646421580152695,
+          0.39386407485706976
+        ],
+        "defined_groups": 17,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.02490909090909091,
+        "interval": [
+          0.016088636363636364,
+          0.03472727272727273
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.03455195345924118,
+        "interval": [
+          -0.06448471619869393,
+          -0.005095527492637133
+        ],
+        "defined_groups": 17,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.2181818181818182,
+        "interval": [
+          0.1181818181818182,
+          0.3181818181818182
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.7409090909090909,
+        "interval": [
+          0.6454545454545455,
+          0.8318181818181818
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.20837059791735674,
+        "interval": [
+          0.10844356520372693,
+          0.3265710669383333
+        ],
+        "defined_groups": 17,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 57,
+      "overlapping_coordinate_cases": 32
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.12655715891832187,
+        "interval": [
+          0.0815181154696323,
+          0.18333911164563474
+        ],
+        "defined_groups": 18,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.032363636363636365,
+        "interval": [
+          0.022181818181818184,
+          0.043454545454545454
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.03090700173062113,
+        "interval": [
+          -0.047949197289403375,
+          -0.012676941580499715
+        ],
+        "defined_groups": 18,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.16363636363636364,
+        "interval": [
+          0.10454545454545455,
+          0.22272727272727272
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.7909090909090908,
+        "interval": [
+          0.7362499999999998,
+          0.8499999999999999
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.09103401447496351,
+        "interval": [
+          0.06341313792447634,
+          0.12188901447283734
+        ],
+        "defined_groups": 18,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 46,
+      "overlapping_coordinate_cases": 37
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "dbpedia_14/smol15": {
+    "related": {
+      "precision": {
+        "mean": 0.35523910385959934,
+        "interval": [
+          0.27194698348917645,
+          0.4489969869019458
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.05427272727272728,
+        "interval": [
+          0.03909090909090909,
+          0.07136590909090908
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.005397959324097127,
+        "interval": [
+          -0.04198320846015459,
+          0.02873952510913527
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.5727272727272728,
+        "interval": [
+          0.4818181818181818,
+          0.659090909090909
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.4909090909090909,
+        "interval": [
+          0.39090909090909093,
+          0.5772727272727273
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.2761907625621182,
+        "interval": [
+          0.1968564525005947,
+          0.35453520631708835
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 112,
+      "overlapping_coordinate_cases": 43
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.22365344555393107,
+        "interval": [
+          0.15843078348486678,
+          0.2892121284903737
+        ],
+        "defined_groups": 19,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.05718181818181819,
+        "interval": [
+          0.04127272727272728,
+          0.07300000000000001
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.05006006648432129,
+        "interval": [
+          -0.09529170278257287,
+          -0.010797700610600468
+        ],
+        "defined_groups": 19,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.6227272727272727,
+        "interval": [
+          0.545340909090909,
+          0.7
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.55,
+        "interval": [
+          0.4545454545454546,
+          0.6363636363636364
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.20639859394778126,
+        "interval": [
+          0.1361486377742612,
+          0.2770558719144417
+        ],
+        "defined_groups": 19,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 99,
+      "overlapping_coordinate_cases": 40
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "dbpedia_14/smol27": {
+    "related": {
+      "precision": {
+        "mean": 0.27569551394943714,
+        "interval": [
+          0.18924871830070503,
+          0.3644927340113583
+        ],
+        "defined_groups": 18,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.01790909090909091,
+        "interval": [
+          0.01,
+          0.028454545454545455
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.04274075984776485,
+        "interval": [
+          -0.07096439284428432,
+          -0.010260443217832043
+        ],
+        "defined_groups": 18,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.44545454545454544,
+        "interval": [
+          0.34090909090909094,
+          0.5454545454545455
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.6863636363636363,
+        "interval": [
+          0.5863636363636364,
+          0.7727272727272727
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.21875444518811674,
+        "interval": [
+          0.153818531957952,
+          0.28514574072428023
+        ],
+        "defined_groups": 18,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 69,
+      "overlapping_coordinate_cases": 29
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.15358693455372158,
+        "interval": [
+          0.07296627952042056,
+          0.24641647436949748
+        ],
+        "defined_groups": 18,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.020999999999999998,
+        "interval": [
+          0.013727272727272729,
+          0.029274999999999985
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.036637795348431285,
+        "interval": [
+          -0.10594878290313202,
+          0.03187528987013507
+        ],
+        "defined_groups": 18,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.48636363636363633,
+        "interval": [
+          0.3681818181818182,
+          0.6
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.6363636363636365,
+        "interval": [
+          0.5545454545454546,
+          0.7181818181818183
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.11161153717499445,
+        "interval": [
+          0.04359989076591751,
+          0.1822230137440839
+        ],
+        "defined_groups": 18,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 80,
+      "overlapping_coordinate_cases": 23
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "dbpedia_14/pythia_topk": {
+    "related": {
+      "precision": {
+        "mean": 0.06018226968755827,
+        "interval": [
+          0.05598286779128118,
+          0.06397037106630071
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.3697272727272727,
+        "interval": [
+          0.30218181818181816,
+          0.44255
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.0101961779846574,
+        "interval": [
+          -0.013517093066124409,
+          -0.007139006824804982
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.1272727272727273,
+        "interval": [
+          0.05909090909090909,
+          0.20909090909090908
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.05034742049556203,
+        "interval": [
+          0.04448484438156369,
+          0.05611562322814138
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 220,
+      "overlapping_coordinate_cases": 100
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.06231854311257927,
+        "interval": [
+          0.05863757442725278,
+          0.06615912852195717
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.40509090909090906,
+        "interval": [
+          0.32999545454545454,
+          0.4875522727272727
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.008962332199885967,
+        "interval": [
+          -0.013213695505059886,
+          -0.005236316695645119
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.14545454545454545,
+        "interval": [
+          0.05909090909090908,
+          0.24545454545454543
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.05245124503689473,
+        "interval": [
+          0.04697551999600358,
+          0.05784409809603982
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 220,
+      "overlapping_coordinate_cases": 100
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "dbpedia_14/qwen_transcoder": {
+    "related": {
+      "precision": {
+        "mean": 0.33324885977753704,
+        "interval": [
+          0.25179140633303077,
+          0.42160314269688753
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.04854545454545456,
+        "interval": [
+          0.0328159090909091,
+          0.06672727272727273
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.0364429568713414,
+        "interval": [
+          -0.06874691708859242,
+          -0.0062450155720064435
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.5,
+        "interval": [
+          0.4,
+          0.5954545454545455
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.5136363636363636,
+        "interval": [
+          0.43181818181818177,
+          0.5909090909090908
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.2414480016008398,
+        "interval": [
+          0.16762727831091684,
+          0.3266181904710792
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 107,
+      "overlapping_coordinate_cases": 39
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.16304480189334142,
+        "interval": [
+          0.0941501596092183,
+          0.23927483855906032
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.03709090909090909,
+        "interval": [
+          0.025,
+          0.05009090909090909
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.043216387143248484,
+        "interval": [
+          -0.07117914220001714,
+          -0.01584273485335593
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.5409090909090909,
+        "interval": [
+          0.4318181818181818,
+          0.6363636363636364
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.6,
+        "interval": [
+          0.5272727272727273,
+          0.6681818181818182
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.12205452543184026,
+        "interval": [
+          0.06672150428478892,
+          0.19018355028258033
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 88,
+      "overlapping_coordinate_cases": 38
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "dbpedia_14/gemma_matryoshka": {
+    "related": {
+      "precision": {
+        "mean": 0.26827097238007813,
+        "interval": [
+          0.20785903603028824,
+          0.3273326832921583
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.13345454545454546,
+        "interval": [
+          0.11054545454545456,
+          0.15591590909090905
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": 0.0038854404276267504,
+        "interval": [
+          -0.009838867220224364,
+          0.019614533544012314
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.6545454545454545,
+        "interval": [
+          0.5818181818181818,
+          0.7181818181818183
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.2590909090909091,
+        "interval": [
+          0.20909090909090908,
+          0.3090909090909091
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.21841844438515876,
+        "interval": [
+          0.15571138592960077,
+          0.2836544698592659
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 163,
+      "overlapping_coordinate_cases": 73
+    },
+    "unrelated": {
+      "precision": {
+        "mean": 0.16641569636001796,
+        "interval": [
+          0.11453466528198367,
+          0.22201963858108598
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "recall": {
+        "mean": 0.10127272727272726,
+        "interval": [
+          0.07827045454545455,
+          0.1260909090909091
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "paired_delta": {
+        "mean": -0.017573942085882453,
+        "interval": [
+          -0.03574636195832093,
+          0.0043243248890545245
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "strict": {
+        "mean": 0.7136363636363636,
+        "interval": [
+          0.6318181818181818,
+          0.7818181818181819
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "empty": {
+        "mean": 0.2,
+        "interval": [
+          0.13181818181818183,
+          0.2681818181818182
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "name_excluded": {
+        "mean": 0.13946990623942424,
+        "interval": [
+          0.09258576290745946,
+          0.1880980253304603
+        ],
+        "defined_groups": 20,
+        "defined_classes": 4
+      },
+      "count": 220,
+      "nonempty": 176,
+      "overlapping_coordinate_cases": 68
+    },
+    "full_pair_meet_nonempty": 0,
+    "full_triple_meet_nonempty": 0
+  },
+  "dbpedia_14/transport/3-15": {
+    "eligible": 12,
+    "before_precision": 0.23444184996930692,
+    "after_precision": 0.08761600633665119,
+    "added": 3024,
+    "correct_added": 215,
+    "lost": 27,
+    "zero": 0
+  },
+  "dbpedia_14/transport/15-27": {
+    "eligible": 16,
+    "before_precision": 0.21034847621669603,
+    "after_precision": 0.07268372346088638,
+    "added": 6161,
+    "correct_added": 409,
+    "lost": 28,
+    "zero": 0
+  },
+  "dbpedia_14/transport/3-27": {
+    "eligible": 12,
+    "before_precision": 0.23444184996930692,
+    "after_precision": 0.06235316867509349,
+    "added": 3172,
+    "correct_added": 213,
+    "lost": 28,
+    "zero": 0
+  }
+}

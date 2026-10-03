@@ -1,0 +1,13 @@
+{
+  "pixel_identical_archive_pages": 72,
+  "suffix_nonidentity": 48,
+  "source_archive_clean_build": true,
+  "notebook_executed": true,
+  "pdfs": {
+    "lattconference.pdf": "ad670e4f1573c769278fd38c4ffa2e321b9d07b0e8e792a5709bc9df6232c39f",
+    "lattconference-combined.pdf": "600e2ed7b6bd3a31eb01ab6228f2ce9429055860b443753af2e9cd091e43b8a1",
+    "lattconference-main.pdf": "29e55d6c355045c114e7317c2fd6d8618ca59fa1b3f0866b0ce7b634d856c636",
+    "lattconference-appendix.pdf": "cc6130457967284c52a4339db0553075323554567c11c3c08928aa8db5595326",
+    "conference-iclr.pdf": "6d9f0c1b239c5f29553e700efe0e641f80f6ad1213f84509318e6893014e39ea"
+  }
+}

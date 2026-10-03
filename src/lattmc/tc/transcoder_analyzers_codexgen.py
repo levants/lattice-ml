@@ -1,6 +1,9 @@
 """Transcoder and SAE analyzer and mapping to the 
 Lattice-theoretic Formal Concept Analysis (FCA)."""
 
+from __future__ import annotations
+from typing import Set
+
 import csv
 import gc
 import logging
@@ -38,18 +41,19 @@ class IndexableCorpus:
     """
 
     def __init__(
-        self,
+        self: IndexableCorpus,
         corpus: torch.Tensor,
         transcoder: Transcoder,
         pad_token: str = None,
-    ):
+    ) -> None:
+        """Initialize IndexableCorpus and its required state."""
         self.corpus = corpus
         self.transcoder = transcoder
         self.pad_token = pad_token if (
             pad_token
         ) else transcoder.tokenizer.pad_token
 
-    def to_string(self, corpus: torch.Tensor) -> str:
+    def to_string(self: IndexableCorpus, corpus: torch.Tensor) -> str:
         """Convert tokens to text using transcoder.
 
         Args:
@@ -60,7 +64,7 @@ class IndexableCorpus:
         """
         return self.transcoder.to_string(corpus).replace(self.pad_token, '')
 
-    def __len__(self):
+    def __len__(self: IndexableCorpus) -> int:
         """Return the length of the corpus.
 
         Returns:
@@ -68,7 +72,7 @@ class IndexableCorpus:
         """
         return len(self.corpus)
 
-    def __get_slices(self, key: slice) -> List[str]:
+    def __get_slices(self: IndexableCorpus, key: slice) -> List[str]:
         """Get slices of the corpus.
 
         Args:
@@ -85,7 +89,10 @@ class IndexableCorpus:
 
         return result
 
-    def __getitem__(self, key) -> Union[str, List[str]]:
+    def __getitem__(
+        self: IndexableCorpus,
+        key: int | slice | list[int] | tuple[int, ...] | np.ndarray,
+    ) -> Union[str, List[str]]:
         """Get items from the corpus.
 
         Args:
@@ -121,7 +128,7 @@ class TranscoderAnalyzer(object):
     """
 
     def __init__(
-        self,
+        self: TranscoderAnalyzer,
         transcoder: Transcoder = None,
         tokens: torch.Tensor = None,
         tr_utils: TranscoderUtils = None,
@@ -131,7 +138,8 @@ class TranscoderAnalyzer(object):
         pos_idxs: Union[List[int], np.ndarray] = None,
         neg_idxs: Union[List[int], np.ndarray] = None,
         texts: IndexableCorpus = None,
-    ):
+    ) -> None:
+        """Initialize TranscoderAnalyzer and its required state."""
         self._transcoder = transcoder
         self._tokens = tokens
         self._tr_utils = tr_utils
@@ -150,7 +158,7 @@ class TranscoderAnalyzer(object):
 
     @classmethod
     def fromAnalyzer(
-        cls,
+        cls: type[TranscoderAnalyzer],
         analyzer: 'TranscoderAnalyzer',
         fcas: Dict[int, FCA] = None,
     ) -> 'TranscoderAnalyzer':
@@ -183,7 +191,7 @@ class TranscoderAnalyzer(object):
         return res_analyzer
 
     @property
-    def transcoder(self) -> Transcoder:
+    def transcoder(self: TranscoderAnalyzer) -> Transcoder:
         """Return the transcoder.
 
         Returns:
@@ -192,7 +200,7 @@ class TranscoderAnalyzer(object):
         return self._transcoder
 
     @property
-    def tokenizer(self) -> Tokenizer:
+    def tokenizer(self: TranscoderAnalyzer) -> Tokenizer:
         """Return the tokenizer.
 
         Returns:
@@ -201,7 +209,7 @@ class TranscoderAnalyzer(object):
         return self.transcoder.tokenizer
 
     @property
-    def pad_token(self) -> str:
+    def pad_token(self: TranscoderAnalyzer) -> str:
         """Return the pad token.
 
         Returns:
@@ -210,7 +218,7 @@ class TranscoderAnalyzer(object):
         return self._pad_token
 
     @property
-    def tokens(self) -> torch.Tensor:
+    def tokens(self: TranscoderAnalyzer) -> torch.Tensor:
         """Return the tokens.
 
         Returns:
@@ -219,7 +227,7 @@ class TranscoderAnalyzer(object):
         return self._tokens
 
     @property
-    def corpus(self) -> torch.Tensor:
+    def corpus(self: TranscoderAnalyzer) -> torch.Tensor:
         """Return the corpus.
 
         Returns:
@@ -228,7 +236,7 @@ class TranscoderAnalyzer(object):
         return self._tokens
 
     @property
-    def trancoder_utils(self) -> TranscoderUtils:
+    def trancoder_utils(self: TranscoderAnalyzer) -> TranscoderUtils:
         """Return the transcoder utils.
 
         Returns:
@@ -237,7 +245,7 @@ class TranscoderAnalyzer(object):
         return self._tr_utils
 
     @property
-    def tr_utils(self) -> TranscoderUtils:
+    def tr_utils(self: TranscoderAnalyzer) -> TranscoderUtils:
         """Return the transcoder utils.
 
         Returns:
@@ -246,7 +254,7 @@ class TranscoderAnalyzer(object):
         return self._tr_utils
 
     @property
-    def fcas(self) -> Dict[int, FCA]:
+    def fcas(self: TranscoderAnalyzer) -> Dict[int, FCA]:
         """Return the FCAs.
 
         Returns:
@@ -255,7 +263,7 @@ class TranscoderAnalyzer(object):
         return self._fcas
 
     @property
-    def layers(self) -> List[int]:
+    def layers(self: TranscoderAnalyzer) -> List[int]:
         """Return the layers.
 
         Returns:
@@ -264,7 +272,9 @@ class TranscoderAnalyzer(object):
         return self._layers
 
     @property
-    def pos_idxs(self) -> Dict[int, Union[List[int], np.ndarray]]:
+    def pos_idxs(
+        self: TranscoderAnalyzer,
+    ) -> Dict[int, Union[List[int], np.ndarray]]:
         """Return the positive indices.
 
         Returns:
@@ -273,7 +283,9 @@ class TranscoderAnalyzer(object):
         return self._pos_idxs
 
     @property
-    def neg_idxs(self) -> Dict[int, Union[List[int], np.ndarray]]:
+    def neg_idxs(
+        self: TranscoderAnalyzer,
+    ) -> Dict[int, Union[List[int], np.ndarray]]:
         """Return the negative indices.
 
         Returns:
@@ -281,7 +293,10 @@ class TranscoderAnalyzer(object):
         """
         return self._neg_idxs
 
-    def get_idcs(self, layer: int) -> Tuple[np.ndarray, np.ndarray]:
+    def get_idcs(
+        self: TranscoderAnalyzer,
+        layer: int,
+    ) -> Tuple[np.ndarray, np.ndarray]:
         """Get all positive and negative indices of FCA for the given layer.
 
         Args:
@@ -293,9 +308,9 @@ class TranscoderAnalyzer(object):
         return self.pos_idxs.get(layer, None), self.neg_idxs.get(layer, None)
 
     def min_vals(
-        self,
+        self: TranscoderAnalyzer,
         layer: int,
-        idcs: Union[List[int], np.ndarray]
+        idcs: Union[List[int], np.ndarray],
     ) -> np.ndarray:
         """Get the minimum nonzero values of the concept on the given indices.
 
@@ -310,9 +325,9 @@ class TranscoderAnalyzer(object):
         return self.fcas[layer].min_vals(idcs)
 
     def min_nonzero_vals(
-        self,
+        self: TranscoderAnalyzer,
         layer: int,
-        u: Union[List[int], np.ndarray]
+        u: Union[List[int], np.ndarray],
     ) -> np.ndarray:
         """Get the minimum nonzero values of the concept on the given indices.
 
@@ -331,9 +346,9 @@ class TranscoderAnalyzer(object):
         return min_nonz_vals
 
     def encode(
-        self,
+        self: TranscoderAnalyzer,
         prompt: Union[str, torch.Tensor],
-        layer: int
+        layer: int,
     ) -> np.ndarray:
         """Encode the prompt for the given layer.
 
@@ -346,7 +361,7 @@ class TranscoderAnalyzer(object):
         """
         return self.transcoder(prompt, layer)
 
-    def tokenize(self, prompt: str) -> torch.Tensor:
+    def tokenize(self: TranscoderAnalyzer, prompt: str) -> torch.Tensor:
         """Tokenize the prompt.
 
         Args:
@@ -357,7 +372,7 @@ class TranscoderAnalyzer(object):
         """
         return self.transcoder.tokenize(prompt)
 
-    def clean_pad(self, prompt: str) -> str:
+    def clean_pad(self: TranscoderAnalyzer, prompt: str) -> str:
         """Remove the padding tokens from the prompt.
 
         Args:
@@ -368,7 +383,7 @@ class TranscoderAnalyzer(object):
         """
         return prompt.replace(self.pad_token, '')
 
-    def to_string(self, prompt: torch.Tensor) -> str:
+    def to_string(self: TranscoderAnalyzer, prompt: torch.Tensor) -> str:
         """Convert the prompt to a string.
 
         Args:
@@ -379,7 +394,10 @@ class TranscoderAnalyzer(object):
         """
         return self.transcoder.to_string(prompt)
 
-    def det_string(self, indcs: Union[List[int], np.ndarray]) -> str:
+    def det_string(
+        self: TranscoderAnalyzer,
+        indcs: Union[List[int], np.ndarray],
+    ) -> str:
         """Convert the indices to a string.
 
         Args:
@@ -390,7 +408,7 @@ class TranscoderAnalyzer(object):
         """
         return self.to_string(self.tokens[indcs])
 
-    def to_clean(self, prompt: torch.Tensor) -> str:
+    def to_clean(self: TranscoderAnalyzer, prompt: torch.Tensor) -> str:
         """Remove the padding tokens from the prompt.
 
         Args:
@@ -402,7 +420,7 @@ class TranscoderAnalyzer(object):
         return self.clean_pad(self.to_string(prompt))
 
     @property
-    def texts(self) -> IndexableCorpus:
+    def texts(self: TranscoderAnalyzer) -> IndexableCorpus:
         """Get the text corpus item by index.
 
         Returns:
@@ -410,7 +428,10 @@ class TranscoderAnalyzer(object):
         """
         return self._texts
 
-    def det_clean(self, indcs: Union[List[int], np.ndarray]) -> str:
+    def det_clean(
+        self: TranscoderAnalyzer,
+        indcs: Union[List[int], np.ndarray],
+    ) -> str:
         """Convert the indices to a string.
 
         Args:
@@ -422,7 +443,7 @@ class TranscoderAnalyzer(object):
         return [(pt, self.to_clean(pt)) for pt in self.tokens[indcs]]
 
     def detect_token(
-        self,
+        self: TranscoderAnalyzer,
         layer: int,
         prompt: torch.Tensor,
         u: np.ndarray,
@@ -441,12 +462,12 @@ class TranscoderAnalyzer(object):
         return self.transcoder.detect_token(layer, prompt, u)
 
     def print_detected_tokens(
-            self,
-            layer: int,
-            prompt: torch.Tensor,
-            u: np.ndarray,
-            with_text: bool = False,
-    ):
+        self: TranscoderAnalyzer,
+        layer: int,
+        prompt: torch.Tensor,
+        u: np.ndarray,
+        with_text: bool = False,
+    ) -> None:
         """Print the detected tokens in the prompt for each feature
             of the given vector.
 
@@ -465,7 +486,7 @@ class TranscoderAnalyzer(object):
         )
 
     def print_all_detected_tokens(
-        self,
+        self: TranscoderAnalyzer,
         layer: int,
         prompts: torch.Tensor,
         u: np.ndarray,
@@ -492,7 +513,7 @@ class TranscoderAnalyzer(object):
         )
 
     def print_all_from_objects(
-        self,
+        self: TranscoderAnalyzer,
         layer: int,
         A: Union[np.ndarray, torch.Tensor],
         u: np.ndarray,
@@ -531,7 +552,7 @@ class TranscoderAnalyzer(object):
         return v_FG, token_idcs
 
     def print_multitexts_from_objects(
-        self,
+        self: TranscoderAnalyzer,
         layer: int,
         A: Union[np.ndarray, torch.Tensor],
         u: np.ndarray,
@@ -559,7 +580,7 @@ class TranscoderAnalyzer(object):
         )
 
     def print_all_from_concept(
-        self,
+        self: TranscoderAnalyzer,
         layer: int,
         c: SimpleNamespace,
         with_text: bool = False,
@@ -588,15 +609,10 @@ class TranscoderAnalyzer(object):
         )
 
     def match_tokens_in_prompts_and_print(
-        self,
+        self: TranscoderAnalyzer,
         A: np.ndarray,
-        S: Union[
-            Set[int],
-            List[int],
-            np.ndarray,
-            List[torch.Tensor],
-            torch.Tensor,
-        ],
+        S: Union[Set[int], List[int], np.ndarray, List[torch.Tensor],
+        torch.Tensor],
         with_text: bool = True,
         color_idx: int = 35,
     ) -> Dict[int, str]:
@@ -625,10 +641,10 @@ class TranscoderAnalyzer(object):
         )
 
     def gen_concept(
-        self,
+        self: TranscoderAnalyzer,
         idx: Union[int, List[int], np.ndarray],
         val: Union[float, List[float], np.ndarray],
-        layer: int
+        layer: int,
     ) -> SimpleNamespace:
         """Generate a concept from the given index and value.
 
@@ -644,7 +660,7 @@ class TranscoderAnalyzer(object):
         return gen_concept(idx, val, self.fcas[layer])
 
     def gen_and_print_all(
-        self,
+        self: TranscoderAnalyzer,
         idx: Union[int, List[int], np.ndarray],
         val: Union[float, List[float], np.ndarray],
         layer: int,
@@ -677,7 +693,11 @@ class TranscoderAnalyzer(object):
 
         return c
 
-    def dump_text(self, prompt: torch.Tensor, dest: Path):
+    def dump_text(
+        self: TranscoderAnalyzer,
+        prompt: torch.Tensor,
+        dest: Path,
+    ) -> None:
         """Dump the text of the prompt to the destination file.
 
         Args:
@@ -690,7 +710,11 @@ class TranscoderAnalyzer(object):
                     tx = self.to_clean(pr)
                     fl.write(f'{tx}\n')
 
-    def dump_csv(self, prompt: torch.Tensor, dest: Path):
+    def dump_csv(
+        self: TranscoderAnalyzer,
+        prompt: torch.Tensor,
+        dest: Path,
+    ) -> None:
         """Dump the text of the prompt to the destination file.
 
         Args:
@@ -708,7 +732,7 @@ class TranscoderAnalyzer(object):
             csv_writer.writerows(texts)
         print(f'Text is written to {dest} as a CSV.')
 
-    def dump_tokens(self, dest: Path):
+    def dump_tokens(self: TranscoderAnalyzer, dest: Path) -> None:
         """Dump the tokens to the destination file.
 
         Args:
@@ -716,7 +740,7 @@ class TranscoderAnalyzer(object):
         """
         self.dump_text(self.tokens, dest)
 
-    def tokens_to_csv(self, dest: Path):
+    def tokens_to_csv(self: TranscoderAnalyzer, dest: Path) -> None:
         """Dump the tokens to the destination file.
 
         Args:
@@ -735,11 +759,12 @@ class ConceptAnalysis(object):
     """
 
     def __init__(
-        self,
+        self: ConceptAnalysis,
         prompt: str,
         tr_analyzer: TranscoderAnalyzer,
         trunc: int = None,
-    ):
+    ) -> None:
+        """Initialize ConceptAnalysis and its required state."""
         self._tr_utils = tr_analyzer.tr_utils
         self._prompt = prompt
         self._layers = tr_analyzer.layers
@@ -778,7 +803,7 @@ class ConceptAnalysis(object):
         self._texts = tr_analyzer.texts
 
     @property
-    def tr_utils(self) -> TranscoderUtils:
+    def tr_utils(self: ConceptAnalysis) -> TranscoderUtils:
         """Get the transcoder utils.
 
         Returns:
@@ -787,7 +812,7 @@ class ConceptAnalysis(object):
         return self._tr_utils
 
     @property
-    def transcoder(self) -> Transcoder:
+    def transcoder(self: ConceptAnalysis) -> Transcoder:
         """Get the transcoder.
 
         Returns:
@@ -796,7 +821,7 @@ class ConceptAnalysis(object):
         return self.tr_utils.transcoder
 
     @property
-    def prompt(self) -> str:
+    def prompt(self: ConceptAnalysis) -> str:
         """Get the prompt.
 
         Returns:
@@ -805,7 +830,7 @@ class ConceptAnalysis(object):
         return self._prompt
 
     @property
-    def layers(self) -> List[int]:
+    def layers(self: ConceptAnalysis) -> List[int]:
         """Get the layers.
 
         Returns:
@@ -814,7 +839,7 @@ class ConceptAnalysis(object):
         return self._layers
 
     @property
-    def fcas(self) -> Dict[int, FCA]:
+    def fcas(self: ConceptAnalysis) -> Dict[int, FCA]:
         """Get the FCA objects.
 
         Returns:
@@ -823,7 +848,7 @@ class ConceptAnalysis(object):
         return self._fcas
 
     @property
-    def corpus(self) -> torch.Tensor:
+    def corpus(self: ConceptAnalysis) -> torch.Tensor:
         """Get the corpus as a matrix of tokens.
 
         Returns:
@@ -832,7 +857,7 @@ class ConceptAnalysis(object):
         return self._corpus
 
     @property
-    def texts(self) -> IndexableCorpus:
+    def texts(self: ConceptAnalysis) -> IndexableCorpus:
         """Get the corpus as texts.
 
         Returns:
@@ -841,7 +866,7 @@ class ConceptAnalysis(object):
         return self._texts
 
     @property
-    def trunc(self) -> int:
+    def trunc(self: ConceptAnalysis) -> int:
         """Get the truncation value.
 
         Returns:
@@ -850,7 +875,7 @@ class ConceptAnalysis(object):
         return self._trunc if self._trunc is not None else 0
 
     @trunc.setter
-    def trunc(self, value: int):
+    def trunc(self: ConceptAnalysis, value: int) -> None:
         """Set the truncation value.
 
         Args:
@@ -861,7 +886,7 @@ class ConceptAnalysis(object):
         self._trunc = value
 
     @property
-    def vs(self) -> Dict[int, np.ndarray]:
+    def vs(self: ConceptAnalysis) -> Dict[int, np.ndarray]:
         """Get the V vectors.
 
         Returns:
@@ -870,7 +895,7 @@ class ConceptAnalysis(object):
         return self._vs
 
     @vs.setter
-    def vs(self, other_vs: Dict[int, np.ndarray]):
+    def vs(self: ConceptAnalysis, other_vs: Dict[int, np.ndarray]) -> None:
         """Set the V vectors.
 
         Args:
@@ -879,7 +904,7 @@ class ConceptAnalysis(object):
         self._vs = other_vs
 
     @property
-    def idcs(self) -> List[int]:
+    def idcs(self: ConceptAnalysis) -> List[int]:
         """Get the indices.
 
         Returns:
@@ -888,7 +913,7 @@ class ConceptAnalysis(object):
         return self._idcs
 
     @idcs.setter
-    def idcs(self, other_idcs: List[int]):
+    def idcs(self: ConceptAnalysis, other_idcs: List[int]) -> None:
         """Set the indices.
 
         Args:
@@ -897,7 +922,7 @@ class ConceptAnalysis(object):
         self._idcs = other_idcs
 
     @property
-    def v_is(self) -> Dict[int, np.ndarray]:
+    def v_is(self: ConceptAnalysis) -> Dict[int, np.ndarray]:
         """Get the V vectors.
 
         Returns:
@@ -906,7 +931,7 @@ class ConceptAnalysis(object):
         return self._v_is
 
     @v_is.setter
-    def v_is(self, other_v_is: Dict[int, np.ndarray]):
+    def v_is(self: ConceptAnalysis, other_v_is: Dict[int, np.ndarray]) -> None:
         """Set the V vectors.
 
         Args:
@@ -915,7 +940,7 @@ class ConceptAnalysis(object):
         self._v_is = other_v_is
 
     @property
-    def c_is(self) -> Dict[int, Concept]:
+    def c_is(self: ConceptAnalysis) -> Dict[int, Concept]:
         """Get the concept.
 
         Returns:
@@ -924,7 +949,7 @@ class ConceptAnalysis(object):
         return self._c_is
 
     @c_is.setter
-    def c_is(self, other_c_is: Dict[int, Concept]):
+    def c_is(self: ConceptAnalysis, other_c_is: Dict[int, Concept]) -> None:
         """Set the concept.
 
         Args:
@@ -933,7 +958,7 @@ class ConceptAnalysis(object):
         self._c_is = other_c_is
 
     @property
-    def prop_tokens(self) -> Dict[int, torch.Tensor]:
+    def prop_tokens(self: ConceptAnalysis) -> Dict[int, torch.Tensor]:
         """Get the propagated tokens.
 
         Returns:
@@ -942,7 +967,10 @@ class ConceptAnalysis(object):
         return self._prop_tokens
 
     @prop_tokens.setter
-    def prop_tokens(self, other_prop_tokens: Dict[int, torch.Tensor]):
+    def prop_tokens(
+        self: ConceptAnalysis,
+        other_prop_tokens: Dict[int, torch.Tensor],
+    ) -> None:
         """Set the propagated tokens.
 
         Args:
@@ -951,7 +979,7 @@ class ConceptAnalysis(object):
         self._prop_tokens = other_prop_tokens
 
     @property
-    def det_tokens(self) -> Dict[int, torch.Tensor]:
+    def det_tokens(self: ConceptAnalysis) -> Dict[int, torch.Tensor]:
         """Get the detected tokens.
 
         Returns:
@@ -960,7 +988,10 @@ class ConceptAnalysis(object):
         return self._det_tokens
 
     @det_tokens.setter
-    def det_tokens(self, other_det_tokens: Dict[int, torch.Tensor]):
+    def det_tokens(
+        self: ConceptAnalysis,
+        other_det_tokens: Dict[int, torch.Tensor],
+    ) -> None:
         """Set the detected tokens.
 
         Args:
@@ -969,7 +1000,7 @@ class ConceptAnalysis(object):
         self._det_tokens = other_det_tokens
 
     @property
-    def prop_tokens(self) -> Dict[int, torch.Tensor]:
+    def prop_tokens(self: ConceptAnalysis) -> Dict[int, torch.Tensor]:
         """Get the propagated tokens.
 
         Returns:
@@ -978,7 +1009,10 @@ class ConceptAnalysis(object):
         return self._prop_tokens
 
     @prop_tokens.setter
-    def prop_tokens(self, other_prop_tokens: Dict[int, torch.Tensor]):
+    def prop_tokens(
+        self: ConceptAnalysis,
+        other_prop_tokens: Dict[int, torch.Tensor],
+    ) -> None:
         """Set the propagated tokens.
 
         Args:
@@ -987,7 +1021,9 @@ class ConceptAnalysis(object):
         self._prop_tokens = other_prop_tokens
 
     @property
-    def detected_vs(self) -> Dict[int, Union[torch.Tensor, np.ndarray]]:
+    def detected_vs(
+        self: ConceptAnalysis,
+    ) -> Dict[int, Union[torch.Tensor, np.ndarray]]:
         """Get the detected values.
 
         Returns:
@@ -996,10 +1032,9 @@ class ConceptAnalysis(object):
         return self._detected_vs
 
     @property
-    def detected_v_FG(self) -> Dict[
-        int,
-        Dict[int, Union[np.ndarray, torch.Tensor]]
-    ]:
+    def detected_v_FG(
+        self: ConceptAnalysis,
+    ) -> Dict[int, Dict[int, Union[np.ndarray, torch.Tensor]]]:
         """Get the detected foreground values.
 
         Returns:
@@ -1009,7 +1044,7 @@ class ConceptAnalysis(object):
         return self._detected_v_FG
 
     @property
-    def v_FG(self) -> Dict[int, Dict[int, np.ndarray]]:
+    def v_FG(self: ConceptAnalysis) -> Dict[int, Dict[int, np.ndarray]]:
         """Get the v_FG values.
 
         Returns:
@@ -1018,7 +1053,7 @@ class ConceptAnalysis(object):
         return self._v_FG
 
     @property
-    def pos_idxs(self) -> Union[List[int], np.ndarray]:
+    def pos_idxs(self: ConceptAnalysis) -> Union[List[int], np.ndarray]:
         """Get the positive indices.
 
         Returns:
@@ -1027,7 +1062,7 @@ class ConceptAnalysis(object):
         return self._pos_idxs
 
     @property
-    def neg_idxs(self) -> Union[List[int], np.ndarray]:
+    def neg_idxs(self: ConceptAnalysis) -> Union[List[int], np.ndarray]:
         """Get the negative indices.
 
         Returns:
@@ -1036,11 +1071,11 @@ class ConceptAnalysis(object):
         return self._neg_idxs
 
     def add_detected_vs(
-        self,
+        self: ConceptAnalysis,
         idcs: int,
         vs: Union[np.ndarray, torch.Tensor],
-        det_vs: Dict[int, Union[np.ndarray, torch.Tensor]]
-    ):
+        det_vs: Dict[int, Union[np.ndarray, torch.Tensor]],
+    ) -> None:
         """Add detected values for the given layer and index.
 
         Args:
@@ -1056,7 +1091,10 @@ class ConceptAnalysis(object):
             else:
                 det_vs[idx] = v
 
-    def get_idcs(self, layer: int) -> Tuple[List[int], List[int]]:
+    def get_idcs(
+        self: ConceptAnalysis,
+        layer: int,
+    ) -> Tuple[List[int], List[int]]:
         """Get the positive and negative indices for the given layer.
 
         Args:
@@ -1067,7 +1105,7 @@ class ConceptAnalysis(object):
         """
         return self.pos_idxs.get(layer, None), self.neg_idxs.get(layer, None)
 
-    def V(self, layer: int) -> np.ndarray:
+    def V(self: ConceptAnalysis, layer: int) -> np.ndarray:
         """Get the V matrix for the given layer.
 
         Args:
@@ -1079,7 +1117,7 @@ class ConceptAnalysis(object):
         return self.fcas[layer].V
 
     def init_fca(
-        self,
+        self: ConceptAnalysis,
         layer: int,
         neg_idxs: Union[List[int], np.ndarray] = None,
     ) -> FCA:
@@ -1095,7 +1133,7 @@ class ConceptAnalysis(object):
         """
         return FCA(self.V(layer), neg_idx=neg_idxs)
 
-    def run_model(self, idx: int, layer: int) -> np.ndarray:
+    def run_model(self: ConceptAnalysis, idx: int, layer: int) -> np.ndarray:
         """Run the model for the given index and layer.
 
         Args:
@@ -1108,11 +1146,11 @@ class ConceptAnalysis(object):
         return self.transcoder(self.corpus[idx], layer)[0]
 
     def print_detected_tokens(
-            self,
-            layer: int,
-            idx: int,
-            u: np.ndarray,
-            with_text: bool = False,
+        self: ConceptAnalysis,
+        layer: int,
+        idx: int,
+        u: np.ndarray,
+        with_text: bool = False,
     ) -> Tuple[np.ndarray, Union[List[List[int]], np.ndarray]]:
         """Print detected tokens for the given layer and indices.
 
@@ -1133,7 +1171,7 @@ class ConceptAnalysis(object):
         )
 
     def print_all_detected_tokens(
-        self,
+        self: ConceptAnalysis,
         layer: int,
         A: np.ndarray,
         u: np.ndarray,
@@ -1163,7 +1201,7 @@ class ConceptAnalysis(object):
         )
 
     def gen_concept(
-        self,
+        self: ConceptAnalysis,
         idcs: Union[int, List[int], np.ndarray],
         vals: Union[float, List[float], np.ndarray],
         layer: int,
@@ -1188,7 +1226,7 @@ class ConceptAnalysis(object):
         return cn
 
     def G_FG(
-        self,
+        self: ConceptAnalysis,
         v: np.ndarray,
         layer: int,
         neg_idxs: Union[List[int], np.ndarray] = None,
@@ -1210,12 +1248,12 @@ class ConceptAnalysis(object):
         return c_v
 
     def gen_and_print(
-        self,
+        self: ConceptAnalysis,
         idcs: Union[int, List[int], np.ndarray],
         vals: Union[float, List[float], np.ndarray],
         layer: int,
         neg_idxs: Union[List[int], np.ndarray] = None,
-        with_text=True,
+        with_text: bool = True,
         limit: int = None,
     ) -> Tuple[np.ndarray, Union[List[List[int]], np.ndarray], Concept]:
         """Generate a concept and print it.
@@ -1256,7 +1294,7 @@ class ConceptAnalysis(object):
         ), cn
 
     def topK_v(
-        self,
+        self: ConceptAnalysis,
         layer: int,
         idx: int,
         k: int = 10,
@@ -1273,13 +1311,20 @@ class ConceptAnalysis(object):
         """
         return topK(self.v_is[layer][idx], k)
 
-    def analyze_concepts(self):
+    def analyze_concepts(self: ConceptAnalysis) -> None:
         """Analyze the concepts for the given prompt and layers."""
         vs = self.tr_utils.run_transcoders(self.prompt, self.layers)
         self.tr_utils.print_tokens(self.prompt)
         self.vs = vs
 
-    def _set_vals(self, vals, set_val, red_val, i, i_idx):
+    def _set_vals(
+        self: ConceptAnalysis,
+        vals: dict[int, np.ndarray],
+        set_val: float | list[float] | dict[int, float] | None,
+        red_val: float | list[float] | dict[int, float],
+        i: int,
+        i_idx: int,
+    ) -> None:
         """Set the values for the given indices.
 
         Args:
@@ -1306,14 +1351,14 @@ class ConceptAnalysis(object):
             ) else red_val[i_idx]
 
     def _collect_vals(
-        self,
+        self: ConceptAnalysis,
         layer: int,
         rng: int = 1,
         red_val: Union[float, List[float], Dict[int, float]] = 0.0,
         set_val: Union[float, List[float], Dict[int, float]] = None,
         trunc: int = 0,
         min_vals: bool = False,
-    ):
+    ) -> None:
         """Collect the values for the given layer and indices.
 
         Args:
@@ -1370,7 +1415,7 @@ class ConceptAnalysis(object):
         self.v_is[layer] = v_is_layer
 
     def gen_concepts(
-        self,
+        self: ConceptAnalysis,
         idcs: List[int],
         layer: int,
         rng: int = 1,
@@ -1378,7 +1423,7 @@ class ConceptAnalysis(object):
         set_val: Union[float, List[float], Dict[int, float]] = None,
         trunc: int = 0,
         min_vals: bool = False,
-    ):
+    ) -> None:
         """Generate the concepts for the given indices and layer.
 
         Args:
@@ -1414,7 +1459,7 @@ class ConceptAnalysis(object):
             self.c_is[layer].A
         ) > 0 else torch.tensor([])
 
-    def to_string(self, tokens: torch.Tensor) -> str:
+    def to_string(self: ConceptAnalysis, tokens: torch.Tensor) -> str:
         """Convert tokens to a string.
 
         Args:
@@ -1426,7 +1471,7 @@ class ConceptAnalysis(object):
         return self.transcoder.to_string(tokens)
 
     def _analyze_limited_text(
-        self,
+        self: ConceptAnalysis,
         layer: int,
         limit: int = None,
         full_tokens: bool = False,
@@ -1494,10 +1539,10 @@ class ConceptAnalysis(object):
         return rn_limit
 
     def _analyze_rest_tokens(
-        self,
+        self: ConceptAnalysis,
         layer: int,
         rn_limit: int,
-    ):
+    ) -> None:
         """Analyze the text for the given layer and indices.
 
         Args:
@@ -1526,7 +1571,7 @@ class ConceptAnalysis(object):
                     ) else v_FG if not_empty(v_FG) else None
 
     def analyze_text(
-        self,
+        self: ConceptAnalysis,
         layer: int,
         limit: int = None,
         full_tokens: bool = False,
@@ -1552,7 +1597,7 @@ class ConceptAnalysis(object):
         return self.det_tokens[layer], self.detected_vs[layer]
 
     def gen_text(
-        self,
+        self: ConceptAnalysis,
         idcs: List[int],
         layer: int,
         rng: int = 1,

@@ -1,5 +1,8 @@
 """Cache actual upstream SAE codes as lossless sparse patch matrices."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import json
 import time
@@ -11,7 +14,8 @@ from scipy import sparse
 from lattmc.vision.patch_models_codexgen import Adapter, ROOT, dataset
 
 
-def extract(name):
+def extract(name: str) -> None:
+    """Cache upstream patch codes and reconstruction diagnostics."""
     torch.set_num_threads(4)
     sample = dataset(name)
     out = ROOT / name
@@ -49,7 +53,10 @@ def extract(name):
     print(name, 'extraction complete', flush=True)
 
 
-def load(name):
+def load(
+    name: str,
+) -> tuple[dict[str, np.ndarray], list[dict[str, np.ndarray]]]:
+    """Load cached images and ordered activation chunks."""
     directory = ROOT / name
     with np.load(directory / 'dataset/images_codexgen.npz') as data:
         sample = {k: data[k] for k in data.files}
@@ -63,7 +70,8 @@ def load(name):
     return sample, records
 
 
-def select(name):
+def select(name: str) -> dict[str, Any]:
+    """Select distinct feature pairs using training-set class contrasts."""
     sample, records = load(name)
     pooled = np.concatenate([r['pooled'] for r in records])
     train = sample['splits'] == 'train'

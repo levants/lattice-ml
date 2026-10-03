@@ -1,5 +1,8 @@
 """Patch correspondence and identical-pixel context controls, not masks."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import json
 
@@ -11,14 +14,17 @@ from lattmc.vision.patch_contexts_codexgen import read
 from lattmc.vision.patch_models_codexgen import Adapter, ROOT
 
 
-def overlap(first, second):
+def overlap(first: np.ndarray, second: np.ndarray) -> tuple[float | None, int]:
+    """Return mean Jaccard overlap and the number of nonempty mask unions."""
     union = (first | second).sum(1)
     valid = union > 0
     values = (first & second).sum(1)[valid] / union[valid]
     return float(values.mean()) if len(values) else None, int(valid.sum())
 
 
-def run(name):
+def run(name: str) -> dict[str, Any]:
+    """Evaluate patch-query stability under controlled image transformations.
+    """
     torch.set_num_threads(4)
     sample, codes, features, _ = read(name)
     root = ROOT / name

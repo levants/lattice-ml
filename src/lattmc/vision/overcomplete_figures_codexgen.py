@@ -1,5 +1,11 @@
 """Measured, dataset-balanced galleries and query witnesses from caches."""
 
+from __future__ import annotations
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from matplotlib.axes import Axes
+
 import argparse
 import json
 
@@ -17,7 +23,14 @@ TITLES = ['Imagenette', 'Imagewoof', 'Pets', 'PartImageNet', 'DTD']
 OUT = ROOT / 'figures'
 
 
-def panel(ax, image, position, grid, title):
+def panel(
+    ax: Axes,
+    image: np.ndarray,
+    position: int,
+    grid: int,
+    title: str,
+) -> None:
+    """Draw an image panel and mark its selected spatial site."""
     ax.imshow(image)
     y, x = divmod(int(position), grid)
     size = 224 // grid
@@ -38,7 +51,8 @@ def panel(ax, image, position, grid, title):
     ax.set_yticks([])
 
 
-def foreground_features(name):
+def foreground_features(name: str) -> list[int]:
+    """Rank and select features associated with annotated foreground."""
     from lattmc.vision.overcomplete_annotations_codexgen import occupancy
     frequencies = []
     for dataset in ['pets', 'imagewoof', 'parts']:
@@ -66,7 +80,12 @@ def foreground_features(name):
     return [feature for _, feature in sorted(scores, reverse=True)[:3]]
 
 
-def gallery(name, transfer=False, foreground=False):
+def gallery(
+    name: str,
+    transfer: bool = False,
+    foreground: bool = False,
+) -> None:
+    """Save feature exemplar panels for the selected evaluation split."""
     OUT.mkdir(parents=True, exist_ok=True)
     definition = json.loads((ROOT / f'results/{name}/queries_codexgen.json')
                             .read_text())
@@ -134,7 +153,8 @@ def gallery(name, transfer=False, foreground=False):
         'panels': provenance}, indent=2) + '\n')
 
 
-def queries(name='topk_k32_s0', pair=3):
+def queries(name: str = 'topk_k32_s0', pair: int = 3) -> None:
+    """Render the selected feature-pair query and its retrieved images."""
     definition = json.loads((ROOT / f'results/{name}/queries_codexgen.json')
                             .read_text())['queries'][pair]
     features = definition['features']

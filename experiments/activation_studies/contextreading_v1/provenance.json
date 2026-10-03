@@ -1,0 +1,1841 @@
+{
+  "date": "2026-10-03",
+  "seed": 20261004,
+  "conditions": {
+    "gpt2_sae0": {
+      "previous_record": {
+        "kind": "sae",
+        "layer": 0,
+        "sources": {
+          "New": {
+            "row": 3457,
+            "position": 1,
+            "token": 968,
+            "piece": " New"
+          },
+          "York": {
+            "row": 3457,
+            "position": 2,
+            "token": 1971,
+            "piece": " York"
+          },
+          "City": {
+            "row": 3457,
+            "position": 3,
+            "token": 2254,
+            "piece": " City"
+          },
+          "Rio": {
+            "row": 5411,
+            "position": 15,
+            "token": 15338,
+            "piece": " Rio"
+          },
+          "de": {
+            "row": 5411,
+            "position": 16,
+            "token": 390,
+            "piece": " de"
+          },
+          "Janeiro": {
+            "row": 5411,
+            "position": 17,
+            "token": 42799,
+            "piece": " Janeiro"
+          },
+          "Cat": {
+            "row": 4042,
+            "position": 8,
+            "token": 5181,
+            "piece": " Cat"
+          },
+          "dog": {
+            "row": 4042,
+            "position": 82,
+            "token": 3290,
+            "piece": " dog"
+          },
+          "Cleveland": {
+            "row": 1924,
+            "position": 15,
+            "token": 10306,
+            "piece": " Cleveland"
+          },
+          "Clippers": {
+            "row": 1924,
+            "position": 39,
+            "token": 28564,
+            "piece": " Clippers"
+          },
+          "Cavaliers": {
+            "row": 1924,
+            "position": 94,
+            "token": 29411,
+            "piece": " Cavaliers"
+          }
+        },
+        "config": {
+          "d_in": 768,
+          "d_sae": 24576,
+          "dtype": "float32",
+          "device": "cpu",
+          "apply_b_dec_to_input": true,
+          "normalize_activations": "none",
+          "reshape_activations": "none",
+          "metadata": {
+            "sae_lens_version": "6.51.7",
+            "sae_lens_training_version": null,
+            "model_name": "gpt2-small",
+            "hook_name": "blocks.0.hook_resid_pre",
+            "hook_head_index": null,
+            "dataset_path": "Skylion007/openwebtext",
+            "context_size": 128,
+            "model_from_pretrained_kwargs": {
+              "center_writing_weights": true
+            },
+            "neuronpedia_id": "gpt2-small/0-res-jb",
+            "prepend_bos": true
+          },
+          "architecture": "standard"
+        },
+        "decoder_norm": {
+          "min": 0.9999315738677979,
+          "max": 1.0005767345428467,
+          "median": 1.000002384185791
+        },
+        "source_refresh": [
+          {
+            "row": 1924,
+            "max_abs_error": 0.0,
+            "support_changes": 0
+          },
+          {
+            "row": 3457,
+            "max_abs_error": 0.0,
+            "support_changes": 0
+          },
+          {
+            "row": 4042,
+            "max_abs_error": 0.0,
+            "support_changes": 0
+          },
+          {
+            "row": 5411,
+            "max_abs_error": 0.0,
+            "support_changes": 0
+          }
+        ],
+        "token_sha256": "2048cf710ea4ed85ee2dc62d19e8b0e1434d178cfaa58ccbe53564d57f22d0f7",
+        "matrix_sha256": "35bd54b8556559fb5d4f0d88ac59db59057b31ce4959d7970facecd7c35a0cf1",
+        "traces_sha256": "850177322c4cb1427584773ac100e7a50b0c7c702e110b06b643c8a14ffb836c",
+        "protocol_sha256": "3aafbe740b9b12b7a7456cddc309e909bf8fd737bf5112316b8eb640386807da",
+        "source_sha256": "7ba082d841aadf6761c9be65155f1e8a6ec60279b741e664221aa000fc2122cf",
+        "tolerance": 0,
+        "corpus_size": 25600,
+        "included_positions": "all 128"
+      },
+      "source_positions": {
+        "New": [
+          3457,
+          1
+        ],
+        "City": [
+          3457,
+          3
+        ],
+        "findings": [
+          3457,
+          21
+        ],
+        "experiments": [
+          3457,
+          49
+        ],
+        "monkeys": [
+          3457,
+          55
+        ],
+        "mice": [
+          3457,
+          57
+        ],
+        "virus": [
+          3457,
+          65
+        ],
+        "Rio": [
+          5411,
+          15
+        ],
+        "de": [
+          5411,
+          16
+        ],
+        "Janeiro": [
+          5411,
+          17
+        ],
+        "specimens": [
+          5411,
+          31
+        ],
+        "lab": [
+          5411,
+          45
+        ],
+        "Paulo": [
+          5411,
+          49
+        ],
+        "species": [
+          5411,
+          74
+        ],
+        "measurements": [
+          5411,
+          94
+        ],
+        "analysis": [
+          5411,
+          115
+        ],
+        "Cat": [
+          4042,
+          8
+        ],
+        "version": [
+          4042,
+          27
+        ],
+        "city": [
+          4042,
+          79
+        ],
+        "dog": [
+          4042,
+          82
+        ],
+        "park": [
+          4042,
+          83
+        ],
+        "Cleveland": [
+          1924,
+          15
+        ],
+        "Clippers": [
+          1924,
+          39
+        ],
+        "rating": [
+          1924,
+          72
+        ],
+        "Cavaliers": [
+          1924,
+          94
+        ]
+      },
+      "module_sha256": "a61fa17d386f664f5df0760469eb775dc860697d7fe6fb3e31fea3b4e7783b5f",
+      "protocol_sha256": "7db44eff9a08aa62ebc29981db16f937cd77e4b34bf3d944f389888aa4a8d93e"
+    },
+    "gpt2_sae8": {
+      "previous_record": {
+        "kind": "sae",
+        "layer": 8,
+        "sources": {
+          "New": {
+            "row": 3457,
+            "position": 1,
+            "token": 968,
+            "piece": " New"
+          },
+          "York": {
+            "row": 3457,
+            "position": 2,
+            "token": 1971,
+            "piece": " York"
+          },
+          "City": {
+            "row": 3457,
+            "position": 3,
+            "token": 2254,
+            "piece": " City"
+          },
+          "Rio": {
+            "row": 5411,
+            "position": 15,
+            "token": 15338,
+            "piece": " Rio"
+          },
+          "de": {
+            "row": 5411,
+            "position": 16,
+            "token": 390,
+            "piece": " de"
+          },
+          "Janeiro": {
+            "row": 5411,
+            "position": 17,
+            "token": 42799,
+            "piece": " Janeiro"
+          },
+          "Cat": {
+            "row": 4042,
+            "position": 8,
+            "token": 5181,
+            "piece": " Cat"
+          },
+          "dog": {
+            "row": 4042,
+            "position": 82,
+            "token": 3290,
+            "piece": " dog"
+          },
+          "Cleveland": {
+            "row": 1924,
+            "position": 15,
+            "token": 10306,
+            "piece": " Cleveland"
+          },
+          "Clippers": {
+            "row": 1924,
+            "position": 39,
+            "token": 28564,
+            "piece": " Clippers"
+          },
+          "Cavaliers": {
+            "row": 1924,
+            "position": 94,
+            "token": 29411,
+            "piece": " Cavaliers"
+          }
+        },
+        "config": {
+          "d_in": 768,
+          "d_sae": 24576,
+          "dtype": "float32",
+          "device": "cpu",
+          "apply_b_dec_to_input": true,
+          "normalize_activations": "none",
+          "reshape_activations": "none",
+          "metadata": {
+            "sae_lens_version": "6.51.7",
+            "sae_lens_training_version": null,
+            "model_name": "gpt2-small",
+            "hook_name": "blocks.8.hook_resid_pre",
+            "hook_head_index": null,
+            "dataset_path": "Skylion007/openwebtext",
+            "context_size": 128,
+            "model_from_pretrained_kwargs": {
+              "center_writing_weights": true
+            },
+            "neuronpedia_id": "gpt2-small/8-res-jb",
+            "prepend_bos": true
+          },
+          "architecture": "standard"
+        },
+        "decoder_norm": {
+          "min": 0.9998339414596558,
+          "max": 1.0013394355773926,
+          "median": 1.00004243850708
+        },
+        "source_refresh": [
+          {
+            "row": 1924,
+            "max_abs_error": 0.000102996826171875,
+            "support_changes": 0
+          },
+          {
+            "row": 3457,
+            "max_abs_error": 8.392333984375e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 4042,
+            "max_abs_error": 9.632110595703125e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 5411,
+            "max_abs_error": 6.103515625e-05,
+            "support_changes": 0
+          }
+        ],
+        "token_sha256": "2048cf710ea4ed85ee2dc62d19e8b0e1434d178cfaa58ccbe53564d57f22d0f7",
+        "matrix_sha256": "dcef96e97cc04c8cb33b486efd3b42e75303ce4ad7c3afa2e8a9fe9db3143bf8",
+        "traces_sha256": "a54f9790cc09f51ba72b29d3a9ae5b1230a7f64623b0b7c14309ffac027587ed",
+        "protocol_sha256": "3aafbe740b9b12b7a7456cddc309e909bf8fd737bf5112316b8eb640386807da",
+        "source_sha256": "7ba082d841aadf6761c9be65155f1e8a6ec60279b741e664221aa000fc2122cf",
+        "tolerance": 0,
+        "corpus_size": 25600,
+        "included_positions": "all 128"
+      },
+      "source_positions": {
+        "New": [
+          3457,
+          1
+        ],
+        "City": [
+          3457,
+          3
+        ],
+        "findings": [
+          3457,
+          21
+        ],
+        "experiments": [
+          3457,
+          49
+        ],
+        "monkeys": [
+          3457,
+          55
+        ],
+        "mice": [
+          3457,
+          57
+        ],
+        "virus": [
+          3457,
+          65
+        ],
+        "Rio": [
+          5411,
+          15
+        ],
+        "de": [
+          5411,
+          16
+        ],
+        "Janeiro": [
+          5411,
+          17
+        ],
+        "specimens": [
+          5411,
+          31
+        ],
+        "lab": [
+          5411,
+          45
+        ],
+        "Paulo": [
+          5411,
+          49
+        ],
+        "species": [
+          5411,
+          74
+        ],
+        "measurements": [
+          5411,
+          94
+        ],
+        "analysis": [
+          5411,
+          115
+        ],
+        "Cat": [
+          4042,
+          8
+        ],
+        "version": [
+          4042,
+          27
+        ],
+        "city": [
+          4042,
+          79
+        ],
+        "dog": [
+          4042,
+          82
+        ],
+        "park": [
+          4042,
+          83
+        ],
+        "Cleveland": [
+          1924,
+          15
+        ],
+        "Clippers": [
+          1924,
+          39
+        ],
+        "rating": [
+          1924,
+          72
+        ],
+        "Cavaliers": [
+          1924,
+          94
+        ]
+      },
+      "module_sha256": "a61fa17d386f664f5df0760469eb775dc860697d7fe6fb3e31fea3b4e7783b5f",
+      "protocol_sha256": "7db44eff9a08aa62ebc29981db16f937cd77e4b34bf3d944f389888aa4a8d93e"
+    },
+    "gpt2_sae11": {
+      "previous_record": {
+        "kind": "sae",
+        "layer": 11,
+        "sources": {
+          "New": {
+            "row": 3457,
+            "position": 1,
+            "token": 968,
+            "piece": " New"
+          },
+          "York": {
+            "row": 3457,
+            "position": 2,
+            "token": 1971,
+            "piece": " York"
+          },
+          "City": {
+            "row": 3457,
+            "position": 3,
+            "token": 2254,
+            "piece": " City"
+          },
+          "Rio": {
+            "row": 5411,
+            "position": 15,
+            "token": 15338,
+            "piece": " Rio"
+          },
+          "de": {
+            "row": 5411,
+            "position": 16,
+            "token": 390,
+            "piece": " de"
+          },
+          "Janeiro": {
+            "row": 5411,
+            "position": 17,
+            "token": 42799,
+            "piece": " Janeiro"
+          },
+          "Cat": {
+            "row": 4042,
+            "position": 8,
+            "token": 5181,
+            "piece": " Cat"
+          },
+          "dog": {
+            "row": 4042,
+            "position": 82,
+            "token": 3290,
+            "piece": " dog"
+          },
+          "Cleveland": {
+            "row": 1924,
+            "position": 15,
+            "token": 10306,
+            "piece": " Cleveland"
+          },
+          "Clippers": {
+            "row": 1924,
+            "position": 39,
+            "token": 28564,
+            "piece": " Clippers"
+          },
+          "Cavaliers": {
+            "row": 1924,
+            "position": 94,
+            "token": 29411,
+            "piece": " Cavaliers"
+          }
+        },
+        "config": {
+          "d_in": 768,
+          "d_sae": 24576,
+          "dtype": "float32",
+          "device": "cpu",
+          "apply_b_dec_to_input": true,
+          "normalize_activations": "none",
+          "reshape_activations": "none",
+          "metadata": {
+            "sae_lens_version": "6.51.7",
+            "sae_lens_training_version": null,
+            "model_name": "gpt2-small",
+            "hook_name": "blocks.11.hook_resid_pre",
+            "hook_head_index": null,
+            "dataset_path": "Skylion007/openwebtext",
+            "context_size": 128,
+            "model_from_pretrained_kwargs": {
+              "center_writing_weights": true
+            },
+            "neuronpedia_id": "gpt2-small/11-res-jb",
+            "prepend_bos": true
+          },
+          "architecture": "standard"
+        },
+        "decoder_norm": {
+          "min": 0.9997876286506653,
+          "max": 1.001774549484253,
+          "median": 1.0000452995300293
+        },
+        "source_refresh": [
+          {
+            "row": 1924,
+            "max_abs_error": 0.000118255615234375,
+            "support_changes": 1
+          },
+          {
+            "row": 3457,
+            "max_abs_error": 0.0001220703125,
+            "support_changes": 0
+          },
+          {
+            "row": 4042,
+            "max_abs_error": 0.0002689361572265625,
+            "support_changes": 0
+          },
+          {
+            "row": 5411,
+            "max_abs_error": 0.000125885009765625,
+            "support_changes": 0
+          }
+        ],
+        "token_sha256": "2048cf710ea4ed85ee2dc62d19e8b0e1434d178cfaa58ccbe53564d57f22d0f7",
+        "matrix_sha256": "1c059aad0007993d568ff81b90fc946959afdaadbc74d1af1dbfb82446e0bde9",
+        "traces_sha256": "f0f7e3b64c8823b6b58be04aa9534032bdb32dc55142736df76c9fda7e1fbce0",
+        "protocol_sha256": "3aafbe740b9b12b7a7456cddc309e909bf8fd737bf5112316b8eb640386807da",
+        "source_sha256": "7ba082d841aadf6761c9be65155f1e8a6ec60279b741e664221aa000fc2122cf",
+        "tolerance": 0,
+        "corpus_size": 25600,
+        "included_positions": "all 128"
+      },
+      "source_positions": {
+        "New": [
+          3457,
+          1
+        ],
+        "City": [
+          3457,
+          3
+        ],
+        "findings": [
+          3457,
+          21
+        ],
+        "experiments": [
+          3457,
+          49
+        ],
+        "monkeys": [
+          3457,
+          55
+        ],
+        "mice": [
+          3457,
+          57
+        ],
+        "virus": [
+          3457,
+          65
+        ],
+        "Rio": [
+          5411,
+          15
+        ],
+        "de": [
+          5411,
+          16
+        ],
+        "Janeiro": [
+          5411,
+          17
+        ],
+        "specimens": [
+          5411,
+          31
+        ],
+        "lab": [
+          5411,
+          45
+        ],
+        "Paulo": [
+          5411,
+          49
+        ],
+        "species": [
+          5411,
+          74
+        ],
+        "measurements": [
+          5411,
+          94
+        ],
+        "analysis": [
+          5411,
+          115
+        ],
+        "Cat": [
+          4042,
+          8
+        ],
+        "version": [
+          4042,
+          27
+        ],
+        "city": [
+          4042,
+          79
+        ],
+        "dog": [
+          4042,
+          82
+        ],
+        "park": [
+          4042,
+          83
+        ],
+        "Cleveland": [
+          1924,
+          15
+        ],
+        "Clippers": [
+          1924,
+          39
+        ],
+        "rating": [
+          1924,
+          72
+        ],
+        "Cavaliers": [
+          1924,
+          94
+        ]
+      },
+      "module_sha256": "a61fa17d386f664f5df0760469eb775dc860697d7fe6fb3e31fea3b4e7783b5f",
+      "protocol_sha256": "7db44eff9a08aa62ebc29981db16f937cd77e4b34bf3d944f389888aa4a8d93e"
+    },
+    "gpt2_tc0": {
+      "previous_record": {
+        "kind": "tc",
+        "layer": 0,
+        "sources": {
+          "New": {
+            "row": 3457,
+            "position": 1,
+            "token": 968,
+            "piece": " New"
+          },
+          "York": {
+            "row": 3457,
+            "position": 2,
+            "token": 1971,
+            "piece": " York"
+          },
+          "City": {
+            "row": 3457,
+            "position": 3,
+            "token": 2254,
+            "piece": " City"
+          },
+          "Rio": {
+            "row": 5411,
+            "position": 15,
+            "token": 15338,
+            "piece": " Rio"
+          },
+          "de": {
+            "row": 5411,
+            "position": 16,
+            "token": 390,
+            "piece": " de"
+          },
+          "Janeiro": {
+            "row": 5411,
+            "position": 17,
+            "token": 42799,
+            "piece": " Janeiro"
+          },
+          "Cat": {
+            "row": 4042,
+            "position": 8,
+            "token": 5181,
+            "piece": " Cat"
+          },
+          "dog": {
+            "row": 4042,
+            "position": 82,
+            "token": 3290,
+            "piece": " dog"
+          },
+          "Cleveland": {
+            "row": 1924,
+            "position": 15,
+            "token": 10306,
+            "piece": " Cleveland"
+          },
+          "Clippers": {
+            "row": 1924,
+            "position": 39,
+            "token": 28564,
+            "piece": " Clippers"
+          },
+          "Cavaliers": {
+            "row": 1924,
+            "position": 94,
+            "token": 29411,
+            "piece": " Cavaliers"
+          }
+        },
+        "config": {
+          "model_name": "gpt2-small",
+          "hook_point": "blocks.0.ln2.hook_normalized",
+          "hook_point_layer": 0,
+          "hook_point_head_index": null,
+          "dataset_path": "Skylion007/openwebtext",
+          "is_dataset_tokenized": false,
+          "context_size": 128,
+          "use_cached_activations": false,
+          "cached_activations_path": "activations/Skylion007_openwebtext/gpt2-small/blocks.0.ln2.hook_normalized",
+          "d_in": 768,
+          "n_batches_in_buffer": 128,
+          "total_training_tokens": 300000000,
+          "store_batch_size": 32,
+          "device": "cpu",
+          "seed": 42,
+          "dtype": "torch.float32",
+          "is_transcoder": true,
+          "out_hook_point": "blocks.0.hook_mlp_out",
+          "out_hook_point_layer": 0,
+          "d_out": 768,
+          "b_dec_init_method": "mean",
+          "expansion_factor": 32,
+          "from_pretrained_path": null,
+          "l1_coefficient": 8e-05,
+          "lr": 0.0004,
+          "lr_scheduler_name": "constantwithwarmup",
+          "lr_warm_up_steps": 5000,
+          "train_batch_size": 4096,
+          "use_ghost_grads": true,
+          "feature_sampling_window": 1000,
+          "dead_feature_window": 5000,
+          "dead_feature_threshold": 1e-06,
+          "log_to_wandb": true,
+          "wandb_project": "gpt2-small-transcoder",
+          "wandb_entity": "chlenski",
+          "wandb_log_frequency": 100,
+          "n_checkpoints": 10,
+          "checkpoint_path": "checkpoints/m5qa58od",
+          "d_sae": 24576,
+          "tokens_per_buffer": 67108864,
+          "run_name": "24576-L1-8e-05-LR-0.0004-Tokens-3.000e+08"
+        },
+        "decoder_norm": {
+          "min": 0.9999998807907104,
+          "max": 1.0000001192092896,
+          "median": 1.0
+        },
+        "source_refresh": [
+          {
+            "row": 1924,
+            "max_abs_error": 1.52587890625e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 3457,
+            "max_abs_error": 1.9073486328125e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 4042,
+            "max_abs_error": 2.288818359375e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 5411,
+            "max_abs_error": 2.2172927856445312e-05,
+            "support_changes": 0
+          }
+        ],
+        "token_sha256": "2048cf710ea4ed85ee2dc62d19e8b0e1434d178cfaa58ccbe53564d57f22d0f7",
+        "matrix_sha256": "5551fd808cefb054548380b5360713d74431d72bc27c2ee63f209f73d71b75b0",
+        "traces_sha256": "f15000569cecfc12e1b264f0477ef65478757379090bac20ca0a8c5318abda22",
+        "protocol_sha256": "3aafbe740b9b12b7a7456cddc309e909bf8fd737bf5112316b8eb640386807da",
+        "source_sha256": "7ba082d841aadf6761c9be65155f1e8a6ec60279b741e664221aa000fc2122cf",
+        "tolerance": 0,
+        "corpus_size": 25600,
+        "included_positions": "all 128"
+      },
+      "source_positions": {
+        "New": [
+          3457,
+          1
+        ],
+        "City": [
+          3457,
+          3
+        ],
+        "findings": [
+          3457,
+          21
+        ],
+        "experiments": [
+          3457,
+          49
+        ],
+        "monkeys": [
+          3457,
+          55
+        ],
+        "mice": [
+          3457,
+          57
+        ],
+        "virus": [
+          3457,
+          65
+        ],
+        "Rio": [
+          5411,
+          15
+        ],
+        "de": [
+          5411,
+          16
+        ],
+        "Janeiro": [
+          5411,
+          17
+        ],
+        "specimens": [
+          5411,
+          31
+        ],
+        "lab": [
+          5411,
+          45
+        ],
+        "Paulo": [
+          5411,
+          49
+        ],
+        "species": [
+          5411,
+          74
+        ],
+        "measurements": [
+          5411,
+          94
+        ],
+        "analysis": [
+          5411,
+          115
+        ],
+        "Cat": [
+          4042,
+          8
+        ],
+        "version": [
+          4042,
+          27
+        ],
+        "city": [
+          4042,
+          79
+        ],
+        "dog": [
+          4042,
+          82
+        ],
+        "park": [
+          4042,
+          83
+        ],
+        "Cleveland": [
+          1924,
+          15
+        ],
+        "Clippers": [
+          1924,
+          39
+        ],
+        "rating": [
+          1924,
+          72
+        ],
+        "Cavaliers": [
+          1924,
+          94
+        ]
+      },
+      "module_sha256": "a61fa17d386f664f5df0760469eb775dc860697d7fe6fb3e31fea3b4e7783b5f",
+      "protocol_sha256": "7db44eff9a08aa62ebc29981db16f937cd77e4b34bf3d944f389888aa4a8d93e"
+    },
+    "gpt2_tc8": {
+      "previous_record": {
+        "kind": "tc",
+        "layer": 8,
+        "sources": {
+          "New": {
+            "row": 3457,
+            "position": 1,
+            "token": 968,
+            "piece": " New"
+          },
+          "York": {
+            "row": 3457,
+            "position": 2,
+            "token": 1971,
+            "piece": " York"
+          },
+          "City": {
+            "row": 3457,
+            "position": 3,
+            "token": 2254,
+            "piece": " City"
+          },
+          "Rio": {
+            "row": 5411,
+            "position": 15,
+            "token": 15338,
+            "piece": " Rio"
+          },
+          "de": {
+            "row": 5411,
+            "position": 16,
+            "token": 390,
+            "piece": " de"
+          },
+          "Janeiro": {
+            "row": 5411,
+            "position": 17,
+            "token": 42799,
+            "piece": " Janeiro"
+          },
+          "Cat": {
+            "row": 4042,
+            "position": 8,
+            "token": 5181,
+            "piece": " Cat"
+          },
+          "dog": {
+            "row": 4042,
+            "position": 82,
+            "token": 3290,
+            "piece": " dog"
+          },
+          "Cleveland": {
+            "row": 1924,
+            "position": 15,
+            "token": 10306,
+            "piece": " Cleveland"
+          },
+          "Clippers": {
+            "row": 1924,
+            "position": 39,
+            "token": 28564,
+            "piece": " Clippers"
+          },
+          "Cavaliers": {
+            "row": 1924,
+            "position": 94,
+            "token": 29411,
+            "piece": " Cavaliers"
+          }
+        },
+        "config": {
+          "model_name": "gpt2-small",
+          "hook_point": "blocks.8.ln2.hook_normalized",
+          "hook_point_layer": 8,
+          "hook_point_head_index": null,
+          "dataset_path": "Skylion007/openwebtext",
+          "is_dataset_tokenized": false,
+          "context_size": 128,
+          "use_cached_activations": false,
+          "cached_activations_path": "activations/Skylion007_openwebtext/gpt2-small/blocks.8.ln2.hook_normalized",
+          "d_in": 768,
+          "n_batches_in_buffer": 128,
+          "total_training_tokens": 300000000,
+          "store_batch_size": 32,
+          "device": "cpu",
+          "seed": 42,
+          "dtype": "torch.float32",
+          "is_transcoder": true,
+          "out_hook_point": "blocks.8.hook_mlp_out",
+          "out_hook_point_layer": 8,
+          "d_out": 768,
+          "b_dec_init_method": "mean",
+          "expansion_factor": 32,
+          "from_pretrained_path": null,
+          "l1_coefficient": 8e-05,
+          "lr": 0.0004,
+          "lr_scheduler_name": "constantwithwarmup",
+          "lr_warm_up_steps": 5000,
+          "train_batch_size": 4096,
+          "use_ghost_grads": true,
+          "feature_sampling_window": 1000,
+          "dead_feature_window": 5000,
+          "dead_feature_threshold": 1e-06,
+          "log_to_wandb": true,
+          "wandb_project": "gpt2-small-transcoder",
+          "wandb_entity": "chlenski",
+          "wandb_log_frequency": 100,
+          "n_checkpoints": 10,
+          "checkpoint_path": "checkpoints/pgf0uzku",
+          "d_sae": 24576,
+          "tokens_per_buffer": 67108864,
+          "run_name": "24576-L1-8e-05-LR-0.0004-Tokens-3.000e+08"
+        },
+        "decoder_norm": {
+          "min": 0.9999998807907104,
+          "max": 1.0000001192092896,
+          "median": 1.0
+        },
+        "source_refresh": [
+          {
+            "row": 1924,
+            "max_abs_error": 4.291534423828125e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 3457,
+            "max_abs_error": 2.765655517578125e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 4042,
+            "max_abs_error": 8.043646812438965e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 5411,
+            "max_abs_error": 3.147125244140625e-05,
+            "support_changes": 0
+          }
+        ],
+        "token_sha256": "2048cf710ea4ed85ee2dc62d19e8b0e1434d178cfaa58ccbe53564d57f22d0f7",
+        "matrix_sha256": "75c49c3f6fcc5cc6f339b15cc045d12b4b8f39634a40f7e408675d4845a6736b",
+        "traces_sha256": "02459aa3faae7769869f1c1e6b4599609eb4d51f0976377cea8fbbb91b992e27",
+        "protocol_sha256": "3aafbe740b9b12b7a7456cddc309e909bf8fd737bf5112316b8eb640386807da",
+        "source_sha256": "7ba082d841aadf6761c9be65155f1e8a6ec60279b741e664221aa000fc2122cf",
+        "tolerance": 0,
+        "corpus_size": 25600,
+        "included_positions": "all 128"
+      },
+      "source_positions": {
+        "New": [
+          3457,
+          1
+        ],
+        "City": [
+          3457,
+          3
+        ],
+        "findings": [
+          3457,
+          21
+        ],
+        "experiments": [
+          3457,
+          49
+        ],
+        "monkeys": [
+          3457,
+          55
+        ],
+        "mice": [
+          3457,
+          57
+        ],
+        "virus": [
+          3457,
+          65
+        ],
+        "Rio": [
+          5411,
+          15
+        ],
+        "de": [
+          5411,
+          16
+        ],
+        "Janeiro": [
+          5411,
+          17
+        ],
+        "specimens": [
+          5411,
+          31
+        ],
+        "lab": [
+          5411,
+          45
+        ],
+        "Paulo": [
+          5411,
+          49
+        ],
+        "species": [
+          5411,
+          74
+        ],
+        "measurements": [
+          5411,
+          94
+        ],
+        "analysis": [
+          5411,
+          115
+        ],
+        "Cat": [
+          4042,
+          8
+        ],
+        "version": [
+          4042,
+          27
+        ],
+        "city": [
+          4042,
+          79
+        ],
+        "dog": [
+          4042,
+          82
+        ],
+        "park": [
+          4042,
+          83
+        ],
+        "Cleveland": [
+          1924,
+          15
+        ],
+        "Clippers": [
+          1924,
+          39
+        ],
+        "rating": [
+          1924,
+          72
+        ],
+        "Cavaliers": [
+          1924,
+          94
+        ]
+      },
+      "module_sha256": "a61fa17d386f664f5df0760469eb775dc860697d7fe6fb3e31fea3b4e7783b5f",
+      "protocol_sha256": "7db44eff9a08aa62ebc29981db16f937cd77e4b34bf3d944f389888aa4a8d93e"
+    },
+    "gpt2_tc11": {
+      "previous_record": {
+        "kind": "tc",
+        "layer": 11,
+        "sources": {
+          "New": {
+            "row": 3457,
+            "position": 1,
+            "token": 968,
+            "piece": " New"
+          },
+          "York": {
+            "row": 3457,
+            "position": 2,
+            "token": 1971,
+            "piece": " York"
+          },
+          "City": {
+            "row": 3457,
+            "position": 3,
+            "token": 2254,
+            "piece": " City"
+          },
+          "Rio": {
+            "row": 5411,
+            "position": 15,
+            "token": 15338,
+            "piece": " Rio"
+          },
+          "de": {
+            "row": 5411,
+            "position": 16,
+            "token": 390,
+            "piece": " de"
+          },
+          "Janeiro": {
+            "row": 5411,
+            "position": 17,
+            "token": 42799,
+            "piece": " Janeiro"
+          },
+          "Cat": {
+            "row": 4042,
+            "position": 8,
+            "token": 5181,
+            "piece": " Cat"
+          },
+          "dog": {
+            "row": 4042,
+            "position": 82,
+            "token": 3290,
+            "piece": " dog"
+          },
+          "Cleveland": {
+            "row": 1924,
+            "position": 15,
+            "token": 10306,
+            "piece": " Cleveland"
+          },
+          "Clippers": {
+            "row": 1924,
+            "position": 39,
+            "token": 28564,
+            "piece": " Clippers"
+          },
+          "Cavaliers": {
+            "row": 1924,
+            "position": 94,
+            "token": 29411,
+            "piece": " Cavaliers"
+          }
+        },
+        "config": {
+          "model_name": "gpt2-small",
+          "hook_point": "blocks.11.ln2.hook_normalized",
+          "hook_point_layer": 11,
+          "hook_point_head_index": null,
+          "dataset_path": "Skylion007/openwebtext",
+          "is_dataset_tokenized": false,
+          "context_size": 128,
+          "use_cached_activations": false,
+          "cached_activations_path": "activations/Skylion007_openwebtext/gpt2-small/blocks.11.ln2.hook_normalized",
+          "d_in": 768,
+          "n_batches_in_buffer": 128,
+          "total_training_tokens": 300000000,
+          "store_batch_size": 32,
+          "device": "cpu",
+          "seed": 42,
+          "dtype": "torch.float32",
+          "is_transcoder": true,
+          "out_hook_point": "blocks.11.hook_mlp_out",
+          "out_hook_point_layer": 11,
+          "d_out": 768,
+          "b_dec_init_method": "mean",
+          "expansion_factor": 32,
+          "from_pretrained_path": null,
+          "l1_coefficient": 8e-05,
+          "lr": 0.0004,
+          "lr_scheduler_name": "constantwithwarmup",
+          "lr_warm_up_steps": 5000,
+          "train_batch_size": 4096,
+          "use_ghost_grads": true,
+          "feature_sampling_window": 1000,
+          "dead_feature_window": 5000,
+          "dead_feature_threshold": 1e-06,
+          "log_to_wandb": true,
+          "wandb_project": "gpt2-small-transcoder",
+          "wandb_entity": "chlenski",
+          "wandb_log_frequency": 100,
+          "n_checkpoints": 10,
+          "checkpoint_path": "checkpoints/jjrcxti0",
+          "d_sae": 24576,
+          "tokens_per_buffer": 67108864,
+          "run_name": "24576-L1-8e-05-LR-0.0004-Tokens-3.000e+08"
+        },
+        "decoder_norm": {
+          "min": 0.9999998807907104,
+          "max": 1.0000001192092896,
+          "median": 1.0
+        },
+        "source_refresh": [
+          {
+            "row": 1924,
+            "max_abs_error": 6.4849853515625e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 3457,
+            "max_abs_error": 8.487701416015625e-05,
+            "support_changes": 0
+          },
+          {
+            "row": 4042,
+            "max_abs_error": 0.0003857612609863281,
+            "support_changes": 0
+          },
+          {
+            "row": 5411,
+            "max_abs_error": 5.7220458984375e-05,
+            "support_changes": 0
+          }
+        ],
+        "token_sha256": "2048cf710ea4ed85ee2dc62d19e8b0e1434d178cfaa58ccbe53564d57f22d0f7",
+        "matrix_sha256": "a4acd36aadd632cb138e7596354466325ae7be1a1b5d61d209cca3fbcf5e769d",
+        "traces_sha256": "845a7048a9c45a1b2c783f031de2c77069c5728721c6201a978c76b4a4a8c793",
+        "protocol_sha256": "3aafbe740b9b12b7a7456cddc309e909bf8fd737bf5112316b8eb640386807da",
+        "source_sha256": "7ba082d841aadf6761c9be65155f1e8a6ec60279b741e664221aa000fc2122cf",
+        "tolerance": 0,
+        "corpus_size": 25600,
+        "included_positions": "all 128"
+      },
+      "source_positions": {
+        "New": [
+          3457,
+          1
+        ],
+        "City": [
+          3457,
+          3
+        ],
+        "findings": [
+          3457,
+          21
+        ],
+        "experiments": [
+          3457,
+          49
+        ],
+        "monkeys": [
+          3457,
+          55
+        ],
+        "mice": [
+          3457,
+          57
+        ],
+        "virus": [
+          3457,
+          65
+        ],
+        "Rio": [
+          5411,
+          15
+        ],
+        "de": [
+          5411,
+          16
+        ],
+        "Janeiro": [
+          5411,
+          17
+        ],
+        "specimens": [
+          5411,
+          31
+        ],
+        "lab": [
+          5411,
+          45
+        ],
+        "Paulo": [
+          5411,
+          49
+        ],
+        "species": [
+          5411,
+          74
+        ],
+        "measurements": [
+          5411,
+          94
+        ],
+        "analysis": [
+          5411,
+          115
+        ],
+        "Cat": [
+          4042,
+          8
+        ],
+        "version": [
+          4042,
+          27
+        ],
+        "city": [
+          4042,
+          79
+        ],
+        "dog": [
+          4042,
+          82
+        ],
+        "park": [
+          4042,
+          83
+        ],
+        "Cleveland": [
+          1924,
+          15
+        ],
+        "Clippers": [
+          1924,
+          39
+        ],
+        "rating": [
+          1924,
+          72
+        ],
+        "Cavaliers": [
+          1924,
+          94
+        ]
+      },
+      "module_sha256": "a61fa17d386f664f5df0760469eb775dc860697d7fe6fb3e31fea3b4e7783b5f",
+      "protocol_sha256": "7db44eff9a08aa62ebc29981db16f937cd77e4b34bf3d944f389888aa4a8d93e"
+    },
+    "pythia_topk": {
+      "extraction": {
+        "family": "pythia_topk",
+        "configuration": {
+          "model": "EleutherAI/pythia-70m-deduped",
+          "layer": 3,
+          "release": "sae_bench_pythia70m_sweep_topk_ctx128_0730",
+          "sae_id": "blocks.3.hook_resid_post__trainer_0",
+          "hook": "residual_post",
+          "dtype": "float32",
+          "views": {
+            "pythia_topk": null
+          }
+        },
+        "dtype": "float32",
+        "device": "mps",
+        "backbone_files": [
+          {
+            "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+            "path": "config.json",
+            "bytes": 567,
+            "sha256": "002050231a9b1ec3ac77aa6b9b3bbdc4d923f4068a7dd33b8da72a9bd6ad9a43"
+          },
+          {
+            "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+            "path": "model.safetensors",
+            "bytes": 166029852,
+            "sha256": "3da388330e4549156d76b58d6d268c63cd005e9336b4f4d2d378421e7b7a33fd"
+          },
+          {
+            "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+            "path": "special_tokens_map.json",
+            "bytes": 99,
+            "sha256": "6f50ab5a5a509a1c309d6171f339b196a900dc9c99ad0408ff23bb615fdae7ad"
+          },
+          {
+            "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+            "path": "tokenizer.json",
+            "bytes": 2113710,
+            "sha256": "c24618a1b3e6a38167beff1c72cffd126c3a66254347304b50547d12c5f25624"
+          },
+          {
+            "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+            "path": "tokenizer_config.json",
+            "bytes": 396,
+            "sha256": "70e38394e494931c6f773ba41e19460dd4436526b852207367f04341b4066d3f"
+          }
+        ],
+        "sae_files": [
+          {
+            "revision": "1f4fc9d1f8abe6c08e715fa1cef6d5fcb2c68b9a",
+            "path": "pythia70m_sweep_topk_ctx128_0730/resid_post_layer_3/trainer_0/ae.pt",
+            "bytes": 16797480,
+            "sha256": "b3964c09d2553ef149f30e48d6232fb290622adfe9be7b3e20decb8decb5c4c4"
+          },
+          {
+            "revision": "1f4fc9d1f8abe6c08e715fa1cef6d5fcb2c68b9a",
+            "path": "pythia70m_sweep_topk_ctx128_0730/resid_post_layer_3/trainer_0/config.json",
+            "bytes": 694,
+            "sha256": "7b560dc57c71829184d646c21b15dccfda9b7aff1f3c231d6116be34d9f24d09"
+          }
+        ],
+        "sae_config": {
+          "d_in": 512,
+          "d_sae": 4096,
+          "dtype": "float32",
+          "device": "mps",
+          "apply_b_dec_to_input": true,
+          "normalize_activations": "none",
+          "reshape_activations": "none",
+          "metadata": {
+            "sae_lens_version": "6.51.3",
+            "sae_lens_training_version": null,
+            "model_name": "pythia-70m-deduped",
+            "hook_name": "blocks.3.hook_resid_post",
+            "hook_head_index": null,
+            "prepend_bos": true,
+            "dataset_path": "monology/pile-uncopyrighted",
+            "context_size": 128,
+            "neuronpedia_id": "pythia-70m-deduped/3-sae_bench-topk-res-4k__trainer_0_step_final"
+          },
+          "k": 20,
+          "rescale_acts_by_decoder_norm": false,
+          "architecture": "topk"
+        },
+        "source_sha256": "7d5f5564011404ef36baf58c68cd78a6c6232cac1ec71d25faed9ca75504deb8",
+        "companion_hashes": {
+          "families_adapters_codexgen.py": "cfb57b2533cae08871b11ec285af7f9aa047daae5b90045e6534beba47d9c3fa",
+          "families_config_codexgen.py": "307b97fc0f08dd5d29dc14f1e3b17132f42040c991404bb94df18051664599a8",
+          "common_codexgen.py": "31077a31a6e3e8557cdc6a3c01fb78872843c73d11b6a20f80109506dff416c4"
+        },
+        "versions": {
+          "torch": "2.14.1",
+          "transformers": "5.18.0",
+          "sae-lens": "6.51.3",
+          "numpy": "2.5.3",
+          "scipy": "1.18.1"
+        },
+        "checkpoint": "pythia_topk",
+        "files": {
+          "max": {
+            "name": "pythia_topk_max.npz",
+            "sha256": "7baacfc72390b81a8b504fc4363cf3042369e1ff919865945194a4f246c32158",
+            "shape": [
+              2100,
+              4096
+            ],
+            "nnz": 1069865
+          },
+          "mean": {
+            "name": "pythia_topk_mean.npz",
+            "sha256": "bfb60ef2dc901333426d15bf88f8bf83af6fc44eb2ab8f5365689ea0301fa7db",
+            "shape": [
+              2100,
+              4096
+            ],
+            "nnz": 1069865
+          },
+          "dense": {
+            "name": "pythia_topk_dense.npz",
+            "sha256": "9a7cd0ebb3e7d04ca281fb2ef97bd093f52e53b31a19c3a06e07c5faed360856"
+          }
+        },
+        "statistics": {
+          "test_tokens": 51408,
+          "active_sum": 1028160.0,
+          "squared_error": 1274478.9838867188,
+          "squared_input": 37137852.25,
+          "zero_documents": 0,
+          "mean_token_l0": 20.0,
+          "uncentered_nmse": 0.03431751990684164
+        },
+        "design_sha256": "6bc6de1eec629e68b65eb5b3dab7e0d3feb9004eb41254b1b90bf0431848df25",
+        "token_sha256": "ef278d153c5ee9b068062c4b9e4dbfb88a2140391eda72e8e2898593901df649",
+        "elapsed_seconds": 12.527844190597534
+      },
+      "extraction_sha256": "4b6ee5ec19546d1eed31b14a7a785fb812451dd06d64cb5c74b3723850cd0487",
+      "pinned": {
+        "EleutherAI/pythia-70m-deduped": {
+          "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--EleutherAI--pythia-70m-deduped/snapshots/e93a9faa9c77e5d09219f6c868bfc7a1bd65593c"
+        },
+        "HuggingFaceTB/SmolLM2-135M": {
+          "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--HuggingFaceTB--SmolLM2-135M/snapshots/93efa2f097d58c2a74874c7e644dbc9b0cee75a2"
+        },
+        "Qwen/Qwen3-0.6B": {
+          "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca"
+        },
+        "google/gemma-2-2b": {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--google--gemma-2-2b/snapshots/c5ebcd40d208330abc697524c919956e692655cf"
+        },
+        "EleutherAI/sae-SmolLM2-135M-64x": {
+          "revision": "57ea2cb986e2545844cdd4a5bb2eb39523243494",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--EleutherAI--sae-SmolLM2-135M-64x/snapshots/57ea2cb986e2545844cdd4a5bb2eb39523243494"
+        }
+      },
+      "design_sha256": "6bc6de1eec629e68b65eb5b3dab7e0d3feb9004eb41254b1b90bf0431848df25",
+      "texts_sha256": "dc8bf8492cccf4103fc40cf5a4ef6c79ee1262f5404249e622fc8650b0ee58a8"
+    },
+    "smol_topk": {
+      "extraction": {
+        "family": "smol_topk",
+        "configuration": {
+          "model": "HuggingFaceTB/SmolLM2-135M",
+          "layer": 15,
+          "release": "EleutherAI/sae-SmolLM2-135M-64x",
+          "sae_id": "layers.15.mlp",
+          "hook": "mlp_output",
+          "dtype": "float32",
+          "views": {
+            "smol_topk": null
+          }
+        },
+        "dtype": "float32",
+        "device": "mps",
+        "backbone_files": [
+          {
+            "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+            "path": "config.json",
+            "bytes": 704,
+            "sha256": "1d556eab73b69c7f11f64c557a2f9c6f440bd4c6b89bb2584a6b498c92603843"
+          },
+          {
+            "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+            "path": "generation_config.json",
+            "bytes": 111,
+            "sha256": "2056c988e990b0d13670f63f2f3b87b3b6d07edaf7a3416998ba27dab2d8a059"
+          },
+          {
+            "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+            "path": "merges.txt",
+            "bytes": 466391,
+            "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510"
+          },
+          {
+            "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+            "path": "model.safetensors",
+            "bytes": 269060552,
+            "sha256": "80521b40281d6ce74e35c9282c22539e75aa0ac8578892b2a59955ef78d55da1"
+          },
+          {
+            "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+            "path": "special_tokens_map.json",
+            "bytes": 831,
+            "sha256": "e786b595b9a23148bf1630df78d9037a048ea671e48bfd3549a1e3c233742bb3"
+          },
+          {
+            "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+            "path": "tokenizer.json",
+            "bytes": 2104556,
+            "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c"
+          },
+          {
+            "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+            "path": "tokenizer_config.json",
+            "bytes": 3658,
+            "sha256": "4bb9af56a342753d39374f4016a16574cab299fe088e896f425ce3c433f61424"
+          },
+          {
+            "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+            "path": "vocab.json",
+            "bytes": 800662,
+            "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+          }
+        ],
+        "sae_files": [
+          {
+            "revision": "57ea2cb986e2545844cdd4a5bb2eb39523243494",
+            "path": "layers.15.mlp/cfg.json",
+            "bytes": 142,
+            "sha256": "80fdf9be05977c7dff87121bc5ade9cdfbdbf3ac36e8d09b82a5cac98f50ccfe"
+          },
+          {
+            "revision": "57ea2cb986e2545844cdd4a5bb2eb39523243494",
+            "path": "layers.15.mlp/sae.safetensors",
+            "bytes": 170019400,
+            "sha256": "a3ef608c777678311ae5164dba56bef4907f407f524708fc29d137c27d92f553"
+          }
+        ],
+        "sae_config": {
+          "d_in": 576,
+          "d_sae": 36864,
+          "dtype": "float32",
+          "device": "mps",
+          "apply_b_dec_to_input": true,
+          "normalize_activations": "none",
+          "reshape_activations": "none",
+          "metadata": {
+            "sae_lens_version": "6.51.3",
+            "sae_lens_training_version": "6.51.3",
+            "model_name": "HuggingFaceTB/SmolLM2-135M",
+            "hook_name": "blocks.15.hook_mlp_out"
+          },
+          "k": 32,
+          "rescale_acts_by_decoder_norm": false,
+          "architecture": "topk"
+        },
+        "source_sha256": "7d5f5564011404ef36baf58c68cd78a6c6232cac1ec71d25faed9ca75504deb8",
+        "companion_hashes": {
+          "families_adapters_codexgen.py": "cfb57b2533cae08871b11ec285af7f9aa047daae5b90045e6534beba47d9c3fa",
+          "families_config_codexgen.py": "307b97fc0f08dd5d29dc14f1e3b17132f42040c991404bb94df18051664599a8",
+          "common_codexgen.py": "31077a31a6e3e8557cdc6a3c01fb78872843c73d11b6a20f80109506dff416c4"
+        },
+        "versions": {
+          "torch": "2.14.1",
+          "transformers": "5.18.0",
+          "sae-lens": "6.51.3",
+          "numpy": "2.5.3",
+          "scipy": "1.18.1"
+        },
+        "checkpoint": "smol_topk",
+        "files": {
+          "max": {
+            "name": "smol_topk_max.npz",
+            "sha256": "d732a570ca2f5590a5a0ce22f2f64f45db81846d1005ba5922eefcb47a944da9",
+            "shape": [
+              2100,
+              36864
+            ],
+            "nnz": 3233127
+          },
+          "mean": {
+            "name": "smol_topk_mean.npz",
+            "sha256": "20049f0c0add51d881cb62618b1eeef2444a844efb36507b3b9d2d35fed6c4e9",
+            "shape": [
+              2100,
+              36864
+            ],
+            "nnz": 3233127
+          },
+          "dense": {
+            "name": "smol_topk_dense.npz",
+            "sha256": "8834cde69d4b5873844d5a667a6d8802f10c173f85c7cdaad6833b6f8de7ad16"
+          }
+        },
+        "statistics": {
+          "test_tokens": 55177,
+          "active_sum": 1765664.0,
+          "squared_error": 14475970.8046875,
+          "squared_input": 76592788.21875,
+          "zero_documents": 0,
+          "mean_token_l0": 32.0,
+          "uncentered_nmse": 0.1889991360980872
+        },
+        "design_sha256": "6bc6de1eec629e68b65eb5b3dab7e0d3feb9004eb41254b1b90bf0431848df25",
+        "token_sha256": "197f038eff889eb55eb19918cafa7581127ff5be99dc6cc77cded51040731825",
+        "elapsed_seconds": 48.087969064712524
+      },
+      "extraction_sha256": "63e7c2868a137e402c28825c4cab7e15fd51b39e74b0e4af537b2df5cc7de798",
+      "pinned": {
+        "EleutherAI/pythia-70m-deduped": {
+          "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--EleutherAI--pythia-70m-deduped/snapshots/e93a9faa9c77e5d09219f6c868bfc7a1bd65593c"
+        },
+        "HuggingFaceTB/SmolLM2-135M": {
+          "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--HuggingFaceTB--SmolLM2-135M/snapshots/93efa2f097d58c2a74874c7e644dbc9b0cee75a2"
+        },
+        "Qwen/Qwen3-0.6B": {
+          "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca"
+        },
+        "google/gemma-2-2b": {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--google--gemma-2-2b/snapshots/c5ebcd40d208330abc697524c919956e692655cf"
+        },
+        "EleutherAI/sae-SmolLM2-135M-64x": {
+          "revision": "57ea2cb986e2545844cdd4a5bb2eb39523243494",
+          "path": "/Users/ltsinadze/.cache/huggingface/hub/models--EleutherAI--sae-SmolLM2-135M-64x/snapshots/57ea2cb986e2545844cdd4a5bb2eb39523243494"
+        }
+      },
+      "design_sha256": "6bc6de1eec629e68b65eb5b3dab7e0d3feb9004eb41254b1b90bf0431848df25",
+      "texts_sha256": "dc8bf8492cccf4103fc40cf5a4ef6c79ee1262f5404249e622fc8650b0ee58a8"
+    }
+  },
+  "uv_lock_sha256": "13663fcdbb2f59cb3c63a9735bd58db8190994997544a6bdec31e9c5dbc5c892",
+  "versions": {
+    "torch": "2.14.1",
+    "transformer-lens": "3.9.0",
+    "sae-lens": "6.53.0",
+    "transformers": "5.18.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "nbclient": "0.11.0"
+  },
+  "python": "3.14.2",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "git_head": "affdb452454937d27a90a1503c005271ece2b2c1",
+  "membership_tolerance": 0,
+  "interpretation": "exploratory; text first, not analyst blinded",
+  "datasets": "Existing cached OWT chunks and DBpedia test split",
+  "no_uploads": true,
+  "reading_packet_sha256": "9b58aa59b8e98377a45460e72fe8d90bc4b1765e785fb13f946a1cb0df18837a",
+  "interpretation_sha256": "24451253a45754310730ff4ac9f4ce9b7f3e3027997d35e25f443cb0fd094468"
+}

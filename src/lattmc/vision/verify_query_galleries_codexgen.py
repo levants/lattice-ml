@@ -1,5 +1,8 @@
 """Independently check all Imagenette gallery queries against cached sites."""
 
+from __future__ import annotations
+from typing import Any
+
 import json
 
 import numpy as np
@@ -8,7 +11,8 @@ from lattmc.vision.backbones_codexgen import dataset, load_codes
 from lattmc.vision.paths_codexgen import experiment_root
 
 
-def verify():
+def verify() -> dict[str, Any]:
+    """Verify the saved exemplar queries and gallery satisfaction records."""
     sample = dataset()
     train = np.flatnonzero(sample['splits'] == 'train')
     test = np.flatnonzero(sample['splits'] == 'test')

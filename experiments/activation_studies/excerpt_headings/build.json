@@ -1,0 +1,31 @@
+{
+  "tex_files_checked": 138,
+  "builds": [
+    {
+      "entry": "lattconference-combined",
+      "pages": 106,
+      "clean_log": true
+    },
+    {
+      "entry": "lattconference",
+      "pages": 106,
+      "clean_log": true
+    },
+    {
+      "entry": "lattconference-main",
+      "pages": 28,
+      "clean_log": true
+    },
+    {
+      "entry": "lattconference-appendix",
+      "pages": 80,
+      "clean_log": true
+    },
+    {
+      "entry": "conference-iclr",
+      "pages": 111,
+      "clean_log": true
+    }
+  ],
+  "byte_verified_delivery": true
+}

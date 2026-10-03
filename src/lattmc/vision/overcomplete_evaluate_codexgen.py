@@ -1,5 +1,8 @@
 """Evaluate reconstruction and label-free queries on arbitrary patch sites."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import json
 
@@ -14,7 +17,13 @@ from lattmc.vision.overcomplete_fetch_codexgen import ROOT
 from lattmc.vision.overcomplete_train_codexgen import restore
 
 
-def encode(model, checkpoint, name, dataset):
+def encode(
+    model: torch.nn.Module,
+    checkpoint: dict[str, Any],
+    name: str,
+    dataset: str,
+) -> None:
+    """Cache sparse codes and reconstruction errors for a dataset."""
     folder = ROOT / 'codes' / name
     folder.mkdir(parents=True, exist_ok=True)
     target = folder / f'{dataset}_codexgen.npz'
@@ -39,7 +48,11 @@ def encode(model, checkpoint, name, dataset):
     print(name, dataset, 'encoded', matrix.shape, flush=True)
 
 
-def read_codes(name, dataset):
+def read_codes(
+    name: str,
+    dataset: str,
+) -> tuple[sparse.csr_matrix, dict[str, np.ndarray]]:
+    """Load sparse activation codes and reconstruction statistics."""
     path = ROOT / f'codes/{name}/{dataset}_codexgen.npz'
     with np.load(path) as data:
         matrix = sparse.csr_matrix((data['data'], data['indices'],
@@ -48,12 +61,14 @@ def read_codes(name, dataset):
     return matrix, stats
 
 
-def pool(matrix, sites=256):
+def pool(matrix: sparse.csr_matrix, sites: int = 256) -> np.ndarray:
+    """Max-pool contiguous site groups into dense image codes."""
     return np.stack([matrix[i:i + sites].max(0).toarray()[0]
                      for i in range(0, matrix.shape[0], sites)])
 
 
-def queries(name):
+def queries(name: str) -> dict[str, Any]:
+    """Select label-free feature pairs and freeze query definitions."""
     matrix, _ = read_codes(name, 'imagenette')
     _, records = load('imagenette')
     train = np.array([r['split'] == 'train' for r in records])
@@ -104,7 +119,12 @@ def queries(name):
     return result
 
 
-def evaluate(name, dataset, definition):
+def evaluate(
+    name: str,
+    dataset: str,
+    definition: dict[str, Any],
+) -> dict[str, Any]:
+    """Evaluate fixed spatial queries and reconstruction statistics."""
     matrix, stats = read_codes(name, dataset)
     _, records = load(dataset)
     count = len(records)
@@ -160,7 +180,8 @@ def evaluate(name, dataset, definition):
     return result
 
 
-def stability():
+def stability() -> None:
+    """Compare feature alignment and query stability across trained runs."""
     results = []
     for family in ['topk', 'batchtopk', 'jump', 'relu', 'archetypal',
                    'relu_fixed']:

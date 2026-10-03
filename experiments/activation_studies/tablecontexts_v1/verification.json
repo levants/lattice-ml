@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "files": {
+    "src/lattmc/contextstudy/commonexample_codexgen.py": "3fbb4e907a952161c575abbf03a4722b93c0cb01b51c513bf7dbf8fb9104e3a9",
+    "src/lattmc/contextstudy/witnessrender_codexgen.py": "81979f3d99929d8865913e3edfcb105dd6025fe655b20c115f84a417f7db3b76",
+    "src/lattmc/contextstudy/tableaudit_codexgen.py": "47e8cfbf668d911f3bdbc7a2cab5b6867efb4131f39a05d625bcf78cadd20a26",
+    "src/lattmc/lattconferencetools/summarize_conference_codexgen.py": "65bf3f6f52e06477661776b923fb2938a2bad8d1c747e29b6cad42debd70b2ee",
+    "notebooks/sae/commoncontexts_codexgen.ipynb": "0384a55668d6de8b7aaf209a7d26b211a4fd9f26962d38a181c13fbdf5fdaa23",
+    "src/lattmc/contextstudy/legacytables_codexgen.py": "f5c02ede7aae138389e7ea9e8749f65a3bbbf1c49970c6fccc17bea77c1bf4e7",
+    "src/lattmc/activationstudy/families_report_codexgen.py": "65c56df3a99d0dd1a31b7349c62e27b793dd6ab43f7f9d17ca5f16f6cd283a5b",
+    "src/lattmc/contextstudy/contexttables_codexgen.py": "a2c20b3c66a283229ffc315c68fc04e2e8ee7ebd613023336acd55d763990544",
+    "src/lattmc/latex/naming_codexgen.py": "a9535f7ae1170a13e8bc08c78210425ae1cc56c7657ebe674cf4b4adbf233ed0",
+    "notebooks/sae/contextual_witnesses_codexgen.ipynb": "5b6f2ac24b3e4cf4614289e5be44325c07cac5e2766154ec5dfad8708dd0c592",
+    "src/lattmc/lattconferencetools/build_activation_tables_codexgen.py": "8a9f160823232c61f87f56d7c6a12624c67023ab5ab26c2c4edd2cd4245ef63a",
+    "src/lattmc/latex/texttables_codexgen.py": "f61b54dd0129d0d40257c4ce66009819fca392fb635c19a3fc52cedefea3a95a",
+    "src/lattmc/activationstudy/report_codexgen.py": "3a26519af5ef3cce9e409db095b44bb2ff049d2d94da597591c890ef39b71001",
+    "src/lattmc/contextstudy/report_codexgen.py": "784f5282d54ff5c335318f25ef59d054adce54242715ffe2c332d94c9385d69c",
+    "src/lattmc/contextstudy/depth_report_codexgen.py": "72e69ecfc826d502ce9cbe76f3870396a9294a232409d68488320176096626f9",
+    "notebooks/sae/context_depth_codexgen.ipynb": "0e1e314b614c807010e754a9cff8e581f4c8265ba501ff38bd25155618fd428a"
+  },
+  "mirror_files_verified": 16,
+  "table_titles": 114,
+  "numeric_table_bodies_unchanged": 37,
+  "new_example_audit": {
+    "status": "passed",
+    "source_rows": 5,
+    "measured_condition_rows": 10,
+    "coordinate_witnesses": 1290,
+    "cached_extent_rows_checked": 4200,
+    "source_summaries_bitwise_equal": true,
+    "full_intent_closure": true,
+    "cross_model_infomorphism": false,
+    "source_sha256": "47e8cfbf668d911f3bdbc7a2cab5b6867efb4131f39a05d625bcf78cadd20a26",
+    "records_sha256": "3f89d878f2ea249d75999a1fb787045d8f9411aa81b14b7ab1048a1159614ac8"
+  },
+  "measured_examples": 10,
+  "independent_source_documents": 5,
+  "notebook_execution": [
+    "commoncontexts",
+    "context_depth",
+    "contextual_witnesses"
+  ],
+  "original_notebooks_preserved": true,
+  "tex_copied_to_mirror": false,
+  "uploads": false
+}

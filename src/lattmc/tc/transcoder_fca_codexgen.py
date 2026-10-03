@@ -2,6 +2,9 @@
 Lattice-theoretic Formal Concept Analysis (FCA) on 
 SAE / transcoder activations."""
 
+from __future__ import annotations
+from typing import Tuple
+
 import logging
 from pathlib import Path
 from typing import Dict, List, Union
@@ -29,12 +32,17 @@ class FCAVectorSerializer(object):
     MIN_NONZERO_VAL_NAME = 'v_min_nonzero'
     V_VAL_NAME = 'V'
 
-    def __init__(self, path: Path, ext: str = 'npz'):
+    def __init__(
+        self: FCAVectorSerializer,
+        path: Path,
+        ext: str = 'npz',
+    ) -> None:
+        """Initialize FCAVectorSerializer and its required state."""
         self._path = path
         self._ext = ext
 
     @property
-    def path(self) -> Path:
+    def path(self: FCAVectorSerializer) -> Path:
         """Get the path.
 
         Returns:
@@ -43,7 +51,7 @@ class FCAVectorSerializer(object):
         return self._path
 
     @property
-    def ext(self) -> str:
+    def ext(self: FCAVectorSerializer) -> str:
         """Get the extension.
 
         Returns:
@@ -67,7 +75,7 @@ class FCAVectorSerializer(object):
         return V
 
     def _init_v_val_path(
-        self,
+        self: FCAVectorSerializer,
         layer: int,
         value_name: str = 'min_nonzeros',
     ) -> Path:
@@ -84,9 +92,9 @@ class FCAVectorSerializer(object):
         return self.path / f'{value_name}{layer}.{self.ext}'
 
     def _load_array_if_exists(
-        self,
+        self: FCAVectorSerializer,
         layer: int,
-        value_name: str = 'min_nonzeros'
+        value_name: str = 'min_nonzeros',
     ) -> np.ndarray:
         """Load the V matrix from the given path if it exists.
 
@@ -109,10 +117,10 @@ class FCAVectorSerializer(object):
         return v_val
 
     def _save_array_if_not_exists(
-        self,
+        self: FCAVectorSerializer,
         v_val: np.ndarray,
         layer: int,
-        value_name: str = 'min_nonzeros'
+        value_name: str = 'min_nonzeros',
     ) -> None:
         """Save the V matrix to the given path if it does not exist.
 
@@ -133,7 +141,7 @@ class FCAVectorSerializer(object):
             logger.info(f'{v_val_path} created')
 
     def _extract_min_max_nonzeros(
-        self,
+        self: FCAVectorSerializer,
         layer: int,
     ) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
         """Extract min, max, and min_nonzeros values for the given layer.
@@ -155,7 +163,7 @@ class FCAVectorSerializer(object):
         return v_min, v_max, v_min_nonzeros
 
     def _save_min_max_nonzeros(
-        self,
+        self: FCAVectorSerializer,
         v_min: np.ndarray,
         v_max: np.ndarray,
         v_min_nonzeros: np.ndarray,
@@ -196,14 +204,15 @@ class TranscoderUtils(FCAVectorSerializer):
     """
 
     def __init__(
-        self,
+        self: TranscoderUtils,
         transcoder: Transcoder,
         tokens: np.ndarray,
         path: Path,
         ext: str = 'npz',
         pos_idxs: Dict[int, Union[List[int], np.ndarray]] = None,
         neg_idxs: Dict[int, Union[List[int], np.ndarray]] = None,
-    ):
+    ) -> None:
+        """Initialize TranscoderUtils and its required state."""
         super().__init__(path, ext)
         self._transcoder = transcoder
         self._tokens = tokens
@@ -211,7 +220,7 @@ class TranscoderUtils(FCAVectorSerializer):
         self._neg_idxs = neg_idxs if neg_idxs else dict()
 
     @property
-    def transcoder(self) -> Transcoder:
+    def transcoder(self: TranscoderUtils) -> Transcoder:
         """Get the transcoder.
 
         Returns:
@@ -220,7 +229,7 @@ class TranscoderUtils(FCAVectorSerializer):
         return self._transcoder
 
     @property
-    def tokens(self) -> np.ndarray:
+    def tokens(self: TranscoderUtils) -> np.ndarray:
         """Get the tokens (corpus).
 
         Returns:
@@ -229,7 +238,9 @@ class TranscoderUtils(FCAVectorSerializer):
         return self._tokens
 
     @property
-    def pos_idxs(self) -> Dict[int, Union[List[int], np.ndarray]]:
+    def pos_idxs(
+        self: TranscoderUtils,
+    ) -> Dict[int, Union[List[int], np.ndarray]]:
         """Get the positive indices.
 
         Returns:
@@ -238,7 +249,9 @@ class TranscoderUtils(FCAVectorSerializer):
         return self._pos_idxs
 
     @property
-    def neg_idxs(self) -> Dict[int, Union[List[int], np.ndarray]]:
+    def neg_idxs(
+        self: TranscoderUtils,
+    ) -> Dict[int, Union[List[int], np.ndarray]]:
         """Get the negative indices.
 
         Returns:
@@ -246,7 +259,10 @@ class TranscoderUtils(FCAVectorSerializer):
         """
         return self._neg_idxs
 
-    def _generate_joint_values(self, layer: int) -> List[np.ndarray]:
+    def _generate_joint_values(
+        self: TranscoderUtils,
+        layer: int,
+    ) -> List[np.ndarray]:
         """Generate joint values for the given layer.
 
         Args:
@@ -264,7 +280,7 @@ class TranscoderUtils(FCAVectorSerializer):
 
         return Vs
 
-    def create_V(self, layer: int) -> csr_matrix:
+    def create_V(self: TranscoderUtils, layer: int) -> csr_matrix:
         """Create embedding for layer.
 
         Args:
@@ -279,7 +295,7 @@ class TranscoderUtils(FCAVectorSerializer):
 
         return V_sparse
 
-    def create_and_save(self, layer: int) -> np.ndarray:
+    def create_and_save(self: TranscoderUtils, layer: int) -> np.ndarray:
         """Create, serialize and save the V (joint per token latent vectors 
             for each text item) matrix for the given layer.
 
@@ -305,7 +321,10 @@ class TranscoderUtils(FCAVectorSerializer):
 
         return V
 
-    def create_layers(self, layers: List[int]) -> Dict[int, np.ndarray]:
+    def create_layers(
+        self: TranscoderUtils,
+        layers: List[int],
+    ) -> Dict[int, np.ndarray]:
         """Create and save the V matrix for the given layers.
 
         Args:
@@ -322,7 +341,7 @@ class TranscoderUtils(FCAVectorSerializer):
 
         return VS
 
-    def init_fcas(self, layers: List[int]) -> Dict[int, FCA]:
+    def init_fcas(self: TranscoderUtils, layers: List[int]) -> Dict[int, FCA]:
         """Initialize the FCA from the sparse activations for the 
             given layers.
 
@@ -357,7 +376,7 @@ class TranscoderUtils(FCAVectorSerializer):
         return fcas
 
     def run_transcoders(
-        self,
+        self: TranscoderUtils,
         prompt: str,
         layers: List[int],
     ) -> Dict[int, np.ndarray]:
@@ -372,7 +391,7 @@ class TranscoderUtils(FCAVectorSerializer):
         """
         return self.transcoder.run_layers(prompt, layers)
 
-    def print_tokens(self, prompt: str):
+    def print_tokens(self: TranscoderUtils, prompt: str) -> None:
         """Print the text tokens from the given prompt.
 
         Args:

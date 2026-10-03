@@ -1,5 +1,7 @@
 """Independently recompute image provenance and CNN/ViT feature evidence."""
 
+from __future__ import annotations
+
 import argparse
 import hashlib
 import io
@@ -20,7 +22,9 @@ from lattmc.vision.featureviz_codexgen import choose_features, codes_for
 from lattmc.vision.paths_codexgen import experiment_root
 
 
-def verify(inference=True):
+def verify(inference: bool = True) -> dict[str, int | bool]:
+    """Verify feature-visualization caches and optionally recompute inference.
+    """
     torch.set_num_threads(4)
     root = experiment_root('imagenette_imagewoof')
     for name in ['imagenette', 'imagewoof']:

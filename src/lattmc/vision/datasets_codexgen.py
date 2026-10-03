@@ -1,5 +1,7 @@
 """Prepare traceable Imagenette and Imagewoof subsets from fastai archives."""
 
+from __future__ import annotations
+
 import hashlib
 import io
 import json
@@ -27,11 +29,13 @@ NAMES = {
 }
 
 
-def sha256(path):
+def sha256(path: Path | str) -> str:
+    """Compute the SHA-256 digest of a dataset artifact."""
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
-def prepare(name):
+def prepare(name: str) -> None:
+    """Prepare the fixed image subset and save dataset provenance."""
     root = experiment_root('imagenette_imagewoof')
     folder = root / 'dataset'
     folder.mkdir(parents=True, exist_ok=True)

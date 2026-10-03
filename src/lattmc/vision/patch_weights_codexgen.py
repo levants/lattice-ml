@@ -1,5 +1,7 @@
 """Lossless checkpoint parts with SHA-256-verified offline reassembly."""
 
+from __future__ import annotations
+
 import argparse
 import hashlib
 import json
@@ -15,12 +17,14 @@ FILES = [('prisma_backbone', 'open_clip_model.safetensors'),
          ('saev_sae', 'sae.pt')]
 
 
-def digest(path):
+def digest(path: Path) -> str:
+    """Compute the SHA-256 digest of a checkpoint file."""
     with Path(path).open('rb') as stream:
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 
-def split(path):
+def split(path: Path) -> None:
+    """Split a large checkpoint into hashed release-sized parts."""
     path = Path(path)
     entries = []
     with path.open('rb') as stream:
@@ -38,7 +42,8 @@ def split(path):
         json.dumps(manifest, indent=2) + '\n')
 
 
-def ensure(path):
+def ensure(path: Path) -> Path:
+    """Reassemble missing checkpoint files and verify their hashes."""
     path = Path(path)
     if path.exists():
         return path

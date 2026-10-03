@@ -1,5 +1,7 @@
 """Frozen CNN and ViT adapters with explicit patch-token conventions."""
 
+from __future__ import annotations
+
 import numpy as np
 import torch
 from torch import nn
@@ -13,7 +15,8 @@ from lattmc.vision.paths_codexgen import experiment_root
 REVISION = 'ed25f3a31f01632728cabb09d1542f84ab7b0056'
 
 
-def dataset():
+def dataset() -> dict[str, np.ndarray]:
+    """Load and combine the cached Imagenette and transfer-image datasets."""
     folder = experiment_root('imagenette_imagewoof') / 'dataset'
     with np.load(folder / 'imagenette_codexgen.npz') as data:
         result = {key: data[key] for key in data.files}
@@ -29,7 +32,10 @@ def dataset():
 class Backbone(nn.Module):
     """Input float RGB [0, 1]; output B x sites x channels, excluding CLS."""
 
-    def __init__(self, name):
+    def __init__(self: Backbone, name: str) -> None:
+        """Load the frozen backbone and register its image normalization
+        buffers.
+        """
         super().__init__()
         self.name = name
         if name == 'resnet34':
@@ -50,18 +56,24 @@ class Backbone(nn.Module):
         self.register_buffer('std', torch.tensor(
             [0.229, 0.224, 0.225])[None, :, None, None])
 
-    def forward(self, images):
+    def forward(self: Backbone, images: torch.Tensor) -> torch.Tensor:
+        """Extract spatial feature tokens, omitting the classification token.
+        """
         values = (images - self.mean) / self.std
         if self.name == 'resnet34':
             return self.model(values).flatten(2).transpose(1, 2)
         return self.model(values).last_hidden_state[:, 1:]
 
 
-def pixels(images):
+def pixels(images: np.ndarray) -> torch.Tensor:
+    """Convert uint8 image batches to channel-first floats in the unit
+    interval.
+    """
     return torch.tensor(images).permute(0, 3, 1, 2).float() / 255
 
 
-def load_surrogate(name):
+def load_surrogate(name: str) -> tuple[TopKSAE, torch.Tensor, torch.Tensor]:
+    """Load the trained sparse surrogate and its normalization statistics."""
     folder = experiment_root('imagenette_' + name)
     state = torch.load(folder / 'checkpoints/sae_codexgen.pt',
                        map_location='cpu', weights_only=True)
@@ -70,7 +82,8 @@ def load_surrogate(name):
     return sae.eval(), state['center'], state['scale']
 
 
-def load_codes(name):
+def load_codes(name: str) -> dict[str, np.ndarray]:
+    """Concatenate cached activation blocks for a backbone."""
     folder = experiment_root('imagenette_' + name) / 'activations'
     blocks = []
     for p in sorted(folder.glob('codes_*_codexgen.npz')):

@@ -1,5 +1,8 @@
 """Aggregate scores, image bootstrap intervals, and optional tables."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import json
 from pathlib import Path
@@ -16,7 +19,8 @@ LABELS = ['TopK', 'BatchTopK', 'JumpReLU', 'RA-TopK', 'ReLU (fixed)']
 DATASETS = ['imagenette', 'imagewoof', 'pets', 'parts', 'dtd']
 
 
-def aggregate():
+def aggregate() -> dict[str, Any]:
+    """Aggregate cached reconstruction, retrieval, and stability results."""
     result = {'local': [], 'transfer': [], 'stability': json.loads(
         (ROOT / 'results/stability_codexgen.json').read_text())}
     for family, label in zip(FAMILIES, LABELS):
@@ -59,7 +63,8 @@ def aggregate():
     return result
 
 
-def tables(summary, folder):
+def tables(summary: dict[str, Any], folder: Path) -> None:
+    """Write comparison tables from the aggregate experiment summary."""
     folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
     rows = [r'\begin{table}[tb]', r'\centering\small',

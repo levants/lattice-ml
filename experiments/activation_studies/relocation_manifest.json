@@ -1,0 +1,377 @@
+[
+  {
+    "source": "texs/sparsesurrs/lattcontexts/experiments/external_results",
+    "destination": "data/activation_studies/external_v1",
+    "files": 89,
+    "hashes": {
+      "ag_news/design.json": "d8e11df6798e1555524f4500a4b5b17161c0830e19f2074db7d03cae06cf42fb",
+      "ag_news/gemma2_l0_301_dense.npz": "4bbe99d44b7c6ca9ea1de636261dfb30a347c30796a5a5b8318b467d1d5a4652",
+      "ag_news/gemma2_l0_301_extraction.json": "73f3e31f6777ee7e9f30edff6c7e4947d286f7c12bac934c5853ce72953611d7",
+      "ag_news/gemma2_l0_301_max.npz": "9177315fd2c7526b736155da75a6bfbcedcf66856ba0a0e0dc00ce832c407644",
+      "ag_news/gemma2_l0_301_max_results.json": "70f453d27d10698cb15d47b009b436757c84e92d1668d7c31ce7e209de8947bf",
+      "ag_news/gemma2_l0_301_max_scores.npz": "361952e2ae1f80951431a91196f45697bf9a3fdd0caf48a619a9b77593408724",
+      "ag_news/gemma2_l0_301_mean.npz": "c55883cbe88db79e3060a6c4e5b505b2e188697ed9dd1d67a4c62d9edd9098b3",
+      "ag_news/gemma2_l0_301_mean_results.json": "d12d8a418e4081a893d9ffa3ba98ab9bb9cd33e7a6759e0736e4b03e94b2148e",
+      "ag_news/gemma2_l0_301_mean_scores.npz": "1b4f4a3295d1fb94b8a135c6722cdf7a3713319244a278de4f4acf9bc1fe968a",
+      "ag_news/gemma2_l0_37_dense.npz": "4bbe99d44b7c6ca9ea1de636261dfb30a347c30796a5a5b8318b467d1d5a4652",
+      "ag_news/gemma2_l0_37_extraction.json": "3a31e1d81e52aa3ce1341f27005ba1c6798463f7cd6a7de12db16aae5c5e1522",
+      "ag_news/gemma2_l0_37_max.npz": "10b1c904db41d86d706221e163d7484884d25d2a65ac7ebd8ffa7f4411e10ef1",
+      "ag_news/gemma2_l0_37_max_results.json": "ac5cc4d29541118b9d6bacb6ba3da13688db8a56b0a3b54dea8a673a018c1454",
+      "ag_news/gemma2_l0_37_max_scores.npz": "254fa01d8558e1f6aa69df9c608bdf52ce57608dcdf14ec030466bfc0f71251c",
+      "ag_news/gemma2_l0_37_mean.npz": "a7fb0e7184b380155e0bd378a96ce3021344e909c8c242762fad6f9dee449130",
+      "ag_news/gemma2_l0_37_mean_results.json": "8ce6535bc5cf2775b37abb77a3aface3f4f887fd6617a37da154d1ba85130f0b",
+      "ag_news/gemma2_l0_37_mean_scores.npz": "e031f9c26c2de2021f50e25ed947d2d0c0544fc62d770b77fc9a599d4f391a7f",
+      "ag_news/gemma2_tokens.local.npz": "99096fba46f99c073917a462f36aaaff126ebcc7eb768fdd752c0e26e7d76f03",
+      "ag_news/gpt2_mlp8_dense.npz": "ffa4519953c789d9eed7768371a9de6cb4b6fd7bc0f7f8802505862a0726ba0f",
+      "ag_news/gpt2_mlp8_extraction.json": "11d1e7fb058ab527d72dabd6035b7e87fe3546c9c26045aac508646ad85e207c",
+      "ag_news/gpt2_mlp8_max.npz": "3b6e9c9d4858eeabcef822239b0f9b8036bed16e3e9e5151a189dd528f0cd11a",
+      "ag_news/gpt2_mlp8_max_results.json": "688e7e19f0167f2916f4337c09bdf9c12be0f926c77a6d7eef86204b4d3c0aa6",
+      "ag_news/gpt2_mlp8_max_scores.npz": "7840391af02031ff3816c561e41e3d217696e8c977e2f1fa8e40b3f5c028acdc",
+      "ag_news/gpt2_mlp8_mean.npz": "e0724ad798dbb44f227a4836a5dd876c9438f052609ebb0bdb2ef7760f55b67a",
+      "ag_news/gpt2_mlp8_mean_results.json": "0f2ffc3a0896563c96860eb369b16024f5da26cdcd96b4c6dc3fcf28bfbd69fb",
+      "ag_news/gpt2_mlp8_mean_scores.npz": "8297c8a488a4be23732ca3d9210ba7a469915eea27b2e53879132e262afe5bf4",
+      "ag_news/gpt2_res8_dense.npz": "076f4ee0f9a3973daae404d2fb7281b86215419247671574aa1fce106ba9c192",
+      "ag_news/gpt2_res8_extraction.json": "825d2d5617d4ac07138151bbe7a05be80d3c680b1d7487881f686c014ff70c56",
+      "ag_news/gpt2_res8_max.npz": "d84c793113db03e3b79a1b159c62b1df076579de10bac0b4ee3cb1cfe9b0b0d7",
+      "ag_news/gpt2_res8_max_results.json": "b316ce8865ba0c150ea947e31a8d3f63c8d06f20a1bf969372f2114426561316",
+      "ag_news/gpt2_res8_max_scores.npz": "628e7800289993efefb14aae72a4322b9a1731ae49e7851ce72154980f39d0b1",
+      "ag_news/gpt2_res8_mean.npz": "8ca6fca2d74f535e1f712aef545a52270e66f723e8d56efb593eaa89b86377fd",
+      "ag_news/gpt2_res8_mean_results.json": "b27ead0b2d9f535942dbc63e70262e451f9c74c2e91119ff4571c0b97a38f4d4",
+      "ag_news/gpt2_res8_mean_scores.npz": "ff245cac42707d3c3dde37964b736c3c2e2ca1a58300b8bd0736cd465451d423",
+      "ag_news/gpt2_tokens.local.npz": "b8295a55e28415be1a1d274fd4d5ce634a395463dda88409273050cb857679dd",
+      "ag_news/texts.local.json": "32aafcd37d6e47d3a55ffa60c37ad56e44d40663e815cba0d31f4782177c6382",
+      "ag_news/tfidf_idf.npy": "f8249f0518e9079d19a6d9d9edd884b1e6eca8f74eacfcfc454d63b5b9eb6832",
+      "ag_news/tfidf_vocabulary.json": "d7470947174814b8c688ccd6fc0364e4e802d9ed9565c0f8f36c2787f7571232",
+      "audit.json": "611ee668db1f19e0874a2359eeff062a9f2d1e7dba14bf68e18375c737dcd759",
+      "build_verification.json": "6a68d364994191c2cc4927622a74ab2962718ff33ec5cf3aa3e414d3c2e13457",
+      "code_sync.json": "d6c026ef31fdc308739767071196ed6cdf9d4ea5d629fae4a8cc86b72707b395",
+      "dbpedia_14/design.json": "51e750ceca34e4e391b013f634c04225bc377c683cfa5328e9c209b2c711ddf0",
+      "dbpedia_14/gemma2_l0_301_dense.npz": "12fe98792298f4bf59b35455585dee1a8e5f3a731f27adc5a8e2bd5ceb395f4c",
+      "dbpedia_14/gemma2_l0_301_extraction.json": "0a48cd00bc4c68512218e6cd803384403cca2fccf41279b74ea5ba29aa5b4ef5",
+      "dbpedia_14/gemma2_l0_301_max.npz": "aba264e6bb116fd37742e30de4e8871bfedd95af152f64a6d61042090713de78",
+      "dbpedia_14/gemma2_l0_301_max_results.json": "e472fee4cebabfcf5207b8c3618dc9c0f38fe734ffb32a726da34a2af21baad4",
+      "dbpedia_14/gemma2_l0_301_max_scores.npz": "bd123f831c4a02e38da73792ded57f8e431b85115e898d11ab697c0f68904f5a",
+      "dbpedia_14/gemma2_l0_301_mean.npz": "e7c75f995d27acf0176a380e904529702ec016425bcf21dff1c5396334e97822",
+      "dbpedia_14/gemma2_l0_301_mean_results.json": "8157404b87fc6b53ad94d8d1fcfd9865aeeae3093995c2e7ae15d621c67750ed",
+      "dbpedia_14/gemma2_l0_301_mean_scores.npz": "ff0540db3352f92cdde52a4b85ec1f5ba90ba58556fda8e17cc639332b1c1823",
+      "dbpedia_14/gemma2_l0_37_dense.npz": "12fe98792298f4bf59b35455585dee1a8e5f3a731f27adc5a8e2bd5ceb395f4c",
+      "dbpedia_14/gemma2_l0_37_extraction.json": "83d050689074c4e2493a86c96fe3f69c893aa5270d4cfb4cee94f1707cc25982",
+      "dbpedia_14/gemma2_l0_37_max.npz": "e37cbeefff4c3ffe7ff542ef49e0cd2efb34f462ff16586084541dc8251a7dac",
+      "dbpedia_14/gemma2_l0_37_max_results.json": "a0a5ec23da5618dceaecf127cd9514e07a9526c64100feae437128782edbb0f1",
+      "dbpedia_14/gemma2_l0_37_max_scores.npz": "7b4e51868573a4ecca4cad9105065c608986b850aac6432fbd13f4c5240bcf35",
+      "dbpedia_14/gemma2_l0_37_mean.npz": "6df543c521cf5e8ff286be14774ee9e16949d1a6dfa0773b38ca3a921382a7f3",
+      "dbpedia_14/gemma2_l0_37_mean_results.json": "20085d6428da0b90dc2fdaf9e2023b8ac8f9517cb3e56f0c4b91e00145e30567",
+      "dbpedia_14/gemma2_l0_37_mean_scores.npz": "c2797ec3c8263e1f2a9f6138fe1cbabf5fb839a92ed45629ea4581b9e86d008d",
+      "dbpedia_14/gemma2_tokens.local.npz": "1d485373f3fb9b7dec66a3ef8efcef992c27d159e6b512cec661d2e2d428605b",
+      "dbpedia_14/gpt2_mlp8_dense.npz": "54a9bee56651ce6aebd3197f293b696d34fc915b56051e8d1c3c2924942b0156",
+      "dbpedia_14/gpt2_mlp8_extraction.json": "54239563123c1745212b1bdbc45c2eb4e7df9acc3c135a246088db5a6d2ea763",
+      "dbpedia_14/gpt2_mlp8_max.npz": "798abf3d92947c2ebd550d5b64b391db5234f7cb76670969d55218c1332d7792",
+      "dbpedia_14/gpt2_mlp8_max_results.json": "ff0dbf009856a140fb4837878b3538454732b74dcb6f8f052223ad14912eb1a4",
+      "dbpedia_14/gpt2_mlp8_max_scores.npz": "5cf6de3969d6d35a613ea20dbfa31ce52ccb0fa830555eb9959e160a47631634",
+      "dbpedia_14/gpt2_mlp8_mean.npz": "a7fce986b2eae218e0485aa820a5d2d64527b801c4259fca9955d9197dfdb9bc",
+      "dbpedia_14/gpt2_mlp8_mean_results.json": "35853b8e82344c9e5d2ac9c3e62f36ca7eef16353d4e39739166f3fccc49e6f8",
+      "dbpedia_14/gpt2_mlp8_mean_scores.npz": "deb580d9de629876c61cc846e14f21c1c86fb8a76a5ad4f802f8d5381a0f2a14",
+      "dbpedia_14/gpt2_res8_dense.npz": "7ea7626e5d2e4335c1ac1280287d89a191642a4aaf1fe51e92ae2e0709755526",
+      "dbpedia_14/gpt2_res8_extraction.json": "f3af1521f461e92b378cf24aa619fc6eaad94279af690de4d4903b6ebc3f49c3",
+      "dbpedia_14/gpt2_res8_max.npz": "3043a7028d0e928c1c28eb95c99cc2050f972de9135f0256666d4e49490358e7",
+      "dbpedia_14/gpt2_res8_max_results.json": "196910d01f254ed86bb887dfd6dd51a6d322df5d9c83cf4ab6debf38a76fd938",
+      "dbpedia_14/gpt2_res8_max_scores.npz": "d1d7d49f961280c3d92e7f93ec7703b3da6ddd0b339858005b464874319a12ef",
+      "dbpedia_14/gpt2_res8_mean.npz": "d5ded593d9a14db48044141773a9d935d080be50c316bbb17babebdeb81c1e7c",
+      "dbpedia_14/gpt2_res8_mean_results.json": "41b7cda9157011f11cea5de76f7bf63d90d47dd1cc5cd0adc6e5404dfa01ae09",
+      "dbpedia_14/gpt2_res8_mean_scores.npz": "eb45844173f27b853cb540423a031ddae7b9402f0019df15fbf55e6854ecad43",
+      "dbpedia_14/gpt2_tokens.local.npz": "5f94705a09ee9c89018ff344fc2369b9b27b56710bd63726890ef220e522a4fa",
+      "dbpedia_14/texts.local.json": "dc8bf8492cccf4103fc40cf5a4ef6c79ee1262f5404249e622fc8650b0ee58a8",
+      "dbpedia_14/tfidf_idf.npy": "910aed5d7d055e13c5a4986351037e3a9ab09f171e23e8e06f83ea7fbef4a5a5",
+      "dbpedia_14/tfidf_vocabulary.json": "816a3adf92e02cae890a39b54d7d11300a58b76c243bae87c604f2f6534b6295",
+      "delivery.json": "57804c212f2be925b4c40247bddee173be69bf0c925f4130717336be0a9e4a4c",
+      "execution_record.json": "703871dcade9d78542ab941e796b7d49749f58c1ee4c5789a5f5ea5b5e2e9305",
+      "external_protocol.md": "4c34559cdf4a7e245f2091dff1198aa307885e5e51ea7b882575905f8a22ea48",
+      "raw/ag_news/source.json": "60e0504b02db68c0441111bb5cb77b328898cf60fee06bb35286cb91c7a2c253",
+      "raw/ag_news/test-00000-of-00001.parquet": "71de87ec66bc5737752a2502204dfa6d7fe9856ade3ea444dc6317789a4f13fb",
+      "raw/ag_news/train-00000-of-00001.parquet": "fc508d6d9868594e3da960a8cfeb63ab5a4746598b93428c224397080c1f52ee",
+      "raw/dbpedia_14/source.json": "241786c863f1c818f1ceca42f07b9ec7d77a3b477009ae5ad4a60f09c4fb7e56",
+      "raw/dbpedia_14/test-00000-of-00001.parquet": "05fed41640e97f93ffd442757f6a84170348cf0c7500ecbda9e95ddcd928c631",
+      "raw/dbpedia_14/train-00000-of-00001.parquet": "0640e4664a99cc94c47db1d7b2e01c14455d5bbecb8183ad1f93bde59f3f28ee",
+      "source_verification.json": "e5e60cca20ca3f5c100f4ab60fd249a5bc78abe13155082143a3bf350a3042a1"
+    },
+    "compatibility_link": true
+  },
+  {
+    "source": "texs/sparsesurrs/lattcontexts/experiments/release",
+    "destination": "artifacts/releases/activation_studies/external_v1",
+    "files": 4,
+    "hashes": {
+      "README.md": "bd9027577bbc42e98549ff8ad50b8d2d44e6b8a3d95b4d4759b30f1aa23a2979",
+      "release_manifest.json": "ff62a3633289cbbc3e2e375c3daac81da104705ef3e3cbb4677175a90e990fa3",
+      "saelens-external-activations.zip": "472c5e42bb2f74a4e1e6e97a18037fb777b6f542ca22b41c438afac93917e3f9",
+      "saelens-external-results.zip": "9babf7ce9f23462012b927fb6013d3af5b56da859caed7e889843405491870d4"
+    },
+    "compatibility_link": true
+  },
+  {
+    "source": "texs/sparsesurrs/lattcontexts/experiments/graded_activation_results.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattcontexts/graded_activation_results.zip",
+    "files": 1,
+    "hashes": {
+      "graded_activation_results.zip": "2e3aa2dbd9ddf8cf2a6476abed789d2adccdfc3b350ded3d4689452346fc4d79"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/activation_results",
+    "destination": "data/activation_studies/legacy/lattconference/activation_results",
+    "files": 13,
+    "hashes": {
+      "sae_layer0.json": "88576fdb71900a9f74b33d6849a52386acbeaff3b10df569a075f25ddb7d22f1",
+      "sae_layer0.npz": "097b8dbbb1b42dbc011ab7883eb809e0052a1cc99897da93a55b43967d31efc1",
+      "sae_layer11.json": "e948fa61424f658c1e8e69491b3c7c121ec9bb5c4b6d649d63ba15e40d39be03",
+      "sae_layer11.npz": "15209f5c7d30f3627c7cec1a5775d9464de8c32d8366de4ab7658053257f6523",
+      "sae_layer8.json": "8469b77275a6d30413ed854bd0a49f36763f89606a710b990f80a4cd42873beb",
+      "sae_layer8.npz": "c3211b64a44cdd7b8917924452270cdd3c6af77e9c3d8586b4a120094babbb2b",
+      "summary.json": "9afc560dca4d3500404b41c6397ec96e0008c2032fd320a37bb9157d6c7070d6",
+      "tc_layer0.json": "f69765690f0565b49b9d865b5a1de22e81a1f8a96fe095c66d4aab339cd614b3",
+      "tc_layer0.npz": "323599ff60fc381287c34708ed6d3f63f3c25a80590ee2adc87465e552d5abeb",
+      "tc_layer11.json": "4083f75414dd50cd8ab124dfb82bc37fc9a90b392befc1e6494b55b693721bc2",
+      "tc_layer11.npz": "7469076508586f8c2df8fea247056989cdbe58f862a40ecec9371c1be4fdd8e5",
+      "tc_layer8.json": "1660aeb843a7379d794051cbb2ab1fea5d21fe19f23cdc61217504064d6d82bd",
+      "tc_layer8.npz": "036669d8ca84ecbed5cc75db224c7fb4fdc5874a90112887043cbbbcd87a9d1a"
+    },
+    "compatibility_link": true
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/conference_results",
+    "destination": "data/activation_studies/legacy/lattconference/conference_results",
+    "files": 35,
+    "hashes": {
+      "ablation_sae_0.json": "833aa2c9596c21b92668be358f3b3fc6977ada3dcebd7d1c5689edc1fcc9d5eb",
+      "ablation_sae_0_scores.npz": "ec08f9cd76b57cc36fac5a677b30e554fb79dd7527196f9106b1ec3b8041f2e6",
+      "ablation_sae_11.json": "ec318976484c32e9426c7f3a7a9b0415969bc279dc4fe1085a0c6a3fcfe4f454",
+      "ablation_sae_11_scores.npz": "12f3ba354ed31c52acc38a53d7a8fdb3fcce4897ca52227c7095b02dd88c21d5",
+      "ablation_sae_8.json": "671792bcd3d73a5d42f87bbc8768440481070c8c487ddad5da349d97722418a7",
+      "ablation_sae_8_scores.npz": "c6539a029efe71a21f2e6f43f27ff01d2a83e79dd3b7a32351f94738166dca25",
+      "ablation_tc_0.json": "e577ae0116fd0c2375d935031ab957c49569a5c228bd06286b3d18b28ac3e0ba",
+      "ablation_tc_0_scores.npz": "5b508121c29349ab884e64f82ca44098e78bf067eb2f8c943031b8793c2e3bcb",
+      "ablation_tc_11.json": "d349d4b0206675c1e38721ed8704674f683c892a7e2ddefd0f7a6bce0f875c89",
+      "ablation_tc_11_scores.npz": "09f88b849dbf0d2edb04bc610b13df327bf566991c0a15ade0c62342535a15ed",
+      "ablation_tc_8.json": "1b47563d415e74efa9635bb7de59072dbae4db11298260aff5ad00f4a898f104",
+      "ablation_tc_8_scores.npz": "583fa81c3a607383a4ed324017ae5adaed25bb32850a058b84b7f29c24c08336",
+      "design.json": "d29a4802e0b6177b7ce01ceb4602b755a49cbfdd89af16183070112853a00bc1",
+      "sae_0.json": "9670dc553bcfa1f435fa97300d4240254be3eaaf8b601aa36058bd5f3716ecac",
+      "sae_0_queries.npz": "d2454372779b9cbafeabd8832984d064e2e90634bfa8ff67533de0d6e2bdbac2",
+      "sae_0_scores.npz": "91ed79c6f1964f8e56b7f94b6e500aaec0c4eb23ffac224fa608f62e4b5bb6b6",
+      "sae_11.json": "32935da02b35cbf4ff9a566d51d20e24d8d365de54c10482a716c9c1395f76ae",
+      "sae_11_queries.npz": "03737688576f74e943775315dbd1e6efc62ed4fcc5ec49dae9eddb51a36a7cd7",
+      "sae_11_scores.npz": "b428d689a357e07e6a295834f8db08581fd89b7a62b4fe76520bdbd621f77ba0",
+      "sae_8.json": "00732a516f2004121d6586c285361e421e8b25247be6233e76334ff763b8a131",
+      "sae_8_queries.npz": "523de73ae2703820cbae45bc1e50a588add1404444fdaa9de6a902a8b33884ff",
+      "sae_8_scores.npz": "f6cb38594fdc01c30e2bea98b99adddd296bfebdce6d0305b659813a791201cb",
+      "summary.json": "137df7124fcfe80a713476b59ec94dbdfaec473b6689a799d81311cdf46b632e",
+      "tc_0.json": "96821a3e521b8d0a66a16a9361bda05623068dd15666f4c38d53bbce92c4a442",
+      "tc_0_queries.npz": "f1451e51e686d629508b1e2ba87d576b3b89113fd65a618fdf827b641710fb6d",
+      "tc_0_scores.npz": "6abbee52a7315418bb6ca245579bd89fc557ad0c8ed23b266d164bce013883b7",
+      "tc_11.json": "7f85e4e580d64361911bc79f612da8dce4fc0c33dbecd2640fae600f5c448bd6",
+      "tc_11_queries.npz": "4afffcd3efa60b58a8a0081405b5e55623ac6173fd3b44cba0dbbebaf2cc4d81",
+      "tc_11_scores.npz": "2f365d1e59a48ea8982318748880c9424b8df3d8b458da5233688813d9066c49",
+      "tc_8.json": "2ce6b65e5396e00f67e1aba1d88725152bd80072df14bbf77dcc79c03c55dfbf",
+      "tc_8_queries.npz": "579203de374ab4273dfc61a668e07d24b0164cdbb6989405e3efe30d7e378681",
+      "tc_8_scores.npz": "4ed21004d40c4b6e4275d0628937763ed0072f948ecea2ef60622977fafac3a5",
+      "tfidf_idf.npz": "980e0d709486a55298290c8c0becdbfb6a4107b758510275ff5c0cd380ee9dea",
+      "tfidf_scores.npz": "ee126bd8a270b7ea589322a26eea554cbedc33fb73d0eda4d8cbbdb0d261577d",
+      "tfidf_vocabulary.json": "b9870b3fbad1b8abdd8fd34160ccdf70e271e1db58c1333f438c78e9d5cac0ad"
+    },
+    "compatibility_link": true
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/cached_notebook_checks",
+    "destination": "data/activation_studies/legacy/lattconference/cached_notebook_checks",
+    "files": 12,
+    "hashes": {
+      "sae_layer0.json": "265f1122f2f7cedff80ef01498ce144d7710cdf1bedd0021724969d5f3aad0b9",
+      "sae_layer0_cached_check_codexgen.ipynb": "93979bf2c15c9bfb21786471cfccda48565e4e7af3949e1696010d06035f4beb",
+      "sae_layer11.json": "5ddc27d4d1206b63e7fb9ea1f4581a21626d4cf3c76f459ad9263f4e510454a1",
+      "sae_layer11_cached_check_codexgen.ipynb": "f38aa906bca5b8d6d0e222b55b2f8ef9807384a8ab79155068e05b0df0190790",
+      "sae_layer8.json": "e29b523ff6ac48b5c86aba7a539c7682476b7ca9aa777c3dafcd6d6a130e79f1",
+      "sae_layer8_cached_check_codexgen.ipynb": "9447c8f092ec7383f8371a725aab6b11b656e23fbd46286ba90a7be1a8f6a05a",
+      "tc_layer0.json": "0afb64c97d6bb67052bd5cc8fd8e5b77ba9460c7d26b82609f582cca8f65001f",
+      "tc_layer0_cached_check_codexgen.ipynb": "f52de11fa48090ef3160f3e1fd2d604fc3eea3ab7bd90867b14da95530933f29",
+      "tc_layer11.json": "c2d15ff51c1a5c8252e66be2f0ac3097154d1828dfa19ece4a7f3be02a19a4f4",
+      "tc_layer11_cached_check_codexgen.ipynb": "f6292937bb12a230e9c8a355801995732e7a0a39d97393857d89ad2ac3780df2",
+      "tc_layer8.json": "05ca97c86734d1b87c02e4b651342f4e9cb3859f5b2c88e04f203ab5d80279d3",
+      "tc_layer8_cached_check_codexgen.ipynb": "e9c3921363d8ecc0e0493fe96467dc39334a8cb732a348488c5ac9099b649efb"
+    },
+    "compatibility_link": true
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/conference_retrieval_results.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattconference/conference_retrieval_results.zip",
+    "files": 1,
+    "hashes": {
+      "conference_retrieval_results.zip": "6771c7f360ddd09f2c1b7983aa09f27a9629558a7917d574eec2bf0edbb48a0b"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/conference_scores_sae_0.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattconference/conference_scores_sae_0.zip",
+    "files": 1,
+    "hashes": {
+      "conference_scores_sae_0.zip": "414a09e7bad986ca0d3a190c9a557398c9e39bf94476774aa8905c7db0dc7d75"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/conference_scores_sae_11.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattconference/conference_scores_sae_11.zip",
+    "files": 1,
+    "hashes": {
+      "conference_scores_sae_11.zip": "403fb664a2f65b3373f15c910d2d252fc8547906161634b75f57260a79e31cf6"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/conference_scores_sae_8.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattconference/conference_scores_sae_8.zip",
+    "files": 1,
+    "hashes": {
+      "conference_scores_sae_8.zip": "1f994e7189cabbd09727b8182b24139e8daf49d5a3aed97924550c9407d4d663"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/conference_scores_tc_0.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattconference/conference_scores_tc_0.zip",
+    "files": 1,
+    "hashes": {
+      "conference_scores_tc_0.zip": "cc5a0b9bbe63ff682d7bd12e0123feb1430a1a5e42ef4d1d6a226ba8a8ccd6d8"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/conference_scores_tc_11.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattconference/conference_scores_tc_11.zip",
+    "files": 1,
+    "hashes": {
+      "conference_scores_tc_11.zip": "ab87dc979d1d3696dc195058fb8b93707b1ac84f10300cb728f73bb4cdcd2813"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/conference_scores_tc_8.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattconference/conference_scores_tc_8.zip",
+    "files": 1,
+    "hashes": {
+      "conference_scores_tc_8.zip": "1eb39f125fda6c9c965950b77d2176f91b605c43901d4d8528f83b323ef8c26c"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/conference_scores_tfidf.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattconference/conference_scores_tfidf.zip",
+    "files": 1,
+    "hashes": {
+      "conference_scores_tfidf.zip": "410af5413117a555bbe42c2b48b96fa8d2a2fb11c7ce25468704d9a04b388698"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/experiments/graded_activation_results.zip",
+    "destination": "artifacts/releases/activation_studies/legacy/lattconference/graded_activation_results.zip",
+    "files": 1,
+    "hashes": {
+      "graded_activation_results.zip": "2e3aa2dbd9ddf8cf2a6476abed789d2adccdfc3b350ded3d4689452346fc4d79"
+    },
+    "compatibility_link": false
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/lattconference_arxiv_source.zip",
+    "destination": "artifacts/papers/lattconference/lattconference_arxiv_source.zip",
+    "files": 1,
+    "hashes": {
+      "lattconference_arxiv_source.zip": "21ad6d4216dfdc15448573a6a91bf094d9cc9d94ef76c8d5ae32c1a2e7be311a"
+    },
+    "compatibility_link": false
+  },
+  {
+    "verified_duplicate_cache": "/Users/ltsinadze/git/my_papers/notebooks/sae/data/external_results",
+    "canonical": "/Users/ltsinadze/git/my_papers/data/activation_studies/external_v1"
+  },
+  {
+    "verified_duplicate_cache": "/Users/ltsinadze/git/lattice-ml/notebooks/sae/data/external_results",
+    "canonical": "/Users/ltsinadze/git/my_papers/data/activation_studies/external_v1"
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/notebooks/conference_retrieval_codexgen.ipynb",
+    "destination": "notebooks/sae/conference_retrieval_codexgen.ipynb",
+    "files": 1,
+    "hashes": {
+      "conference_retrieval_codexgen.ipynb": "7598b1b9338a4882dbd7ca3014b78d62a72a1303be7d182be7bcd39abc56b942"
+    },
+    "compatibility_link": true
+  },
+  {
+    "source": "texs/sparsesurrs/lattconference/build/legacy",
+    "destination": "artifacts/papers/lattconference/legacy",
+    "files": 51,
+    "hashes": {
+      "lattcontexts-appendix.bbl": "7b6076e3be4d0c9d92e4f6e1f21b982bb8885662c11f9c7d1c8de408aa894af6",
+      "lattcontexts.run.xml": "6a7cbfb032d53b22e272d32ddb33061e6c0cd417ccaa637307f21dfb9fea458f",
+      "lattcontexts-combined.aux": "22a5cdd995f7a333eb332ec249344713caf898c786e742257b85fd2c2ddda766",
+      "lattcontexts-combined.log": "7a1c9b2f63dbcbb4246b7866b1d58579bf83383e23684e97f6316b61df8eaa80",
+      "lattcontexts-combined.fls": "795f17f09440b51644953e97c58f1e714973e7a230f91b3c13f59da3b0d2855a",
+      "lattcontexts-combined.blg": "ab87ff87bb9736ce7f2cb6a51093431fe462ddba86324e96e7ab79e342d658d6",
+      "lattcontexts.out": "637bf94611368fcdf1fcf088c7647b3efe8cef4c15113531f1e861b400fef01e",
+      "lattcontexts-main.synctex.gz": "1b00b89076c24ef4f65b48853b4fec72dc22cba03510ea894cb3bf40176581bf",
+      "lattcontexts.synctex.gz": "9c1bce9aed2c7d48fccd8fd9ad7f01d38928041ff618224dfd3d13090b701ea5",
+      "lattcontexts.bcf": "372bbfdda4116b26911a7f945410bad778fe7d390fe4bb58325a4864e069f8e1",
+      "lattcontexts-main.fdb_latexmk": "c829f1bec44424235659799136b8a5d09523e5f5bbec44b312e29931807b60cc",
+      "lattcontexts-appendix.pdf": "394bebbeb0f31ae314155dd701bbddf58baa1b39c225dcb71282c36c6566b4b8",
+      "lattcontexts-appendix.synctex.gz": "385a6e43f6925604e2aa02ce1d401dbfac763754c561acc554e79173c3840f90",
+      "lattcontexts-main.run.xml": "145bfd195c9137e183fac352044ef649e831f8426986a0d2636796d62ae88091",
+      "lattcontexts.bbl": "a01c2ef0878c16cc1b197d27fa2a7e10e96c5a4778c4dbdd676c7fa9da7927c6",
+      "lattcontexts-main.log": "8089b3a065bc00b65059f89c2595dc13b9c5a5230d7ccad778d88533b6c168d6",
+      "lattcontexts-main.aux": "d39b3c85a40f6662f790df80e5aa20db5cb44c24a2862a26fec71f8adc184803",
+      "lattcontexts-main.blg": "b4c5f811a256aeeeea7673ed915f0e7aaf8d161881073efa2abf2fbf139b8515",
+      "lattcontexts-main.fls": "9f25cc81c0ee7429775243c2b31101bb96daee4f1b4203bc6985d7107e5a9d2a",
+      "lattcontexts-appendix.out": "78f0c6183b1e55be64e042462f099631356a68f25bac78118e3bbddab80b4e4e",
+      "lattcontexts.pdf": "ad0d7c21e799c083d39cf125b3ba9de20eed36835f72dcf6da9e0ab18ea512aa",
+      "lattcontexts-appendix.bcf": "a7b36e24242a71d9df622136c4b6aa4e282215243b3cf350b553db2a021b6a42",
+      "lattcontexts-combined.synctex.gz": "647447be485d4cd4316184e4dc37ea658b390a4e5f99480d97550b0bccbf3d88",
+      "lattcontexts-combined.bcf": "372bbfdda4116b26911a7f945410bad778fe7d390fe4bb58325a4864e069f8e1",
+      "README.md": "6907f58512014c2b87ae4284f20344d5d7fac46c858c1b5e37304e8bc70dacc8",
+      "lattcontexts-main.pdf": "7d696ec9c522b7de66b5ed35c050cccb1f89015f7537f0ff8aa5ea3c3ecfbfaf",
+      "lattcontexts-combined.out": "637bf94611368fcdf1fcf088c7647b3efe8cef4c15113531f1e861b400fef01e",
+      "lattcontexts.aux": "22a5cdd995f7a333eb332ec249344713caf898c786e742257b85fd2c2ddda766",
+      "lattcontexts.log": "ada70932a3fe2ab90ef0ebbc33d851cfebee3314ced6784b577a5310b02acba9",
+      "lattcontexts.bbl-SAVE-ERROR": "a01c2ef0878c16cc1b197d27fa2a7e10e96c5a4778c4dbdd676c7fa9da7927c6",
+      "lattcontexts.fls": "c7371c282e7db649ee28cbedc0c4e883793bc0beb2fe64f33e43df9fb879a15e",
+      "lattcontexts-combined.fdb_latexmk": "77bf6a56581aa23d2015c73006b7296d719813b421ed8583fd540a5e2bb0f600",
+      "lattcontexts-appendix.run.xml": "ad19eacf1e258c30ec6447a257b071496f4ac07cbf0f45689f105c50545c87c6",
+      "lattcontexts-appendix.fdb_latexmk": "3683118d5e89cc266bd3b0b543067ad6d0992272b95dcc3db8e654ea9cf1d4ce",
+      "lattcontexts-main.bbl": "705e08e5f4cba2913d754cdf1dfd10e674d5cc7aa4f977e6ad847727de3bfb8f",
+      "lattcontexts-main.bcf": "93531551eb403d8fea585d777fbd8b75631c6ae7c5fc0b2c9495cb50c97191d2",
+      "lattcontexts-combined.pdf": "4d9b161e04df274ecd1777244e778f0b4a89d276a171964ae7f2d36085ea53f0",
+      "lattcontexts-main.out": "7b268a7c7a26354ee519a070b1ae754003ad56247f290bbbb997af7c8a60492a",
+      "lattcontexts-combined.run.xml": "95b7854e8c712c13be0bad5a5ea96e82995ddb0ecfec658ae6db605db7a8609f",
+      "lattcontexts_arxiv_source.zip": "ceba79fee96a787af2b7346a4a3023490bc04d5ec62646707f1b1b3a8e20a023",
+      "lattcontexts-appendix.blg": "4af555f8303bb10fa0f51ef33a56e8f3c00deae6530c775da4d5f230e6a224cc",
+      "lattcontexts-appendix.fls": "592ec80f1ae8ce154429b1f7b57d9594547cd80250a3cb159b313d1cfadfaa3d",
+      "lattcontexts-appendix.log": "f22dd1d4d6125bdecb18d27e591c4a58f6c4e3d1800c45f66f4fabcaa1c51fc9",
+      "lattcontexts.fdb_latexmk": "0947fbc826f79bee695d903ae8bbda723ba31af4406e0696829a440dfcf716b3",
+      "lattcontexts-appendix.aux": "53b4e04600ff26dd8ba5529307289b2c7a591d5326bc1823f54e1b9f979a4fba",
+      "lattcontexts-combined.bbl": "a01c2ef0878c16cc1b197d27fa2a7e10e96c5a4778c4dbdd676c7fa9da7927c6",
+      "__pycache__/activation_experiments_codexgen.cpython-314.pyc": "e1cbbb53769fbc102d953f1fd88299fdc01da426316f1522ad5ae3131ffc2a15",
+      "__pycache__/conference_experiments_codexgen.cpython-314.pyc": "568ff137f9504143b827c55dbf55c3d9f59f0428317014942aabc9517741f9c0",
+      "__pycache__/test_conference_experiments_codexgen.cpython-314.pyc": "dcb3b6778252086201f3fc229246c71fc9a31497891bf550c05547665cc9c2eb",
+      "__pycache__/review_checks_codexgen.cpython-314.pyc": "98e55152a98c302d125ad38aa1c9f18e028ce3ecc8e8e60c335587bd198089ce",
+      "__pycache__/test_activation_experiments_codexgen.cpython-314.pyc": "460e922d480b460f0059181f8140ff1a73c7e954a933840211ae7ef5095ba722"
+    }
+  },
+  {
+    "source": "artifacts/papers/lattconference/lattconference_arxiv_source.zip",
+    "destination": "artifacts/papers/lattconference/legacy/lattconference_arxiv_source_before_families.zip",
+    "files": 1,
+    "hashes": {
+      "lattconference_arxiv_source_before_families.zip": "21ad6d4216dfdc15448573a6a91bf094d9cc9d94ef76c8d5ae32c1a2e7be311a"
+    }
+  }
+]

@@ -1,5 +1,8 @@
 """Mirror only patch experiment code and evidence; exclude paper files."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import json
 import shutil
@@ -14,7 +17,8 @@ PATCH = ROOT / 'vision_tokens/patch_contexts'
 FORBIDDEN = {'.tex', '.bib', '.bbl', '.pdf'}
 
 
-def files():
+def files() -> list[Path]:
+    """Collect the source and cached artifacts included in the release."""
     selected = list((ROOT / 'src/lattmc/vision').glob('patch*_codexgen.py'))
     selected += [ROOT / 'notebooks/vision/patch_contexts_codexgen.ipynb']
     selected += [ROOT / 'vision_tokens/README.md',
@@ -47,7 +51,8 @@ def files():
     return sorted(set(selected))
 
 
-def manifest():
+def manifest() -> dict[str, Any]:
+    """Build and save the release file hashes and size inventory."""
     entries = []
     for path in files():
         relative = path.relative_to(ROOT)
@@ -65,7 +70,8 @@ def manifest():
     return result
 
 
-def mirror(target):
+def mirror(target: Path) -> None:
+    """Copy the verified release artifacts to a mirror directory."""
     target = Path(target).resolve()
     if target == ROOT:
         raise ValueError('Mirror destination must be another checkout')

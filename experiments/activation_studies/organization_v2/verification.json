@@ -1,0 +1,19 @@
+{
+  "manuscript_resource_scan": "No code, notebooks, caches, ZIPs or symlinks",
+  "complete_gallery_counts": [
+    48,
+    12,
+    12
+  ],
+  "executed_notebooks": 3,
+  "cached_check_path_updates": 6,
+  "tests": 12,
+  "ap_checks": 6720,
+  "confusion_checks": 960,
+  "source_archive": "artifacts/papers/lattconference/lattconference_arxiv_source.zip",
+  "source_archive_sha256": "14b94e7d94d80c18bb7709fec442ae6a173a191c471dcacf8da54cfb3e970c90",
+  "isolated_rebuild_pixel_identical_pages": 79,
+  "release_archives": "CRC and member bytes verified locally; not uploaded",
+  "conference_archive_sha256": "d6e6b7625619609ee192b8ac112402042ecf2cd00a9ce72bf5d81a9790e423c6",
+  "visual_review": "Paired galleries, article and ICLR; readable, no clipping"
+}

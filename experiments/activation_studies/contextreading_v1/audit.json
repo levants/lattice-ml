@@ -1,0 +1,8 @@
+{
+  "query_records": 1686,
+  "distinct_dense_masks": 942,
+  "distinct_closed_extents": 619,
+  "token_witness_records": 157,
+  "prefix_contrasts": 7,
+  "source_sha256": "8519f52ef1b6a1d56f6bbbf8355c68b35b21f7f5d32002e2a09bddbb81515b2c"
+}

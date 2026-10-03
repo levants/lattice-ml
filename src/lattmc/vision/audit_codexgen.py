@@ -1,5 +1,7 @@
 """Exhaustive small-model checks, independent of learned image results."""
 
+from __future__ import annotations
+
 from itertools import product
 
 import numpy as np
@@ -7,7 +9,9 @@ import numpy as np
 from lattmc.vision.contexts_codexgen import VectorContext, spatial_extents
 
 
-def audit():
+def audit() -> dict[str, int]:
+    """Exhaustively check finite-context identities and spatial retrieval laws.
+    """
     counts = {"contexts": 0, "adjunctions": 0, "spatial_queries": 0}
     masks = [np.array(bits, dtype=bool) for bits in product([0, 1], repeat=3)]
     for entries in product(range(3), repeat=6):

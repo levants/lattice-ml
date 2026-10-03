@@ -1,12 +1,23 @@
 """Produce manuscript tables directly from the CNN/ViT result records."""
 
+from __future__ import annotations
+from collections.abc import Sequence
+
 import json
 import textwrap
 
 from lattmc.vision.paths_codexgen import experiment_root, repository_root
 
 
-def write_table(name, columns, header, rows, caption, label):
+def write_table(
+    name: str,
+    columns: str,
+    header: str,
+    rows: Sequence[str],
+    caption: str,
+    label: str,
+) -> None:
+    """Write a captioned feature-analysis table to the paper directory."""
     paper = repository_root() / 'texs/sparsesurrs/visionlattices'
     lines = [r'\begin{table}[tbp]', r'\centering',
              r'\begin{tabular}{' + columns + '}', r'\toprule',
@@ -19,7 +30,8 @@ def write_table(name, columns, header, rows, caption, label):
     (paper / f'tables/{name}.tex').write_text('\n'.join(lines) + '\n')
 
 
-def tables():
+def tables() -> None:
+    """Generate the paper tables from cached feature-analysis results."""
     metrics, features, queries = [], [], []
     for name, title in [('resnet34', 'ResNet34'), ('dinov2', 'DINOv2')]:
         root = experiment_root('imagenette_' + name) / 'results'

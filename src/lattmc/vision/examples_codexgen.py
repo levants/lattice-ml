@@ -1,5 +1,8 @@
 """Activation-grounded galleries, tuning profiles, and lattice queries."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import json
 from pathlib import Path
@@ -18,7 +21,8 @@ from lattmc.vision.paths_codexgen import experiment_root, repository_root
 ASSOCIATIONS = (2, 3, 5, 7, 8, 9)
 
 
-def make_examples(paper=None):
+def make_examples(paper: Path | None = None) -> dict[str, Any]:
+    """Generate finite-context examples and write the paper artifacts."""
     folder = experiment_root("cifar10_resnet34")
     if paper is None:
         paper = repository_root() / "texs/sparsesurrs/visionlattices"

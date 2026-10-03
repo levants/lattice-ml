@@ -1,0 +1,17 @@
+{
+  "path": "artifacts/papers/lattconference/lattconference_arxiv_source.zip",
+  "sha256": "857bdcd7353b0cf9e9e25ebad41397d0ebda57861fa55be5307ee6d1c29931da",
+  "entries": 152,
+  "clean_extracted_pdflatex_passes": 3,
+  "rendering_comparison": {
+    "delivered": {
+      "pages": 116,
+      "different_rendered_pages": []
+    },
+    "extracted_archive": {
+      "pages": 116,
+      "different_rendered_pages": []
+    }
+  },
+  "uploaded": false
+}

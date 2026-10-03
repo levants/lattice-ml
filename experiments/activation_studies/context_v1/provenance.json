@@ -1,0 +1,50 @@
+{
+  "source": {
+    "src/lattmc/contextstudy/__init__.py": "cda957cb095fc6bd3123621a6699aba2c9f75a688aa67c574c3ced5416b8cd1b",
+    "src/lattmc/contextstudy/audit_codexgen.py": "ce51d4db0f58701a0aa71b83d85392217a9c51ff35b83a0a410a044a3b4b2a49",
+    "src/lattmc/contextstudy/context_metrics_codexgen.py": "6911baaaca9aee11a0064a504b15233029b4ccbd745c9bbc1df021069b5eae58",
+    "src/lattmc/contextstudy/depth_codexgen.py": "d57f88dbffbb8a7c6c08d1979fdfa0b006a92e3132bea1c3067e81ae71223922",
+    "src/lattmc/contextstudy/depth_package_codexgen.py": "c537ff9371fc36d4f46b4c8d73ca63909a945e40c462a1fc513c1f9d4c77c18e",
+    "src/lattmc/contextstudy/depth_report_codexgen.py": "b5935a820529a803aa04d6d232e1850fa35982bb29b9af084026d1403e79cda5",
+    "src/lattmc/contextstudy/galleries_codexgen.py": "c312d9dc80ae4a668f97841ec60ae5fad38ca9fa22fad94932ef2ac4e713befa",
+    "src/lattmc/contextstudy/gallery_audit_codexgen.py": "1d4049c86a5d95a490978745974a51260533636857e9fb322d20558aea843161",
+    "src/lattmc/contextstudy/gallery_codexgen.py": "b3e27e47c2d239ddf307f2bc0a3adb1863ee42e4a299cac8824e88e669fdcc42",
+    "src/lattmc/contextstudy/legacyreplay_codexgen.py": "9f43db317d1b130b5021775e68b2192d30815aa66307982a0037435538d3fcb4",
+    "src/lattmc/contextstudy/legacytables_codexgen.py": "1416d98b460b347af5bbf6ee9bc8ad81caff9e49e9558fe3a73e641fa0f32917",
+    "src/lattmc/contextstudy/package_codexgen.py": "b78e368b59b02b73cbc22855779a22068d6510158e53eeaeaa74202cfb3e7703",
+    "src/lattmc/contextstudy/report_codexgen.py": "3c4c0aa240357c36c13c394482ca846ffe35a7602c5b71ed63031fee523d62d4",
+    "src/lattmc/contextstudy/run_codexgen.py": "c8115583afbe60336318201b7d1cb8dca431870d0f4d055cd1d6fadea0f98552",
+    "src/lattmc/contextstudy/witnessaudit_codexgen.py": "ff0401614c355fbfee42d37683ffccf9843c246398d7342d41f71fb8f858be15",
+    "src/lattmc/contextstudy/witnesses_codexgen.py": "e0e0e96fa263018d4bc39afeb5f32f234c8efc64eca7afce8c78c042af8eb3c8",
+    "src/lattmc/contextstudy/witnessrender_codexgen.py": "05e6d5f8f75c8f95ad0b4fcb116ce13b2304a65a51cecf09b7f8efaa8ead6b8b",
+    "notebooks/sae/contextual_witnesses_codexgen.ipynb": "03595897d3f81b08ce50ea9c2460a5ea7c770ecc30ef9ad32de66225be8b834f",
+    "src/lattmc/latex/texttables_codexgen.py": "899e479162c8c12c06e993ea2309a4adfc1aeb342cd4c878e400157daac2ff29",
+    "data/activation_studies/witnesses_v1/audit.json": "44fd5a4d8d0f5daf4e1d958d3249e54c39459d8a54cecbd21300c4380cef2c9e",
+    "data/activation_studies/witnesses_v1/legacy_excerpts.json": "2e7a6aa8a54ab6c4fa61b8b171c9367e08350084aad7af731a6a136a562a8a23",
+    "data/activation_studies/witnesses_v1/legacy.json": "ba5ae8736a7416dd7e3da8278015897f7c69e38dd6dfea79d13c825e9b1a61e1",
+    "data/activation_studies/witnesses_v1/records.json": "99fb9ca818edc311ff50aae46a04d495753aad36eb785c5456942e69a935e797",
+    "data/activation_studies/witnesses_v1/legacy.npz": "d3614f3a00b2a53586de83eb5c99ddae48aafba83800f05220e10174ab7a5dd0",
+    "experiments/activation_studies/witnesses_v1/README.md": "7d0ca78c846bb8a1dd0ea501d4cf2bbc70ee95fc90ea5df7717849e5234a4cb5",
+    "experiments/activation_studies/context_v1/PROTOCOL.md": "a3e5a9c5955098b84b502e5eb379becb493af1c1ad258dd6cef8b636983b6760",
+    "experiments/activation_studies/context_v1/README.md": "3518d2d7da36fa815275b3bd9bc5ba7e22a76958773ed3df33f53088121b463f",
+    "experiments/activation_studies/context_v1/build.json": "7b31a72207e90018e3377edf9ef33048e2c39e587a44b99dec9f5ebb50af102e",
+    "experiments/activation_studies/context_v1/verification.json": "54f3634b5d01c20163286ec3d2dbd9c062706646253dbf9a9cc64d59d57393dd"
+  },
+  "existing_dependencies": {
+    "src/lattmc/tc/transcoder_analyzers_codexgen.py": "2c9430bf4f9208a6dcc7cbd361a6c0801b86885e120104aa05baad211940de09",
+    "src/lattmc/tc/transcoder_utils.py": "61c3ba39bd070983ea9442d138ad352f95757b65edd2fe693d5c18f8c392212d",
+    "src/lattmc/tc/sparse_surrogates.py": "6149879fa7ce70d8bf92fb3b78f4040aaf4a72c4835205edfd76bc393b088792",
+    "src/lattmc/tc/tokenization_utils.py": "3a26e840fa53497456455b02ddbf9340902962283c3cc10c4cc03cd7f0dcc7d0",
+    "src/lattmc/sae/sae_utils.py": "a16c8b2cade84061802ee33611401ae403c97849cded01f3c9acf0e68c3ad3e8",
+    "src/lattmc/sae/nlp_sae_utils.py": "7870ff499f23968aa3faea905c2280d0e41deaab055ebe62621b0c69050b878e",
+    "src/lattmc/fca/visualization_utils.py": "f756db75f725652ae5327f4035776aa2fb934af12f82010045304afae92a3889"
+  },
+  "inference": "Executed offline by run_codexgen.py, float32 CPU.",
+  "notebook": "Executed saved-array audit and display; no inference.",
+  "publication": "Local archive only; not uploaded.",
+  "mirror": {
+    "files_verified": 24,
+    "dependencies_verified": 7,
+    "code_only": true
+  }
+}

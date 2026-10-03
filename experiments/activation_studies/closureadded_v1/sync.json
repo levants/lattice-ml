@@ -1,0 +1,22 @@
+{
+  "destination": "/Users/ltsinadze/git/lattice-ml",
+  "files": {
+    "src/lattmc/contextstudy/closureadded_codexgen.py": "16707fc841819094cc0d16dd16c187342ea315ffd80664af18276f317e9ba552",
+    "src/lattmc/contextstudy/closurewitness_codexgen.py": "e908df393e66359d7972c972539c65f3dc1726f6d2b623fe312f6f18ea4974bf",
+    "src/lattmc/contextstudy/closureaudit_codexgen.py": "ccf3f46ace2a2f51c0575d566c96f1a8ce826d73ad8ce722bd6ac3abb4153923",
+    "src/lattmc/contextstudy/closuretables_codexgen.py": "64d149db164d7143b780790490ce1f3873701958ac7ead5cbf47f5c516878021",
+    "notebooks/sae/closure_added_codexgen.ipynb": "56e031d4c86d72868c513ac496fdb84b634dffb23ad03b56eb333f63d279e86d",
+    "experiments/activation_studies/closureadded_v1/summary.json": "f2fdba588feab90ec158f66cb0e176d71bbfcf9dde62bc3a504fc845c75969af",
+    "experiments/activation_studies/closureadded_v1/TABLES.md": "2df3afaa95bd7c111427d3d95250c4d468c66017c35475387e81718db9827c9d",
+    "experiments/activation_studies/closureadded_v1/audit.json": "e42a0db779a20dcc199ed51bb777ed08f4b2bd4a8cd7a30a5f60c24df6aa1a39",
+    "experiments/activation_studies/closureadded_v1/provenance.json": "9198e61af1bc14edf8e117dfba8759230e358f31aad04e0b8c59ce5ae6683879",
+    "experiments/activation_studies/closureadded_v1/README.md": "0f1d2449c4f0fad9c7f483df078ea5712a5452f9a244c83d7d54b39ee3ea3509",
+    "experiments/activation_studies/closureadded_v1/changed_paper_sources.json": "2625052b8a7aa37cc985b75b5add795f6947081f81df206a3686e9df14fa29e3",
+    "experiments/activation_studies/closureadded_v1/verification.json": "164b07ebd25ac87d16901e609ee4a1bf0e134cafa15548af6561a6ddb06498aa",
+    "experiments/activation_studies/closureadded_v1/build.json": "48941fdf0fd6cb910658672f1799ce356e6d4a2c4e96acdb54e31f1c49829c13",
+    "experiments/activation_studies/closureadded_v1/PROTOCOL.md": "cb7d0c806f482560ee963fef24dac7338abe308e90c8978cbf606062344de34f",
+    "experiments/activation_studies/closureadded_v1/delivery.json": "873c3dbd873ca47fc298d1972b67187e63b531b1b4ea67d78a0785e4320f5576"
+  },
+  "cache_symlink": "../../../my_papers/data/activation_studies/closureadded_v1",
+  "publication_performed": false
+}

@@ -1,0 +1,34 @@
+{
+  "ag_news": {
+    "repo": "fancyzhx/ag_news",
+    "revision": "eb185aade064a813bc0b7f42de02595523103ca4",
+    "files": [
+      {
+        "file": "data/test-00000-of-00001.parquet",
+        "local": "test-00000-of-00001.parquet",
+        "sha256": "71de87ec66bc5737752a2502204dfa6d7fe9856ade3ea444dc6317789a4f13fb"
+      },
+      {
+        "file": "data/train-00000-of-00001.parquet",
+        "local": "train-00000-of-00001.parquet",
+        "sha256": "fc508d6d9868594e3da960a8cfeb63ab5a4746598b93428c224397080c1f52ee"
+      }
+    ]
+  },
+  "dbpedia_14": {
+    "repo": "fancyzhx/dbpedia_14",
+    "revision": "9abd46cf7fc8b4c64290f26993c540b92aa145ac",
+    "files": [
+      {
+        "file": "dbpedia_14/test-00000-of-00001.parquet",
+        "local": "test-00000-of-00001.parquet",
+        "sha256": "05fed41640e97f93ffd442757f6a84170348cf0c7500ecbda9e95ddcd928c631"
+      },
+      {
+        "file": "dbpedia_14/train-00000-of-00001.parquet",
+        "local": "train-00000-of-00001.parquet",
+        "sha256": "0640e4664a99cc94c47db1d7b2e01c14455d5bbecb8183ad1f93bde59f3f28ee"
+      }
+    ]
+  }
+}

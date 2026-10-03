@@ -1,5 +1,8 @@
 """Fetch a small public Oxford Pet mirror subset and official trimaps."""
 
+from __future__ import annotations
+from typing import Any
+
 import io
 import json
 import tarfile
@@ -13,12 +16,14 @@ from lattmc.vision.overcomplete_data_codexgen import save
 from lattmc.vision.overcomplete_fetch_codexgen import ROOT, digest
 
 
-def get(url):
+def get(url: str) -> bytes:
+    """Fetch the contents of a public dataset URL."""
     with urllib.request.urlopen(url, timeout=120) as response:
         return response.read()
 
 
-def main():
+def main() -> None:
+    """Fetch a small public Oxford Pet mirror subset and official trimaps."""
     folder = ROOT / 'downloads'
     folder.mkdir(parents=True, exist_ok=True)
     target = folder / 'pets_subset_codexgen.zip'
@@ -34,7 +39,10 @@ def main():
             entries.extend(document['rows'])
         records = []
 
-        def read(entry):
+        def read(entry: dict[str, Any]) -> tuple[str, bytes]:
+            """Fetch an image and pair its bytes with the dataset image
+            identifier.
+            """
             row = entry['row']
             return row['image_id'], get(row['image']['src'])
 

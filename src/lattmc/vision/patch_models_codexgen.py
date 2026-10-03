@@ -1,5 +1,7 @@
 """Pinned upstream vision SAEs, model-specific crops, and spatial tokens."""
 
+from __future__ import annotations
+
 import io
 import json
 import zipfile
@@ -18,14 +20,16 @@ ROOT = experiment_root('patch_contexts')
 CLIP_ID = 'open-clip:laion/CLIP-ViT-B-32-DataComp.XL-s13B-b90K'
 
 
-def normalization():
+def normalization() -> tuple[torch.Tensor, float]:
+    """Load the upstream centering vector and scalar normalization factor."""
     path = ROOT / 'upstream/saev_normalization.json'
     values = json.loads(path.read_text())
     assert len(values['mean']) == 768
     return torch.tensor(values['mean']), values['scalar']
 
 
-def dataset(name):
+def dataset(name: str) -> dict[str, np.ndarray]:
+    """Load image crops aligned with the upstream backbone conventions."""
     folder = experiment_root('imagenette_imagewoof') / 'dataset'
     with np.load(folder / 'imagenette_codexgen.npz') as data:
         sample = {k: data[k] for k in data.files}
@@ -49,7 +53,9 @@ def dataset(name):
 class Adapter:
     """Use actual upstream encoders; omit CLS and register tokens."""
 
-    def __init__(self, name):
+    def __init__(self: Adapter, name: str) -> None:
+        """Load a pinned backbone, sparse encoder, and normalization metadata.
+        """
         self.name = name
         folder = ROOT / 'checkpoints'
         if name == 'prisma':
@@ -102,7 +108,8 @@ class Adapter:
         self.model.eval().requires_grad_(False)
         self.sae.eval().requires_grad_(False)
 
-    def dense(self, images):
+    def dense(self: Adapter, images: np.ndarray) -> torch.Tensor:
+        """Extract spatial backbone tokens, omitting special tokens."""
         x = torch.from_numpy(np.ascontiguousarray(images))
         x = x.permute(0, 3, 1, 2).float() / 255
         x = tf.normalize(x, self.mean, self.std)
@@ -113,13 +120,19 @@ class Adapter:
         output = self.model(x, output_hidden_states=True)
         return output.hidden_states[11][:, 5:].contiguous()
 
-    def normalize(self, dense, reference_clip=False):
+    def normalize(
+        self: Adapter,
+        dense: torch.Tensor,
+        reference_clip: bool = False,
+    ) -> torch.Tensor:
+        """Apply the upstream clipping and normalization convention."""
         if self.name == 'prisma':
             return dense
         lower = -1e-5 if reference_clip else -1e5
         return (dense.clamp(lower, 1e5) - self.center) / self.scalar
 
-    def encode(self, values):
+    def encode(self: Adapter, values: torch.Tensor) -> torch.Tensor:
+        """Encode dense spatial tokens with the upstream sparse surrogate."""
         shape = values.shape[:-1]
         flat = values.reshape(-1, values.shape[-1])
         if self.name == 'prisma':
@@ -129,7 +142,8 @@ class Adapter:
             codes = self.sae.encode(flat - self.sae.b_dec).f_x
         return codes.reshape(*shape, -1)
 
-    def decode(self, codes):
+    def decode(self: Adapter, codes: torch.Tensor) -> torch.Tensor:
+        """Reconstruct dense spatial tokens from sparse activations."""
         flat = codes.reshape(-1, codes.shape[-1])
         recovered = self.sae.decode(flat)
         if self.name == 'saev':

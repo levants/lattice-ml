@@ -1,5 +1,7 @@
 """Prepare checksum-verified release assets without manuscript files."""
 
+from __future__ import annotations
+
 import json
 import zipfile
 from pathlib import Path
@@ -7,7 +9,8 @@ from pathlib import Path
 from lattmc.vision.overcomplete_fetch_codexgen import ROOT, digest
 
 
-def package():
+def package() -> None:
+    """Package the experiment sources and cached reproducibility artifacts."""
     output = ROOT / 'releases'
     output.mkdir(exist_ok=True)
     groups = {

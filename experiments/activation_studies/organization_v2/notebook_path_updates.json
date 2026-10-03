@@ -1,0 +1,12 @@
+{
+  "files": [
+    "notebooks/sae/sae_layer11_cached_check_codexgen.ipynb",
+    "notebooks/sae/sae_layer0_cached_check_codexgen.ipynb",
+    "notebooks/sae/sae_layer8_cached_check_codexgen.ipynb",
+    "notebooks/transcoders/tc_layer0_cached_check_codexgen.ipynb",
+    "notebooks/transcoders/tc_layer11_cached_check_codexgen.ipynb",
+    "notebooks/transcoders/tc_layer8_cached_check_codexgen.ipynb"
+  ],
+  "numerical_cells_changed": false,
+  "report_cells_invalidated": true
+}

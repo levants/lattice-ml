@@ -1,5 +1,8 @@
 """Utilities for Lattice-theoretic Formal Concept Analysis (FCA)."""
 
+from __future__ import annotations
+from typing import Set
+
 import logging
 from pathlib import Path
 from typing import Any, Callable, Iterable, List, Tuple, Union
@@ -150,10 +153,10 @@ def find_v_A(
 def _separate_v_xs(
     V: np.ndarray,
     idxs: Union[List, np.ndarray],
-    model: callable,
+    model: Callable[..., Any],
     y: int,
     pos_idx: Union[List, np.ndarray] = None,
-    neg_idx: Union[List, np.ndarray] = None
+    neg_idx: Union[List, np.ndarray] = None,
 ) -> Tuple[np.ndarray, List, List]:
     """Separate the concept values based on the model.
 
@@ -194,7 +197,7 @@ def find_v_A_model(
     mrng: Union[List, np.ndarray],
     pos_idx: Union[List, np.ndarray] = None,
     neg_idx: Union[List, np.ndarray] = None,
-    model: callable = None,
+    model: Callable[..., Any] = None,
     y: int = None,
 ) -> Tuple[np.ndarray, List]:
     """Find the concept value for a given attribute indices.
@@ -394,13 +397,14 @@ class Concept(object):
     """
 
     def __init__(
-        self,
+        self: Concept,
         A: np.ndarray,
         v: np.ndarray,
         V: np.ndarray,
         pos_idx: Union[List, np.ndarray] = None,  # type: ignore
         neg_idx: Union[List, np.ndarray] = None  # type: ignore
     ) -> None:
+        """Initialize Concept and its required state."""
         self._A = A
         self._v = v
         self._V = to_numpy(V)
@@ -408,7 +412,7 @@ class Concept(object):
         self._neg_idx = neg_idx
 
     @property
-    def V(self) -> np.ndarray:
+    def V(self: Concept) -> np.ndarray:
         """Get the concept values.
 
         Returns:
@@ -417,7 +421,7 @@ class Concept(object):
         return self._V
 
     @property
-    def A(self) -> np.ndarray:
+    def A(self: Concept) -> np.ndarray:
         """Get the concept attributes.
 
         Returns:
@@ -426,7 +430,7 @@ class Concept(object):
         return self._A
 
     @A.setter
-    def A(self, other_A: np.ndarray):
+    def A(self: Concept, other_A: np.ndarray) -> None:
         """Set the concept attributes.
 
         Args:
@@ -435,7 +439,7 @@ class Concept(object):
         self._A = other_A
 
     @property
-    def v(self) -> np.ndarray:
+    def v(self: Concept) -> np.ndarray:
         """Get the concept value.
 
         Returns:
@@ -444,7 +448,7 @@ class Concept(object):
         return self._v
 
     @v.setter
-    def v(self, other_v: np.ndarray):
+    def v(self: Concept, other_v: np.ndarray) -> None:
         """Set the concept value.
 
         Args:
@@ -453,7 +457,7 @@ class Concept(object):
         self._v = other_v
 
     @property
-    def pos_idcs(self) -> Union[List, np.ndarray]:
+    def pos_idcs(self: Concept) -> Union[List, np.ndarray]:
         """Get the positive indices.
 
         Returns:
@@ -462,7 +466,7 @@ class Concept(object):
         return self._pos_idx
 
     @property
-    def pos_idx(self) -> Union[List, np.ndarray]:
+    def pos_idx(self: Concept) -> Union[List, np.ndarray]:
         """Get the positive indices.
 
         Returns:
@@ -471,7 +475,7 @@ class Concept(object):
         return self._pos_idx
 
     @property
-    def neg_idcs(self) -> Union[List, np.ndarray]:
+    def neg_idcs(self: Concept) -> Union[List, np.ndarray]:
         """Get the negative indices.
 
         Returns:
@@ -480,7 +484,7 @@ class Concept(object):
         return self._neg_idx
 
     @property
-    def neg_idx(self) -> Union[List, np.ndarray]:
+    def neg_idx(self: Concept) -> Union[List, np.ndarray]:
         """Get the negative indices.
 
         Returns:
@@ -488,7 +492,7 @@ class Concept(object):
         """
         return self._neg_idx
 
-    def __eq__(self, value: object) -> bool:
+    def __eq__(self: Concept, value: object) -> bool:
         """Equal to.
 
         Args:
@@ -499,7 +503,7 @@ class Concept(object):
         """
         return np.all(self.v == value.v)  # type: ignore
 
-    def __ne__(self, value: object) -> bool:
+    def __ne__(self: Concept, value: object) -> bool:
         """Not equal to.
 
         Args:
@@ -510,7 +514,7 @@ class Concept(object):
         """
         return np.any(self.v != value.v)  # type: ignore
 
-    def __lt__(self, other: object) -> bool:
+    def __lt__(self: Concept, other: object) -> bool:
         """Less than.
 
         Args:
@@ -526,7 +530,7 @@ class Concept(object):
             neg_idx=self.neg_idx
         )
 
-    def __le__(self, other: object) -> bool:
+    def __le__(self: Concept, other: object) -> bool:
         """Less than or equal to.
 
         Args:
@@ -537,7 +541,7 @@ class Concept(object):
         """
         return le(self.v, other.v, pos_idx=self.pos_idx, neg_idx=self.neg_idx)
 
-    def __gt__(self, other: object) -> bool:
+    def __gt__(self: Concept, other: object) -> bool:
         """Greater than.
 
         Args:
@@ -553,7 +557,7 @@ class Concept(object):
             neg_idx=self.neg_idx
         )
 
-    def __ge__(self, other: object) -> bool:
+    def __ge__(self: Concept, other: object) -> bool:
         """Greater than or equal to.
 
         Args:
@@ -565,7 +569,7 @@ class Concept(object):
         """
         return le(other.v, self.v, pos_idx=self.pos_idx, neg_idx=self.neg_idx)
 
-    def __and__(self, other) -> 'Concept':
+    def __and__(self: Concept, other: Concept) -> 'Concept':
         """Intersection of two concepts.
 
         Args:
@@ -593,7 +597,7 @@ class Concept(object):
 
         return int_concpt
 
-    def __mul__(self, other) -> 'Concept':
+    def __mul__(self: Concept, other: Concept) -> 'Concept':
         """Multiplication of two concepts.
 
         Args:
@@ -604,7 +608,7 @@ class Concept(object):
         """
         return self.__and__(other)
 
-    def __or__(self, other) -> 'Concept':
+    def __or__(self: Concept, other: Concept) -> 'Concept':
         """Union of two concepts.
 
         Args:
@@ -632,7 +636,7 @@ class Concept(object):
 
         return uni_concept
 
-    def __add__(self, other) -> 'Concept':
+    def __add__(self: Concept, other: Concept) -> 'Concept':
         """Addition of two concepts.
 
         Args:
@@ -643,7 +647,7 @@ class Concept(object):
         """
         return self.__or__(other)
 
-    def __repr__(self) -> str:
+    def __repr__(self: Concept) -> str:
         """Representation of the concept.
 
         Returns:
@@ -652,7 +656,7 @@ class Concept(object):
         return f'{self.__class__.__name__}(A = ' \
             f'{self.A.shape}, v = {self.v.shape})'
 
-    def __str__(self) -> str:
+    def __str__(self: Concept) -> str:
         """String representation of the concept.
 
         Returns:
@@ -676,7 +680,7 @@ class FCA(object):
     """
 
     def __init__(
-        self,
+        self: FCA,
         V: Union[np.ndarray, List],
         pos_idx: Union[np.ndarray, List] = None,  # type: ignore
         neg_idx: Union[np.ndarray, List] = None,  # type: ignore
@@ -684,6 +688,7 @@ class FCA(object):
         max_val: Union[np.ndarray, List, float] = None,  # type: ignore
         v_min_nonzeros: Union[np.ndarray, List] = None,  # type: ignore
     ) -> None:
+        """Initialize FCA and its required state."""
         self._V = to_numpy(V)
         self._pos_idx, self._neg_idx = init_indices(
             self._V,
@@ -711,7 +716,7 @@ class FCA(object):
         ) if v_min_nonzeros is None else to_numpy(v_min_nonzeros)
 
     @property
-    def V(self) -> np.ndarray:
+    def V(self: FCA) -> np.ndarray:
         """Get the concept attributes.
 
         Returns:
@@ -720,7 +725,7 @@ class FCA(object):
         return self._V
 
     @property
-    def pos_idcs(self) -> Union[List, np.ndarray]:
+    def pos_idcs(self: FCA) -> Union[List, np.ndarray]:
         """Get the positive indices.
 
         Returns:
@@ -729,7 +734,7 @@ class FCA(object):
         return self._pos_idx
 
     @pos_idcs.setter
-    def pos_idcs(self, other_idcs: Union[List, np.ndarray]):
+    def pos_idcs(self: FCA, other_idcs: Union[List, np.ndarray]) -> None:
         """Set the positive indices.
 
         Args:
@@ -738,7 +743,7 @@ class FCA(object):
         self._pos_idx = other_idcs
 
     @property
-    def pos_idx(self) -> Union[List, np.ndarray]:
+    def pos_idx(self: FCA) -> Union[List, np.ndarray]:
         """Get the positive indices.
 
         Returns:
@@ -747,7 +752,7 @@ class FCA(object):
         return self._pos_idx
 
     @pos_idx.setter
-    def pos_idx(self, other_idx: Union[List, np.ndarray]):
+    def pos_idx(self: FCA, other_idx: Union[List, np.ndarray]) -> None:
         """Set the positive indices.
 
         Args:
@@ -756,7 +761,7 @@ class FCA(object):
         self._pos_idx = other_idx
 
     @property
-    def neg_idcs(self) -> Union[List, np.ndarray]:
+    def neg_idcs(self: FCA) -> Union[List, np.ndarray]:
         """Get the negative indices.
 
         Returns:
@@ -765,7 +770,7 @@ class FCA(object):
         return self._neg_idx
 
     @neg_idcs.setter
-    def neg_idcs(self, other_idx: Union[List, np.ndarray]):
+    def neg_idcs(self: FCA, other_idx: Union[List, np.ndarray]) -> None:
         """Set the negative indices.
 
         Args:
@@ -774,7 +779,7 @@ class FCA(object):
         self._neg_idx = other_idx
 
     @property
-    def neg_idx(self) -> Union[List, np.ndarray]:
+    def neg_idx(self: FCA) -> Union[List, np.ndarray]:
         """Get the negative indices.
 
         Returns:
@@ -783,7 +788,7 @@ class FCA(object):
         return self._neg_idx
 
     @neg_idx.setter
-    def neg_idx(self, other_idx: Union[List, np.ndarray]):
+    def neg_idx(self: FCA, other_idx: Union[List, np.ndarray]) -> None:
         """Set the negative indices.
 
         Args:
@@ -792,7 +797,7 @@ class FCA(object):
         self._neg_idx = other_idx
 
     @property
-    def v_max(self) -> np.ndarray:
+    def v_max(self: FCA) -> np.ndarray:
         """Get the maximum value of the concept.
 
         Returns:
@@ -801,7 +806,7 @@ class FCA(object):
         return self._v_max
 
     @property
-    def v_min(self) -> np.ndarray:
+    def v_min(self: FCA) -> np.ndarray:
         """Get the minimum value of the concept.
 
         Returns:
@@ -810,7 +815,7 @@ class FCA(object):
         return self._v_min
 
     @property
-    def v_min_nonzeros(self) -> np.ndarray:
+    def v_min_nonzeros(self: FCA) -> np.ndarray:
         """Get the minimum nonzero value of the concept.
 
         Returns:
@@ -819,7 +824,7 @@ class FCA(object):
         return self._v_min_nonzeros
 
     @property
-    def shape(self) -> Tuple[int, int]:
+    def shape(self: FCA) -> Tuple[int, int]:
         """Get the shape of the concept value.
 
         Returns:
@@ -827,7 +832,7 @@ class FCA(object):
         """
         return self.V.shape
 
-    def min(self, i: Union[int, List[int], np.ndarray]) -> float:
+    def min(self: FCA, i: Union[int, List[int], np.ndarray]) -> float:
         """Get the minimum value of the concept.
 
         Args:
@@ -843,7 +848,7 @@ class FCA(object):
 
         return _min_val
 
-    def mins(self, *idxs: int) -> List[float]:
+    def mins(self: FCA, *idxs: int) -> List[float]:
         """Get the minimum values of the concept on the given indices.
 
         Args:
@@ -855,7 +860,7 @@ class FCA(object):
         """
         return [self.min(i) for i in idxs]
 
-    def min_vals(self, idcs: Union[List[int], np.ndarray]) -> np.ndarray:
+    def min_vals(self: FCA, idcs: Union[List[int], np.ndarray]) -> np.ndarray:
         """Get the minimum values of the concept on the given indices.
 
         Args:
@@ -870,7 +875,7 @@ class FCA(object):
 
         return v_min
 
-    def le_att(self, u: np.ndarray, v: np.ndarray) -> bool:
+    def le_att(self: FCA, u: np.ndarray, v: np.ndarray) -> bool:
         """Check if u is less than or equal to v.
 
         Args:
@@ -882,7 +887,7 @@ class FCA(object):
         """
         return le(u, v, pos_idx=self.pos_idx, neg_idx=self.neg_idx)
 
-    def meet_att(self, u: np.ndarray, v: np.ndarray) -> np.ndarray:
+    def meet_att(self: FCA, u: np.ndarray, v: np.ndarray) -> np.ndarray:
         """Compute the meet of two vectors.
 
         Args:
@@ -894,7 +899,7 @@ class FCA(object):
         """
         return meet(u, v, pos_idx=self.pos_idx, neg_idx=self.neg_idx)
 
-    def join_att(self, u: np.ndarray, v: np.ndarray) -> np.ndarray:
+    def join_att(self: FCA, u: np.ndarray, v: np.ndarray) -> np.ndarray:
         """Compute the join of two vectors.
 
         Args:
@@ -906,7 +911,7 @@ class FCA(object):
         """
         return join(u, v, pos_idx=self.pos_idx, neg_idx=self.neg_idx)
 
-    def meet_all_att(self, *args: Union[List, np.ndarray]) -> np.ndarray:
+    def meet_all_att(self: FCA, *args: Union[List, np.ndarray]) -> np.ndarray:
         """Compute the meet of all vectors.
 
         Args:
@@ -917,7 +922,7 @@ class FCA(object):
         """
         return meet_all(*args, pos_idx=self.pos_idx, neg_idx=self.neg_idx)
 
-    def join_all_att(self, *args: Union[List, np.ndarray]) -> np.ndarray:
+    def join_all_att(self: FCA, *args: Union[List, np.ndarray]) -> np.ndarray:
         """Compute the join of all vectors.
 
         Args:
@@ -928,7 +933,7 @@ class FCA(object):
         """
         return join_all(*args, pos_idx=self.pos_idx, neg_idx=self.neg_idx)
 
-    def F(self, idxs: Union[List, np.ndarray]) -> np.ndarray:
+    def F(self: FCA, idxs: Union[List, np.ndarray]) -> np.ndarray:
         """Objects on the indices to the attributed Galios mapping
 
         Args:
@@ -946,7 +951,7 @@ class FCA(object):
             neg_idx=self.neg_idx
         )
 
-    def G(self, v: np.ndarray) -> np.ndarray:
+    def G(self: FCA, v: np.ndarray) -> np.ndarray:
         """Attributes to the object Galios mapping
 
         Args:
@@ -962,7 +967,7 @@ class FCA(object):
             neg_idx=self.neg_idx
         )
 
-    def FG(self, u: np.ndarray) -> np.ndarray:
+    def FG(self: FCA, u: np.ndarray) -> np.ndarray:
         """Embed attributes on a given indices into the concepts.
 
         Args:
@@ -973,7 +978,7 @@ class FCA(object):
         """
         return self.F(self.G(u))
 
-    def GF(self, A: Union[List, np.ndarray]) -> np.ndarray:
+    def GF(self: FCA, A: Union[List, np.ndarray]) -> np.ndarray:
         """Embed objects on a given indices into the concepts.
 
         Args:
@@ -984,7 +989,7 @@ class FCA(object):
         """
         return self.G(self.F(A))
 
-    def map_A(self, idxs: Union[List, np.ndarray]) -> Concept:
+    def map_A(self: FCA, idxs: Union[List, np.ndarray]) -> Concept:
         """Map the attributes into the concept.
 
         Args:
@@ -1006,7 +1011,7 @@ class FCA(object):
 
         return concpt
 
-    def map_v(self, v: Union[List, np.ndarray]) -> Concept:
+    def map_v(self: FCA, v: Union[List, np.ndarray]) -> Concept:
         """Map the values into the concept.
 
         Args:
@@ -1029,7 +1034,7 @@ class FCA(object):
 
         return concpt
 
-    def GF_F(self, idxs: Union[List, np.ndarray]) -> Concept:
+    def GF_F(self: FCA, idxs: Union[List, np.ndarray]) -> Concept:
         """Embed objects on a given indices into the concepts.
 
         Args:
@@ -1040,7 +1045,7 @@ class FCA(object):
         """
         return self.map_A(idxs)
 
-    def G_FG(self, v: Union[List, np.ndarray]) -> Concept:
+    def G_FG(self: FCA, v: Union[List, np.ndarray]) -> Concept:
         """Embed attribute in the concepts.
 
         Args:
@@ -1051,7 +1056,7 @@ class FCA(object):
         """
         return self.map_v(v)
 
-    def save(self, path: Path):
+    def save(self: FCA, path: Path) -> None:
         """Save the FCA to a file.
 
         Args:
@@ -1074,7 +1079,7 @@ class FCA(object):
 
         return fca
 
-    def forward(self, v: Union[np.ndarray, List]) -> np.ndarray:
+    def forward(self: FCA, v: Union[np.ndarray, List]) -> np.ndarray:
         """Get the FCA-specific vector for the given source vector.
 
         Args:
@@ -1085,7 +1090,7 @@ class FCA(object):
         """
         return v
 
-    def __call__(self, v: Union[np.ndarray, List]) -> np.ndarray:
+    def __call__(self: FCA, v: Union[np.ndarray, List]) -> np.ndarray:
         """Get the FCA vector for the given values.
 
         Args:
@@ -1110,13 +1115,14 @@ class NonzeroFCA(FCA):
     """
 
     def __init__(
-        self,
+        self: NonzeroFCA,
         V: Union[np.ndarray, List],
         v_bottom: Union[np.ndarray, List],
         pos_idx: Union[np.ndarray, List] = None,  # type: ignore
         neg_idx: Union[np.ndarray, List] = None,  # type: ignore
         min_val: Any = None,
     ) -> None:
+        """Initialize NonzeroFCA and its required state."""
         V_nz = meet(
             V,
             v_bottom,
@@ -1133,7 +1139,7 @@ class NonzeroFCA(FCA):
         )
 
     @classmethod
-    def fromFCA(cls, fca: FCA) -> NonzeroFCA:
+    def fromFCA(cls: type[NonzeroFCA], fca: FCA) -> NonzeroFCA:
         """Create a NonzeroFCA from an FCA.
 
         Args:
@@ -1150,7 +1156,7 @@ class NonzeroFCA(FCA):
             min_val=fca.v_min,
         )
 
-    def forward(self, v: Union[np.ndarray, List]) -> np.ndarray:
+    def forward(self: NonzeroFCA, v: Union[np.ndarray, List]) -> np.ndarray:
         """Get the FCA-specific (meet with minimal non-zero values vector)
             vector for the given vector.
 
@@ -1182,7 +1188,7 @@ class TokenFCA(object):
     """
 
     def __init__(
-        self,
+        self: TokenFCA,
         corpus: Iterable,
         T: Set[int],
     ) -> None:
@@ -1206,47 +1212,47 @@ class TokenFCA(object):
         self._powS = to_numpy(powerset_bit(T))
 
     @property
-    def corpus(self) -> List[Set[int]]:
+    def corpus(self: TokenFCA) -> List[Set[int]]:
         """Get the corpus."""
         return self._corpus
 
     @corpus.setter
-    def corpus(self, other_corpus: List[Set[int]]):
+    def corpus(self: TokenFCA, other_corpus: List[Set[int]]) -> None:
         """Set the corpus."""
         self._corpus = other_corpus
         self._X = np.vstack(list(range(len(other_corpus))))
 
     @property
-    def T(self) -> Set[int]:
+    def T(self: TokenFCA) -> Set[int]:
         """Get the T."""
         return self._T
 
     @T.setter
-    def T(self, other_T: Set[int]):
+    def T(self: TokenFCA, other_T: Set[int]) -> None:
         """Set the T."""
         self._T = other_T
 
     @property
-    def X(self) -> np.ndarray:
+    def X(self: TokenFCA) -> np.ndarray:
         """Get the X."""
         return self._X
 
     @X.setter
-    def X(self, other_X: np.ndarray):
+    def X(self: TokenFCA, other_X: np.ndarray) -> None:
         """Set the X."""
         self._X = other_X
 
     @property
-    def powS(self) -> np.ndarray:
+    def powS(self: TokenFCA) -> np.ndarray:
         """Get the powerset of T."""
         return self._powS
 
     @powS.setter
-    def powS(self, other_powS: np.ndarray):
+    def powS(self: TokenFCA, other_powS: np.ndarray) -> None:
         """Set the powerset of T."""
         self._powS = other_powS
 
-    def F(self, A: Union[np.ndarray, List]) -> Set[int]:
+    def F(self: TokenFCA, A: Union[np.ndarray, List]) -> Set[int]:
         """Get the F for the given values.
 
         Args:
@@ -1268,7 +1274,7 @@ class TokenFCA(object):
 
         return F_A
 
-    def G(self, S: Union[np.ndarray, List, Set]) -> np.ndarray:
+    def G(self: TokenFCA, S: Union[np.ndarray, List, Set]) -> np.ndarray:
         """Get the G for the given values.
 
         Args:
@@ -1288,7 +1294,7 @@ class TokenFCA(object):
 
         return G_S
 
-    def GF(self, A: Union[np.ndarray, List]) -> np.ndarray:
+    def GF(self: TokenFCA, A: Union[np.ndarray, List]) -> np.ndarray:
         """Get the G for the given values.
 
         Args:
@@ -1299,7 +1305,7 @@ class TokenFCA(object):
         """
         return self.G(self.F(A))
 
-    def FG(self, S: Set[int]) -> np.ndarray:
+    def FG(self: TokenFCA, S: Set[int]) -> np.ndarray:
         """Get the F for the given values.
 
         Args:
@@ -1310,7 +1316,7 @@ class TokenFCA(object):
         """
         return self.F(self.G(S))
 
-    def is_closed_in_X(self, A: Union[np.ndarray, List]) -> bool:
+    def is_closed_in_X(self: TokenFCA, A: Union[np.ndarray, List]) -> bool:
         """Check if the given values are closed in X.
 
         Args:
@@ -1321,7 +1327,7 @@ class TokenFCA(object):
         """
         return np.array_equal(self.GF(A), A)
 
-    def is_closed_in_T(self, S: Set[int]) -> bool:
+    def is_closed_in_T(self: TokenFCA, S: Set[int]) -> bool:
         """Check if the given values are closed in T.
 
         Args:
@@ -1333,8 +1339,8 @@ class TokenFCA(object):
         return self.FG(S) == set(S)
 
     def check_attributes_closed_in_FCA(
-        self,
-        logg_att: bool = True
+        self: TokenFCA,
+        logg_att: bool = True,
     ) -> List[bool]:
         """
         Check if the attribute sets in $T$ are closed in $L(X, T, R)$.
@@ -1357,8 +1363,8 @@ class TokenFCA(object):
         return cl_pows
 
     def are_attributes_closed(
-        self,
-        logg_att: bool = True
+        self: TokenFCA,
+        logg_att: bool = True,
     ) -> bool:
         """
         Check if the attribute sets in $T$ are closed in $L(X, T, R)$.
@@ -1396,11 +1402,12 @@ class LayerFCA(object):
     """
 
     def __init__(
-        self,
+        self: LayerFCA,
         V_X: np.ndarray,
         U_X: np.ndarray,
-        data: Union[np.ndarray, List]
-    ):
+        data: Union[np.ndarray, List],
+    ) -> None:
+        """Initialize LayerFCA and its required state."""
         self.V_X = V_X
         self.U_X = U_X
         self.data = data
@@ -1414,9 +1421,9 @@ class LayerFCA(object):
         self.find_v_A = find_v_A
 
     def fca_v(
-        self,
+        self: LayerFCA,
         ns: List[int],
-        ths: List[float]
+        ths: List[float],
     ) -> Tuple[np.ndarray, np.ndarray]:
         """Compute the FCA for the values.
 
@@ -1439,9 +1446,9 @@ class LayerFCA(object):
         return self.D, self.v_D
 
     def fca_u(
-        self,
+        self: LayerFCA,
         ns: List[int],
-        ths: List[float]
+        ths: List[float],
     ) -> np.ndarray:
         """Compute the FCA for the values.
 
@@ -1478,9 +1485,9 @@ class LayerFCA(object):
         return uncn
 
     def _report_u(
-        self,
+        self: LayerFCA,
         G_u_D: np.ndarray,
-        data: Union[np.ndarray, List] = None
+        data: Union[np.ndarray, List] = None,
     ) -> np.ndarray:
         """Report the unique values.
 
@@ -1501,9 +1508,9 @@ class LayerFCA(object):
         return uncn
 
     def report(
-        self,
+        self: LayerFCA,
         G_u_D: np.ndarray,
-        data: Union[np.ndarray, List]
+        data: Union[np.ndarray, List],
     ) -> np.ndarray:
         """Report the unique values.
 
@@ -1517,9 +1524,9 @@ class LayerFCA(object):
         return self._report_u(G_u_D, data=data)
 
     def fca_u_arr(
-        self,
+        self: LayerFCA,
         ns_arr: np.ndarray,
-        neur_idx: int
+        neur_idx: int,
     ) -> np.ndarray:
         """Compute the FCA for the values.
 
@@ -1554,8 +1561,8 @@ class LayerFCA(object):
         return find_G_x(U_X, u_D)
 
     def find_u_G_u(
-        self,
-        v: np.ndarray
+        self: LayerFCA,
+        v: np.ndarray,
     ) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
         """Compute the FCA for the values.
 
@@ -1574,10 +1581,10 @@ class LayerFCA(object):
         return G_v, u_D, G_u
 
     def find_G_u(
-        self,
+        self: LayerFCA,
         u: np.ndarray,
         U: np.ndarray,
-        X: np.ndarray
+        X: np.ndarray,
     ) -> np.ndarray:
         """Embeds an element u into the formal concept.
 
@@ -1595,20 +1602,15 @@ class LayerFCA(object):
         return G_rest
 
     def find_G_v_us(
-        self,
+        self: LayerFCA,
         v: np.ndarray,
         V_X: np.ndarray,
         U_X: np.ndarray,
-        data: Union[np.ndarray, List]
-    ) -> Tuple[
-        np.ndarray,
-        np.ndarray,
-        np.ndarray,
-        np.ndarray,
-        np.ndarray,
-        np.ndarray,
-        np.ndarray
-    ]:
+        data: Union[np.ndarray, List],
+    ) -> (
+        Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray,
+        np.ndarray, np.ndarray]
+    ):
         """Compute the FCA for the values.
 
         Args:

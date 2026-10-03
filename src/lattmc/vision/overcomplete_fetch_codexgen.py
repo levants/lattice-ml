@@ -1,5 +1,7 @@
 """Fetch pinned public inputs; keep large artifacts outside Git history."""
 
+from __future__ import annotations
+
 import argparse
 import hashlib
 import json
@@ -15,12 +17,14 @@ HF_ID = 'matybohacek/RA-SAE-DINOv2-32k'
 HF_REV = '1e10a216938e112302b31e3bb2f69818e59a12a9'
 
 
-def digest(path):
+def digest(path: Path) -> str:
+    """Compute the SHA-256 digest of a downloaded file."""
     with Path(path).open('rb') as stream:
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 
-def fetch(url, path):
+def fetch(url: str, path: Path | str) -> Path:
+    """Download validated byte ranges and save a provenance receipt."""
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     if not path.exists():
@@ -33,7 +37,8 @@ def fetch(url, path):
         ranges = [(lo, min(total, lo + width))
                   for lo in range(start, total, width)]
 
-        def piece(bounds):
+        def piece(bounds: tuple[int, int]) -> Path:
+            """Download and validate one byte-range chunk."""
             lo, hi = bounds
             part = path.with_suffix(path.suffix + f'.range{lo}')
             if not part.exists() or part.stat().st_size != hi - lo:
@@ -70,7 +75,8 @@ def fetch(url, path):
     return path
 
 
-def main():
+def main() -> None:
+    """Fetch pinned public inputs; keep large artifacts outside Git history."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('item', choices=['checkpoint', 'transcoder',
                                         'pets', 'dtd'])

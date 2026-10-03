@@ -1,5 +1,7 @@
 """Pinned native RA-SAE inference with a verified compact dictionary."""
 
+from __future__ import annotations
+
 import argparse
 import json
 
@@ -19,7 +21,8 @@ SHA = '3cf20c7e8a97e063273e5116a049f965cb74799e2abded0c5e77f2ec30e27faa'
 FOLDER = ROOT / 'checkpoints/pretrained'
 
 
-def compact():
+def compact() -> None:
+    """Extract and save the compact pretrained surrogate checkpoint."""
     target = FOLDER / 'compact_codexgen.pt'
     if target.exists():
         return
@@ -86,7 +89,8 @@ def compact():
         json.dumps(receipt, indent=2) + '\n')
 
 
-def extract(dataset):
+def extract(dataset: str) -> None:
+    """Cache pretrained surrogate codes and reconstruction statistics."""
     torch.set_num_threads(4)
     compact()
     checkpoint = torch.load(FOLDER / 'compact_codexgen.pt',

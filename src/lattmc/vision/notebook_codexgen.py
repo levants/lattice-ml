@@ -1,5 +1,7 @@
 """Build and execute the review notebook with the project Python kernel."""
 
+from __future__ import annotations
+
 import os
 import sys
 from pathlib import Path
@@ -9,7 +11,8 @@ from jupyter_client import KernelManager
 from nbclient import NotebookClient
 
 
-def create_notebook(root):
+def create_notebook(root: Path) -> Path:
+    """Write the offline digit experiment notebook and return its path."""
     root = Path(root)
     markdown = nbformat.v4.new_markdown_cell
     code = nbformat.v4.new_code_cell
@@ -113,7 +116,8 @@ def create_notebook(root):
     return path
 
 
-def create_feature_notebook(root):
+def create_feature_notebook(root: Path) -> Path:
+    """Write the feature-analysis notebook and return its path."""
     root = Path(root)
     markdown = nbformat.v4.new_markdown_cell
     code = nbformat.v4.new_code_cell

@@ -1,5 +1,7 @@
 """Verify cached numerical claims, image splits, and position invariance."""
 
+from __future__ import annotations
+
 import ast
 import hashlib
 import json
@@ -12,7 +14,8 @@ from lattmc.vision.overcomplete_evaluate_codexgen import read_codes
 from lattmc.vision.overcomplete_fetch_codexgen import ROOT
 
 
-def verify():
+def verify() -> None:
+    """Check the cached experiment artifacts and their reported identities."""
     checked, closures, permuted = 0, 0, 0
     rng = np.random.default_rng(721)
     for path in sorted((ROOT / 'results').glob('*/*_codexgen.json')):

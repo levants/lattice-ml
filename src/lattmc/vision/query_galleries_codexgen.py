@@ -1,5 +1,9 @@
 """Training-selected Imagenette queries with measured meet/join galleries."""
 
+from __future__ import annotations
+from typing import Any
+from pathlib import Path
+
 import json
 
 import matplotlib
@@ -16,7 +20,11 @@ CASES = ((1, 'springer'), (6, 'truck'))
 OPERATIONS = ('u', 'v', 'meet', 'join')
 
 
-def compute(sample, codes, target):
+def compute(
+    sample: dict[str, np.ndarray],
+    codes: np.ndarray,
+    target: int,
+) -> tuple[dict[str, Any], dict[str, np.ndarray]]:
     """Choose on training data; evaluate every held-out Imagenette image."""
     pooled = codes.max(1)
     train = np.flatnonzero(sample['splits'] == 'train')
@@ -75,7 +83,14 @@ def compute(sample, codes, target):
     return record, arrays
 
 
-def render(sample, record, arrays, name, slug, paper):
+def render(
+    sample: dict[str, np.ndarray],
+    record: dict[str, Any],
+    arrays: dict[str, np.ndarray],
+    name: str,
+    slug: str,
+    paper: Path,
+) -> None:
     """Draw sources and ranked matches, with empty slots kept explicit."""
     fig, axes = plt.subplots(5, 4, figsize=(9.8, 11.8),
                              layout='constrained')
@@ -141,7 +156,8 @@ def render(sample, record, arrays, name, slug, paper):
     plt.close(fig)
 
 
-def run():
+def run() -> dict[str, Any]:
+    """Build and save galleries for the registered exemplar queries."""
     sample = dataset()
     paper = repository_root() / 'texs/sparsesurrs/visionlattices'
     report = {}

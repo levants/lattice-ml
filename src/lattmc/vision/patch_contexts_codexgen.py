@@ -1,5 +1,8 @@
 """Exact projected patch concepts, common witnesses, and finite downsets."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import json
 
@@ -9,7 +12,7 @@ from lattmc.vision.contexts_codexgen import graded_score
 from lattmc.vision.patch_models_codexgen import ROOT
 
 
-def skyline(points):
+def skyline(points: np.ndarray) -> np.ndarray:
     """Maximal generators of a nonempty two-dimensional finite downset."""
     order = np.lexsort((-points[:, 1], -points[:, 0]))
     answer, largest_y = [], -np.inf
@@ -20,17 +23,22 @@ def skyline(points):
     return np.array(answer)
 
 
-def intersect(first, second):
+def intersect(first: np.ndarray, second: np.ndarray) -> np.ndarray:
+    """Compute maximal generators for the intersection of two downsets."""
     values = np.minimum(first[:, None, :], second[None, :, :])
     return skyline(values.reshape(-1, 2))
 
 
-def downset_extent(sites, generators):
+def downset_extent(sites: np.ndarray, generators: np.ndarray) -> np.ndarray:
+    """Test whether every generator is dominated at some image site."""
     return np.array([all(np.any(np.all(image >= g, axis=1))
                          for g in generators) for image in sites])
 
 
-def read(name):
+def read(
+    name: str,
+) -> tuple[dict[str, np.ndarray], np.ndarray, np.ndarray, dict[str, Any]]:
+    """Load image metadata, selected patch codes, and feature definitions."""
     root = ROOT / name
     with np.load(root / 'dataset/images_codexgen.npz') as data:
         sample = {k: data[k] for k in data.files}
@@ -41,7 +49,8 @@ def read(name):
     return sample, codes, features, metadata
 
 
-def analyze(name):
+def analyze(name: str) -> dict[str, Any]:
+    """Compare pooled, same-site, and downset query satisfaction."""
     sample, codes, features, metadata = read(name)
     root = ROOT / name
     (root / 'contexts').mkdir(exist_ok=True)

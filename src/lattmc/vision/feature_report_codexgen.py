@@ -1,5 +1,7 @@
 """Render measured CNN/ViT feature evidence without relabeling mismatches."""
 
+from __future__ import annotations
+
 import json
 
 import matplotlib
@@ -11,7 +13,8 @@ from lattmc.vision.backbones_codexgen import dataset, load_codes
 from lattmc.vision.paths_codexgen import experiment_root, repository_root
 
 
-def plots():
+def plots() -> None:
+    """Render the feature-response figures from cached probe measurements."""
     sample = dataset()
     paper = repository_root() / 'texs/sparsesurrs/visionlattices'
     records_by_model = {}

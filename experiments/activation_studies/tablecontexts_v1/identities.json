@@ -1,0 +1,911 @@
+[
+  {
+    "key": "pythia_topk",
+    "configuration": {
+      "model": "EleutherAI/pythia-70m-deduped",
+      "layer": 3,
+      "release": "sae_bench_pythia70m_sweep_topk_ctx128_0730",
+      "sae_id": "blocks.3.hook_resid_post__trainer_0",
+      "hook": "residual_post",
+      "dtype": "float32",
+      "views": {
+        "pythia_topk": null
+      }
+    },
+    "sae_config": {
+      "d_in": 512,
+      "d_sae": 4096,
+      "dtype": "float32",
+      "device": "mps",
+      "apply_b_dec_to_input": true,
+      "normalize_activations": "none",
+      "reshape_activations": "none",
+      "metadata": {
+        "sae_lens_version": "6.51.3",
+        "sae_lens_training_version": null,
+        "model_name": "pythia-70m-deduped",
+        "hook_name": "blocks.3.hook_resid_post",
+        "hook_head_index": null,
+        "prepend_bos": true,
+        "dataset_path": "monology/pile-uncopyrighted",
+        "context_size": 128,
+        "neuronpedia_id": "pythia-70m-deduped/3-sae_bench-topk-res-4k__trainer_0_step_final"
+      },
+      "k": 20,
+      "rescale_acts_by_decoder_norm": false,
+      "architecture": "topk"
+    },
+    "evidence": "data/activation_studies/families_v2/dbpedia_14/pythia_topk_extraction.json",
+    "evidence_sha256": "4b6ee5ec19546d1eed31b14a7a785fb812451dd06d64cb5c74b3723850cd0487",
+    "weights": [
+      {
+        "revision": "1f4fc9d1f8abe6c08e715fa1cef6d5fcb2c68b9a",
+        "path": "pythia70m_sweep_topk_ctx128_0730/resid_post_layer_3/trainer_0/ae.pt",
+        "bytes": 16797480,
+        "sha256": "b3964c09d2553ef149f30e48d6232fb290622adfe9be7b3e20decb8decb5c4c4"
+      },
+      {
+        "revision": "1f4fc9d1f8abe6c08e715fa1cef6d5fcb2c68b9a",
+        "path": "pythia70m_sweep_topk_ctx128_0730/resid_post_layer_3/trainer_0/config.json",
+        "bytes": 694,
+        "sha256": "7b560dc57c71829184d646c21b15dccfda9b7aff1f3c231d6116be34d9f24d09"
+      }
+    ],
+    "backbone": [
+      {
+        "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+        "path": "config.json",
+        "bytes": 567,
+        "sha256": "002050231a9b1ec3ac77aa6b9b3bbdc4d923f4068a7dd33b8da72a9bd6ad9a43"
+      },
+      {
+        "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+        "path": "model.safetensors",
+        "bytes": 166029852,
+        "sha256": "3da388330e4549156d76b58d6d268c63cd005e9336b4f4d2d378421e7b7a33fd"
+      },
+      {
+        "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+        "path": "special_tokens_map.json",
+        "bytes": 99,
+        "sha256": "6f50ab5a5a509a1c309d6171f339b196a900dc9c99ad0408ff23bb615fdae7ad"
+      },
+      {
+        "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+        "path": "tokenizer.json",
+        "bytes": 2113710,
+        "sha256": "c24618a1b3e6a38167beff1c72cffd126c3a66254347304b50547d12c5f25624"
+      },
+      {
+        "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+        "path": "tokenizer_config.json",
+        "bytes": 396,
+        "sha256": "70e38394e494931c6f773ba41e19460dd4436526b852207367f04341b4066d3f"
+      }
+    ]
+  },
+  {
+    "key": "smol_topk",
+    "configuration": {
+      "model": "HuggingFaceTB/SmolLM2-135M",
+      "layer": 15,
+      "release": "EleutherAI/sae-SmolLM2-135M-64x",
+      "sae_id": "layers.15.mlp",
+      "hook": "mlp_output",
+      "dtype": "float32",
+      "views": {
+        "smol_topk": null
+      }
+    },
+    "sae_config": {
+      "d_in": 576,
+      "d_sae": 36864,
+      "dtype": "float32",
+      "device": "mps",
+      "apply_b_dec_to_input": true,
+      "normalize_activations": "none",
+      "reshape_activations": "none",
+      "metadata": {
+        "sae_lens_version": "6.51.3",
+        "sae_lens_training_version": "6.51.3",
+        "model_name": "HuggingFaceTB/SmolLM2-135M",
+        "hook_name": "blocks.15.hook_mlp_out"
+      },
+      "k": 32,
+      "rescale_acts_by_decoder_norm": false,
+      "architecture": "topk"
+    },
+    "evidence": "data/activation_studies/families_v2/dbpedia_14/smol_topk_extraction.json",
+    "evidence_sha256": "63e7c2868a137e402c28825c4cab7e15fd51b39e74b0e4af537b2df5cc7de798",
+    "weights": [
+      {
+        "revision": "57ea2cb986e2545844cdd4a5bb2eb39523243494",
+        "path": "layers.15.mlp/cfg.json",
+        "bytes": 142,
+        "sha256": "80fdf9be05977c7dff87121bc5ade9cdfbdbf3ac36e8d09b82a5cac98f50ccfe"
+      },
+      {
+        "revision": "57ea2cb986e2545844cdd4a5bb2eb39523243494",
+        "path": "layers.15.mlp/sae.safetensors",
+        "bytes": 170019400,
+        "sha256": "a3ef608c777678311ae5164dba56bef4907f407f524708fc29d137c27d92f553"
+      }
+    ],
+    "backbone": [
+      {
+        "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+        "path": "config.json",
+        "bytes": 704,
+        "sha256": "1d556eab73b69c7f11f64c557a2f9c6f440bd4c6b89bb2584a6b498c92603843"
+      },
+      {
+        "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+        "path": "generation_config.json",
+        "bytes": 111,
+        "sha256": "2056c988e990b0d13670f63f2f3b87b3b6d07edaf7a3416998ba27dab2d8a059"
+      },
+      {
+        "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+        "path": "merges.txt",
+        "bytes": 466391,
+        "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510"
+      },
+      {
+        "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+        "path": "model.safetensors",
+        "bytes": 269060552,
+        "sha256": "80521b40281d6ce74e35c9282c22539e75aa0ac8578892b2a59955ef78d55da1"
+      },
+      {
+        "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+        "path": "special_tokens_map.json",
+        "bytes": 831,
+        "sha256": "e786b595b9a23148bf1630df78d9037a048ea671e48bfd3549a1e3c233742bb3"
+      },
+      {
+        "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+        "path": "tokenizer.json",
+        "bytes": 2104556,
+        "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c"
+      },
+      {
+        "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+        "path": "tokenizer_config.json",
+        "bytes": 3658,
+        "sha256": "4bb9af56a342753d39374f4016a16574cab299fe088e896f425ce3c433f61424"
+      },
+      {
+        "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+        "path": "vocab.json",
+        "bytes": 800662,
+        "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+      }
+    ]
+  },
+  {
+    "key": "qwen_transcoder",
+    "configuration": {
+      "model": "Qwen/Qwen3-0.6B",
+      "layer": 14,
+      "release": "mwhanna-qwen3-0.6b-transcoders-lowl0",
+      "sae_id": "layer_14",
+      "hook": "mlp_input_output",
+      "dtype": "float32",
+      "views": {
+        "qwen_transcoder": null
+      }
+    },
+    "sae_config": {
+      "d_in": 1024,
+      "d_sae": 163840,
+      "dtype": "float32",
+      "device": "mps",
+      "apply_b_dec_to_input": false,
+      "normalize_activations": "none",
+      "reshape_activations": "none",
+      "metadata": {
+        "sae_lens_version": "6.51.3",
+        "sae_lens_training_version": null,
+        "model_name": "Qwen/Qwen3-0.6B",
+        "hook_name": "blocks.14.mlp.hook_in",
+        "hook_name_out": "blocks.14.hook_mlp_out",
+        "dataset_path": "monology/pile-uncopyrighted",
+        "context_size": 8192,
+        "model_from_pretrained_kwargs": {
+          "fold_ln": false
+        },
+        "neuronpedia_id": "qwen3-0.6b/14-transcoder-hp-lowl0",
+        "prepend_bos": true
+      },
+      "d_out": 1024,
+      "architecture": "transcoder"
+    },
+    "evidence": "data/activation_studies/families_v2/dbpedia_14/qwen_transcoder_extraction.json",
+    "evidence_sha256": "552d83434a8d170153bcc3024a8eb2b95b4818a970c312073f0713f7cab78324",
+    "weights": [
+      {
+        "revision": "28aefe686c09e9bc1a862195b51e145f10868d87",
+        "path": "config.yaml",
+        "bytes": 129,
+        "sha256": "a4506b5d824b7f2e57bd0ea38bc874f838f8c38d489f28d22fb059530abc97ee"
+      },
+      {
+        "revision": "28aefe686c09e9bc1a862195b51e145f10868d87",
+        "path": "layer_14.safetensors",
+        "bytes": 671418696,
+        "sha256": "253c4c145ccb4f974be1ab8e0738e9bd67a23f12d3a87072a2fcd992a0efaea4"
+      },
+      {
+        "revision": "28aefe686c09e9bc1a862195b51e145f10868d87",
+        "path": "wandb-config.yaml",
+        "bytes": 1523,
+        "sha256": "5f476db45659bc0c33f174aab5cf092b96a69f74b6301a2f44fa1e48a06ab072"
+      }
+    ],
+    "backbone": [
+      {
+        "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+        "path": "config.json",
+        "bytes": 726,
+        "sha256": "660db3b73d788119c04535e48cf9be5f55bc3100841a718637ae695b442f27dd"
+      },
+      {
+        "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+        "path": "generation_config.json",
+        "bytes": 239,
+        "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+      },
+      {
+        "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+        "path": "merges.txt",
+        "bytes": 1671853,
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+      },
+      {
+        "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+        "path": "model.safetensors",
+        "bytes": 1503300328,
+        "sha256": "f47f71177f32bcd101b7573ec9171e6a57f4f4d31148d38e382306f42996874b"
+      },
+      {
+        "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+        "path": "tokenizer.json",
+        "bytes": 11422654,
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+      },
+      {
+        "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+        "path": "tokenizer_config.json",
+        "bytes": 9732,
+        "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+      },
+      {
+        "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+        "path": "vocab.json",
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    ]
+  },
+  {
+    "key": "gemma_matryoshka",
+    "configuration": {
+      "model": "google/gemma-2-2b",
+      "layer": 8,
+      "release": "gemma-2-2b-res-matryoshka-dc",
+      "sae_id": "blocks.8.hook_resid_post",
+      "hook": "residual_post",
+      "dtype": "bfloat16",
+      "views": {
+        "gemma_matryoshka": null,
+        "gemma_matryoshka_512": 512,
+        "gemma_matryoshka_2048": 2048
+      }
+    },
+    "sae_config": {
+      "d_in": 2304,
+      "d_sae": 32768,
+      "dtype": "float32",
+      "device": "mps",
+      "apply_b_dec_to_input": true,
+      "normalize_activations": "none",
+      "reshape_activations": "none",
+      "metadata": {
+        "sae_lens_version": "6.51.3",
+        "sae_lens_training_version": "5.5.1",
+        "model_name": "gemma-2-2b",
+        "hook_name": "blocks.8.hook_resid_post",
+        "hook_head_index": null,
+        "prepend_bos": true,
+        "dataset_path": "chanind/pile-uncopyrighted-gemma-1024-abbrv-1B",
+        "context_size": 1024,
+        "neuronpedia_id": null,
+        "model_from_pretrained_kwargs": {
+          "center_writing_weights": false
+        },
+        "seqpos_slice": [
+          null
+        ]
+      },
+      "architecture": "jumprelu"
+    },
+    "evidence": "data/activation_studies/families_v2/dbpedia_14/gemma_matryoshka_extraction.json",
+    "evidence_sha256": "5fa997549d88e337ec84dd09114b44ddb4d2ab8e38c7620bbcd75bb06dd764b9",
+    "weights": [
+      {
+        "revision": "4c28e790b0213430d52dd8e5a09f681a53f5b79d",
+        "path": "snap/blocks.0.hook_resid_post/cfg.json",
+        "bytes": 1935,
+        "sha256": "23a2929a588c975840d67b8422b102e25e3e60f9e32ab95ed34830965d5574ee"
+      },
+      {
+        "revision": "4c28e790b0213430d52dd8e5a09f681a53f5b79d",
+        "path": "snap/blocks.0.hook_resid_post/sae_weights.safetensors",
+        "bytes": 604251536,
+        "sha256": "66bde6ba8f8e738d8ad44c4165a8381039f4ffacf91b70e8d72154bc59213872"
+      },
+      {
+        "revision": "4c28e790b0213430d52dd8e5a09f681a53f5b79d",
+        "path": "snap/blocks.0.hook_resid_post/sparsity.safetensors",
+        "bytes": 131152,
+        "sha256": "65373e1b63b0d0db5a54154e2b7e2a10070a8e250b035af461696c61b4318dec"
+      },
+      {
+        "revision": "4c28e790b0213430d52dd8e5a09f681a53f5b79d",
+        "path": "standard/blocks.8.hook_resid_post/cfg.json",
+        "bytes": 1530,
+        "sha256": "bbb706b7396a77c2feda7a17841dcb8e2b76f9a5fbedc7974e0fc5db46a4ad16"
+      },
+      {
+        "revision": "4c28e790b0213430d52dd8e5a09f681a53f5b79d",
+        "path": "standard/blocks.8.hook_resid_post/sae_weights.safetensors",
+        "bytes": 604251536,
+        "sha256": "cc62ba0f8136722909884a6b57ef049b4861f6c1b49a6e63f53e6fba44b1d885"
+      },
+      {
+        "revision": "4c28e790b0213430d52dd8e5a09f681a53f5b79d",
+        "path": "standard/blocks.8.hook_resid_post/sparsity.safetensors",
+        "bytes": 131152,
+        "sha256": "4b7095e792f6c6775bbd46d5c206d5cf41e0737635f78936d013a5fc36207588"
+      }
+    ],
+    "backbone": [
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "config.json",
+        "bytes": 818,
+        "sha256": "56ee4e528fedfe70b2fabb0704eec9f2ef94461de936928220a3d6e7fac5ef98"
+      },
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "generation_config.json",
+        "bytes": 168,
+        "sha256": "4c8b8739d9583289c138eb8f412bdd4854b6fed6ba65ba28a323c0721c9a5973"
+      },
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "model-00001-of-00003.safetensors",
+        "bytes": 4992576136,
+        "sha256": "1425aa066ec77e3eb79aac14a5bdea3ebcec46aa5c96cd40608c5c1fd70d193d"
+      },
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "model-00002-of-00003.safetensors",
+        "bytes": 4983443424,
+        "sha256": "96c111d3dcdbde9271595e463b5d9f7fc4810ad8b79e736309c0a1833e6c0d35"
+      },
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "model-00003-of-00003.safetensors",
+        "bytes": 481381384,
+        "sha256": "4e08abc64d1767fdacd2c94da7f2ec4b8c65b25b19a53e87d19dc432901b5f02"
+      },
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "model.safetensors.index.json",
+        "bytes": 24224,
+        "sha256": "e5c6f26fbe40fc3712f4df57da9b89c58b033714316a4547d052b37f43217e8e"
+      },
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "special_tokens_map.json",
+        "bytes": 636,
+        "sha256": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351"
+      },
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "tokenizer.json",
+        "bytes": 17525357,
+        "sha256": "3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922"
+      },
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "tokenizer.model",
+        "bytes": 4241003,
+        "sha256": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2"
+      },
+      {
+        "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+        "path": "tokenizer_config.json",
+        "bytes": 46379,
+        "sha256": "bb8245b8d39a065fdf869ee4fce48db9cc491473eb7ff1b41d321fb4caf540d1"
+      }
+    ]
+  },
+  {
+    "key": "gpt2_res8",
+    "evidence": "data/activation_studies/external_v1/dbpedia_14/gpt2_res8_extraction.json",
+    "evidence_sha256": "f3af1521f461e92b378cf24aa619fc6eaad94279af690de4d4903b6ebc3f49c3",
+    "extraction": {
+      "backbone": "gpt2",
+      "precision": "float32",
+      "device": "mps",
+      "backbone_files": [
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "config.json",
+          "bytes": 665,
+          "sha256": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "generation_config.json",
+          "bytes": 124,
+          "sha256": "ed0b32ac72c0f5f44a719abb2d7786ea5146c871f83717b7f2018065954de02b"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "model.safetensors",
+          "bytes": 548105171,
+          "sha256": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "tokenizer.json",
+          "bytes": 1355256,
+          "sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "tokenizer_config.json",
+          "bytes": 26,
+          "sha256": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "vocab.json",
+          "bytes": 1042301,
+          "sha256": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+        }
+      ],
+      "versions": {
+        "torch": "2.14.1",
+        "transformers": "5.18.0",
+        "sae-lens": "6.51.3",
+        "transformer-lens": "3.9.0"
+      },
+      "source_sha256": "cd7860034340a17ac9950a2a8a16c9fd75f67742441cc97b7756623b99783f4a",
+      "checkpoint": "gpt2_res8",
+      "release": "gpt2-small-res-jb",
+      "sae_id": "blocks.8.hook_resid_pre",
+      "sae_repo": "jbloom/GPT2-Small-SAEs-Reformatted",
+      "sae_files": [
+        {
+          "revision": "57d08a4fd333fbf18caf3fbea63ceeb88e2f50d9",
+          "path": "blocks.8.hook_resid_pre/cfg.json",
+          "bytes": 1274,
+          "sha256": "f8c690c02ea3e1a29713748dd3922404fe59310cafaab6e376b4526b5f69c12c"
+        },
+        {
+          "revision": "57d08a4fd333fbf18caf3fbea63ceeb88e2f50d9",
+          "path": "blocks.8.hook_resid_pre/sae_weights.safetensors",
+          "bytes": 151096640,
+          "sha256": "d46a41aa7a9e0475c135e41dde0cb3d8510528ce3140568a18a0e29d3a624d8b"
+        },
+        {
+          "revision": "57d08a4fd333fbf18caf3fbea63ceeb88e2f50d9",
+          "path": "blocks.8.hook_resid_pre/sparsity.safetensors",
+          "bytes": 98384,
+          "sha256": "e3fdd622817b0695ffc68d3965eb26beea6da21dcf8a02c02d4ac6d99e872458"
+        }
+      ],
+      "hook": "blocks.8.hook_resid_pre",
+      "design_sha256": "51e750ceca34e4e391b013f634c04225bc377c683cfa5328e9c209b2c711ddf0",
+      "token_sha256": "5f94705a09ee9c89018ff344fc2369b9b27b56710bd63726890ef220e522a4fa",
+      "files": {
+        "max": {
+          "name": "gpt2_res8_max.npz",
+          "sha256": "3043a7028d0e928c1c28eb95c99cc2050f972de9135f0256666d4e49490358e7",
+          "shape": [
+            2100,
+            24576
+          ],
+          "nnz": 4880425
+        },
+        "mean": {
+          "name": "gpt2_res8_mean.npz",
+          "sha256": "d5ded593d9a14db48044141773a9d935d080be50c316bbb17babebdeb81c1e7c",
+          "shape": [
+            2100,
+            24576
+          ],
+          "nnz": 4880425
+        },
+        "dense": {
+          "name": "gpt2_res8_dense.npz",
+          "sha256": "7ea7626e5d2e4335c1ac1280287d89a191642a4aaf1fe51e92ae2e0709755526"
+        }
+      },
+      "statistics": {
+        "test_tokens": 50789,
+        "active_sum": 3564016.0,
+        "squared_error": 51965922.515625,
+        "squared_input": 556397854.75,
+        "zero_documents": 0,
+        "mean_token_l0": 70.1729902144165,
+        "uncentered_nmse": 0.09339705764856744
+      },
+      "elapsed_seconds": 52.0663640499115
+    }
+  },
+  {
+    "key": "gpt2_mlp8",
+    "evidence": "data/activation_studies/external_v1/dbpedia_14/gpt2_mlp8_extraction.json",
+    "evidence_sha256": "54239563123c1745212b1bdbc45c2eb4e7df9acc3c135a246088db5a6d2ea763",
+    "extraction": {
+      "backbone": "gpt2",
+      "precision": "float32",
+      "device": "mps",
+      "backbone_files": [
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "config.json",
+          "bytes": 665,
+          "sha256": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "generation_config.json",
+          "bytes": 124,
+          "sha256": "ed0b32ac72c0f5f44a719abb2d7786ea5146c871f83717b7f2018065954de02b"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "model.safetensors",
+          "bytes": 548105171,
+          "sha256": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "tokenizer.json",
+          "bytes": 1355256,
+          "sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "tokenizer_config.json",
+          "bytes": 26,
+          "sha256": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f"
+        },
+        {
+          "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "path": "vocab.json",
+          "bytes": 1042301,
+          "sha256": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+        }
+      ],
+      "versions": {
+        "torch": "2.14.1",
+        "transformers": "5.18.0",
+        "sae-lens": "6.51.3",
+        "transformer-lens": "3.9.0"
+      },
+      "source_sha256": "cd7860034340a17ac9950a2a8a16c9fd75f67742441cc97b7756623b99783f4a",
+      "checkpoint": "gpt2_mlp8",
+      "release": "gpt2-small-mlp-tm",
+      "sae_id": "blocks.8.hook_mlp_out",
+      "sae_repo": "tommmcgrath/gpt2-small-mlp-out-saes",
+      "sae_files": [
+        {
+          "revision": "d93c346c4833be0b1b5bcf5122d77a44e89d5cda",
+          "path": "sae_group_gpt2_blocks.8.hook_mlp_out_24576:v1/cfg.json",
+          "bytes": 2208,
+          "sha256": "00f6e4edab35b936840af396772eaf63aea70edf34cc5c6cf6ce8cd44023bc92"
+        },
+        {
+          "revision": "d93c346c4833be0b1b5bcf5122d77a44e89d5cda",
+          "path": "sae_group_gpt2_blocks.8.hook_mlp_out_24576:v1/sae_weights.safetensors",
+          "bytes": 151195024,
+          "sha256": "fa7006071495e63a9a8675f425e451d9f3efd3ca3056d66e20176e6138868210"
+        },
+        {
+          "revision": "d93c346c4833be0b1b5bcf5122d77a44e89d5cda",
+          "path": "sae_group_gpt2_blocks.8.hook_mlp_out_24576:v1/sparsity.safetensors",
+          "bytes": 98384,
+          "sha256": "aba617743b5d56bf8e408301b6eaa36809292f6aaaaeb25517c06225a7f4d293"
+        }
+      ],
+      "hook": "blocks.8.hook_mlp_out",
+      "design_sha256": "51e750ceca34e4e391b013f634c04225bc377c683cfa5328e9c209b2c711ddf0",
+      "token_sha256": "5f94705a09ee9c89018ff344fc2369b9b27b56710bd63726890ef220e522a4fa",
+      "files": {
+        "max": {
+          "name": "gpt2_mlp8_max.npz",
+          "sha256": "798abf3d92947c2ebd550d5b64b391db5234f7cb76670969d55218c1332d7792",
+          "shape": [
+            2100,
+            24576
+          ],
+          "nnz": 2465427
+        },
+        "mean": {
+          "name": "gpt2_mlp8_mean.npz",
+          "sha256": "a7fce986b2eae218e0485aa820a5d2d64527b801c4259fca9955d9197dfdb9bc",
+          "shape": [
+            2100,
+            24576
+          ],
+          "nnz": 2465427
+        },
+        "dense": {
+          "name": "gpt2_mlp8_dense.npz",
+          "sha256": "54a9bee56651ce6aebd3197f293b696d34fc915b56051e8d1c3c2924942b0156"
+        }
+      },
+      "statistics": {
+        "test_tokens": 50789,
+        "active_sum": 1566574.0,
+        "squared_error": 20835738.0703125,
+        "squared_input": 47346900.984375,
+        "zero_documents": 0,
+        "mean_token_l0": 30.844749847407904,
+        "uncentered_nmse": 0.44006550876874756
+      },
+      "elapsed_seconds": 53.920069217681885
+    }
+  },
+  {
+    "key": "gemma2_l0_37",
+    "evidence": "data/activation_studies/external_v1/dbpedia_14/gemma2_l0_37_extraction.json",
+    "evidence_sha256": "83d050689074c4e2493a86c96fe3f69c893aa5270d4cfb4cee94f1707cc25982",
+    "extraction": {
+      "backbone": "google/gemma-2-2b",
+      "precision": "bfloat16",
+      "device": "mps",
+      "backbone_files": [
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "config.json",
+          "bytes": 818,
+          "sha256": "56ee4e528fedfe70b2fabb0704eec9f2ef94461de936928220a3d6e7fac5ef98"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "generation_config.json",
+          "bytes": 168,
+          "sha256": "4c8b8739d9583289c138eb8f412bdd4854b6fed6ba65ba28a323c0721c9a5973"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "model-00001-of-00003.safetensors",
+          "bytes": 4992576136,
+          "sha256": "1425aa066ec77e3eb79aac14a5bdea3ebcec46aa5c96cd40608c5c1fd70d193d"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "model-00002-of-00003.safetensors",
+          "bytes": 4983443424,
+          "sha256": "96c111d3dcdbde9271595e463b5d9f7fc4810ad8b79e736309c0a1833e6c0d35"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "model-00003-of-00003.safetensors",
+          "bytes": 481381384,
+          "sha256": "4e08abc64d1767fdacd2c94da7f2ec4b8c65b25b19a53e87d19dc432901b5f02"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "model.safetensors.index.json",
+          "bytes": 24224,
+          "sha256": "e5c6f26fbe40fc3712f4df57da9b89c58b033714316a4547d052b37f43217e8e"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "special_tokens_map.json",
+          "bytes": 636,
+          "sha256": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "tokenizer.json",
+          "bytes": 17525357,
+          "sha256": "3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "tokenizer_config.json",
+          "bytes": 46379,
+          "sha256": "bb8245b8d39a065fdf869ee4fce48db9cc491473eb7ff1b41d321fb4caf540d1"
+        }
+      ],
+      "versions": {
+        "torch": "2.14.1",
+        "transformers": "5.18.0",
+        "sae-lens": "6.51.3",
+        "transformer-lens": "3.9.0"
+      },
+      "source_sha256": "cd7860034340a17ac9950a2a8a16c9fd75f67742441cc97b7756623b99783f4a",
+      "checkpoint": "gemma2_l0_37",
+      "release": "gemma-scope-2b-pt-res",
+      "sae_id": "layer_8/width_16k/average_l0_37",
+      "sae_repo": "google/gemma-scope-2b-pt-res",
+      "sae_files": [
+        {
+          "revision": "fd571b47c1c64851e9b1989792367b9babb4af63",
+          "path": "layer_8/width_16k/average_l0_37/params.npz",
+          "bytes": 302131416,
+          "sha256": "eb452280f675045cdad24c611c15cae462f53adf1d4b3cc5ecf4bde2ad92e270"
+        }
+      ],
+      "hook": "blocks.8.hook_resid_post",
+      "design_sha256": "51e750ceca34e4e391b013f634c04225bc377c683cfa5328e9c209b2c711ddf0",
+      "token_sha256": "1d485373f3fb9b7dec66a3ef8efcef992c27d159e6b512cec661d2e2d428605b",
+      "files": {
+        "max": {
+          "name": "gemma2_l0_37_max.npz",
+          "sha256": "e37cbeefff4c3ffe7ff542ef49e0cd2efb34f462ff16586084541dc8251a7dac",
+          "shape": [
+            2100,
+            16384
+          ],
+          "nnz": 2271169
+        },
+        "mean": {
+          "name": "gemma2_l0_37_mean.npz",
+          "sha256": "6df543c521cf5e8ff286be14774ee9e16949d1a6dfa0773b38ca3a921382a7f3",
+          "shape": [
+            2100,
+            16384
+          ],
+          "nnz": 2271169
+        },
+        "dense": {
+          "name": "gemma2_l0_37_dense.npz",
+          "sha256": "12fe98792298f4bf59b35455585dee1a8e5f3a731f27adc5a8e2bd5ceb395f4c"
+        }
+      },
+      "statistics": {
+        "test_tokens": 51418,
+        "active_sum": 2067736.0,
+        "squared_error": 103093698.09375,
+        "squared_input": 645638472.625,
+        "zero_documents": 0,
+        "mean_token_l0": 40.214244039052474,
+        "uncentered_nmse": 0.15967712963974642
+      },
+      "elapsed_seconds": 163.34319376945496
+    }
+  },
+  {
+    "key": "gemma2_l0_301",
+    "evidence": "data/activation_studies/external_v1/dbpedia_14/gemma2_l0_301_extraction.json",
+    "evidence_sha256": "0a48cd00bc4c68512218e6cd803384403cca2fccf41279b74ea5ba29aa5b4ef5",
+    "extraction": {
+      "backbone": "google/gemma-2-2b",
+      "precision": "bfloat16",
+      "device": "mps",
+      "backbone_files": [
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "config.json",
+          "bytes": 818,
+          "sha256": "56ee4e528fedfe70b2fabb0704eec9f2ef94461de936928220a3d6e7fac5ef98"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "generation_config.json",
+          "bytes": 168,
+          "sha256": "4c8b8739d9583289c138eb8f412bdd4854b6fed6ba65ba28a323c0721c9a5973"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "model-00001-of-00003.safetensors",
+          "bytes": 4992576136,
+          "sha256": "1425aa066ec77e3eb79aac14a5bdea3ebcec46aa5c96cd40608c5c1fd70d193d"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "model-00002-of-00003.safetensors",
+          "bytes": 4983443424,
+          "sha256": "96c111d3dcdbde9271595e463b5d9f7fc4810ad8b79e736309c0a1833e6c0d35"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "model-00003-of-00003.safetensors",
+          "bytes": 481381384,
+          "sha256": "4e08abc64d1767fdacd2c94da7f2ec4b8c65b25b19a53e87d19dc432901b5f02"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "model.safetensors.index.json",
+          "bytes": 24224,
+          "sha256": "e5c6f26fbe40fc3712f4df57da9b89c58b033714316a4547d052b37f43217e8e"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "special_tokens_map.json",
+          "bytes": 636,
+          "sha256": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "tokenizer.json",
+          "bytes": 17525357,
+          "sha256": "3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922"
+        },
+        {
+          "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+          "path": "tokenizer_config.json",
+          "bytes": 46379,
+          "sha256": "bb8245b8d39a065fdf869ee4fce48db9cc491473eb7ff1b41d321fb4caf540d1"
+        }
+      ],
+      "versions": {
+        "torch": "2.14.1",
+        "transformers": "5.18.0",
+        "sae-lens": "6.51.3",
+        "transformer-lens": "3.9.0"
+      },
+      "source_sha256": "cd7860034340a17ac9950a2a8a16c9fd75f67742441cc97b7756623b99783f4a",
+      "checkpoint": "gemma2_l0_301",
+      "release": "gemma-scope-2b-pt-res",
+      "sae_id": "layer_8/width_16k/average_l0_301",
+      "sae_repo": "google/gemma-scope-2b-pt-res",
+      "sae_files": [
+        {
+          "revision": "fd571b47c1c64851e9b1989792367b9babb4af63",
+          "path": "layer_8/width_16k/average_l0_301/params.npz",
+          "bytes": 302131416,
+          "sha256": "5d465ec21c2848d87e0a91614737d8741e582f436887704709e4788257114618"
+        }
+      ],
+      "hook": "blocks.8.hook_resid_post",
+      "design_sha256": "51e750ceca34e4e391b013f634c04225bc377c683cfa5328e9c209b2c711ddf0",
+      "token_sha256": "1d485373f3fb9b7dec66a3ef8efcef992c27d159e6b512cec661d2e2d428605b",
+      "files": {
+        "max": {
+          "name": "gemma2_l0_301_max.npz",
+          "sha256": "aba264e6bb116fd37742e30de4e8871bfedd95af152f64a6d61042090713de78",
+          "shape": [
+            2100,
+            16384
+          ],
+          "nnz": 8440358
+        },
+        "mean": {
+          "name": "gemma2_l0_301_mean.npz",
+          "sha256": "e7c75f995d27acf0176a380e904529702ec016425bcf21dff1c5396334e97822",
+          "shape": [
+            2100,
+            16384
+          ],
+          "nnz": 8440358
+        },
+        "dense": {
+          "name": "gemma2_l0_301_dense.npz",
+          "sha256": "12fe98792298f4bf59b35455585dee1a8e5f3a731f27adc5a8e2bd5ceb395f4c"
+        }
+      },
+      "statistics": {
+        "test_tokens": 51418,
+        "active_sum": 17270531.0,
+        "squared_error": 48244795.578125,
+        "squared_input": 645638472.625,
+        "zero_documents": 0,
+        "mean_token_l0": 335.88492356762225,
+        "uncentered_nmse": 0.07472416472019405
+      },
+      "elapsed_seconds": 168.21063494682312
+    }
+  }
+]

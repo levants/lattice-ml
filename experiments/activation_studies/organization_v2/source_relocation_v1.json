@@ -1,0 +1,10 @@
+{
+  "original_sha256":
+    "41f80ad8bc2b3467656b8f34735a1d711393e110d3c1f85cb966536fa746706e",
+  "relocated_sha256":
+    "49d3fd1078f47088b3572ee27121a228227c7260e2cddf0c18a995fe060b29d6",
+  "changes": [
+    "Package-relative imports and paper/repository paths."
+  ],
+  "note": "Historical experiment results have not been rerun."
+}

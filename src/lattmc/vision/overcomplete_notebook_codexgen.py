@@ -1,12 +1,16 @@
 """Build and execute a lightweight notebook from the verified experiment."""
 
+from __future__ import annotations
+
 from pathlib import Path
 
 import nbformat as nbf
 from nbclient import NotebookClient
 
 
-def main():
+def main() -> None:
+    """Build and execute a lightweight notebook from the verified experiment.
+    """
     root = Path(__file__).resolve().parents[3]
     cells = [nbf.v4.new_markdown_cell(
         '# Sparse visual features across datasets\n\n'

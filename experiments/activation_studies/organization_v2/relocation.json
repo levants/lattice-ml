@@ -1,0 +1,79 @@
+{
+  "old_package": "texs/sparsesurrs/lattconference/python/lattconferencetools",
+  "new_package": "src/lattmc/lattconferencetools",
+  "removed_links": [
+    {
+      "path": "texs/sparsesurrs/lattconference/cached_notebook_checks",
+      "target": "/Users/ltsinadze/git/my_papers/data/activation_studies/legacy/lattconference/cached_notebook_checks",
+      "link": "../../../data/activation_studies/legacy/lattconference/cached_notebook_checks"
+    },
+    {
+      "path": "texs/sparsesurrs/lattconference/experiments/release",
+      "target": "/Users/ltsinadze/git/my_papers/artifacts/releases/activation_studies/external_v1",
+      "link": "../../lattcontexts/experiments/release"
+    },
+    {
+      "path": "texs/sparsesurrs/lattconference/experiments/external_results",
+      "target": "/Users/ltsinadze/git/my_papers/data/activation_studies/external_v1",
+      "link": "../../lattcontexts/experiments/external_results"
+    },
+    {
+      "path": "texs/sparsesurrs/lattconference/experiments/conference_results",
+      "target": "/Users/ltsinadze/git/my_papers/data/activation_studies/legacy/lattconference/conference_results",
+      "link": "../../../../data/activation_studies/legacy/lattconference/conference_results"
+    },
+    {
+      "path": "texs/sparsesurrs/lattconference/experiments/activation_results",
+      "target": "/Users/ltsinadze/git/my_papers/data/activation_studies/legacy/lattconference/activation_results",
+      "link": "../../../../data/activation_studies/legacy/lattconference/activation_results"
+    },
+    {
+      "path": "texs/sparsesurrs/lattconference/build/legacy",
+      "target": "/Users/ltsinadze/git/my_papers/artifacts/papers/lattconference/legacy",
+      "link": "../../../../artifacts/papers/lattconference/legacy"
+    },
+    {
+      "path": "texs/sparsesurrs/lattconference/notebooks/conference_retrieval_codexgen.ipynb",
+      "target": "/Users/ltsinadze/git/my_papers/notebooks/sae/conference_retrieval_codexgen.ipynb",
+      "link": "../../../../notebooks/sae/conference_retrieval_codexgen.ipynb"
+    }
+  ],
+  "before_sha256": {
+    "paths_codexgen.py": "2d58e5487254805304e8c1fc3f257ee30f4d97789b64d99ff407b10981a9e960",
+    "execute_conference_notebook_codexgen.py": "9713a9981aa6ee51760b276f28921e05e943b1a2bbfbc6802ed84b5b8986826b",
+    "build_conference_codexgen.py": "05b7241991aa2ac1b8315490f536a50c1fa99c30765e340944dfa53dec98af97",
+    "test_activation_experiments_codexgen.py": "f2ac36c3b7844f5ac339e46325e70d2d2ccc314e217eaca8220b03bcd5587d1d",
+    "build_activation_tables_codexgen.py": "b59f85f06a67f11dfec3504a7d3c82dbed431e52ab9ec6bb5eaa5c21d9dfd378",
+    "__init__.py": "7e4f7b2dd80f0339957335d98d8e6d7363091809223cfbcfd15ff7b1eecc9da6",
+    "activation_experiments_codexgen.py": "926094632cad32e879ae38224670ef12a96a4a859314665623d9143a294c9239",
+    "verify_conference_artifacts_codexgen.py": "78f6745a1a9dae45aa297dc9d93e7ace2c649b6dee585d2960d7de66a63a8fa5",
+    "build_paper_codexgen.py": "db80741f1ab626be3981221992e223bc3b382b4d3b657addab97e3cd579ea288",
+    "review_checks_codexgen.py": "a009923b72d56fb99e891c8291bd09b8e2917083524f26e87c159e6fac833ffe",
+    "test_conference_experiments_codexgen.py": "3f45e50c031fbec4b615ce6124eb305528902a38daaea0ea1a9e01cede635192",
+    "package_arxiv_codexgen.py": "b8cf97242ef64b316498b5e5b4d6ed42c7b4aa978d88321bc08db47f57670e3a",
+    "summarize_conference_codexgen.py": "a88117e143b0b64f3a1a5f73645b675ee11c33eb70ba9d884d04e81ab5047253",
+    "conference_experiments_codexgen.py": "49d3fd1078f47088b3572ee27121a228227c7260e2cddf0c18a995fe060b29d6",
+    "execute_cached_notebooks_codexgen.py": "53735c800c2053ed231acbff3ab2ede3a6a362cfc2539ed0bbb5f63e4500be8f",
+    "conference_ablation_codexgen.py": "b1dff6c1a205512e45495fe4a3c43650bba34374f0ed98e3ddaee39b09daad0d"
+  },
+  "after_sha256": {
+    "__init__.py": "7e4f7b2dd80f0339957335d98d8e6d7363091809223cfbcfd15ff7b1eecc9da6",
+    "activation_experiments_codexgen.py": "f4411ed0f2288b08e66d2bb43fc03a170c199ab26befd98a6f0bbb73201950e7",
+    "build_activation_tables_codexgen.py": "83f076fbcb93233a9b3df2f71db8a1c5812f73cae6a067001f529e9aad7064e7",
+    "build_conference_codexgen.py": "1426966bec89e4ca927457a3b5292859a24c17d4994656641ecabdd73341eecc",
+    "build_paper_codexgen.py": "d0c021c8dfa1e10ea0ad8d9ef7ce9b8375f343d902be3dc9fe8a1e5b92a5017d",
+    "conference_ablation_codexgen.py": "b1dff6c1a205512e45495fe4a3c43650bba34374f0ed98e3ddaee39b09daad0d",
+    "conference_experiments_codexgen.py": "806fd1cf473ad24d22d41646e654622703e5fb154dfabcf1d8e110514b2b5ddb",
+    "execute_cached_notebooks_codexgen.py": "48a2e89c3ac2e0fd6c4f0a33ec0cd4d2934c7f89e59bbb7210535dcdb9870aaf",
+    "execute_conference_notebook_codexgen.py": "c902951637376d4e6b10a5d17333b270b6bc7be2675f05e393bc3caedf6a4228",
+    "package_arxiv_codexgen.py": "365fe8ddd22281b83f37db13672a5899ef5a1580473ff03698c02c649643e71e",
+    "paths_codexgen.py": "356dc759311fd0ef421c455c09c3c33e073757d7722955c564b3d143562d4706",
+    "review_checks_codexgen.py": "a009923b72d56fb99e891c8291bd09b8e2917083524f26e87c159e6fac833ffe",
+    "run_codexgen.py": "582aa40f62dad0155d92804af2e756d8540a80087b0a2074e52a83ef88181ff6",
+    "summarize_conference_codexgen.py": "349f482fb990f94e8c2c37dc783402ced67e8060708517fce26e7abcefe66a0b",
+    "test_activation_experiments_codexgen.py": "f2ac36c3b7844f5ac339e46325e70d2d2ccc314e217eaca8220b03bcd5587d1d",
+    "test_conference_experiments_codexgen.py": "3f45e50c031fbec4b615ce6124eb305528902a38daaea0ea1a9e01cede635192",
+    "verify_conference_artifacts_codexgen.py": "3f358f937449506a5652fd4b3f4a619b2a83864928e173fd69ea2613630fe44f"
+  },
+  "template_archives": "artifacts/templates/lattconference"
+}

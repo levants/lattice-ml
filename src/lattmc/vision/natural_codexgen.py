@@ -1,5 +1,8 @@
 """Measured CIFAR-10 feature examples using a frozen pretrained ResNet34."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import hashlib
 import json
@@ -22,7 +25,8 @@ CLASSES = ("airplane", "automobile", "bird", "cat", "deer", "dog", "frog",
            "horse", "ship", "truck")
 
 
-def preprocess(images):
+def preprocess(images: np.ndarray) -> torch.Tensor:
+    """Convert RGB arrays to channel-first, ImageNet-normalized tensors."""
     values = torch.as_tensor(images).permute(0, 3, 1, 2).float() / 255
     values = functional.interpolate(values, size=(96, 96), mode="bilinear",
                                     align_corners=False, antialias=True)
@@ -31,7 +35,8 @@ def preprocess(images):
     return (values - mean) / std
 
 
-def feature_model(weights):
+def feature_model(weights: Path) -> nn.Sequential:
+    """Load a frozen ResNet34 trunk through its third residual stage."""
     model = resnet34(weights=None)
     model.load_state_dict(torch.load(weights, map_location="cpu",
                                     weights_only=True))
@@ -39,11 +44,18 @@ def feature_model(weights):
     return nn.Sequential(*list(model.children())[:7]).eval()
 
 
-def sha256(path):
+def sha256(path: Path | str) -> str:
+    """Compute the SHA-256 digest of an input artifact."""
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
-def run(dataset_root=None, weights=None, folder=None):
+def run(
+    dataset_root: Path | None = None,
+    weights: Path | None = None,
+    folder: Path | None = None,
+) -> dict[str, Any]:
+    """Train and evaluate a sparse surrogate on cached natural-image features.
+    """
     folder = prepare_folders(folder or experiment_root("cifar10_resnet34"))
     torch.set_num_threads(4)
     torch.manual_seed(2026)

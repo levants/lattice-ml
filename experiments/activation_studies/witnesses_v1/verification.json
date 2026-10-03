@@ -1,0 +1,81 @@
+{
+  "witness_audit": {
+    "status": "passed",
+    "rows": 72,
+    "coordinates": 306,
+    "sparse_dense_library_comparisons": 192,
+    "boundary_cases": 6,
+    "counts": {
+      "context": {
+        "S": 15,
+        "D": 33,
+        "R": 0,
+        "N": 0
+      },
+      "family": {
+        "S": 15,
+        "D": 8,
+        "R": 1,
+        "N": 0
+      }
+    },
+    "source_sha256": "ff0401614c355fbfee42d37683ffccf9843c246398d7342d41f71fb8f858be15",
+    "legacy_rows": 22,
+    "unresolved_historical_rows": 4
+  },
+  "external_audit": {
+    "query_configurations": 2880,
+    "metric_vectors": 37440,
+    "test_score_comparisons": 23712000,
+    "status": "passed",
+    "protocol_sha256": "4c34559cdf4a7e245f2091dff1198aa307885e5e51ea7b882575905f8a22ea48"
+  },
+  "families_audit": {
+    "query_configurations": 4320,
+    "metric_vectors": 56160,
+    "test_score_comparisons": 35568000,
+    "status": "passed",
+    "exact_prefix_checks": 8,
+    "protocol_sha256": "2d69a794b2c92103fa8afd2ecaf15c21d9591a251b25378fe3fbd4ed75790e43"
+  },
+  "source_files": {
+    "src/lattmc/contextstudy/legacyreplay_codexgen.py": "9f43db317d1b130b5021775e68b2192d30815aa66307982a0037435538d3fcb4",
+    "src/lattmc/contextstudy/depth_package_codexgen.py": "c537ff9371fc36d4f46b4c8d73ca63909a945e40c462a1fc513c1f9d4c77c18e",
+    "src/lattmc/contextstudy/run_codexgen.py": "c8115583afbe60336318201b7d1cb8dca431870d0f4d055cd1d6fadea0f98552",
+    "src/lattmc/contextstudy/gallery_audit_codexgen.py": "1d4049c86a5d95a490978745974a51260533636857e9fb322d20558aea843161",
+    "src/lattmc/contextstudy/package_codexgen.py": "b78e368b59b02b73cbc22855779a22068d6510158e53eeaeaa74202cfb3e7703",
+    "src/lattmc/contextstudy/depth_codexgen.py": "d57f88dbffbb8a7c6c08d1979fdfa0b006a92e3132bea1c3067e81ae71223922",
+    "src/lattmc/contextstudy/legacytables_codexgen.py": "1416d98b460b347af5bbf6ee9bc8ad81caff9e49e9558fe3a73e641fa0f32917",
+    "src/lattmc/contextstudy/__init__.py": "cda957cb095fc6bd3123621a6699aba2c9f75a688aa67c574c3ced5416b8cd1b",
+    "src/lattmc/contextstudy/audit_codexgen.py": "ce51d4db0f58701a0aa71b83d85392217a9c51ff35b83a0a410a044a3b4b2a49",
+    "src/lattmc/contextstudy/galleries_codexgen.py": "c312d9dc80ae4a668f97841ec60ae5fad38ca9fa22fad94932ef2ac4e713befa",
+    "src/lattmc/contextstudy/report_codexgen.py": "3c4c0aa240357c36c13c394482ca846ffe35a7602c5b71ed63031fee523d62d4",
+    "src/lattmc/contextstudy/witnesses_codexgen.py": "e0e0e96fa263018d4bc39afeb5f32f234c8efc64eca7afce8c78c042af8eb3c8",
+    "src/lattmc/contextstudy/witnessrender_codexgen.py": "05e6d5f8f75c8f95ad0b4fcb116ce13b2304a65a51cecf09b7f8efaa8ead6b8b",
+    "src/lattmc/contextstudy/gallery_codexgen.py": "b3e27e47c2d239ddf307f2bc0a3adb1863ee42e4a299cac8824e88e669fdcc42",
+    "src/lattmc/contextstudy/depth_report_codexgen.py": "b5935a820529a803aa04d6d232e1850fa35982bb29b9af084026d1403e79cda5",
+    "src/lattmc/contextstudy/witnessaudit_codexgen.py": "ff0401614c355fbfee42d37683ffccf9843c246398d7342d41f71fb8f858be15",
+    "src/lattmc/contextstudy/context_metrics_codexgen.py": "6911baaaca9aee11a0064a504b15233029b4ccbd745c9bbc1df021069b5eae58",
+    "src/lattmc/latex/texttables_codexgen.py": "899e479162c8c12c06e993ea2309a4adfc1aeb342cd4c878e400157daac2ff29",
+    "notebooks/sae/context_depth_codexgen.ipynb": "ec4ce3d47f168a465db30e425466e4661ff6c2fcf1351ca07179bf1d3c7ba5d4",
+    "notebooks/sae/contextual_witnesses_codexgen.ipynb": "03595897d3f81b08ce50ea9c2460a5ea7c770ecc30ef9ad32de66225be8b834f",
+    "notebooks/sae/saelens_external_codexgen.ipynb": "191cbf3c583fd38a8cc754e7e717cd46fee7bfecab8ce57fc57d0f669fba83da",
+    "notebooks/sae/saelens_families_codexgen.ipynb": "445303fa2e960a357b9f30afe97a085240d2e1ac6da3a27d6e471499e2856e9c",
+    "notebooks/sae/sae_gpt_small_tokens_places_codexgen.ipynb": "e71fb58eacd6a77119532277293accc9a3bcf0f350b87462d4cc2883d48e832f",
+    "notebooks/sae/sae_gpt_small_tokens_places_min_acts_codexgen.ipynb": "880968196a46ce0d4caa9299da6654c3a04c7f8efcee805928f12e9e48fc55ad",
+    "notebooks/transcoders/tc_gpt_small_tokens_places_codexgen.ipynb": "eebc129ad1df468d647bf4fdeaa7d802f5e79c0d335981660e413b5b3d57e863",
+    "notebooks/transcoders/tc_gpt_small_tokens_places_min_acts_codexgen.ipynb": "a1d68f39b8eec684fcff8bcf91620d3738a1faaa177a033f64e0bee9ae355ce8"
+  },
+  "mirror_files_verified": 26,
+  "unmodified_fca_dependencies_verified": 5,
+  "measured_slots": 94,
+  "unclassified_historical_slots": 4,
+  "counts_scope": "Selected gallery entries; not independent semantic trials.",
+  "numerical_tables": "Compared with HEAD ignoring whitespace; unchanged.",
+  "notebooks_executed": [
+    "context_depth_codexgen",
+    "contextual_witnesses_codexgen"
+  ],
+  "original_notebooks_preserved": true,
+  "uploads": false
+}

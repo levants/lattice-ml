@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-03",
+  "archive_sha256": "a2392cc53fe6fabc02cfe7406971417797abe35fa947b5d6f96df95f2a586e36",
+  "clean_extracted_build": "/var/folders/wp/ty3nf3hx53nd_wht8f53rfch0000gs/T/lattconference-arxiv-check-lb92kokq",
+  "archive_pixel_identical_pages": 125,
+  "all_five_delivered_modes_pixel_identical": true,
+  "synchronized_modules": 7,
+  "synchronized_executed_notebooks": 1,
+  "source_and_data_hashes_match": true,
+  "publication_performed": false
+}

@@ -1,0 +1,22 @@
+{
+  "renamed_paper_tool_tests": [
+    "lattcontexts",
+    "lattconference"
+  ],
+  "activation_package_tests": 10,
+  "family_frozen_audit": 56160,
+  "external_frozen_audit": 37440,
+  "new_metric_vectors": 3240,
+  "gallery_examples": 24,
+  "notebook": "Executed and asserted project uv environment.",
+  "pdf_pages": {
+    "article": 81,
+    "main": 27,
+    "appendix": 56,
+    "iclr": 85
+  },
+  "source_archive_clean_build": true,
+  "source_archive_pixel_identical_pages": 81,
+  "structure_check": "No adjacent headings or heading/result gaps.",
+  "source_width": 79
+}

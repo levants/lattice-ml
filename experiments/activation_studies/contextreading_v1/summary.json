@@ -1,0 +1,90 @@
+{
+  "conditions": {
+    "sae0": {
+      "cases": 55,
+      "zero_meets": 53,
+      "empty_joins": 21,
+      "universal_closure": 42
+    },
+    "sae8": {
+      "cases": 55,
+      "zero_meets": 49,
+      "empty_joins": 41,
+      "universal_closure": 8
+    },
+    "sae11": {
+      "cases": 55,
+      "zero_meets": 49,
+      "empty_joins": 36,
+      "universal_closure": 9
+    },
+    "tc0": {
+      "cases": 55,
+      "zero_meets": 51,
+      "empty_joins": 33,
+      "universal_closure": 19
+    },
+    "tc8": {
+      "cases": 55,
+      "zero_meets": 48,
+      "empty_joins": 32,
+      "universal_closure": 3
+    },
+    "tc11": {
+      "cases": 55,
+      "zero_meets": 48,
+      "empty_joins": 27,
+      "universal_closure": 30
+    }
+  },
+  "coincidence": [
+    {
+      "surrogate": "sae",
+      "blocks": [
+        0,
+        8
+      ],
+      "both": 66,
+      "lost": 25534,
+      "added": 0,
+      "neither": 0,
+      "jaccard": 0.002578125
+    },
+    {
+      "surrogate": "sae",
+      "blocks": [
+        8,
+        11
+      ],
+      "both": 18,
+      "lost": 48,
+      "added": 49,
+      "neither": 25485,
+      "jaccard": 0.1565217391304348
+    },
+    {
+      "surrogate": "tc",
+      "blocks": [
+        0,
+        8
+      ],
+      "both": 236,
+      "lost": 592,
+      "added": 142,
+      "neither": 24630,
+      "jaccard": 0.24329896907216494
+    },
+    {
+      "surrogate": "tc",
+      "blocks": [
+        8,
+        11
+      ],
+      "both": 48,
+      "lost": 330,
+      "added": 51,
+      "neither": 25171,
+      "jaccard": 0.11188811188811189
+    }
+  ]
+}

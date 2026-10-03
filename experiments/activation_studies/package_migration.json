@@ -1,0 +1,104 @@
+{
+  "migration": [
+    {
+      "repository": "my_papers",
+      "old": "src/lattmc/activation_study",
+      "new": "src/lattmc/activationstudy",
+      "files": {
+        "evaluate_codexgen.py": "88b25d5367b7e457f55988af83711d79fc61ed5fb680631dd003e1071280b3bf",
+        "extract_codexgen.py": "cd7860034340a17ac9950a2a8a16c9fd75f67742441cc97b7756623b99783f4a",
+        "dataset_sources.json": "40cf2e9088d5c1d510ef5867db0531c5f514a8af3a9079865ff226dcdb565c20",
+        "package_codexgen.py": "27d08ed75bdbb847f4827a0100394c729593da35f0e966f6d352ba438f09d38d",
+        "families_download_codexgen.py": "a68b42f8670c5a82884bdb331bfabb95b5b84e092a0f78e8686640131968a183",
+        "__init__.py": "a62ae22adc7ee64a49d4c030ae9b584394188d96ea83d8f85ee8bb7687ae0be2",
+        "families_config_codexgen.py": "307b97fc0f08dd5d29dc14f1e3b17132f42040c991404bb94df18051664599a8",
+        "audit_codexgen.py": "7cb6b21148755dd23e89a95aad30e5de2e4042abe50be3bc8298141db344a722",
+        "families_package_codexgen.py": "d7b8df2afd7e5fec51f4f0d6be415200c2735761bafc6e7f4ff4173fde7f8c27",
+        "README.md": "697c61c4dcb7a05204c577a02d1d2805fa881e4cc36904c964bd1f4c33fe7759",
+        "report_codexgen.py": "e4a4c59f21ede61b6d9a2e428fe6e4e3e81ed12ecac41614757aa72008d80fe2",
+        "families_evaluate_codexgen.py": "acb7dc8c1a8e5c3b80a508779ca6b2bd60e8dffc63f644c66a365d5a2d6b1e74",
+        "families_adapters_codexgen.py": "cfb57b2533cae08871b11ec285af7f9aa047daae5b90045e6534beba47d9c3fa",
+        "data_codexgen.py": "0fec8f48667bd377f3a86c8b0cc3dac172b26932fc74934d3e82a31d82c92b2f",
+        "families_audit_codexgen.py": "d359f9c167f75eb81f98babeb89e312e5597c245a655ad9cc0559cfd85270863",
+        "families_report_codexgen.py": "e0a670149f84dd6a38e8f8d11105145615ade47b65e32258b73622b227049a4a",
+        "common_codexgen.py": "31077a31a6e3e8557cdc6a3c01fb78872843c73d11b6a20f80109506dff416c4",
+        "test_families_codexgen.py": "a5cefcc69f6b167c2aae87f544809c440c84630b681c9acd4e1fe448f949b163",
+        "families_extract_codexgen.py": "7d5f5564011404ef36baf58c68cd78a6c6232cac1ec71d25faed9ca75504deb8",
+        "download_codexgen.py": "025253fdbc5e2f58a8da8cbcc117c5cad3749b1f850f1287b15b2e70cb7a342f",
+        "families_data_codexgen.py": "8dbd36207d48d021acee0a8a9ee0fb81445da9720ad5a29adaf4f7ed289a3525",
+        "test_external_codexgen.py": "9640ee4da396ef067729aa31157c4862cff24253272610045fb8622d59f38464"
+      }
+    },
+    {
+      "repository": "my_papers",
+      "old": "texs/sparsesurrs/lattconference/python/lattconference_tools",
+      "new": "texs/sparsesurrs/lattconference/python/lattconferencetools",
+      "files": {
+        "paths_codexgen.py": "2d58e5487254805304e8c1fc3f257ee30f4d97789b64d99ff407b10981a9e960",
+        "execute_conference_notebook_codexgen.py": "9713a9981aa6ee51760b276f28921e05e943b1a2bbfbc6802ed84b5b8986826b",
+        "build_conference_codexgen.py": "05b7241991aa2ac1b8315490f536a50c1fa99c30765e340944dfa53dec98af97",
+        "test_activation_experiments_codexgen.py": "f2ac36c3b7844f5ac339e46325e70d2d2ccc314e217eaca8220b03bcd5587d1d",
+        "build_activation_tables_codexgen.py": "b59f85f06a67f11dfec3504a7d3c82dbed431e52ab9ec6bb5eaa5c21d9dfd378",
+        "__init__.py": "7e4f7b2dd80f0339957335d98d8e6d7363091809223cfbcfd15ff7b1eecc9da6",
+        "activation_experiments_codexgen.py": "926094632cad32e879ae38224670ef12a96a4a859314665623d9143a294c9239",
+        "verify_conference_artifacts_codexgen.py": "78f6745a1a9dae45aa297dc9d93e7ace2c649b6dee585d2960d7de66a63a8fa5",
+        "build_paper_codexgen.py": "db80741f1ab626be3981221992e223bc3b382b4d3b657addab97e3cd579ea288",
+        "review_checks_codexgen.py": "a009923b72d56fb99e891c8291bd09b8e2917083524f26e87c159e6fac833ffe",
+        "test_conference_experiments_codexgen.py": "3f45e50c031fbec4b615ce6124eb305528902a38daaea0ea1a9e01cede635192",
+        "package_arxiv_codexgen.py": "b8cf97242ef64b316498b5e5b4d6ed42c7b4aa978d88321bc08db47f57670e3a",
+        "summarize_conference_codexgen.py": "a88117e143b0b64f3a1a5f73645b675ee11c33eb70ba9d884d04e81ab5047253",
+        "conference_experiments_codexgen.py": "49d3fd1078f47088b3572ee27121a228227c7260e2cddf0c18a995fe060b29d6",
+        "relocation.json": "cbdff16cd40abdea402292abfabbe3021d1fbf6f4bd1064efb50dd2bf57a338c",
+        "execute_cached_notebooks_codexgen.py": "53735c800c2053ed231acbff3ab2ede3a6a362cfc2539ed0bbb5f63e4500be8f",
+        "conference_ablation_codexgen.py": "b1dff6c1a205512e45495fe4a3c43650bba34374f0ed98e3ddaee39b09daad0d"
+      }
+    },
+    {
+      "repository": "my_papers",
+      "old": "texs/sparsesurrs/lattcontexts/python/lattcontexts_tools",
+      "new": "texs/sparsesurrs/lattcontexts/python/lattcontextstools",
+      "files": {
+        "paths_codexgen.py": "2d58e5487254805304e8c1fc3f257ee30f4d97789b64d99ff407b10981a9e960",
+        "test_activation_experiments_codexgen.py": "f2ac36c3b7844f5ac339e46325e70d2d2ccc314e217eaca8220b03bcd5587d1d",
+        "build_activation_tables_codexgen.py": "b59f85f06a67f11dfec3504a7d3c82dbed431e52ab9ec6bb5eaa5c21d9dfd378",
+        "__init__.py": "2d8450500cc8a50746946efbbcfcc35ec7885b6c9c4ad80af7a9da19323c6f4c",
+        "activation_experiments_codexgen.py": "926094632cad32e879ae38224670ef12a96a4a859314665623d9143a294c9239",
+        "build_paper_codexgen.py": "570972d784a28782d19c3fde219a702817eb030346f1c3cea688ee6fa2b353c2",
+        "review_checks_codexgen.py": "a009923b72d56fb99e891c8291bd09b8e2917083524f26e87c159e6fac833ffe",
+        "execute_cached_notebooks_codexgen.py": "53735c800c2053ed231acbff3ab2ede3a6a362cfc2539ed0bbb5f63e4500be8f"
+      }
+    },
+    {
+      "repository": "lattice-ml",
+      "old": "src/lattmc/activation_study",
+      "new": "src/lattmc/activationstudy",
+      "files": {
+        "evaluate_codexgen.py": "88b25d5367b7e457f55988af83711d79fc61ed5fb680631dd003e1071280b3bf",
+        "extract_codexgen.py": "cd7860034340a17ac9950a2a8a16c9fd75f67742441cc97b7756623b99783f4a",
+        "dataset_sources.json": "40cf2e9088d5c1d510ef5867db0531c5f514a8af3a9079865ff226dcdb565c20",
+        "package_codexgen.py": "27d08ed75bdbb847f4827a0100394c729593da35f0e966f6d352ba438f09d38d",
+        "families_download_codexgen.py": "a68b42f8670c5a82884bdb331bfabb95b5b84e092a0f78e8686640131968a183",
+        "__init__.py": "a62ae22adc7ee64a49d4c030ae9b584394188d96ea83d8f85ee8bb7687ae0be2",
+        "families_config_codexgen.py": "307b97fc0f08dd5d29dc14f1e3b17132f42040c991404bb94df18051664599a8",
+        "audit_codexgen.py": "7cb6b21148755dd23e89a95aad30e5de2e4042abe50be3bc8298141db344a722",
+        "families_package_codexgen.py": "d7b8df2afd7e5fec51f4f0d6be415200c2735761bafc6e7f4ff4173fde7f8c27",
+        "README.md": "697c61c4dcb7a05204c577a02d1d2805fa881e4cc36904c964bd1f4c33fe7759",
+        "report_codexgen.py": "e4a4c59f21ede61b6d9a2e428fe6e4e3e81ed12ecac41614757aa72008d80fe2",
+        "families_evaluate_codexgen.py": "acb7dc8c1a8e5c3b80a508779ca6b2bd60e8dffc63f644c66a365d5a2d6b1e74",
+        "families_adapters_codexgen.py": "cfb57b2533cae08871b11ec285af7f9aa047daae5b90045e6534beba47d9c3fa",
+        "data_codexgen.py": "0fec8f48667bd377f3a86c8b0cc3dac172b26932fc74934d3e82a31d82c92b2f",
+        "families_audit_codexgen.py": "d359f9c167f75eb81f98babeb89e312e5597c245a655ad9cc0559cfd85270863",
+        "families_report_codexgen.py": "e0a670149f84dd6a38e8f8d11105145615ade47b65e32258b73622b227049a4a",
+        "common_codexgen.py": "31077a31a6e3e8557cdc6a3c01fb78872843c73d11b6a20f80109506dff416c4",
+        "test_families_codexgen.py": "a5cefcc69f6b167c2aae87f544809c440c84630b681c9acd4e1fe448f949b163",
+        "families_extract_codexgen.py": "7d5f5564011404ef36baf58c68cd78a6c6232cac1ec71d25faed9ca75504deb8",
+        "download_codexgen.py": "025253fdbc5e2f58a8da8cbcc117c5cad3749b1f850f1287b15b2e70cb7a342f",
+        "families_data_codexgen.py": "8dbd36207d48d021acee0a8a9ee0fb81445da9720ad5a29adaf4f7ed289a3525",
+        "test_external_codexgen.py": "9640ee4da396ef067729aa31157c4862cff24253272610045fb8622d59f38464"
+      }
+    }
+  ],
+  "policy": "No compatibility package with underscore names.",
+  "frozen_protocols": "Historical protocol bytes and result hashes preserved.",
+  "vendor_exception": "Upstream tcirc packages retain upstream import names."
+}

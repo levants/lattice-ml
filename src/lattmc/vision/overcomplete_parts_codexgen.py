@@ -1,5 +1,8 @@
 """Read a small PartImageNet subset using validated HTTP byte ranges."""
 
+from __future__ import annotations
+from typing import Any
+
 import io
 import json
 import struct
@@ -20,18 +23,22 @@ SIZE = 3124435169
 class RemoteZip(io.RawIOBase):
     """Seekable public object; never confuse a full reply with a range."""
 
-    def __init__(self):
+    def __init__(self: RemoteZip) -> None:
+        """Initialize RemoteZip and its required state."""
         self.position = 0
 
-    def seek(self, offset, whence=0):
+    def seek(self: RemoteZip, offset: int, whence: int = 0) -> int:
+        """Move the remote archive cursor and return its byte position."""
         base = [0, self.position, SIZE][whence]
         self.position = base + offset
         return self.position
 
-    def tell(self):
+    def tell(self: RemoteZip) -> int:
+        """Return the current byte position in the remote archive."""
         return self.position
 
-    def read(self, count=-1):
+    def read(self: RemoteZip, count: int = -1) -> bytes:
+        """Read a validated HTTP byte range and advance the archive cursor."""
         end = SIZE if count < 0 else min(SIZE, self.position + count)
         if end <= self.position:
             return b''
@@ -49,7 +56,8 @@ class RemoteZip(io.RawIOBase):
         return value
 
 
-def main():
+def main() -> None:
+    """Read a small PartImageNet subset using validated HTTP byte ranges."""
     target = ROOT / 'downloads/partimagenet_subset_codexgen.zip'
     target.parent.mkdir(parents=True, exist_ok=True)
     if target.exists():
@@ -91,7 +99,8 @@ def main():
         selected[mask] = lookup[mask]
     print('Selected images', len(selected) // 2, flush=True)
 
-    def read_member(info):
+    def read_member(info: dict[str, Any]) -> tuple[str, bytes]:
+        """Fetch, decompress, and validate one indexed ZIP archive member."""
         source = RemoteZip()
         source.seek(info['offset'])
         raw = source.read(info['compressed'] + 2048)

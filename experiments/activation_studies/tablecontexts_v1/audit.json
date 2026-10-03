@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "source_rows": 5,
+  "measured_condition_rows": 10,
+  "coordinate_witnesses": 1290,
+  "cached_extent_rows_checked": 4200,
+  "source_summaries_bitwise_equal": true,
+  "full_intent_closure": true,
+  "cross_model_infomorphism": false,
+  "source_sha256": "47e8cfbf668d911f3bdbc7a2cab5b6867efb4131f39a05d625bcf78cadd20a26",
+  "records_sha256": "3f89d878f2ea249d75999a1fb787045d8f9411aa81b14b7ab1048a1159614ac8"
+}

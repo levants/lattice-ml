@@ -1,5 +1,9 @@
 """Independent cache, closure, pixel-control and model-contract checks."""
 
+from __future__ import annotations
+from typing import Any
+from collections.abc import Sequence
+
 import argparse
 import json
 
@@ -13,7 +17,8 @@ from lattmc.vision.patch_extract_codexgen import load
 from lattmc.vision.patch_models_codexgen import Adapter, ROOT, dataset
 
 
-def verify(name, native=False):
+def verify(name: str, native: bool = False) -> dict[str, Any]:
+    """Verify cached patch-query artifacts and optional native inference."""
     sample, codes, features, metadata = read(name)
     root = ROOT / name
     expected = dataset(name)
@@ -100,7 +105,13 @@ def verify(name, native=False):
     return result
 
 
-def check_native(name, sample, records, features):
+def check_native(
+    name: str,
+    sample: dict[str, np.ndarray],
+    records: list[dict[str, np.ndarray]],
+    features: Sequence[int],
+) -> dict[str, Any]:
+    """Recompute upstream activations and compare them with cached values."""
     torch.set_num_threads(4)
     adapter = Adapter(name)
     # Recompute an entire extraction batch, avoiding batch-size drift.

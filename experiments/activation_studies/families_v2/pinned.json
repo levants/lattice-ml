@@ -1,0 +1,22 @@
+{
+  "EleutherAI/pythia-70m-deduped": {
+    "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+    "path": "/Users/ltsinadze/.cache/huggingface/hub/models--EleutherAI--pythia-70m-deduped/snapshots/e93a9faa9c77e5d09219f6c868bfc7a1bd65593c"
+  },
+  "HuggingFaceTB/SmolLM2-135M": {
+    "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+    "path": "/Users/ltsinadze/.cache/huggingface/hub/models--HuggingFaceTB--SmolLM2-135M/snapshots/93efa2f097d58c2a74874c7e644dbc9b0cee75a2"
+  },
+  "Qwen/Qwen3-0.6B": {
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+    "path": "/Users/ltsinadze/.cache/huggingface/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca"
+  },
+  "google/gemma-2-2b": {
+    "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+    "path": "/Users/ltsinadze/.cache/huggingface/hub/models--google--gemma-2-2b/snapshots/c5ebcd40d208330abc697524c919956e692655cf"
+  },
+  "EleutherAI/sae-SmolLM2-135M-64x": {
+    "revision": "57ea2cb986e2545844cdd4a5bb2eb39523243494",
+    "path": "/Users/ltsinadze/.cache/huggingface/hub/models--EleutherAI--sae-SmolLM2-135M-64x/snapshots/57ea2cb986e2545844cdd4a5bb2eb39523243494"
+  }
+}

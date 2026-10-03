@@ -1,0 +1,32 @@
+[
+  {
+    "duplicate": "data/activation_studies/legacy/lattconference/cached_notebook_checks/tc_layer0_cached_check_codexgen.ipynb",
+    "canonical": "notebooks/transcoders/tc_layer0_cached_check_codexgen.ipynb",
+    "sha256": "f52de11fa48090ef3160f3e1fd2d604fc3eea3ab7bd90867b14da95530933f29"
+  },
+  {
+    "duplicate": "data/activation_studies/legacy/lattconference/cached_notebook_checks/tc_layer11_cached_check_codexgen.ipynb",
+    "canonical": "notebooks/transcoders/tc_layer11_cached_check_codexgen.ipynb",
+    "sha256": "f6292937bb12a230e9c8a355801995732e7a0a39d97393857d89ad2ac3780df2"
+  },
+  {
+    "duplicate": "data/activation_studies/legacy/lattconference/cached_notebook_checks/sae_layer11_cached_check_codexgen.ipynb",
+    "canonical": "notebooks/sae/sae_layer11_cached_check_codexgen.ipynb",
+    "sha256": "f38aa906bca5b8d6d0e222b55b2f8ef9807384a8ab79155068e05b0df0190790"
+  },
+  {
+    "duplicate": "data/activation_studies/legacy/lattconference/cached_notebook_checks/sae_layer0_cached_check_codexgen.ipynb",
+    "canonical": "notebooks/sae/sae_layer0_cached_check_codexgen.ipynb",
+    "sha256": "93979bf2c15c9bfb21786471cfccda48565e4e7af3949e1696010d06035f4beb"
+  },
+  {
+    "duplicate": "data/activation_studies/legacy/lattconference/cached_notebook_checks/tc_layer8_cached_check_codexgen.ipynb",
+    "canonical": "notebooks/transcoders/tc_layer8_cached_check_codexgen.ipynb",
+    "sha256": "e9c3921363d8ecc0e0493fe96467dc39334a8cb732a348488c5ac9099b649efb"
+  },
+  {
+    "duplicate": "data/activation_studies/legacy/lattconference/cached_notebook_checks/sae_layer8_cached_check_codexgen.ipynb",
+    "canonical": "notebooks/sae/sae_layer8_cached_check_codexgen.ipynb",
+    "sha256": "9447c8f092ec7383f8371a725aab6b11b656e23fbd46286ba90a7be1a8f6a05a"
+  }
+]

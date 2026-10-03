@@ -1,5 +1,13 @@
 """Image-grouped datasets for position-free sparse feature comparisons."""
 
+from __future__ import annotations
+from typing import Any
+from collections.abc import Sequence
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from numpy.lib.npyio import NpzFile
+
 import argparse
 import io
 import json
@@ -15,12 +23,17 @@ from lattmc.vision.overcomplete_fetch_codexgen import ROOT, digest
 from lattmc.vision.paths_codexgen import experiment_root
 
 
-def crop(image, mask=False):
+def crop(image: Image.Image, mask: bool = False) -> Image.Image:
+    """Resize and center-crop an image or label mask to 224 pixels."""
     mode = InterpolationMode.NEAREST if mask else InterpolationMode.BICUBIC
     return tf.center_crop(tf.resize(image, 256, mode), [224, 224])
 
 
-def save(name, rows):
+def save(
+    name: str,
+    rows: Sequence[tuple[dict[str, Any], bytes, Image.Image | None]],
+) -> None:
+    """Save aligned cropped images, masks, and metadata records."""
     folder = ROOT / 'dataset'
     folder.mkdir(parents=True, exist_ok=True)
     images, masks, records = [], [], []
@@ -38,7 +51,9 @@ def save(name, rows):
     print(name, len(records), flush=True)
 
 
-def original(name):
+def original(name: str) -> None:
+    """Prepare the cached original-image dataset with consistent split names.
+    """
     folder = experiment_root('imagenette_imagewoof') / 'dataset'
     data = np.load(folder / f'{name}_codexgen.npz')
     rows = []
@@ -53,7 +68,8 @@ def original(name):
     save(name, rows)
 
 
-def pets():
+def pets() -> None:
+    """Prepare the fixed Oxford Pets subset and segmentation masks."""
     folder = ROOT / 'downloads'
     rows = []
     with tarfile.open(folder / 'pets_annotations.tar.gz') as ann:
@@ -85,7 +101,8 @@ def pets():
     save('pets', rows)
 
 
-def dtd():
+def dtd() -> None:
+    """Prepare the fixed texture dataset subset."""
     rows = []
     with tarfile.open(ROOT / 'downloads/dtd-r1.0.1.tar.gz') as archive:
         chosen = []
@@ -107,7 +124,8 @@ def dtd():
     save('dtd', rows)
 
 
-def parts():
+def parts() -> None:
+    """Prepare the selected PartImageNet images and part masks."""
     rows = []
     target = ROOT / 'downloads/partimagenet_subset_codexgen.zip'
     with zipfile.ZipFile(target) as archive:
@@ -124,7 +142,8 @@ def parts():
     save('parts', rows)
 
 
-def shapes():
+def shapes() -> None:
+    """Generate controlled synthetic images and segmentation masks."""
     rows = []
     for shape in ['line', 'arc', 'corner', 'circle']:
         for texture in ['plain', 'striped']:
@@ -157,7 +176,8 @@ def shapes():
     save('shapes', rows)
 
 
-def load(name):
+def load(name: str) -> tuple[NpzFile, list[dict[str, Any]]]:
+    """Open the cached dataset archive and load its metadata records."""
     folder = ROOT / 'dataset'
     data = np.load(folder / f'{name}_codexgen.npz')
     records = json.loads((folder / f'{name}_codexgen.json').read_text())

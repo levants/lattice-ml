@@ -1,0 +1,46 @@
+{
+  "tex_files_checked": 135,
+  "builds": [
+    {
+      "entry": "lattconference-combined",
+      "pages": 98,
+      "clean_log": true,
+      "underfull_box_diagnostics": 1
+    },
+    {
+      "entry": "lattconference",
+      "pages": 98,
+      "clean_log": true,
+      "underfull_box_diagnostics": 1
+    },
+    {
+      "entry": "lattconference-main",
+      "pages": 28,
+      "clean_log": true,
+      "underfull_box_diagnostics": 0
+    },
+    {
+      "entry": "lattconference-appendix",
+      "pages": 72,
+      "clean_log": true,
+      "underfull_box_diagnostics": 1
+    },
+    {
+      "entry": "conference-iclr",
+      "pages": 102,
+      "clean_log": true,
+      "underfull_box_diagnostics": 18
+    }
+  ],
+  "byte_verified_delivery": true,
+  "clean_log_definition": "No errors, unresolved references/citations, overfull boxes, or infinite-glue diagnostics; underfull spacing diagnostics recorded.",
+  "archive_pages_pixel_identical": 98,
+  "archive_sha256": "d6614f0d9c555c17e96f9e3030e73fd7c54d115c39122ddaef9d41e524311121",
+  "visual_checks": [
+    "Article 18: paired GPT-2 main examples",
+    "Article 66: cross-family galleries, including rejection",
+    "Article 82: historical replay and unclassified slots",
+    "Article 91: every-coordinate ledger",
+    "ICLR 7: compact main examples"
+  ]
+}

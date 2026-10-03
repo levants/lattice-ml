@@ -1,5 +1,8 @@
 """Reproduce the offline digits pilot and export its complete evidence."""
 
+from __future__ import annotations
+from typing import Any
+
 import argparse
 import hashlib
 import json
@@ -25,12 +28,22 @@ from lattmc.vision.models_codexgen import DigitCNN, TopKSAE
 from lattmc.vision.paths_codexgen import prepare_folders
 
 
-def cosine(rows, source):
+def cosine(rows: np.ndarray, source: np.ndarray) -> np.ndarray:
+    """Compute cosine similarity with a nonzero denominator floor."""
     denominator = np.linalg.norm(rows, axis=1) * np.linalg.norm(source)
     return rows @ source / np.maximum(denominator, 1e-12)
 
 
-def fit_models(images, labels, train, seed):
+def fit_models(
+    images: torch.Tensor,
+    labels: torch.Tensor,
+    train: np.ndarray,
+    seed: int,
+) -> (
+    tuple[DigitCNN, TopKSAE, np.ndarray, np.ndarray, np.ndarray, np.ndarray,
+    np.ndarray]
+):
+    """Train the digit model and surrogate and return their cached outputs."""
     torch.manual_seed(seed)
     model = DigitCNN()
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
@@ -69,7 +82,16 @@ def fit_models(images, labels, train, seed):
             reconstructed_logits.numpy())
 
 
-def benchmark(patches, dense, labels, train, calibration, test, seed):
+def benchmark(
+    patches: np.ndarray,
+    dense: np.ndarray,
+    labels: np.ndarray,
+    train: np.ndarray,
+    calibration: np.ndarray,
+    test: np.ndarray,
+    seed: int,
+) -> tuple[list[dict[str, Any]], np.ndarray, np.ndarray, np.ndarray]:
+    """Calibrate retrieval methods and collect held-out query results."""
     pooled = patches.max(axis=1).astype(np.float64)
     dense = dense.max(axis=1).astype(np.float64)
     scale = np.sqrt(np.mean(pooled[train] ** 2, axis=0))
@@ -140,7 +162,8 @@ def benchmark(patches, dense, labels, train, calibration, test, seed):
             np.array(scores))
 
 
-def run(output):
+def run(output: Path) -> dict[str, Any]:
+    """Train and evaluate the offline digit pilot and save its artifacts."""
     output = Path(output)
     prepare_folders(output)
     torch.set_num_threads(2)

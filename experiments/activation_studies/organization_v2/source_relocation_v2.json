@@ -1,0 +1,12 @@
+{
+  "relocated_sha256": "806fd1cf473ad24d22d41646e654622703e5fb154dfabcf1d8e110514b2b5ddb",
+  "accepted_prior_sha256": [
+    "41f80ad8bc2b3467656b8f34735a1d711393e110d3c1f85cb966536fa746706e",
+    "49d3fd1078f47088b3572ee27121a228227c7260e2cddf0c18a995fe060b29d6",
+    "49d3fd1078f47088b3572ee27121a228227c7260e2cddf0c18a995fe060b29d6"
+  ],
+  "changes": [
+    "Resource paths and package-relative imports only."
+  ],
+  "note": "Stored numerical results retain their original source hashes."
+}

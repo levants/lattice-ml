@@ -1,12 +1,15 @@
 """Execute a compact review notebook from the frozen spatial audit."""
 
+from __future__ import annotations
+
 import nbformat as nbf
 from nbclient import NotebookClient
 
 from lattmc.vision.spatial_review_codexgen import ROOT
 
 
-def main():
+def main() -> None:
+    """Execute a compact review notebook from the frozen spatial audit."""
     markdown = nbf.v4.new_markdown_cell
     code = nbf.v4.new_code_cell
     cells = [markdown(

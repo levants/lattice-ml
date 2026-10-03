@@ -1,0 +1,60 @@
+{
+  "edited_source_width_violations": [],
+  "label_or_name_violations": [],
+  "inline_notation_violations": [],
+  "adjacent_heading_violations": [],
+  "annotated_documented_functions": 12,
+  "independent_audit": {
+    "queries": 660,
+    "witness_records": 44,
+    "replay_membership_changes": 6,
+    "source_sha256": "ccf3f46ace2a2f51c0575d566c96f1a8ce826d73ad8ce722bd6ac3abb4153923"
+  },
+  "notebook_executed_code_cells": 5,
+  "visual_pages_combined": [
+    16,
+    54,
+    55
+  ],
+  "no_latent_or_behavioral_causal_intervention": true,
+  "bounded_replayed_rows": 22,
+  "no_new_independent_contextual_annotations": true,
+  "prior_corpora_not_independent_replications": true,
+  "executable_sha256": {
+    "closureadded_codexgen.py": "16707fc841819094cc0d16dd16c187342ea315ffd80664af18276f317e9ba552",
+    "closurewitness_codexgen.py": "e908df393e66359d7972c972539c65f3dc1726f6d2b623fe312f6f18ea4974bf",
+    "closureaudit_codexgen.py": "ccf3f46ace2a2f51c0575d566c96f1a8ce826d73ad8ce722bd6ac3abb4153923",
+    "closuretables_codexgen.py": "64d149db164d7143b780790490ce1f3873701958ac7ead5cbf47f5c516878021"
+  },
+  "notebook_sha256": "56e031d4c86d72868c513ac496fdb84b634dffb23ad03b56eb333f63d279e86d",
+  "result_sha256": {
+    "summary.json": "f2fdba588feab90ec158f66cb0e176d71bbfcf9dde62bc3a504fc845c75969af",
+    "audit.json": "e42a0db779a20dcc199ed51bb777ed08f4b2bd4a8cd7a30a5f60c24df6aa1a39",
+    "gpt2_tc0_members.npz": "50b30a59903882c2e772a26d4472702f5194a859cab464b1f9448940e96aa20d",
+    "gpt2_tc11.json": "d02c7170a145799a05fa04c67a1d451e6485116062d979c720d6108a5853e1a8",
+    "gpt2_tc0_reading.json": "09adc178adab177c2ee26b24a8ae7142412a1a121e3ea763372c68cb4cfed5b7",
+    "gpt2_sae0.json": "f09c6e339326fe1fb9fe41bc5f6e4c013d9dad13595d1376c7e47dff30976833",
+    "gpt2_sae0_members.npz": "85c8c2858ad7b982f0b919a843836d9786e4afeee6ff33251ce57c314ca6be6d",
+    "gpt2_sae11.json": "3daa96cb6af94d9934db24bbbf57e6b756ff8121b3a77a3ba35a81dc0029c6d8",
+    "tc11_witnesses.json": "edb255f6170bb1c9e09332e7965e735081de8c5fe29145feca68bc077061c3c4",
+    "gpt2_sae0_reading.json": "5020a3a1b4898f68508b107b6835eb88fa852d2b252e11ffffb854b8cadc63e8",
+    "gpt2_tc8.json": "340c405835e051a6540d2fe7a094b6724e869cadc7172e991f034f840ecc92f7",
+    "gpt2_tc11_members.npz": "6364857a30b2dd49a0cea66fce9c38d6d70bc05829d9ab985864aab06e1e00e8",
+    "gpt2_tc8_reading.json": "b962cba43f5e38a991e56226cb1933e19c558cd0885276dedac221df593f797f",
+    "gpt2_sae8.json": "5a63f9ba3232410dc0c2cbd0432fa0555a88f0fb497398b7012f1693f69adbbd",
+    "gpt2_tc8_members.npz": "c1ef1b58ff46d68d742034eea9acec81f6fb136040fd934bc7b56aa51e48810c",
+    "gpt2_tc11_reading.json": "b5a666b3b51cf83efcc2507caf4234a85b03044e66eb2bfe22bea45d9128a3b5",
+    "gpt2_sae11_reading.json": "98b792c369a7be750653ec6f1272e463d3b8073051ea2797bd765321d2c1f81e",
+    "gpt2_sae11_members.npz": "87d8f6d7c0602d8bcd67a5332661615c557020323f39c10ab49d7a356c087afb",
+    "gpt2_sae8_members.npz": "fcd4dd2b18dafb7124da222568a481f98daf3ffd6464e5aeefd19a210decb963",
+    "tc11_witnesses.npz": "7c72e2773247beee4f768a4951b0e886569abab6ac0b9cddabfcc54b93f9293a",
+    "gpt2_tc0.json": "86ba2dcc81eba74c3f7fdb9ff20ab5ecefa949c0f7f534cc4e1e34947963afbf",
+    "gpt2_sae8_reading.json": "e42a5f306db6fc4074a0bc17b7377544376923a81402bf7e59701f8c5e81631e"
+  },
+  "visual_pages_iclr": [
+    8,
+    57,
+    58
+  ],
+  "source_width_scope": "All edited TeX and new Python/notebook sources; untouched legacy formatting preserved."
+}

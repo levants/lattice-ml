@@ -1,5 +1,9 @@
 """Export the cached review audit and complete supporting measurements."""
 
+from __future__ import annotations
+from typing import Any
+from collections.abc import Sequence
+
 import argparse
 import json
 from pathlib import Path
@@ -17,11 +21,14 @@ FAMILIES = dict(topk='TopK', batchtopk='BatchTopK', jump='JumpReLU',
                 relu='ReLU (adaptive)')
 
 
-def read(path):
+def read(path: Path) -> dict[str, Any]:
+    """Load a cached JSON result file."""
     return json.loads(path.read_text())
 
 
-def totals(rows):
+def totals(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    """Sum query-satisfaction counts and calculate the common-site discrepancy.
+    """
     keys = ['pooled', 'common', 'independent_expected',
             'separate_query_intersection']
     r = {k: sum(x[k] for x in rows) for k in keys}
@@ -30,7 +37,16 @@ def totals(rows):
     return r
 
 
-def table(folder, stem, caption, columns, header, rows, long=False):
+def table(
+    folder: Path,
+    stem: str,
+    caption: str,
+    columns: str,
+    header: str,
+    rows: Sequence[Sequence[object]],
+    long: bool = False,
+) -> None:
+    """Write a regular or long LaTeX table with experiment notes."""
     env = 'longtable' if long else 'tabular'
     lines = ([r'\begingroup\small'] if long else
              [r'\begin{table}[tb]', r'\centering\small'])
@@ -65,7 +81,8 @@ def table(folder, stem, caption, columns, header, rows, long=False):
         '\n'.join(wrapped) + '\n')
 
 
-def main(folder):
+def main(folder: Path) -> None:
+    """Generate spatial-review tables from the cached experiment results."""
     folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
     audit = read(OUT / 'spatial_audit_codexgen.json')['results']

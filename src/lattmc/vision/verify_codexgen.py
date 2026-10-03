@@ -1,5 +1,7 @@
 """Independently verify stored evidence and manuscript source conventions."""
 
+from __future__ import annotations
+
 import argparse
 import hashlib
 import json
@@ -14,7 +16,8 @@ from lattmc.vision.experiment_codexgen import benchmark
 from lattmc.vision.paths_codexgen import experiment_root, load_digit_cache
 
 
-def verify_results(paper):
+def verify_results(paper: Path) -> dict[str, int]:
+    """Verify cached query identities and the recorded artifact hashes."""
     folder = experiment_root()
     report = json.loads((folder / "results/results_codexgen.json").read_text())
     digits = load_digit_cache(folder, 17)
@@ -62,7 +65,8 @@ def verify_results(paper):
             len(report["artifact_sha256"])}
 
 
-def audit_sources(paper, source):
+def audit_sources(paper: Path, source: Path) -> dict[str, int]:
+    """Audit LaTeX source labels, citations, and bibliography entries."""
     paper = Path(paper)
     paths = sorted(paper.rglob("*.tex"))
     combined = "\n".join(p.read_text() for p in paths)

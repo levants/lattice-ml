@@ -1,5 +1,11 @@
 """Audit frozen joins against a conditional spatial-overlap reference."""
 
+from __future__ import annotations
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from numpy.typing import ArrayLike
+
 import hashlib
 import itertools
 import json
@@ -20,7 +26,11 @@ MODELS = ['topk_k32_s0', 'batchtopk_k32_s0', 'jump_k32_s0',
 DATASETS = ['imagenette', 'imagewoof', 'pets', 'parts', 'dtd']
 
 
-def overlap_probability(a, b, sites):
+def overlap_probability(
+    a: ArrayLike,
+    b: ArrayLike,
+    sites: int,
+) -> np.ndarray | np.floating:
     """Probability of nonempty overlap of independent uniform site sets."""
     a, b = np.broadcast_arrays(np.asarray(a), np.asarray(b))
     result = np.ones(a.shape, dtype=float)
@@ -32,7 +42,8 @@ def overlap_probability(a, b, sites):
     return np.clip(result, 0, 1)
 
 
-def verify_reference():
+def verify_reference() -> int:
+    """Check the overlap formula against exhaustive finite-set enumeration."""
     cases = 0
     for sites in range(1, 9):
         for a in range(sites + 1):
@@ -47,7 +58,8 @@ def verify_reference():
     return cases
 
 
-def main():
+def main() -> None:
+    """Audit frozen joins against a conditional spatial-overlap reference."""
     OUT.mkdir(parents=True, exist_ok=True)
     results, arrays, provenance = [], {}, []
     checks = verify_reference()

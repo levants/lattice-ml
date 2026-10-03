@@ -1,0 +1,45 @@
+{
+  "tex_files_checked": 138,
+  "builds": [
+    {
+      "entry": "lattconference-combined",
+      "pages": 106,
+      "clean_log": true,
+      "underfull_spacing_diagnostics": 1
+    },
+    {
+      "entry": "lattconference",
+      "pages": 106,
+      "clean_log": true,
+      "underfull_spacing_diagnostics": 1
+    },
+    {
+      "entry": "lattconference-main",
+      "pages": 28,
+      "clean_log": true,
+      "underfull_spacing_diagnostics": 0
+    },
+    {
+      "entry": "lattconference-appendix",
+      "pages": 80,
+      "clean_log": true,
+      "underfull_spacing_diagnostics": 1
+    },
+    {
+      "entry": "conference-iclr",
+      "pages": 111,
+      "clean_log": true,
+      "underfull_spacing_diagnostics": 19
+    }
+  ],
+  "byte_verified_delivery": true,
+  "clean_log_definition": "No errors, unresolved references/citations, overfull boxes, or infinite-glue diagnostics.",
+  "archive_pages_pixel_identical": 106,
+  "source_archive_sha256": "32395352d4460610cecd291c1f7097800737066c78b82be3754290aa20483c3c",
+  "visual_checks": [
+    "Original common-feature and City tables",
+    "New DBpedia source and common-feature tables in article and ICLR layouts",
+    "Shared checkpoint identities and full-coordinate ledger",
+    "ICLR main family gallery and quantitative depth table"
+  ]
+}

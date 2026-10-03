@@ -1,0 +1,37 @@
+{
+  "tex_files": 125,
+  "source_checks": true,
+  "builds": [
+    {
+      "entry": "lattconference-combined",
+      "clean_log": true,
+      "pages": 79,
+      "pdf_sha256": "cfa18ab91e3480cc629aeeb85fe3d73f72085e05db7b730759050ce2e06bc032"
+    },
+    {
+      "entry": "lattconference",
+      "clean_log": true,
+      "pages": 79,
+      "pdf_sha256": "3b667718e07c4c0c3f5381633f79e523d7e3e75f5726366bab56ffee69c29ed2"
+    },
+    {
+      "entry": "lattconference-main",
+      "clean_log": true,
+      "pages": 26,
+      "pdf_sha256": "8cded12bcd9aae79def066ca9bb3fe08f1cf23f5be769484bd4f247c9d8b1fdc"
+    },
+    {
+      "entry": "lattconference-appendix",
+      "clean_log": true,
+      "pages": 54,
+      "pdf_sha256": "f420e7cf512c2118494540d4c2bd20c30f197875ee9a49190d3641e4e074dde7"
+    },
+    {
+      "entry": "conference-iclr",
+      "clean_log": true,
+      "pages": 83,
+      "pdf_sha256": "e505cd285a206009d6d91127e1adfe1287fd343bd5f83a55d6acdc7253c29c74"
+    }
+  ],
+  "delivery_byte_checks": true
+}

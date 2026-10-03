@@ -1,5 +1,7 @@
 """Check the natural-image examples against models and stored arrays."""
 
+from __future__ import annotations
+
 import json
 
 import numpy as np
@@ -12,7 +14,9 @@ from lattmc.vision.natural_codexgen import feature_model, preprocess, sha256
 from lattmc.vision.paths_codexgen import experiment_root
 
 
-def verify_natural(inference=True):
+def verify_natural(inference: bool = True) -> dict[str, int | bool]:
+    """Verify natural-image artifacts and optionally recompute model outputs.
+    """
     folder = experiment_root("cifar10_resnet34")
     report = json.loads((folder / "results/natural_codexgen.json").read_text())
     visual = json.loads((folder / "results/visual_examples_codexgen.json")

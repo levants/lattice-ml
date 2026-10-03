@@ -1,5 +1,7 @@
 """Create and execute the Imagenette/CNN/ViT evidence notebook."""
 
+from __future__ import annotations
+
 import os
 import sys
 
@@ -10,7 +12,9 @@ from nbclient import NotebookClient
 from lattmc.vision.paths_codexgen import repository_root
 
 
-def create():
+def create() -> None:
+    """Write the reproducible experiment notebook with its explanatory cells.
+    """
     root = repository_root()
     markdown, code = nbformat.v4.new_markdown_cell, nbformat.v4.new_code_cell
     notebook = nbformat.v4.new_notebook(cells=[

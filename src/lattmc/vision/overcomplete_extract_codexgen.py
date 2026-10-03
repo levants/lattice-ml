@@ -1,5 +1,7 @@
 """Cache final normalized DINOv2 register-model patch activations."""
 
+from __future__ import annotations
+
 import argparse
 import json
 import time
@@ -18,7 +20,8 @@ BACKBONE = (experiment_root('patch_contexts')
             / 'checkpoints/saev_register_backbone')
 
 
-def backbone():
+def backbone() -> torch.nn.Module:
+    """Load the frozen local vision backbone for dense feature extraction."""
     from lattmc.vision.patch_weights_codexgen import ensure
     ensure(BACKBONE / 'model.safetensors')
     model = AutoModel.from_pretrained(
@@ -26,7 +29,9 @@ def backbone():
     return model.eval().requires_grad_(False)
 
 
-def dense(model, images):
+def dense(model: torch.nn.Module, images: np.ndarray) -> torch.Tensor:
+    """Extract patch tokens while omitting classification and register tokens.
+    """
     pixels = torch.from_numpy(np.array(images)).permute(0, 3, 1, 2)
     pixels = tf.normalize(pixels.float() / 255,
                           [0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
@@ -35,7 +40,8 @@ def dense(model, images):
     return hidden[:, 5:].contiguous()
 
 
-def extract(name):
+def extract(name: str) -> None:
+    """Save dense patch features in deterministic dataset chunks."""
     torch.set_num_threads(4)
     sample, records = load(name)
     out = ROOT / 'activations' / name
@@ -63,7 +69,8 @@ def extract(name):
         json.dumps(manifest, indent=2) + '\n')
 
 
-def load_dense(name):
+def load_dense(name: str) -> np.ndarray:
+    """Concatenate cached dense patch-feature chunks."""
     paths = sorted((ROOT / 'activations' / name).glob('dense_*.npz'))
     assert paths, name
     return np.concatenate([np.load(p)['dense'] for p in paths])

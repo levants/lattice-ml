@@ -1,0 +1,572 @@
+[
+  {
+    "label": "tab:animals-highlighted-excerpts",
+    "title": "GPT-2-small Cat/dog support-floor witnesses at blocks 8 and 11",
+    "file": "tables/animals-highlighted-excerpts.tex"
+  },
+  {
+    "label": "tab:cat-dog-layer11-deagg-min-act",
+    "title": "GPT-2-small Cat/Dog joint token probe at block 11",
+    "file": "tables/cat-dog-layer11-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:cat-dog-layer8-deagg-min-act",
+    "title": "GPT-2-small Cat/Dog joint token probe at block 8",
+    "file": "tables/cat-dog-layer8-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:cat-layer11-deagg-min-act",
+    "title": "GPT-2-small Cat token probe at block 11",
+    "file": "tables/cat-layer11-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:cat-layer8-deagg-min-act",
+    "title": "GPT-2-small Cat token probe at block 8",
+    "file": "tables/cat-layer8-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:checkpoint-identities",
+    "title": "Backbones, sparse surrogates, and activation sites",
+    "file": "tables/checkpoint-identities.tex"
+  },
+  {
+    "label": "tab:city-layer0-deagg-min-act",
+    "title": "GPT-2-small City support-floor token probe at block 0",
+    "file": "tables/city-layer0-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:city-layer11-deagg-min-act",
+    "title": "GPT-2-small City token probe at block 11",
+    "file": "tables/city-layer11-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:city-layer8-deagg-min-act",
+    "title": "GPT-2-small City token probe at block 8",
+    "file": "tables/city-layer8-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:common-features-dbpedia",
+    "title": "DBpedia common document features: Pythia-70M and SmolLM2-135M",
+    "file": "tables/common-features-dbpedia.tex"
+  },
+  {
+    "label": "tab:common-features-layer-8-11",
+    "title": "OpenWebText common document features: GPT-2-small blocks 8 and 11",
+    "file": "tables/common-features-layer-8-11.tex"
+  },
+  {
+    "label": "tab:conference-ablation",
+    "title": "Post hoc fixed-budget ablation",
+    "file": "tables/conference-ablation.tex"
+  },
+  {
+    "label": "tab:conference-coincidence",
+    "title": "Test coincidence counts for calibrated graded retrieval, summed over 160 phrase--source tasks",
+    "file": "tables/conference-coincidence.tex"
+  },
+  {
+    "label": "tab:conference-main",
+    "title": "Test average precision (percent) over 32 phrases, averaging five source draws per phrase",
+    "file": "tables/conference-main.tex"
+  },
+  {
+    "label": "tab:conference-paired",
+    "title": "Paired differences in test AP, graded minus comparator, in percentage points with 95\\% phrase-bootstrap intervals",
+    "file": "tables/conference-paired.tex"
+  },
+  {
+    "label": "tab:conference-sae-details",
+    "title": "Held-out retrieval for SAEs",
+    "file": "tables/conference-sae-details.tex"
+  },
+  {
+    "label": "tab:conference-selection",
+    "title": "Coordinate budgets selected on calibration AP (160 draws per model/layer)",
+    "file": "tables/conference-selection.tex"
+  },
+  {
+    "label": "tab:conference-tasks",
+    "title": "All 32 sampled literal phrase tasks and their positive row counts",
+    "file": "tables/conference-tasks.tex"
+  },
+  {
+    "label": "tab:conference-tc-details",
+    "title": "Held-out retrieval for transcoders",
+    "file": "tables/conference-tc-details.tex"
+  },
+  {
+    "label": "tab:context-counts",
+    "title": "OpenWebText token-meet retrieval and context perturbations",
+    "file": "tables/context-counts.tex"
+  },
+  {
+    "label": "tab:context-highlighted",
+    "title": "OpenWebText token-meet witnesses: paired GPT-2 views",
+    "file": "tables/context-highlighted.tex"
+  },
+  {
+    "label": "tab:context-layer11-other",
+    "title": "OpenWebText token-meet witnesses: Cat/dog at block 11",
+    "file": "tables/context-layer11-animals.tex"
+  },
+  {
+    "label": "tab:context-layer11-geographic",
+    "title": "OpenWebText token-meet witnesses: NYC at block 11",
+    "file": "tables/context-layer11-nyc.tex"
+  },
+  {
+    "label": "tab:context-layer11-geographic-continued",
+    "title": "OpenWebText token-meet witnesses: Rio at block 11",
+    "file": "tables/context-layer11-rio.tex"
+  },
+  {
+    "label": "tab:context-layer11-other-continued",
+    "title": "OpenWebText token-meet witnesses: Sports at block 11",
+    "file": "tables/context-layer11-sports.tex"
+  },
+  {
+    "label": "tab:context-layer8-other",
+    "title": "OpenWebText token-meet witnesses: Cat/dog at block 8",
+    "file": "tables/context-layer8-animals.tex"
+  },
+  {
+    "label": "tab:context-layer8-geographic",
+    "title": "OpenWebText token-meet witnesses: NYC at block 8",
+    "file": "tables/context-layer8-nyc.tex"
+  },
+  {
+    "label": "tab:context-layer8-geographic-continued",
+    "title": "OpenWebText token-meet witnesses: Rio at block 8",
+    "file": "tables/context-layer8-rio.tex"
+  },
+  {
+    "label": "tab:context-layer8-other-continued",
+    "title": "OpenWebText token-meet witnesses: Sports at block 8",
+    "file": "tables/context-layer8-sports.tex"
+  },
+  {
+    "label": "tab:depth-coverage",
+    "title": "SmolLM2-135M document coverage and lexical-overlap controls",
+    "file": "tables/depth-coverage.tex"
+  },
+  {
+    "label": "tab:depth-gallery-biological",
+    "title": "DBpedia Animal document-meet witnesses: Gemma-2 and Pythia",
+    "file": "tables/depth-gallery-biological.tex"
+  },
+  {
+    "label": "tab:depth-gallery-biological-continued",
+    "title": "DBpedia Animal document-meet witnesses: SmolLM2 and Qwen3",
+    "file": "tables/depth-gallery-biological.tex"
+  },
+  {
+    "label": "tab:depth-gallery-geographic",
+    "title": "DBpedia NaturalPlace document-meet witnesses: Gemma-2 and Pythia",
+    "file": "tables/depth-gallery-geographic.tex"
+  },
+  {
+    "label": "tab:depth-gallery-geographic-continued",
+    "title": "DBpedia NaturalPlace document-meet witnesses: SmolLM2 and Qwen3",
+    "file": "tables/depth-gallery-geographic.tex"
+  },
+  {
+    "label": "tab:depth-granularity",
+    "title": "SmolLM2-135M retrieval at two DBpedia category resolutions",
+    "file": "tables/depth-granularity.tex"
+  },
+  {
+    "label": "tab:depth-highlighted",
+    "title": "DBpedia document-meet witnesses: four surrogate families",
+    "file": "tables/depth-highlighted.tex"
+  },
+  {
+    "label": "tab:depth-main",
+    "title": "SmolLM2-135M document retrieval across MLP-output blocks",
+    "file": "tables/depth-main.tex"
+  },
+  {
+    "label": "tab:depth-readouts",
+    "title": "SmolLM2-135M contextual readouts across MLP-output blocks",
+    "file": "tables/depth-readouts.tex"
+  },
+  {
+    "label": "tab:depth-sources",
+    "title": "DBpedia source documents for the calibrated meet galleries",
+    "file": "tables/depth-sources.tex"
+  },
+  {
+    "label": "tab:dog-layer11-deagg-min-act",
+    "title": "GPT-2-small Dog token probe at block 11",
+    "file": "tables/dog-layer11-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:dog-layer8-deagg-min-act",
+    "title": "GPT-2-small Dog token probe at block 8",
+    "file": "tables/dog-layer8-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:example-dbpedia-contexts",
+    "title": "DBpedia source items for canonical concept maps",
+    "file": "tables/example-dbpedia-contexts.tex"
+  },
+  {
+    "label": "tab:example-infomorphism-contexts",
+    "title": "OpenWebText source items for canonical concept maps",
+    "file": "tables/example-infomorphism-context.tex"
+  },
+  {
+    "label": "tab:external-ablation",
+    "title": "Max-pooling, three-source ablations",
+    "file": "tables/external-ablation.tex"
+  },
+  {
+    "label": "tab:external-checkpoints",
+    "title": "External-corpus sparse-code activity and reconstruction",
+    "file": "tables/external-checkpoints.tex"
+  },
+  {
+    "label": "tab:external-coincidence",
+    "title": "Retrieval coincidence at calibrated thresholds: graded (G) versus independently calibrated support (S), max pooling and three sources",
+    "file": "tables/external-coincidence.tex"
+  },
+  {
+    "label": "tab:external-complete-ag-news-max-3",
+    "title": "AG News: all methods, max pooling, 3 positive sources",
+    "file": "tables/external-complete.tex"
+  },
+  {
+    "label": "tab:external-complete-ag-news-max-10",
+    "title": "AG News: all methods, max pooling, 10 positive sources",
+    "file": "tables/external-complete.tex"
+  },
+  {
+    "label": "tab:external-complete-ag-news-mean-3",
+    "title": "AG News: all methods, mean pooling, 3 positive sources",
+    "file": "tables/external-complete.tex"
+  },
+  {
+    "label": "tab:external-complete-ag-news-mean-10",
+    "title": "AG News: all methods, mean pooling, 10 positive sources",
+    "file": "tables/external-complete.tex"
+  },
+  {
+    "label": "tab:external-complete-dbpedia-14-max-3",
+    "title": "DBpedia: all methods, max pooling, 3 positive sources",
+    "file": "tables/external-complete.tex"
+  },
+  {
+    "label": "tab:external-complete-dbpedia-14-max-10",
+    "title": "DBpedia: all methods, max pooling, 10 positive sources",
+    "file": "tables/external-complete.tex"
+  },
+  {
+    "label": "tab:external-complete-dbpedia-14-mean-3",
+    "title": "DBpedia: all methods, mean pooling, 3 positive sources",
+    "file": "tables/external-complete.tex"
+  },
+  {
+    "label": "tab:external-complete-dbpedia-14-mean-10",
+    "title": "DBpedia: all methods, mean pooling, 10 positive sources",
+    "file": "tables/external-complete.tex"
+  },
+  {
+    "label": "tab:external-confusion",
+    "title": "Calibrated classification counts, max pooling and three sources",
+    "file": "tables/external-confusion.tex"
+  },
+  {
+    "label": "tab:external-main",
+    "title": "External-corpus retrieval: average precision",
+    "file": "tables/external-main.tex"
+  },
+  {
+    "label": "tab:external-sensitivity",
+    "title": "Sensitivity of graded retrieval, max pooling and three sources",
+    "file": "tables/external-sensitivity.tex"
+  },
+  {
+    "label": "tab:families-ablation",
+    "title": "Max-pooling, three-source ablations",
+    "file": "tables/families-ablation.tex"
+  },
+  {
+    "label": "tab:families-complete-ag-news-max-3",
+    "title": "AG News: all methods, max pooling, 3 positive sources",
+    "file": "tables/families-all.tex"
+  },
+  {
+    "label": "tab:families-complete-ag-news-max-10",
+    "title": "AG News: all methods, max pooling, 10 positive sources",
+    "file": "tables/families-all.tex"
+  },
+  {
+    "label": "tab:families-complete-ag-news-mean-3",
+    "title": "AG News: all methods, mean pooling, 3 positive sources",
+    "file": "tables/families-all.tex"
+  },
+  {
+    "label": "tab:families-complete-ag-news-mean-10",
+    "title": "AG News: all methods, mean pooling, 10 positive sources",
+    "file": "tables/families-all.tex"
+  },
+  {
+    "label": "tab:families-complete-dbpedia-14-max-3",
+    "title": "DBpedia: all methods, max pooling, 3 positive sources",
+    "file": "tables/families-all.tex"
+  },
+  {
+    "label": "tab:families-complete-dbpedia-14-max-10",
+    "title": "DBpedia: all methods, max pooling, 10 positive sources",
+    "file": "tables/families-all.tex"
+  },
+  {
+    "label": "tab:families-complete-dbpedia-14-mean-3",
+    "title": "DBpedia: all methods, mean pooling, 3 positive sources",
+    "file": "tables/families-all.tex"
+  },
+  {
+    "label": "tab:families-complete-dbpedia-14-mean-10",
+    "title": "DBpedia: all methods, mean pooling, 10 positive sources",
+    "file": "tables/families-all.tex"
+  },
+  {
+    "label": "tab:families-checkpoints",
+    "title": "Additional-family sparse-code activity and reconstruction",
+    "file": "tables/families-checkpoints.tex"
+  },
+  {
+    "label": "tab:families-coincidence",
+    "title": "Retrieval coincidence at calibrated thresholds: graded (G) versus independently calibrated support (S), max pooling and three sources",
+    "file": "tables/families-coincidence.tex"
+  },
+  {
+    "label": "tab:families-confusion-ag-news",
+    "title": "AG News: calibrated confusion counts, maximum pooling and three sources",
+    "file": "tables/families-confusion.tex"
+  },
+  {
+    "label": "tab:families-confusion-dbpedia-14",
+    "title": "DBpedia: calibrated confusion counts, maximum pooling and three sources",
+    "file": "tables/families-confusion.tex"
+  },
+  {
+    "label": "tab:families-main",
+    "title": "Additional-family test AP (\\%)",
+    "file": "tables/families-main.tex"
+  },
+  {
+    "label": "tab:families-paired-ag-news-max",
+    "title": "AG News: max pooling",
+    "file": "tables/families-paired.tex"
+  },
+  {
+    "label": "tab:families-paired-ag-news-mean",
+    "title": "AG News: mean pooling",
+    "file": "tables/families-paired.tex"
+  },
+  {
+    "label": "tab:families-paired-dbpedia-14-max",
+    "title": "DBpedia: max pooling",
+    "file": "tables/families-paired.tex"
+  },
+  {
+    "label": "tab:families-paired-dbpedia-14-mean",
+    "title": "DBpedia: mean pooling",
+    "file": "tables/families-paired.tex"
+  },
+  {
+    "label": "tab:families-sensitivity",
+    "title": "Sensitivity of graded retrieval, max pooling and three sources",
+    "file": "tables/families-sensitivity.tex"
+  },
+  {
+    "label": "tab:geo-contexts",
+    "title": "GPT-2-small Rio/de/Janeiro common-feature probe at block 11",
+    "file": "tables/geo-contexts.tex"
+  },
+  {
+    "label": "tab:geo-layer0",
+    "title": "GPT-2-small Rio/de common-feature probe at block 0",
+    "file": "tables/geo-layer0.tex"
+  },
+  {
+    "label": "tab:geo-layer11",
+    "title": "GPT-2-small Rio/de common-feature probe at block 11",
+    "file": "tables/geo-layer11.tex"
+  },
+  {
+    "label": "tab:geo-layer8",
+    "title": "GPT-2-small Rio/de common-feature probe at block 8",
+    "file": "tables/geo-layer8.tex"
+  },
+  {
+    "label": "tab:graded-all-joins",
+    "title": "Complete full-vector join counts for all six cases",
+    "file": "tables/graded-all-joins.tex"
+  },
+  {
+    "label": "tab:graded-all-meets",
+    "title": "Complete full-vector meet counts for all six cases",
+    "file": "tables/graded-all-meets.tex"
+  },
+  {
+    "label": "tab:graded-animals",
+    "title": "Full-code meet retrieval for Cat/dog",
+    "file": "tables/graded-animals.tex"
+  },
+  {
+    "label": "tab:graded-closures",
+    "title": "Full-extent sequence-level closure at $\\alpha=0.5$ for the main meet queries",
+    "file": "tables/graded-closures.tex"
+  },
+  {
+    "label": "tab:graded-coincidence",
+    "title": "GPT-2-small cross-surrogate coincidence of token-meet extents",
+    "file": "tables/graded-coincidence.tex"
+  },
+  {
+    "label": "tab:graded-layer-coincidence",
+    "title": "GPT-2-small cross-block coincidence of token-meet extents",
+    "file": "tables/graded-layer-coincidence.tex"
+  },
+  {
+    "label": "tab:graded-lexical",
+    "title": "Lexical coincidence for full-code meets at $\\alpha=0.5$",
+    "file": "tables/graded-lexical.tex"
+  },
+  {
+    "label": "tab:graded-nyc",
+    "title": "Full-code meet retrieval for New York City",
+    "file": "tables/graded-nyc.tex"
+  },
+  {
+    "label": "tab:graded-rio-pair",
+    "title": "Rio/de pairwise full-code meet, using row 5411 and positions 15 and 16",
+    "file": "tables/graded-rio-pair.tex"
+  },
+  {
+    "label": "tab:graded-source-cases",
+    "title": "Fixed source occurrences and lexical-reference sizes",
+    "file": "tables/graded-source-cases.tex"
+  },
+  {
+    "label": "tab:layer0-sports",
+    "title": "GPT-2-small sports-team joint token probe at block 0",
+    "file": "tables/layer0-sports.tex"
+  },
+  {
+    "label": "tab:layer11-comparison-min-act",
+    "title": "GPT-2-small Cat/dog support-floor meet at block 11",
+    "file": "tables/layer11-comparison-min-act.tex"
+  },
+  {
+    "label": "tab:layer11-comparison",
+    "title": "GPT-2-small Cat/dog exact meet at block 11",
+    "file": "tables/layer11-comparison.tex"
+  },
+  {
+    "label": "tab:layer8-11-sports",
+    "title": "GPT-2-small sports-team joint token probe at block 11",
+    "file": "tables/layer8-11-sports.tex"
+  },
+  {
+    "label": "tab:layer8-comparison-min-act",
+    "title": "GPT-2-small Cat/dog support-floor meet at block 8",
+    "file": "tables/layer8-comparison-min-act.tex"
+  },
+  {
+    "label": "tab:layer8-comparison",
+    "title": "GPT-2-small Cat/dog exact meet at block 8",
+    "file": "tables/layer8-comparison.tex"
+  },
+  {
+    "label": "tab:layer8-sports",
+    "title": "GPT-2-small sports-team joint token probe at block 8",
+    "file": "tables/layer8-sports.tex"
+  },
+  {
+    "label": "tab:new-layer0-deagg-min-act",
+    "title": "GPT-2-small New token probe at block 0",
+    "file": "tables/new-layer0-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:new-layer11-deagg-min-act",
+    "title": "GPT-2-small New token probe at block 11",
+    "file": "tables/new-layer11-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:new-layer8-deagg-min-act",
+    "title": "GPT-2-small New token probe at block 8",
+    "file": "tables/new-layer8-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:nyc-highlighted-excerpts",
+    "title": "GPT-2-small New York City support-floor witnesses at blocks 0 and 11",
+    "file": "tables/nyc-highlighted-excerpts.tex"
+  },
+  {
+    "label": "tab:nyc-layer0-deagg-min-act",
+    "title": "GPT-2-small New York City phrase probe at block 0",
+    "file": "tables/nyc-layer0-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:nyc-layer11-common-min-act",
+    "title": "GPT-2-small New/York common-feature probe at block 11",
+    "file": "tables/nyc-layer11-common-min-act.tex"
+  },
+  {
+    "label": "tab:nyc-layer11-deagg-min-act",
+    "title": "GPT-2-small New York City phrase probe at block 11",
+    "file": "tables/nyc-layer11-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:nyc-layer8-common-min-act",
+    "title": "GPT-2-small New/York common-feature probe at block 8",
+    "file": "tables/nyc-layer8-common-min-act.tex"
+  },
+  {
+    "label": "tab:nyc-layer8-deagg-min-act",
+    "title": "GPT-2-small New York City phrase probe at block 8",
+    "file": "tables/nyc-layer8-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:probe-summary",
+    "title": "Summary of lattice-based empirical probes",
+    "file": "tables/probe-summary.tex"
+  },
+  {
+    "label": "tab:sae-vs-transcoder",
+    "title": "Comparison of Sparse Surrogate Models",
+    "file": "tables/sae-vs-transcoder.tex"
+  },
+  {
+    "label": "tab:transcoder-vs-sae-0-cats",
+    "title": "GPT-2-small Cat token probe at block 0",
+    "file": "tables/transcoder-vs-sae-0-cats.tex"
+  },
+  {
+    "label": "tab:transcoder-vs-sae-0-dogs",
+    "title": "GPT-2-small Dog token probe at block 0",
+    "file": "tables/transcoder-vs-sae-0-dogs.tex"
+  },
+  {
+    "label": "tab:witness-ledger",
+    "title": "Coordinate witnesses for complete-query satisfaction",
+    "file": "tables/witness-ledger.tex"
+  },
+  {
+    "label": "tab:york-layer0-deagg-min-act",
+    "title": "GPT-2-small York token probe at block 0",
+    "file": "tables/york-layer0-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:york-layer11-deagg-min-act",
+    "title": "GPT-2-small York token probe at block 11",
+    "file": "tables/york-layer11-deagg-min-act.tex"
+  },
+  {
+    "label": "tab:york-layer8-deagg-min-act",
+    "title": "GPT-2-small York token probe at block 8",
+    "file": "tables/york-layer8-deagg-min-act.tex"
+  }
+]

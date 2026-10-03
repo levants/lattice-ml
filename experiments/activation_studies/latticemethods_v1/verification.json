@@ -1,0 +1,96 @@
+{
+  "source_width_violations": [],
+  "label_or_name_violations": [],
+  "annotated_documented_functions": 37,
+  "independent_audit": {
+    "dense_query_masks": 15840,
+    "token_gallery_rows": 29,
+    "audit_source_sha256": "9b43c98656c2af08e18268ece368b34e69810993eb4e36c01b83671897b61909"
+  },
+  "unit_tests": 4,
+  "notebook_executed_code_cells": 5,
+  "visual_pages_combined": [
+    11,
+    12,
+    13,
+    14,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43
+  ],
+  "visual_pages_iclr": [
+    5,
+    6
+  ],
+  "no_new_causal_intervention": true,
+  "no_new_independent_contextual_annotations": true,
+  "prior_corpora_not_independent_replications": true,
+  "executable_sha256": {
+    "methodaudit_codexgen.py": "9b43c98656c2af08e18268ece368b34e69810993eb4e36c01b83671897b61909",
+    "operations_codexgen.py": "c52e5d2769c7c93a5bd3cfee1f33a87dc9c0412aca699167295c2ea183176aa0",
+    "methodtables_codexgen.py": "0669c558e51d9f43334568b4dc08add9d3c35e69214c9aa4059fa00fd277a517",
+    "test_operations_codexgen.py": "43f2058146d658c78e8599703e89b5c68899474f6a77236a96bb95027a729fe2",
+    "methodgallery_codexgen.py": "ecdbe12366e041e362bfdff300cadf9a0a1123d10b22a0e9acf0b698c344f14a",
+    "methodstudy_codexgen.py": "fbf7fd303fc9e1fa0c5ccde38948b3749c46dc72a3e8f2a05e415715af311b8f",
+    "tokenstudy_codexgen.py": "7ba082d841aadf6761c9be65155f1e8a6ec60279b741e664221aa000fc2122cf"
+  },
+  "notebook_sha256": "024155e71dad74821d284608863683bd34e27d955cdbc561a3e47c09d6882396",
+  "result_sha256": {
+    "summary.json": "22ffb594837ebf603e51002d21cc48063250641abe1ec406b0df25106d250c32",
+    "dbpedia_14_pythia_topk.json": "10452034ba34cca6a6bc7b0888c327381bc64e4a781e6e8a4e87a1b1fa405157",
+    "gpt2_sae0_traces.npz": "850177322c4cb1427584773ac100e7a50b0c7c702e110b06b643c8a14ffb836c",
+    "dbpedia_14_design.json": "baad508d41a65e612192687fe9a5fda372bfff29d041ccbe52af5c7795b19fa1",
+    "gpt2_sae11_traces.npz": "f0f7e3b64c8823b6b58be04aa9534032bdb32dc55142736df76c9fda7e1fbce0",
+    "audit.json": "2a6b27beb5823159ecf4b2b73d71a32a7b316415441facc45f5894e72085b2f4",
+    "dbpedia_14_qwen_transcoder.json": "49f52d993cd5408b5736f0b37bbddc9e5ad3d89fcb0ec06e296228011595cf9b",
+    "gpt2_tc11.json": "c1d83e0613db814cd6a66622d2236c8587cc110811b2b682dafedad88362ff23",
+    "dbpedia_14_smol3.json": "a5e3c316ea1261a9997576a462d6726500134af33ecac88571fb10c7d800c2d3",
+    "gpt2_sae8_traces.npz": "a54f9790cc09f51ba72b29d3a9ae5b1230a7f64623b0b7c14309ffac027587ed",
+    "ag_news_smol15.json": "715b60907e3e1a90a53bd2cd8152f066e0f7800cc1cd075a2f26ae50f3d667fe",
+    "corrected_text_audit.json": "29667385cda21036eccad5ca70e0ae4401ab4bef5586bad48b050ad1da644241",
+    "gpt2_sae0.json": "a6044ed2e5e4beb388ff65718eb233ca21e156c65a66f23a1fbecaad70f1e2af",
+    "dbpedia_14_smol15.json": "b24b9d14a2c9f01fdec20c57821992a6297a20e5772f39f226d4ce70119ac532",
+    "gpt2_tc11_traces.npz": "845a7048a9c45a1b2c783f031de2c77069c5728721c6201a978c76b4a4a8c793",
+    "document_gallery.json": "92960a6ca1d687d560d9cf42dd22c774abd8a4543117acd0ace09a7601ca700b",
+    "dbpedia_14_transport.json": "0e942e26c7bc8cfa28078e4910d13bbf081eb5b23375909ad41f6a7ba58afec1",
+    "gpt2_sae11.json": "e329ac6084c2f82d5d56a36c3581156818acd81c8aa2a97c8114aaa95319b113",
+    "ag_news_design.json": "0683cfacde4928a34d541281ea19e15fb393f3bed9857e3ef5819366f024ca3c",
+    "ag_news_pythia_topk.json": "6666abd65887ef09fa62c295760f53b6815814f1e5f72f9a2c6ffa69f780ce40",
+    "gpt2_tc8.json": "6e238dda93bf8eed181ad1d574eb04f4b50743847964fca3b3ed114893ae7263",
+    "ag_news_qwen_transcoder.json": "b7aede9532ab715f4acbc2ffda3f74ad133453a74eaae9ff78065a1d223c6e46",
+    "dbpedia_14_gemma_matryoshka.json": "de16a1641ca00b6ce058063d803e243fa90b1cdbe67add5510d726da2bffc918",
+    "ag_news_smol3.json": "6f673b0e81612ebb5775f01655e9a4bc393dee2aacddfba82014161c5b1698fc",
+    "gpt2_sae8.json": "aaef6c28993f4ed4fa8cfbac6bda5bf2501ecc3763cd5c134918a762fe074e08",
+    "ag_news_smol27.json": "cb1482418d5315892be34fc36027e070280f4f78a54e6a4381eedd8aa3b71717",
+    "dbpedia_14_smol27.json": "426cd512ca4a668a8180252e0a9c48878c4dafe42fd538e10a5175dc37d0d907",
+    "gpt2_tc8_traces.npz": "02459aa3faae7769869f1c1e6b4599609eb4d51f0976377cea8fbbb91b992e27",
+    "ag_news_transport.json": "0d6619532cef5eeca6fb625d123289094f7697dbd0aef54719594423bf42bb90",
+    "ag_news_gemma_matryoshka.json": "c20b4deb4ce6bdee9dcdec82de572c4c7ca5b247fb2fdd74b37c0c3f1d32fba3",
+    "gpt2_tc0_traces.npz": "f15000569cecfc12e1b264f0477ef65478757379090bac20ca0a8c5318abda22",
+    "gpt2_tc0.json": "87583d98731c1586a97b581fe330a3136deea11e2b32d16ca423e862c8d8d803",
+    "document_gallery_traces.npz": "4ad6118cef3acda24a6bb507d9a1ddbf908de3b1febfe9f7aa1742b81059ad3d"
+  },
+  "mirror_unit_tests": 4,
+  "mirror_audit": {
+    "dense_query_masks": 15840,
+    "token_gallery_rows": 29,
+    "audit_source_sha256": "9b43c98656c2af08e18268ece368b34e69810993eb4e36c01b83671897b61909"
+  },
+  "rendered_archive_and_delivery": {
+    "delivered": {
+      "pages": 116,
+      "different_rendered_pages": []
+    },
+    "extracted_archive": {
+      "pages": 116,
+      "different_rendered_pages": []
+    }
+  },
+  "mathematical_scripts_braced": true,
+  "inline_math_uses_dollars": true,
+  "git_diff_whitespace_check_passed": true,
+  "no_executable_or_cache_files_in_manuscript": true
+}

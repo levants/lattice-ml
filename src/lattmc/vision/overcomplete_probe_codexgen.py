@@ -1,5 +1,7 @@
 """Fixed-contrast frequency probes for selected and control coordinates."""
 
+from __future__ import annotations
+
 import io
 import json
 
@@ -13,7 +15,8 @@ from lattmc.vision.overcomplete_fetch_codexgen import ROOT
 from lattmc.vision.overcomplete_figures_codexgen import foreground_features
 
 
-def stimuli():
+def stimuli() -> None:
+    """Generate controlled shape stimuli and cache their feature responses."""
     rows = []
     y, x = np.indices((256, 256)) / 224
     for frequency in [2, 4, 8, 16, 32, 56]:
@@ -35,7 +38,8 @@ def stimuli():
     save('gratings', rows)
 
 
-def plot():
+def plot() -> None:
+    """Plot the controlled stimulus responses for selected sparse features."""
     fig, axes = plt.subplots(1, 2, figsize=(10, 3.5))
     result = []
     for ax, name in zip(axes, ['pretrained_ra', 'prisma_transcoder']):

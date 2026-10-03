@@ -1,5 +1,7 @@
 """Execute matched Imagenette CNN/ViT sparse-surrogate feature studies."""
 
+from __future__ import annotations
+
 import argparse
 import json
 
@@ -13,7 +15,8 @@ from lattmc.vision.models_codexgen import TopKSAE
 from lattmc.vision.paths_codexgen import experiment_root, prepare_folders
 
 
-def run(name):
+def run(name: str) -> None:
+    """Train and cache the sparse surrogate for an Imagenette backbone."""
     torch.set_num_threads(4)
     torch.manual_seed(2027)
     torch.use_deterministic_algorithms(True)

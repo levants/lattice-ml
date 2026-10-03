@@ -1,5 +1,7 @@
 """Annotation diagnostics with unconstrained classes and patch positions."""
 
+from __future__ import annotations
+
 import argparse
 import json
 
@@ -11,13 +13,15 @@ from lattmc.vision.overcomplete_extract_codexgen import load_dense
 from lattmc.vision.overcomplete_fetch_codexgen import ROOT
 
 
-def occupancy(masks, grid, label):
+def occupancy(masks: np.ndarray, grid: int, label: int) -> np.ndarray:
+    """Compute the fraction of each grid cell occupied by a mask label."""
     block = 224 // grid
     values = (masks == label).reshape(-1, grid, block, grid, block)
     return values.mean((2, 4)).reshape(-1, grid * grid)
 
 
-def analyze(name, dataset):
+def analyze(name: str, dataset: str) -> None:
+    """Compare selected sparse features with spatial annotation occupancy."""
     definition = json.loads((ROOT / f'results/{name}/queries_codexgen.json')
                             .read_text())
     features = definition['selected_features']
